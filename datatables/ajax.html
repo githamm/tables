@@ -1,0 +1,69 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datatables</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js"></script>
+</head>
+
+<body style="font-family: Helvetica, sans-serif; font-size: .9rem;">
+    <!-- styling: https://datatables.net/manual/styling/classes -->
+    <table id="example" class="row-border hover" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Newcolumn</th>
+                <th data-priority="1">Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Start date</th>
+                <th data-priority="2">Salary</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Newcolumn</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot>
+    </table>
+    <script>
+    $(document).ready(function() {
+        $('#example').DataTable({
+            "ajax": "json-data.txt",
+            "paging": false,
+            "scrollY": 400,
+            "scrollCollapse": true,
+            "responsive": true,
+            "columns": [{
+                data: null,
+                render: function(data, type, row) {
+                    // Combine the first and last names into a single table field
+                    return '<a href="#' + data.extn + '">' + data.position + '</a>';
+                }
+            }, {
+                "data": "name"
+            }, {
+                "data": "position"
+            }, {
+                "data": "office"
+            }, {
+                "data": "start_date"
+            }, {
+                "data": "salary"
+            }]
+        });
+    });
+    </script>
+</body>
+
+</html>
