@@ -14,6 +14,7 @@
 
     table {
         border-collapse: collapse;
+        table-layout: fixed;
     }
 
     table,
@@ -28,13 +29,19 @@
     	font-weight: bold;
     }
 
+    td {
+    	vertical-align: top;
+    }
+
     .gray-cell {
     	background: #e5e4e2;
     }
 
     img {
     	width: 100%;
+    	margin-bottom: 3px;
     }
+
     </style>
 </head>
 
@@ -44,8 +51,8 @@
             <thead>
                 <tr>
                     <td class="gray-cell"></td>
-                    <td class="gray-cell" style="width:40%;">Chipotle</td>
-                    <td class="gray-cell" style="width:40%;">Taco Bell</td>
+                    <td class="gray-cell">Chipotle</td>
+                    <td class="gray-cell">Taco Bell</td>
                 </tr>
             </thead>
             <tr>
@@ -80,7 +87,7 @@
             </tr>
             <tr>
                 <td class="gray-cell">Stock price on May 24, 2018</td>
-                <td>$433.43, down .48% CHECK</td>
+                <td>$433.43, down $2.08</td>
                 <td>$83.47, up $0.38</td>
             </tr>
             <tr>
@@ -90,13 +97,13 @@
             </tr>
             <tr>
                 <td class="gray-cell">Most popular item</td>
-                <td><img src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1492725220/articles/2013/07/31/chipotle-and-the-terrible-horrible-no-good-very-bad-vegan-burrito/130730-Ross-Chipotle-tease_tvtikf"><br>Burrito Bowl (chicken burrito bowl with white rice)</td>
-                <td><img src="http://www.blogchef.net/wp-content/uploads/2015/02/Taco_Bell_Enchirito_1.jpg"><br>Crunchy Taco (via <a href="https://www.thrillist.com/news/nation/taco-bell-reveals-its-5-most-popular-menu-items-of-2016" target="_top">Thrillist</a>)</td>
+                <td><img src="https://www.denverpost.com/wp-content/uploads/2018/05/burritobowl.jpg"><br>Burrito Bowl (chicken burrito bowl with white rice)</td>
+                <td><img src="https://www.denverpost.com/wp-content/uploads/2018/05/crunchy-taco.jpg"><br>Crunchy Taco (via <a href="https://www.thrillist.com/news/nation/taco-bell-reveals-its-5-most-popular-menu-items-of-2016" target="_top">Thrillist</a>)</td>
             </tr>
             <tr>
                 <td class="gray-cell">Newest menu item</td>
-                <td><a href="http://ir.chipotle.com/news-releases/news-release-details/chipotle-cracks-code-all-natural-queso-available-all-us" target="_top">Queso</a></td>
-                <td><a href="https://www.prnewswire.com/news-releases/taco-bells-naked-chicken-chalupa-is-back-and-wilder-than-ever-on-may-10-300644041.html" target="_top">Wilder Naked Chicken Chalupa</a> with a crispy fried chicken taco shell</td>
+                <td><img src="https://www.denverpost.com/wp-content/uploads/2018/05/queso.jpg"><a href="http://ir.chipotle.com/news-releases/news-release-details/chipotle-cracks-code-all-natural-queso-available-all-us" target="_top">Queso</a></td>
+                <td><img src="https://www.denverpost.com/wp-content/uploads/2018/05/wildncc.jpg"><a href="https://www.prnewswire.com/news-releases/taco-bells-naked-chicken-chalupa-is-back-and-wilder-than-ever-on-may-10-300644041.html" target="_top">Wilder Naked Chicken Chalupa</a> with a crispy fried chicken taco shell</td>
             </tr>
             <tr>
                 <td class="gray-cell">Secret menu item</td>
