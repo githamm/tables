@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Colorado Executive Pay 2018</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/responsive/2.2.1/css/responsive.foundation.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.foundation.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <script src="//cdn.datatables.net/plug-ins/1.10.16/dataRender/datetime.js"></script>
+    <script src="//cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+    <script src="//cdn.datatables.net/responsive/2.2.1/js/responsive.foundation.min.js"></script>
+    <style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #fafafa;
+        border: 1px solid silver;
+    }
+
+    #compensation-table-container {
+        margin-top: 10px;
+        padding: 3px;
+    }
+
+    #compensation-table {
+        font-size: .85rem;
+    }
+
+    .button {
+        width: 100%;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="compensation-table-container">
+        <div class="row">
+            <div class="large-6 medium-6 small-6 columns">
+                <label><strong>Choose a company</strong></label>
+                <select id="sex-filter" class="filter" data-column-index='3'>
+                    <option value=" ">All</option>
+                    <option value="Advanced Emissions Solutions, Inc.">Advanced Emissions Solutions, Inc.</option>
+                    <option value="Advanced Energy Industries, Inc.">Advanced Energy Industries, Inc.</option>
+                    <option value="Ampio Pharmaceuticals, Inc.">Ampio Pharmaceuticals, Inc.</option>
+                    <option value="ANGI Homeservices Inc.">ANGI Homeservices Inc.</option>
+                    <option value="Antero Resources Corp.">Antero Resources Corp.</option>
+                    <option value="Apartment Investment and Management Co.">Apartment Investment and Management Co.</option>
+                    <option value="ARCA biopharma, Inc.">ARCA biopharma, Inc.</option>
+                    <option value="Array BioPharma Inc.">Array BioPharma Inc.</option>
+                    <option value="Arrow Electronics, Inc.">Arrow Electronics, Inc.</option>
+                    <option value="Ascent Capital Group, Inc.">Ascent Capital Group, Inc.</option>
+                    <option value="Aspen Group, Inc.">Aspen Group, Inc.</option>
+                    <option value="Aytu BioScience, Inc.">Aytu BioScience, Inc.</option>
+                    <option value="Ball Corp.">Ball Corp.</option>
+                    <option value="BioScrip, Inc.">BioScrip, Inc.</option>
+                    <option value="Bonanza Creek Energy, Inc.">Bonanza Creek Energy, Inc.</option>
+                    <option value="Centennial Resource Development, Inc.">Centennial Resource Development, Inc.</option>
+                    <option value="Century Casinos, Inc.">Century Casinos, Inc.</option>
+                    <option value="Century Communities, Inc.">Century Communities, Inc.</option>
+                    <option value="Chipotle Mexican Grill, Inc.">Chipotle Mexican Grill, Inc.</option>
+                    <option value="Cimarex Energy Co.">Cimarex Energy Co.</option>
+                    <option value="Clovis Oncology, Inc.">Clovis Oncology, Inc.</option>
+                    <option value="CoBiz Financial Inc.">CoBiz Financial Inc.</option>
+                    <option value="CoreSite Realty Corp.">CoreSite Realty Corp.</option>
+                    <option value="CPI Card Group Inc.">CPI Card Group Inc.</option>
+                    <option value="Crocs, Inc.">Crocs, Inc.</option>
+                    <option value="CSG Systems International, Inc.">CSG Systems International, Inc.</option>
+                    <option value="DaVita Inc.">DaVita Inc.</option>
+                    <option value="DCT Industrial Trust Inc.">DCT Industrial Trust Inc.</option>
+                    <option value="DISH Network Corp.">DISH Network Corp.</option>
+                    <option value="DMC Global Inc.">DMC Global Inc.</option>
+                    <option value="EchoStar Corp.">EchoStar Corp.</option>
+                    <option value="Energy Fuels Inc.">Energy Fuels Inc.</option>
+                    <option value="Enservco Corp.">Enservco Corp.</option>
+                    <option value="Evolving Systems, Inc.">Evolving Systems, Inc.</option>
+                    <option value="Extraction Oil & Gas, Inc.">Extraction Oil & Gas, Inc.</option>
+                    <option value="Farmland Partners Inc.">Farmland Partners Inc.</option>
+                    <option value="Gaia, Inc.">Gaia, Inc.</option>
+                    <option value="General Moly, Inc.">General Moly, Inc.</option>
+                    <option value="Gevo, Inc.">Gevo, Inc.</option>
+                    <option value="Glowpoint, Inc.">Glowpoint, Inc.</option>
+                    <option value="Gold Resource Corp.">Gold Resource Corp.</option>
+                    <option value="Golden Minerals Co.">Golden Minerals Co.</option>
+                    <option value="Good Times Restaurants Inc.">Good Times Restaurants Inc.</option>
+                    <option value="Guaranty Bancorp">Guaranty Bancorp</option>
+                    <option value="Hallador Energy Co.">Hallador Energy Co.</option>
+                    <option value="Heska Corp.">Heska Corp.</option>
+                    <option value="HighPoint Resources Corp.">HighPoint Resources Corp.</option>
+                    <option value="Innospec Inc.">Innospec Inc.</option>
+                    <option value="Intrepid Potash, Inc.">Intrepid Potash, Inc.</option>
+                    <option value="Jagged Peak Energy Inc.">Jagged Peak Energy Inc.</option>
+                    <option value="Liberty Media Corp.">Liberty Media Corp.</option>
+                    <option value="M.D.C. Holdings, Inc.">M.D.C. Holdings, Inc.</option>
+                    <option value="Maxar Technologies Ltd.">Maxar Technologies Ltd.</option>
+                    <option value="Mesa Laboratories, Inc.">Mesa Laboratories, Inc.</option>
+                    <option value="Miragen Therapeutics, Inc.">Miragen Therapeutics, Inc.</option>
+                    <option value="Molson Coors Brewing Co.">Molson Coors Brewing Co.</option>
+                    <option value="National Bank Holdings Corp.">National Bank Holdings Corp.</option>
+                    <option value="National CineMedia, Inc.">National CineMedia, Inc.</option>
+                    <option value="National Storage Affiliates Trust">National Storage Affiliates Trust</option>
+                    <option value="Natural Grocers by Vitamin Cottage, Inc.">Natural Grocers by Vitamin Cottage, Inc.</option>
+                    <option value="New Age Beverages Corp.">New Age Beverages Corp.</option>
+                    <option value="Newmont Mining Corp.">Newmont Mining Corp.</option>
+                    <option value="Noodles & Co.">Noodles & Co.</option>
+                    <option value="PDC Energy, Inc.">PDC Energy, Inc.</option>
+                    <option value="Pershing Gold Corp.">Pershing Gold Corp.</option>
+                    <option value="Pilgrim's Pride Corp.">Pilgrim's Pride Corp.</option>
+                    <option value="Pure Cycle Corp.">Pure Cycle Corp.</option>
+                    <option value="QEP Resources, Inc.">QEP Resources, Inc.</option>
+                    <option value="RE/MAX Holdings, Inc.">RE/MAX Holdings, Inc.</option>
+                    <option value="Real Goods Solar, Inc.">Real Goods Solar, Inc.</option>
+                    <option value="Red Lion Hotels Corp.">Red Lion Hotels Corp.</option>
+                    <option value="Red Robin Gourmet Burgers, Inc.">Red Robin Gourmet Burgers, Inc.</option>
+                    <option value="Resolute Energy Corp.">Resolute Energy Corp.</option>
+                    <option value="Riot Blockchain, Inc.">Riot Blockchain, Inc.</option>
+                    <option value="Rocky Mountain Chocolate Factory, Inc.">Rocky Mountain Chocolate Factory, Inc.</option>
+                    <option value="Royal Gold, Inc.">Royal Gold, Inc.</option>
+                    <option value="SendGrid, Inc.">SendGrid, Inc.</option>
+                    <option value="ServiceSource International, Inc.">ServiceSource International, Inc.</option>
+                    <option value="SM Energy Co.">SM Energy Co.</option>
+                    <option value="Solitario Zinc Corp.">Solitario Zinc Corp.</option>
+                    <option value="SRC Energy Inc.">SRC Energy Inc.</option>
+                    <option value="StarTek, Inc.">StarTek, Inc.</option>
+                    <option value="Summit Materials, Inc.">Summit Materials, Inc.</option>
+                    <option value="Tengasco, Inc.">Tengasco, Inc.</option>
+                    <option value="The Simply Good Foods Co.">The Simply Good Foods Co.</option>
+                    <option value="The Western Union Co.">The Western Union Co.</option>
+                    <option value="TTEC Holdings, Inc.">TTEC Holdings, Inc.</option>
+                    <option value="U.S. Energy Corp.">U.S. Energy Corp.</option>
+                    <option value="UDR, Inc.">UDR, Inc.</option>
+                    <option value="UQM Technologies, Inc.">UQM Technologies, Inc.</option>
+                    <option value="Ur-Energy Inc.">Ur-Energy Inc.</option>
+                    <option value="Vail Resorts, Inc.">Vail Resorts, Inc.</option>
+                    <option value="Vectrus, Inc.">Vectrus, Inc.</option>
+                    <option value="Vista Gold Corp.">Vista Gold Corp.</option>
+                    <option value="Viveve Medical, Inc.">Viveve Medical, Inc.</option>
+                    <option value="Westwater Resources, Inc.">Westwater Resources, Inc.</option>
+                    <option value="Whiting Petroleum Corp.">Whiting Petroleum Corp.</option>
+                    <option value="WideOpenWest, Inc.">WideOpenWest, Inc.</option>
+                    <option value="Woodward, Inc.">Woodward, Inc.</option>
+                    <option value="Zayo Group Holdings, Inc.">Zayo Group Holdings, Inc.</option>
+                </select>
+            </div>
+            <div class="large-6 medium-6 small-6 columns">
+                <label><strong>Male or female</strong></label>
+                <select id="company-filter" class="filter" data-column-index='14'>
+                    <option value=" ">All</option>
+                    <option value="F">Female</option>
+                    <option value="M">Male</option>
+                </select>
+            </div>
+        </div>
+        <div class="row button-show">
+            <div class="large-12 columns">
+                <a href="#" class="button expand filter-button">Filter</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <table id="compensation-table" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th data-priority="1">Name</th>
+                            <th data-priority="4">Title</th>
+                            <th data-priority="3">Company</th>
+                            <th data-priority="2">2017 compensation</th>
+                            <th data-priority="6">Salary</th>
+                            <th class="none">Bonus</th>
+                            <th data-priority="7">Stock awards</th>
+                            <th data-priority="8">Option awards</th>
+                            <th class="none">Cash incentives</th>
+                            <th class="none">Retirement earnings</th>
+                            <th class="none">Other compensation</th>
+                            <th class="none">2016 compensation</th>
+                            <th data-priority="5">2017 stock return</th>
+                            <th class="none">Sex</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                    </tfoot>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script>
+    var dataFile = 'executive-compensation-2018.json'
+
+    $(document).ready(function() {
+        var compensationTable = $('#compensation-table').DataTable({
+            ajax: {
+                'url': dataFile,
+                'dataSrc': ''
+            },
+            pageLength: 15,
+            responsive: {
+                details: {
+                    type: 'column'
+                }
+            },
+            dom: '<if<t>lp>',
+            columnDefs: [{
+                className: 'control',
+                orderable: false,
+                targets: 0
+            }],
+            order: [
+                [4, 'desc']
+            ],
+            columns: [
+                { data: 'button' },
+                { data: 'name' },
+                { data: 'title' },
+                { data: 'company' },
+                {
+                    data: 'totalCompensation2017',
+                    render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                },
+                {
+                    data: 'salary',
+                    render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                },
+                {
+                    data: 'bonus',
+                    render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                },
+                {
+                    data: 'stockAwards',
+                    render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                },
+                {
+                    data: 'optionAwards',
+                    render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                },
+                {
+                    data: 'cashIncentivePlans',
+                    render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                },
+                {
+                    data: 'retirementPlanEarnings',
+                    render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                },
+                {
+                    data: 'otherCompensation',
+                    render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                },
+                {
+                    data: 'totalCompensation2016',
+                    render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                },
+                {
+                    data: 'stockReturn2017',
+                    // render: function(data, type, full, meta) {
+                    //     return +data + '%';
+                    // },
+                    render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                    defaultContent: "" // not working on NaN
+                },
+                {
+                    data: 'sex',
+                    visible: false
+                }
+            ]
+        });
+
+        $('.filter-button').on('click', function(e) {
+            e.preventDefault();
+            //clear global search values
+            compensationTable.search('');
+            $('.filter').each(function() {
+                if (this.value.length) {
+                    compensationTable.column($(this).data('columnIndex')).search(this.value);
+                }
+            });
+            compensationTable.draw();
+        });
+
+        $(".dataTables_filter input").on('keyup change', function() {
+            //clear column search values
+            compensationTable.columns().search('');
+            //clear input values
+            $('.filter').val('');
+        });
+        compensationTable.draw();
+    });
+    </script>
+</body>
+
+</html>
