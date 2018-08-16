@@ -2,8 +2,9 @@
 <html lang="en">
 
 <head>
-    <title>Colorado CMAS Science</title>
+    <title>Colorado CMAS Science Scores 2018</title>
     <meta charset="utf-8">
+    <meta name="robots" content="noindex,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.foundation.min.css" />
@@ -56,18 +57,10 @@
             <div class="large-6 medium-6 small-12 columns">
                 <span id="school-filter" style="font-weight: bold;"></span>
             </div>
-            <!-- <div class="large-6 medium-6 small-12 columns">
-                <span id="content-filter" style="font-weight: bold;"></span>
-            </div> -->
             <div class="large-6 medium-6 small-12 columns">
                 <span id="test-filter" style="font-weight: bold;"></span>
             </div>
         </div>
-        <!-- <div class="row button-show">
-            <div class="large-12 columns">
-                <a href="#" class="button expand filter-button">Filter</a>
-            </div>
-        </div> -->
         <div class="row">
             <div class="large-12 columns">
                 <table id="cmas-table" cellspacing="0" width="100%">
@@ -76,7 +69,6 @@
                             <th></th>
                             <th data-priority="1">District</th>
                             <th data-priority="2">School</th>
-                            <!-- <th data-priority="9">Content</th> -->
                             <th data-priority="3">Test</th>
                             <th data-priority="11">Participation</th>
                             <th data-priority="10">Mean score</th>
@@ -217,69 +209,7 @@
                     disableDependentFilter(level + 1, inuse);
                 });
             }
-
-            //     initComplete: function() {
-            //         var column = this.api().column(1);
-            //         var select = $('<select><option value=""></option></select>')
-            //             .appendTo($('#district-filter').empty().text('Choose a district: '))
-            //             .on('change', function() {
-            //                 var val = $.fn.dataTable.util.escapeRegex(
-            //                     $(this).val()
-            //                 );
-            //                 column
-            //                     .search(val ? '^' + val + '$' : '', true, false)
-            //                     .draw();
-
-            //             });
-            //         column.data().unique().sort().each(function(d, j) {
-            //             select.append('<option value="' + d + '">' + d + '</option>');
-            //         });
-            //     },
-            //     initComplete: function() {
-            //         var column = this.api().column(4);
-            //         var select = $('<select><option value=""></option></select>')
-            //             .appendTo($('#grade-filter').empty().text('Choose a grade: '))
-            //             .on('change', function() {
-            //                 var val = $.fn.dataTable.util.escapeRegex(
-            //                     $(this).val()
-            //                 );
-            //                 column
-            //                     .search(val ? '^' + val + '$' : '', true, false)
-            //                     .draw();
-
-            //             });
-            //         column.data().unique().sort().each(function(d, j) {
-            //             select.append('<option value="' + d + '">' + d + '</option>');
-            //         });
-            //     }
         });
-
-        // $('input#district-filter').on('keyup', function() {
-        //     table.column(1).search(this.value).order([0, 'asc']).draw();
-        // });
-        // $('input#grade-filter').on('keyup', function() {
-        //     table.column(4).search(this.value).order([0, 'asc']).draw();
-        // });
-
-        // $('.filter-button').on('click', function(e) {
-        //     e.preventDefault();
-        //     //clear global search values
-        //     cmasTable.search('');
-        //     $('.filter').each(function() {
-        //         if (this.value.length) {
-        //             cmasTable.column($(this).data('columnIndex')).search(this.value);
-        //         }
-        //     });
-        //     cmasTable.draw();
-        // });
-
-        // $(".dataTables_filter input").on('keyup change', function() {
-        //     //clear column search values
-        //     cmasTable.columns().search('');
-        //     //clear input values
-        //     $('.filter').val('');
-        // });
-        // cmasTable.draw();
     });
     </script>
 </body>
