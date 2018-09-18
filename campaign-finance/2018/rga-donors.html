@@ -56,6 +56,18 @@
         margin-bottom: 0;
         font-size: .85rem;
     }
+
+    .dem {
+        background-color: lightblue;
+        width: 1.5em;
+        margin-left: 1em;
+    }
+
+    .rep {
+        background-color: red;
+        width: 1.5em;
+        margin-left: 1em;
+    }
     </style>
 </head>
 
@@ -69,6 +81,9 @@
     	</div>
         <div id ="filters" class="row">
             <div class="large-6 medium-6 small-12 columns">
+                <span id="party-filter" style="font-weight: bold;"></span>
+            </div>
+            <div class="large-6 medium-6 small-12 columns">
                 <span id="donor-name-filter" style="font-weight: bold;"></span>
             </div>
             <div class="large-6 medium-6 small-12 columns">
@@ -77,9 +92,6 @@
             <div class="large-6 medium-6 small-12 columns">
                 <span id="year-filter" style="font-weight: bold;"></span>
             </div>
-            <div class="large-6 medium-6 small-12 columns">
-                <span id="quarter-filter" style="font-weight: bold;"></span>
-            </div>
         </div>
         <div class="row">
             <div class="large-12 columns">
@@ -87,13 +99,13 @@
                     <thead>
                         <tr>
                             <th></th>
+                            <th data-priority="3">Party</th>
                             <th data-priority="1">Name</th>
                             <th data-priority="2">Amount</th>
-                            <th data-priority="3">Date</th>
-                            <th data-priority="4">City</th>
-                            <th data-priority="5">Occupation</th>
-                            <th data-priority="6">Employer</th>
-                            <th data-priority="">Quarter</th>
+                            <th data-priority="4">Date</th>
+                            <th data-priority="5">City</th>
+                            <th data-priority="6">Occupation</th>
+                            <th data-priority="7">Employer</th>
                             <th data-priority="">Year</th>
                         </tr>
                     </thead>
@@ -106,7 +118,7 @@
         </div>
     </div>
     <script>
-    var dataFile = 'rga-donors-8-22-18.json'
+    var dataFile = 'all-donors-9-18-18.json'
 
     $(document).ready(function() {
         function disableDependentFilter(level, inuse) {
@@ -135,12 +147,23 @@
                 className: 'control',
                 orderable: false,
                 targets: 0
-            }],
+            }
+            ],
             order: [
                 [2, 'desc']
             ],
             columns: [
                 { data: 'button' },
+                { 
+                    data: 'party-color',
+                    render: function(data, type, row) {
+                        if (data == 'blue') {
+                            return '<div class="dem">&nbsp;</div>'
+                        } else {
+                            return '<div class="rep">&nbsp;</div>'
+                        }
+                    }
+                },
                 { data: 'donorName' },
                 {
                     data: 'amount',
@@ -153,10 +176,6 @@
                 { data: 'city' },
                 { data: 'occupation' },
                 { data: 'employer' },
-                {
-                    data: 'quarter',
-                    visible: false
-                },
                 {
                     data: 'year',
                     visible: false
@@ -178,11 +197,11 @@
 
             initComplete: function() {
                 yadcf.init(rgaDonorTable, [{
-                    column_number: 1,
+                    column_number: 2,
                     filter_container_id: 'donor-name-filter',
                     filter_default_label: 'Select donor'
                 }, {
-                    column_number: 4,
+                    column_number: 5,
                     filter_container_id: 'city-filter',
                     filter_default_label: 'Select city'
                 }, {
@@ -190,9 +209,9 @@
                     filter_container_id: 'year-filter',
                     filter_default_label: 'Select year'
                 }, {
-                    column_number: 7,
-                    filter_container_id: 'quarter-filter',
-                    filter_default_label: 'Select quarter',
+                    column_number: 1,
+                    filter_container_id: 'party-filter',
+                    filter_default_label: 'Select party',
                 }], {
                     cumulative_filtering: true,
                     filter_reset_button_text: 'Reset filter'
