@@ -155,14 +155,14 @@
             columns: [
                 { data: 'button' },
                 { 
-                    data: 'party-color',
-                    render: function(data, type, row) {
-                        if (data == 'blue') {
-                            return '<div class="dem">&nbsp;</div>'
-                        } else {
-                            return '<div class="rep">&nbsp;</div>'
-                        }
-                    }
+                    data: 'party'
+                    // render: function(data, type, row) {
+                    //     if (data == 'blue') {
+                    //         return '<div class="dem">&nbsp;</div>'
+                    //     } else {
+                    //         return '<div class="rep">&nbsp;</div>'
+                    //     }
+                    // }
                 },
                 { data: 'donorName' },
                 {
@@ -201,7 +201,7 @@
                     filter_container_id: 'donor-name-filter',
                     filter_default_label: 'Select donor'
                 }, {
-                    column_number: 5,
+                    column_number: 3,
                     filter_container_id: 'city-filter',
                     filter_default_label: 'Select city'
                 }, {
