@@ -1,0 +1,2658 @@
+[
+  {
+    "button": "",
+    "location": "Aguilar",
+    "designation": "City",
+    "currentDistributions": 23276,
+    "taxIncrease": 29645,
+    "taxIncreaseFuture": 838346
+  },
+  {
+    "button": "",
+    "location": "Akron",
+    "designation": "City",
+    "currentDistributions": 68042,
+    "taxIncrease": 78194,
+    "taxIncreaseFuture": 2211291
+  },
+  {
+    "button": "",
+    "location": "Alamosa",
+    "designation": "City",
+    "currentDistributions": 269914,
+    "taxIncrease": 308124,
+    "taxIncreaseFuture": 8713655
+  },
+  {
+    "button": "",
+    "location": "Alma",
+    "designation": "City",
+    "currentDistributions": 12826,
+    "taxIncrease": 12036,
+    "taxIncreaseFuture": 340369
+  },
+  {
+    "button": "",
+    "location": "Antonito",
+    "designation": "City",
+    "currentDistributions": 51606,
+    "taxIncrease": 48422,
+    "taxIncreaseFuture": 1369358
+  },
+  {
+    "button": "",
+    "location": "Arriba",
+    "designation": "City",
+    "currentDistributions": 14354,
+    "taxIncrease": 16250,
+    "taxIncreaseFuture": 459541
+  },
+  {
+    "button": "",
+    "location": "Arvada",
+    "designation": "City",
+    "currentDistributions": 4155245,
+    "taxIncrease": 4539851,
+    "taxIncreaseFuture": 128385551
+  },
+  {
+    "button": "",
+    "location": "Aspen",
+    "designation": "City",
+    "currentDistributions": 249587,
+    "taxIncrease": 295110,
+    "taxIncreaseFuture": 8345612
+  },
+  {
+    "button": "",
+    "location": "Ault",
+    "designation": "City",
+    "currentDistributions": 52249,
+    "taxIncrease": 53813,
+    "taxIncreaseFuture": 1521803
+  },
+  {
+    "button": "",
+    "location": "Aurora",
+    "designation": "City",
+    "currentDistributions": 11972837,
+    "taxIncrease": 12263083,
+    "taxIncreaseFuture": 346796089
+  },
+  {
+    "button": "",
+    "location": "Avon",
+    "designation": "City",
+    "currentDistributions": 196558,
+    "taxIncrease": 216792,
+    "taxIncreaseFuture": 6130812
+  },
+  {
+    "button": "",
+    "location": "Basalt",
+    "designation": "City",
+    "currentDistributions": 125892,
+    "taxIncrease": 137128,
+    "taxIncreaseFuture": 3877930
+  },
+  {
+    "button": "",
+    "location": "Bayfield",
+    "designation": "City",
+    "currentDistributions": 84592,
+    "taxIncrease": 87809,
+    "taxIncreaseFuture": 2483224
+  },
+  {
+    "button": "",
+    "location": "Bennett",
+    "designation": "City",
+    "currentDistributions": 70698,
+    "taxIncrease": 79777,
+    "taxIncreaseFuture": 2256075
+  },
+  {
+    "button": "",
+    "location": "Berthoud",
+    "designation": "City",
+    "currentDistributions": 231779,
+    "taxIncrease": 234938,
+    "taxIncreaseFuture": 6643966
+  },
+  {
+    "button": "",
+    "location": "Bethune",
+    "designation": "City",
+    "currentDistributions": 10083,
+    "taxIncrease": 12857,
+    "taxIncreaseFuture": 363588
+  },
+  {
+    "button": "",
+    "location": "Black Hawk",
+    "designation": "City",
+    "currentDistributions": 14114,
+    "taxIncrease": 16009,
+    "taxIncreaseFuture": 452721
+  },
+  {
+    "button": "",
+    "location": "Blanca",
+    "designation": "City",
+    "currentDistributions": 49454,
+    "taxIncrease": 54710,
+    "taxIncreaseFuture": 1547191
+  },
+  {
+    "button": "",
+    "location": "Blue River",
+    "designation": "City",
+    "currentDistributions": 36609,
+    "taxIncrease": 48591,
+    "taxIncreaseFuture": 1374128
+  },
+  {
+    "button": "",
+    "location": "Bonanza",
+    "designation": "City",
+    "currentDistributions": 37,
+    "taxIncrease": 5339,
+    "taxIncreaseFuture": 150986
+  },
+  {
+    "button": "",
+    "location": "Boone",
+    "designation": "City",
+    "currentDistributions": 11830,
+    "taxIncrease": 14049,
+    "taxIncreaseFuture": 397294
+  },
+  {
+    "button": "",
+    "location": "Boulder",
+    "designation": "City",
+    "currentDistributions": 2567425,
+    "taxIncrease": 2884347,
+    "taxIncreaseFuture": 81568403
+  },
+  {
+    "button": "",
+    "location": "Bow Mar",
+    "designation": "City",
+    "currentDistributions": 34367,
+    "taxIncrease": 39325,
+    "taxIncreaseFuture": 1112091
+  },
+  {
+    "button": "",
+    "location": "Branson",
+    "designation": "City",
+    "currentDistributions": 6004,
+    "taxIncrease": 7026,
+    "taxIncreaseFuture": 198686
+  },
+  {
+    "button": "",
+    "location": "Breckenridge",
+    "designation": "City",
+    "currentDistributions": 243012,
+    "taxIncrease": 300482,
+    "taxIncreaseFuture": 8497544
+  },
+  {
+    "button": "",
+    "location": "Brighton",
+    "designation": "City",
+    "currentDistributions": 1066306,
+    "taxIncrease": 1025045,
+    "taxIncreaseFuture": 28987933
+  },
+  {
+    "button": "",
+    "location": "Brookside",
+    "designation": "City",
+    "currentDistributions": 9009,
+    "taxIncrease": 10836,
+    "taxIncreaseFuture": 306426
+  },
+  {
+    "button": "",
+    "location": "Broomfield",
+    "designation": "City",
+    "currentDistributions": 2131030,
+    "taxIncrease": 2115417,
+    "taxIncreaseFuture": 59823333
+  },
+  {
+    "button": "",
+    "location": "Brush",
+    "designation": "City",
+    "currentDistributions": 146131,
+    "taxIncrease": 171727,
+    "taxIncreaseFuture": 4856381
+  },
+  {
+    "button": "",
+    "location": "Buena Vista",
+    "designation": "City",
+    "currentDistributions": 122335,
+    "taxIncrease": 137349,
+    "taxIncreaseFuture": 3884198
+  },
+  {
+    "button": "",
+    "location": "Burlington",
+    "designation": "City",
+    "currentDistributions": 127978,
+    "taxIncrease": 147119,
+    "taxIncreaseFuture": 4160467
+  },
+  {
+    "button": "",
+    "location": "Calhan",
+    "designation": "City",
+    "currentDistributions": 31269,
+    "taxIncrease": 36088,
+    "taxIncreaseFuture": 1020554
+  },
+  {
+    "button": "",
+    "location": "Campo",
+    "designation": "City",
+    "currentDistributions": 9770,
+    "taxIncrease": 11926,
+    "taxIncreaseFuture": 337254
+  },
+  {
+    "button": "",
+    "location": "Canon City",
+    "designation": "City",
+    "currentDistributions": 588657,
+    "taxIncrease": 704582,
+    "taxIncreaseFuture": 19925355
+  },
+  {
+    "button": "",
+    "location": "Carbondale",
+    "designation": "City",
+    "currentDistributions": 181635,
+    "taxIncrease": 189445,
+    "taxIncreaseFuture": 5357433
+  },
+  {
+    "button": "",
+    "location": "Castle Pines North",
+    "designation": "City",
+    "currentDistributions": 292163,
+    "taxIncrease": 322933,
+    "taxIncreaseFuture": 9132433
+  },
+  {
+    "button": "",
+    "location": "Castle Rock",
+    "designation": "City",
+    "currentDistributions": 1812076,
+    "taxIncrease": 1756298,
+    "taxIncreaseFuture": 49667547
+  },
+  {
+    "button": "",
+    "location": "Cedaredge",
+    "designation": "City",
+    "currentDistributions": 82332,
+    "taxIncrease": 98047,
+    "taxIncreaseFuture": 2772738
+  },
+  {
+    "button": "",
+    "location": "Centennial",
+    "designation": "City",
+    "currentDistributions": 5590424,
+    "taxIncrease": 5819722,
+    "taxIncreaseFuture": 164579882
+  },
+  {
+    "button": "",
+    "location": "Center",
+    "designation": "City",
+    "currentDistributions": 65616,
+    "taxIncrease": 77136,
+    "taxIncreaseFuture": 2181370
+  },
+  {
+    "button": "",
+    "location": "Central City",
+    "designation": "City",
+    "currentDistributions": 51646,
+    "taxIncrease": 58788,
+    "taxIncreaseFuture": 1662500
+  },
+  {
+    "button": "",
+    "location": "Cheraw",
+    "designation": "City",
+    "currentDistributions": 8857,
+    "taxIncrease": 10034,
+    "taxIncreaseFuture": 283759
+  },
+  {
+    "button": "",
+    "location": "Cherry Hills Village",
+    "designation": "City",
+    "currentDistributions": 245848,
+    "taxIncrease": 288208,
+    "taxIncreaseFuture": 8150434
+  },
+  {
+    "button": "",
+    "location": "Cheyenne Wells",
+    "designation": "City",
+    "currentDistributions": 43521,
+    "taxIncrease": 51828,
+    "taxIncreaseFuture": 1465666
+  },
+  {
+    "button": "",
+    "location": "Coal Creek",
+    "designation": "City",
+    "currentDistributions": 17032,
+    "taxIncrease": 17899,
+    "taxIncreaseFuture": 506177
+  },
+  {
+    "button": "",
+    "location": "Cokedale",
+    "designation": "City",
+    "currentDistributions": 5021,
+    "taxIncrease": 5998,
+    "taxIncreaseFuture": 169632
+  },
+  {
+    "button": "",
+    "location": "Collbran",
+    "designation": "City",
+    "currentDistributions": 12231,
+    "taxIncrease": 14411,
+    "taxIncreaseFuture": 407543
+  },
+  {
+    "button": "",
+    "location": "Colorado Springs",
+    "designation": "City",
+    "currentDistributions": 18221161,
+    "taxIncrease": 20113258,
+    "taxIncreaseFuture": 568796541
+  },
+  {
+    "button": "",
+    "location": "Columbine Valley",
+    "designation": "City",
+    "currentDistributions": 45423,
+    "taxIncrease": 51409,
+    "taxIncreaseFuture": 1453840
+  },
+  {
+    "button": "",
+    "location": "Commerce City",
+    "designation": "City",
+    "currentDistributions": 1730467,
+    "taxIncrease": 1752742,
+    "taxIncreaseFuture": 49566982
+  },
+  {
+    "button": "",
+    "location": "Cortez",
+    "designation": "City",
+    "currentDistributions": 262171,
+    "taxIncrease": 309015,
+    "taxIncreaseFuture": 8738845
+  },
+  {
+    "button": "",
+    "location": "Craig",
+    "designation": "City",
+    "currentDistributions": 311037,
+    "taxIncrease": 382631,
+    "taxIncreaseFuture": 10820675
+  },
+  {
+    "button": "",
+    "location": "Crawford",
+    "designation": "City",
+    "currentDistributions": 17493,
+    "taxIncrease": 17990,
+    "taxIncreaseFuture": 508739
+  },
+  {
+    "button": "",
+    "location": "Creede",
+    "designation": "City",
+    "currentDistributions": 20869,
+    "taxIncrease": 24116,
+    "taxIncreaseFuture": 681999
+  },
+  {
+    "button": "",
+    "location": "Crested Butte",
+    "designation": "City",
+    "currentDistributions": 51456,
+    "taxIncrease": 59312,
+    "taxIncreaseFuture": 1677322
+  },
+  {
+    "button": "",
+    "location": "Crestone",
+    "designation": "City",
+    "currentDistributions": 15993,
+    "taxIncrease": 13417,
+    "taxIncreaseFuture": 379436
+  },
+  {
+    "button": "",
+    "location": "Cripple Creek",
+    "designation": "City",
+    "currentDistributions": 53384,
+    "taxIncrease": 59305,
+    "taxIncreaseFuture": 1677125
+  },
+  {
+    "button": "",
+    "location": "Crook",
+    "designation": "City",
+    "currentDistributions": 9306,
+    "taxIncrease": 10745,
+    "taxIncreaseFuture": 303864
+  },
+  {
+    "button": "",
+    "location": "Crowley",
+    "designation": "City",
+    "currentDistributions": 9018,
+    "taxIncrease": 10751,
+    "taxIncreaseFuture": 304022
+  },
+  {
+    "button": "",
+    "location": "Dacono",
+    "designation": "City",
+    "currentDistributions": 156008,
+    "taxIncrease": 194873,
+    "taxIncreaseFuture": 5510942
+  },
+  {
+    "button": "",
+    "location": "De Beque",
+    "designation": "City",
+    "currentDistributions": 20343,
+    "taxIncrease": 23333,
+    "taxIncreaseFuture": 659843
+  },
+  {
+    "button": "",
+    "location": "Deer Trail",
+    "designation": "City",
+    "currentDistributions": 33032,
+    "taxIncrease": 37121,
+    "taxIncreaseFuture": 1049765
+  },
+  {
+    "button": "",
+    "location": "Del Norte",
+    "designation": "City",
+    "currentDistributions": 58849,
+    "taxIncrease": 72212,
+    "taxIncreaseFuture": 2042132
+  },
+  {
+    "button": "",
+    "location": "Delta",
+    "designation": "City",
+    "currentDistributions": 322980,
+    "taxIncrease": 375185,
+    "taxIncreaseFuture": 10610123
+  },
+  {
+    "button": "",
+    "location": "Denver",
+    "designation": "City",
+    "currentDistributions": 29302547,
+    "taxIncrease": 29911313,
+    "taxIncreaseFuture": 845882407
+  },
+  {
+    "button": "",
+    "location": "Dillon",
+    "designation": "City",
+    "currentDistributions": 63448,
+    "taxIncrease": 116381,
+    "taxIncreaseFuture": 3291214
+  },
+  {
+    "button": "",
+    "location": "Dinosaur",
+    "designation": "City",
+    "currentDistributions": 17572,
+    "taxIncrease": 20775,
+    "taxIncreaseFuture": 587504
+  },
+  {
+    "button": "",
+    "location": "Dolores",
+    "designation": "City",
+    "currentDistributions": 30214,
+    "taxIncrease": 36209,
+    "taxIncreaseFuture": 1023983
+  },
+  {
+    "button": "",
+    "location": "Dove Creek",
+    "designation": "City",
+    "currentDistributions": 31164,
+    "taxIncrease": 35476,
+    "taxIncreaseFuture": 1003247
+  },
+  {
+    "button": "",
+    "location": "Durango",
+    "designation": "City",
+    "currentDistributions": 528830,
+    "taxIncrease": 581424,
+    "taxIncreaseFuture": 16442472
+  },
+  {
+    "button": "",
+    "location": "Eads",
+    "designation": "City",
+    "currentDistributions": 29145,
+    "taxIncrease": 34620,
+    "taxIncreaseFuture": 979042
+  },
+  {
+    "button": "",
+    "location": "Eagle",
+    "designation": "City",
+    "currentDistributions": 224831,
+    "taxIncrease": 248362,
+    "taxIncreaseFuture": 7023599
+  },
+  {
+    "button": "",
+    "location": "Eaton",
+    "designation": "City",
+    "currentDistributions": 155936,
+    "taxIncrease": 187107,
+    "taxIncreaseFuture": 5291323
+  },
+  {
+    "button": "",
+    "location": "Eckley",
+    "designation": "City",
+    "currentDistributions": 16995,
+    "taxIncrease": 20075,
+    "taxIncreaseFuture": 567714
+  },
+  {
+    "button": "",
+    "location": "Edgewater",
+    "designation": "City",
+    "currentDistributions": 120101,
+    "taxIncrease": 125676,
+    "taxIncreaseFuture": 3554080
+  },
+  {
+    "button": "",
+    "location": "Elizabeth",
+    "designation": "City",
+    "currentDistributions": 55422,
+    "taxIncrease": 62214,
+    "taxIncreaseFuture": 1759398
+  },
+  {
+    "button": "",
+    "location": "Empire",
+    "designation": "City",
+    "currentDistributions": 11797,
+    "taxIncrease": 14141,
+    "taxIncreaseFuture": 399896
+  },
+  {
+    "button": "",
+    "location": "Englewood",
+    "designation": "City",
+    "currentDistributions": 1013137,
+    "taxIncrease": 1082423,
+    "taxIncreaseFuture": 30610577
+  },
+  {
+    "button": "",
+    "location": "Erie",
+    "designation": "City",
+    "currentDistributions": 689970,
+    "taxIncrease": 740268,
+    "taxIncreaseFuture": 20934556
+  },
+  {
+    "button": "",
+    "location": "Estes Park",
+    "designation": "City",
+    "currentDistributions": 280816,
+    "taxIncrease": 313639,
+    "taxIncreaseFuture": 8869608
+  },
+  {
+    "button": "",
+    "location": "Evans",
+    "designation": "City",
+    "currentDistributions": 527154,
+    "taxIncrease": 627565,
+    "taxIncreaseFuture": 17747336
+  },
+  {
+    "button": "",
+    "location": "Fairplay",
+    "designation": "City",
+    "currentDistributions": 32087,
+    "taxIncrease": 36425,
+    "taxIncreaseFuture": 1030094
+  },
+  {
+    "button": "",
+    "location": "Federal Heights",
+    "designation": "City",
+    "currentDistributions": 269280,
+    "taxIncrease": 263985,
+    "taxIncreaseFuture": 7465400
+  },
+  {
+    "button": "",
+    "location": "Firestone",
+    "designation": "City",
+    "currentDistributions": 376055,
+    "taxIncrease": 414760,
+    "taxIncreaseFuture": 11729271
+  },
+  {
+    "button": "",
+    "location": "Flagler",
+    "designation": "City",
+    "currentDistributions": 36934,
+    "taxIncrease": 43167,
+    "taxIncreaseFuture": 1220738
+  },
+  {
+    "button": "",
+    "location": "Fleming",
+    "designation": "City",
+    "currentDistributions": 19402,
+    "taxIncrease": 22587,
+    "taxIncreaseFuture": 638753
+  },
+  {
+    "button": "",
+    "location": "Florence",
+    "designation": "City",
+    "currentDistributions": 126036,
+    "taxIncrease": 149944,
+    "taxIncreaseFuture": 4240375
+  },
+  {
+    "button": "",
+    "location": "Fort Collins",
+    "designation": "City",
+    "currentDistributions": 4681820,
+    "taxIncrease": 5226518,
+    "taxIncreaseFuture": 147804256
+  },
+  {
+    "button": "",
+    "location": "Fort Lupton",
+    "designation": "City",
+    "currentDistributions": 250007,
+    "taxIncrease": 327782,
+    "taxIncreaseFuture": 9269582
+  },
+  {
+    "button": "",
+    "location": "Fort Morgan",
+    "designation": "City",
+    "currentDistributions": 342188,
+    "taxIncrease": 374587,
+    "taxIncreaseFuture": 10593211
+  },
+  {
+    "button": "",
+    "location": "Fountain",
+    "designation": "City",
+    "currentDistributions": 716620,
+    "taxIncrease": 766674,
+    "taxIncreaseFuture": 21681285
+  },
+  {
+    "button": "",
+    "location": "Fowler",
+    "designation": "City",
+    "currentDistributions": 39333,
+    "taxIncrease": 46989,
+    "taxIncreaseFuture": 1328833
+  },
+  {
+    "button": "",
+    "location": "Foxfield",
+    "designation": "City",
+    "currentDistributions": 40047,
+    "taxIncrease": 46173,
+    "taxIncreaseFuture": 1305771
+  },
+  {
+    "button": "",
+    "location": "Fraser",
+    "designation": "City",
+    "currentDistributions": 46836,
+    "taxIncrease": 54511,
+    "taxIncreaseFuture": 1541553
+  },
+  {
+    "button": "",
+    "location": "Frederick",
+    "designation": "City",
+    "currentDistributions": 416405,
+    "taxIncrease": 445893,
+    "taxIncreaseFuture": 12609719
+  },
+  {
+    "button": "",
+    "location": "Frisco",
+    "designation": "City",
+    "currentDistributions": 110369,
+    "taxIncrease": 129289,
+    "taxIncreaseFuture": 3656261
+  },
+  {
+    "button": "",
+    "location": "Fruita",
+    "designation": "City",
+    "currentDistributions": 394658,
+    "taxIncrease": 440701,
+    "taxIncreaseFuture": 12462872
+  },
+  {
+    "button": "",
+    "location": "Garden City",
+    "designation": "City",
+    "currentDistributions": 7321,
+    "taxIncrease": 7384,
+    "taxIncreaseFuture": 208818
+  },
+  {
+    "button": "",
+    "location": "Genoa",
+    "designation": "City",
+    "currentDistributions": 10638,
+    "taxIncrease": 11555,
+    "taxIncreaseFuture": 326768
+  },
+  {
+    "button": "",
+    "location": "Georgetown",
+    "designation": "City",
+    "currentDistributions": 49106,
+    "taxIncrease": 55326,
+    "taxIncreaseFuture": 1564615
+  },
+  {
+    "button": "",
+    "location": "Gilcrest",
+    "designation": "City",
+    "currentDistributions": 41248,
+    "taxIncrease": 39960,
+    "taxIncreaseFuture": 1130068
+  },
+  {
+    "button": "",
+    "location": "Glendale",
+    "designation": "City",
+    "currentDistributions": 78513,
+    "taxIncrease": 71518,
+    "taxIncreaseFuture": 2022500
+  },
+  {
+    "button": "",
+    "location": "Glenwood Springs",
+    "designation": "City",
+    "currentDistributions": 297101,
+    "taxIncrease": 334167,
+    "taxIncreaseFuture": 9450134
+  },
+  {
+    "button": "",
+    "location": "Golden",
+    "designation": "City",
+    "currentDistributions": 540625,
+    "taxIncrease": 614852,
+    "taxIncreaseFuture": 17387808
+  },
+  {
+    "button": "",
+    "location": "Granada",
+    "designation": "City",
+    "currentDistributions": 23544,
+    "taxIncrease": 30393,
+    "taxIncreaseFuture": 859515
+  },
+  {
+    "button": "",
+    "location": "Granby",
+    "designation": "City",
+    "currentDistributions": 62723,
+    "taxIncrease": 70021,
+    "taxIncreaseFuture": 1980161
+  },
+  {
+    "button": "",
+    "location": "Grand Junction",
+    "designation": "City",
+    "currentDistributions": 2311192,
+    "taxIncrease": 2684977,
+    "taxIncreaseFuture": 75930285
+  },
+  {
+    "button": "",
+    "location": "Grand Lake",
+    "designation": "City",
+    "currentDistributions": 30771,
+    "taxIncrease": 35182,
+    "taxIncreaseFuture": 994929
+  },
+  {
+    "button": "",
+    "location": "Greeley",
+    "designation": "City",
+    "currentDistributions": 2702842,
+    "taxIncrease": 3202579,
+    "taxIncreaseFuture": 90567905
+  },
+  {
+    "button": "",
+    "location": "Green Mountain Fal",
+    "designation": "City",
+    "currentDistributions": 29166,
+    "taxIncrease": 32114,
+    "taxIncreaseFuture": 908162
+  },
+  {
+    "button": "",
+    "location": "Greenwood Village",
+    "designation": "City",
+    "currentDistributions": 545687,
+    "taxIncrease": 633174,
+    "taxIncreaseFuture": 17905970
+  },
+  {
+    "button": "",
+    "location": "Grover",
+    "designation": "City",
+    "currentDistributions": 12450,
+    "taxIncrease": 12288,
+    "taxIncreaseFuture": 347504
+  },
+  {
+    "button": "",
+    "location": "Gunnison",
+    "designation": "City",
+    "currentDistributions": 162269,
+    "taxIncrease": 183772,
+    "taxIncreaseFuture": 5197026
+  },
+  {
+    "button": "",
+    "location": "Gypsum",
+    "designation": "City",
+    "currentDistributions": 262488,
+    "taxIncrease": 263403,
+    "taxIncreaseFuture": 7448961
+  },
+  {
+    "button": "",
+    "location": "Hartman",
+    "designation": "City",
+    "currentDistributions": 6859,
+    "taxIncrease": 8117,
+    "taxIncreaseFuture": 229554
+  },
+  {
+    "button": "",
+    "location": "Haswell",
+    "designation": "City",
+    "currentDistributions": 8124,
+    "taxIncrease": 9384,
+    "taxIncreaseFuture": 265388
+  },
+  {
+    "button": "",
+    "location": "Haxtun",
+    "designation": "City",
+    "currentDistributions": 41320,
+    "taxIncrease": 48055,
+    "taxIncreaseFuture": 1358990
+  },
+  {
+    "button": "",
+    "location": "Hayden",
+    "designation": "City",
+    "currentDistributions": 64835,
+    "taxIncrease": 71551,
+    "taxIncreaseFuture": 2023446
+  },
+  {
+    "button": "",
+    "location": "Hillrose",
+    "designation": "City",
+    "currentDistributions": 9397,
+    "taxIncrease": 9874,
+    "taxIncreaseFuture": 279225
+  },
+  {
+    "button": "",
+    "location": "Holly",
+    "designation": "City",
+    "currentDistributions": 32875,
+    "taxIncrease": 38749,
+    "taxIncreaseFuture": 1095810
+  },
+  {
+    "button": "",
+    "location": "Holyoke",
+    "designation": "City",
+    "currentDistributions": 88473,
+    "taxIncrease": 102341,
+    "taxIncreaseFuture": 2894157
+  },
+  {
+    "button": "",
+    "location": "Hooper",
+    "designation": "City",
+    "currentDistributions": 9191,
+    "taxIncrease": 10331,
+    "taxIncreaseFuture": 292156
+  },
+  {
+    "button": "",
+    "location": "Hot Sulphur Spring",
+    "designation": "City",
+    "currentDistributions": 29949,
+    "taxIncrease": 33106,
+    "taxIncreaseFuture": 936230
+  },
+  {
+    "button": "",
+    "location": "Hotchkiss",
+    "designation": "City",
+    "currentDistributions": 32469,
+    "taxIncrease": 36884,
+    "taxIncreaseFuture": 1043064
+  },
+  {
+    "button": "",
+    "location": "Hudson",
+    "designation": "City",
+    "currentDistributions": 81330,
+    "taxIncrease": 84821,
+    "taxIncreaseFuture": 2398703
+  },
+  {
+    "button": "",
+    "location": "Hugo",
+    "designation": "City",
+    "currentDistributions": 31739,
+    "taxIncrease": 36559,
+    "taxIncreaseFuture": 1033878
+  },
+  {
+    "button": "",
+    "location": "Idaho Springs",
+    "designation": "City",
+    "currentDistributions": 68653,
+    "taxIncrease": 76086,
+    "taxIncreaseFuture": 2151686
+  },
+  {
+    "button": "",
+    "location": "Ignacio",
+    "designation": "City",
+    "currentDistributions": 24511,
+    "taxIncrease": 26257,
+    "taxIncreaseFuture": 742551
+  },
+  {
+    "button": "",
+    "location": "Iliff",
+    "designation": "City",
+    "currentDistributions": 12414,
+    "taxIncrease": 12961,
+    "taxIncreaseFuture": 366545
+  },
+  {
+    "button": "",
+    "location": "Jamestown",
+    "designation": "City",
+    "currentDistributions": 10510,
+    "taxIncrease": 12671,
+    "taxIncreaseFuture": 358345
+  },
+  {
+    "button": "",
+    "location": "Johnstown",
+    "designation": "City",
+    "currentDistributions": 418053,
+    "taxIncrease": 411612,
+    "taxIncreaseFuture": 11640256
+  },
+  {
+    "button": "",
+    "location": "Julesburg",
+    "designation": "City",
+    "currentDistributions": 55775,
+    "taxIncrease": 65416,
+    "taxIncreaseFuture": 1849951
+  },
+  {
+    "button": "",
+    "location": "Keenesburg",
+    "designation": "City",
+    "currentDistributions": 44744,
+    "taxIncrease": 51316,
+    "taxIncreaseFuture": 1451198
+  },
+  {
+    "button": "",
+    "location": "Kersey",
+    "designation": "City",
+    "currentDistributions": 50048,
+    "taxIncrease": 48667,
+    "taxIncreaseFuture": 1376297
+  },
+  {
+    "button": "",
+    "location": "Kim",
+    "designation": "City",
+    "currentDistributions": 10109,
+    "taxIncrease": 11311,
+    "taxIncreaseFuture": 319869
+  },
+  {
+    "button": "",
+    "location": "Kiowa",
+    "designation": "City",
+    "currentDistributions": 22666,
+    "taxIncrease": 28591,
+    "taxIncreaseFuture": 808543
+  },
+  {
+    "button": "",
+    "location": "Kit Carson",
+    "designation": "City",
+    "currentDistributions": 15515,
+    "taxIncrease": 18728,
+    "taxIncreaseFuture": 529633
+  },
+  {
+    "button": "",
+    "location": "Kremmling",
+    "designation": "City",
+    "currentDistributions": 61446,
+    "taxIncrease": 69694,
+    "taxIncreaseFuture": 1970936
+  },
+  {
+    "button": "",
+    "location": "Lajara",
+    "designation": "City",
+    "currentDistributions": 42480,
+    "taxIncrease": 38481,
+    "taxIncreaseFuture": 1088241
+  },
+  {
+    "button": "",
+    "location": "La Junta",
+    "designation": "City",
+    "currentDistributions": 227901,
+    "taxIncrease": 269495,
+    "taxIncreaseFuture": 7621235
+  },
+  {
+    "button": "",
+    "location": "La Salle",
+    "designation": "City",
+    "currentDistributions": 56964,
+    "taxIncrease": 71369,
+    "taxIncreaseFuture": 2018282
+  },
+  {
+    "button": "",
+    "location": "La Veta",
+    "designation": "City",
+    "currentDistributions": 45092,
+    "taxIncrease": 53457,
+    "taxIncreaseFuture": 1511750
+  },
+  {
+    "button": "",
+    "location": "Lafayette",
+    "designation": "City",
+    "currentDistributions": 815975,
+    "taxIncrease": 861128,
+    "taxIncreaseFuture": 24352433
+  },
+  {
+    "button": "",
+    "location": "Lake City",
+    "designation": "City",
+    "currentDistributions": 32554,
+    "taxIncrease": 40461,
+    "taxIncreaseFuture": 1144220
+  },
+  {
+    "button": "",
+    "location": "Lakeside",
+    "designation": "City",
+    "currentDistributions": 2197,
+    "taxIncrease": 2624,
+    "taxIncreaseFuture": 74192
+  },
+  {
+    "button": "",
+    "location": "Lakewood",
+    "designation": "City",
+    "currentDistributions": 5015098,
+    "taxIncrease": 5601989,
+    "taxIncreaseFuture": 158422461
+  },
+  {
+    "button": "",
+    "location": "Lamar",
+    "designation": "City",
+    "currentDistributions": 261110,
+    "taxIncrease": 313696,
+    "taxIncreaseFuture": 8871224
+  },
+  {
+    "button": "",
+    "location": "Larkspur",
+    "designation": "City",
+    "currentDistributions": 10462,
+    "taxIncrease": 15199,
+    "taxIncreaseFuture": 429817
+  },
+  {
+    "button": "",
+    "location": "Las Animas",
+    "designation": "City",
+    "currentDistributions": 81563,
+    "taxIncrease": 98433,
+    "taxIncreaseFuture": 2783658
+  },
+  {
+    "button": "",
+    "location": "Leadville",
+    "designation": "City",
+    "currentDistributions": 117247,
+    "taxIncrease": 128315,
+    "taxIncreaseFuture": 3628705
+  },
+  {
+    "button": "",
+    "location": "Limon",
+    "designation": "City",
+    "currentDistributions": 76690,
+    "taxIncrease": 90462,
+    "taxIncreaseFuture": 2558243
+  },
+  {
+    "button": "",
+    "location": "Littleton",
+    "designation": "City",
+    "currentDistributions": 1375946,
+    "taxIncrease": 1553846,
+    "taxIncreaseFuture": 43942268
+  },
+  {
+    "button": "",
+    "location": "Lochbuie",
+    "designation": "City",
+    "currentDistributions": 157055,
+    "taxIncrease": 184138,
+    "taxIncreaseFuture": 5207354
+  },
+  {
+    "button": "",
+    "location": "Log Lane Village",
+    "designation": "City",
+    "currentDistributions": 23535,
+    "taxIncrease": 24865,
+    "taxIncreaseFuture": 703168
+  },
+  {
+    "button": "",
+    "location": "Lonetree",
+    "designation": "City",
+    "currentDistributions": 362745,
+    "taxIncrease": 358938,
+    "taxIncreaseFuture": 10150661
+  },
+  {
+    "button": "",
+    "location": "Longmont",
+    "designation": "City",
+    "currentDistributions": 2925615,
+    "taxIncrease": 3159702,
+    "taxIncreaseFuture": 89355367
+  },
+  {
+    "button": "",
+    "location": "Louisville",
+    "designation": "City",
+    "currentDistributions": 633674,
+    "taxIncrease": 713745,
+    "taxIncreaseFuture": 20184475
+  },
+  {
+    "button": "",
+    "location": "Loveland",
+    "designation": "City",
+    "currentDistributions": 2559400,
+    "taxIncrease": 2942609,
+    "taxIncreaseFuture": 83216040
+  },
+  {
+    "button": "",
+    "location": "Lyons",
+    "designation": "City",
+    "currentDistributions": 64455,
+    "taxIncrease": 74695,
+    "taxIncreaseFuture": 2112343
+  },
+  {
+    "button": "",
+    "location": "Manassa",
+    "designation": "City",
+    "currentDistributions": 54782,
+    "taxIncrease": 57720,
+    "taxIncreaseFuture": 1632302
+  },
+  {
+    "button": "",
+    "location": "Mancos",
+    "designation": "City",
+    "currentDistributions": 31555,
+    "taxIncrease": 38233,
+    "taxIncreaseFuture": 1081224
+  },
+  {
+    "button": "",
+    "location": "Manitou Springs",
+    "designation": "City",
+    "currentDistributions": 157343,
+    "taxIncrease": 180370,
+    "taxIncreaseFuture": 5100797
+  },
+  {
+    "button": "",
+    "location": "Manzanola",
+    "designation": "City",
+    "currentDistributions": 13461,
+    "taxIncrease": 16424,
+    "taxIncreaseFuture": 464469
+  },
+  {
+    "button": "",
+    "location": "Marble",
+    "designation": "City",
+    "currentDistributions": 11048,
+    "taxIncrease": 11839,
+    "taxIncreaseFuture": 334810
+  },
+  {
+    "button": "",
+    "location": "Mead",
+    "designation": "City",
+    "currentDistributions": 195050,
+    "taxIncrease": 200775,
+    "taxIncreaseFuture": 5677854
+  },
+  {
+    "button": "",
+    "location": "Meeker",
+    "designation": "City",
+    "currentDistributions": 86068,
+    "taxIncrease": 116158,
+    "taxIncreaseFuture": 3284907
+  },
+  {
+    "button": "",
+    "location": "Merino",
+    "designation": "City",
+    "currentDistributions": 13260,
+    "taxIncrease": 13232,
+    "taxIncreaseFuture": 374192
+  },
+  {
+    "button": "",
+    "location": "Milliken",
+    "designation": "City",
+    "currentDistributions": 204684,
+    "taxIncrease": 241283,
+    "taxIncreaseFuture": 6823415
+  },
+  {
+    "button": "",
+    "location": "Minturn",
+    "designation": "City",
+    "currentDistributions": 39022,
+    "taxIncrease": 45518,
+    "taxIncreaseFuture": 1287243
+  },
+  {
+    "button": "",
+    "location": "Moffat",
+    "designation": "City",
+    "currentDistributions": 15797,
+    "taxIncrease": 15752,
+    "taxIncreaseFuture": 445467
+  },
+  {
+    "button": "",
+    "location": "Monte Vista",
+    "designation": "City",
+    "currentDistributions": 145400,
+    "taxIncrease": 173228,
+    "taxIncreaseFuture": 4898839
+  },
+  {
+    "button": "",
+    "location": "Montrose",
+    "designation": "City",
+    "currentDistributions": 739188,
+    "taxIncrease": 839120,
+    "taxIncreaseFuture": 23730040
+  },
+  {
+    "button": "",
+    "location": "Monument",
+    "designation": "City",
+    "currentDistributions": 227765,
+    "taxIncrease": 227625,
+    "taxIncreaseFuture": 6437159
+  },
+  {
+    "button": "",
+    "location": "Morrison",
+    "designation": "City",
+    "currentDistributions": 11238,
+    "taxIncrease": 12529,
+    "taxIncreaseFuture": 354324
+  },
+  {
+    "button": "",
+    "location": "Mountain View",
+    "designation": "City",
+    "currentDistributions": 11944,
+    "taxIncrease": 13236,
+    "taxIncreaseFuture": 374311
+  },
+  {
+    "button": "",
+    "location": "Mountain Village",
+    "designation": "City",
+    "currentDistributions": 64477,
+    "taxIncrease": 68305,
+    "taxIncreaseFuture": 1931633
+  },
+  {
+    "button": "",
+    "location": "Mt Crested Butte",
+    "designation": "City",
+    "currentDistributions": 47574,
+    "taxIncrease": 51368,
+    "taxIncreaseFuture": 1452657
+  },
+  {
+    "button": "",
+    "location": "Naturita",
+    "designation": "City",
+    "currentDistributions": 20656,
+    "taxIncrease": 24962,
+    "taxIncreaseFuture": 705928
+  },
+  {
+    "button": "",
+    "location": "Nederland",
+    "designation": "City",
+    "currentDistributions": 55214,
+    "taxIncrease": 61742,
+    "taxIncreaseFuture": 1746034
+  },
+  {
+    "button": "",
+    "location": "New Castle",
+    "designation": "City",
+    "currentDistributions": 133269,
+    "taxIncrease": 148740,
+    "taxIncreaseFuture": 4206315
+  },
+  {
+    "button": "",
+    "location": "Northglenn",
+    "designation": "City",
+    "currentDistributions": 1039857,
+    "taxIncrease": 1135237,
+    "taxIncreaseFuture": 32104154
+  },
+  {
+    "button": "",
+    "location": "Norwood",
+    "designation": "City",
+    "currentDistributions": 17876,
+    "taxIncrease": 23308,
+    "taxIncreaseFuture": 659134
+  },
+  {
+    "button": "",
+    "location": "Nucla",
+    "designation": "City",
+    "currentDistributions": 27331,
+    "taxIncrease": 33032,
+    "taxIncreaseFuture": 934141
+  },
+  {
+    "button": "",
+    "location": "Nunn",
+    "designation": "City",
+    "currentDistributions": 32178,
+    "taxIncrease": 31276,
+    "taxIncreaseFuture": 884469
+  },
+  {
+    "button": "",
+    "location": "Oak Creek",
+    "designation": "City",
+    "currentDistributions": 29479,
+    "taxIncrease": 33888,
+    "taxIncreaseFuture": 958346
+  },
+  {
+    "button": "",
+    "location": "Olathe",
+    "designation": "City",
+    "currentDistributions": 50990,
+    "taxIncrease": 59631,
+    "taxIncreaseFuture": 1686350
+  },
+  {
+    "button": "",
+    "location": "Olney Springs",
+    "designation": "City",
+    "currentDistributions": 12529,
+    "taxIncrease": 14960,
+    "taxIncreaseFuture": 423076
+  },
+  {
+    "button": "",
+    "location": "Ophir",
+    "designation": "City",
+    "currentDistributions": 7023,
+    "taxIncrease": 7910,
+    "taxIncreaseFuture": 223680
+  },
+  {
+    "button": "",
+    "location": "Orchard City",
+    "designation": "City",
+    "currentDistributions": 147908,
+    "taxIncrease": 174041,
+    "taxIncreaseFuture": 4921822
+  },
+  {
+    "button": "",
+    "location": "Ordway",
+    "designation": "City",
+    "currentDistributions": 37379,
+    "taxIncrease": 45281,
+    "taxIncreaseFuture": 1280541
+  },
+  {
+    "button": "",
+    "location": "Otis",
+    "designation": "City",
+    "currentDistributions": 21583,
+    "taxIncrease": 25602,
+    "taxIncreaseFuture": 724022
+  },
+  {
+    "button": "",
+    "location": "Ouray",
+    "designation": "City",
+    "currentDistributions": 39557,
+    "taxIncrease": 45950,
+    "taxIncreaseFuture": 1299463
+  },
+  {
+    "button": "",
+    "location": "Ovid",
+    "designation": "City",
+    "currentDistributions": 12471,
+    "taxIncrease": 15451,
+    "taxIncreaseFuture": 436952
+  },
+  {
+    "button": "",
+    "location": "Pagosa Springs",
+    "designation": "City",
+    "currentDistributions": 74508,
+    "taxIncrease": 85338,
+    "taxIncreaseFuture": 2413329
+  },
+  {
+    "button": "",
+    "location": "Palisade",
+    "designation": "City",
+    "currentDistributions": 69952,
+    "taxIncrease": 78913,
+    "taxIncreaseFuture": 2231633
+  },
+  {
+    "button": "",
+    "location": "Palmer Lake",
+    "designation": "City",
+    "currentDistributions": 99642,
+    "taxIncrease": 108252,
+    "taxIncreaseFuture": 3061345
+  },
+  {
+    "button": "",
+    "location": "Paoli",
+    "designation": "City",
+    "currentDistributions": 5190,
+    "taxIncrease": 6129,
+    "taxIncreaseFuture": 173338
+  },
+  {
+    "button": "",
+    "location": "Paonia",
+    "designation": "City",
+    "currentDistributions": 48465,
+    "taxIncrease": 56624,
+    "taxIncreaseFuture": 1601317
+  },
+  {
+    "button": "",
+    "location": "Parachute",
+    "designation": "City",
+    "currentDistributions": 42810,
+    "taxIncrease": 46154,
+    "taxIncreaseFuture": 1305219
+  },
+  {
+    "button": "",
+    "location": "Parker",
+    "designation": "City",
+    "currentDistributions": 1444859,
+    "taxIncrease": 1502906,
+    "taxIncreaseFuture": 42501714
+  },
+  {
+    "button": "",
+    "location": "Peetz",
+    "designation": "City",
+    "currentDistributions": 12333,
+    "taxIncrease": 12605,
+    "taxIncreaseFuture": 356453
+  },
+  {
+    "button": "",
+    "location": "Pierce",
+    "designation": "City",
+    "currentDistributions": 36925,
+    "taxIncrease": 40462,
+    "taxIncreaseFuture": 1144259
+  },
+  {
+    "button": "",
+    "location": "Pitkin",
+    "designation": "City",
+    "currentDistributions": 8358,
+    "taxIncrease": 10389,
+    "taxIncreaseFuture": 293811
+  },
+  {
+    "button": "",
+    "location": "Platteville",
+    "designation": "City",
+    "currentDistributions": 142898,
+    "taxIncrease": 132140,
+    "taxIncreaseFuture": 3736879
+  },
+  {
+    "button": "",
+    "location": "Poncha Springs",
+    "designation": "City",
+    "currentDistributions": 34957,
+    "taxIncrease": 50864,
+    "taxIncreaseFuture": 1438426
+  },
+  {
+    "button": "",
+    "location": "Pritchett",
+    "designation": "City",
+    "currentDistributions": 8332,
+    "taxIncrease": 10175,
+    "taxIncreaseFuture": 287740
+  },
+  {
+    "button": "",
+    "location": "Pueblo",
+    "designation": "City",
+    "currentDistributions": 3417169,
+    "taxIncrease": 3976214,
+    "taxIncreaseFuture": 112446063
+  },
+  {
+    "button": "",
+    "location": "Ramah",
+    "designation": "City",
+    "currentDistributions": 8221,
+    "taxIncrease": 9444,
+    "taxIncreaseFuture": 267083
+  },
+  {
+    "button": "",
+    "location": "Rangely",
+    "designation": "City",
+    "currentDistributions": 85250,
+    "taxIncrease": 107643,
+    "taxIncreaseFuture": 3044118
+  },
+  {
+    "button": "",
+    "location": "Raymer",
+    "designation": "City",
+    "currentDistributions": 9230,
+    "taxIncrease": 11342,
+    "taxIncreaseFuture": 320736
+  },
+  {
+    "button": "",
+    "location": "Red Cliff",
+    "designation": "City",
+    "currentDistributions": 10392,
+    "taxIncrease": 11788,
+    "taxIncreaseFuture": 333351
+  },
+  {
+    "button": "",
+    "location": "Rico",
+    "designation": "City",
+    "currentDistributions": 14469,
+    "taxIncrease": 15489,
+    "taxIncreaseFuture": 438017
+  },
+  {
+    "button": "",
+    "location": "Ridgway",
+    "designation": "City",
+    "currentDistributions": 50164,
+    "taxIncrease": 54572,
+    "taxIncreaseFuture": 1543288
+  },
+  {
+    "button": "",
+    "location": "Rifle",
+    "designation": "City",
+    "currentDistributions": 298938,
+    "taxIncrease": 338164,
+    "taxIncreaseFuture": 9563157
+  },
+  {
+    "button": "",
+    "location": "Rockvale",
+    "designation": "City",
+    "currentDistributions": 27210,
+    "taxIncrease": 32383,
+    "taxIncreaseFuture": 915770
+  },
+  {
+    "button": "",
+    "location": "Rocky Ford",
+    "designation": "City",
+    "currentDistributions": 124758,
+    "taxIncrease": 150224,
+    "taxIncreaseFuture": 4248299
+  },
+  {
+    "button": "",
+    "location": "Romeo",
+    "designation": "City",
+    "currentDistributions": 14809,
+    "taxIncrease": 17079,
+    "taxIncreaseFuture": 482997
+  },
+  {
+    "button": "",
+    "location": "Rye",
+    "designation": "City",
+    "currentDistributions": 5378,
+    "taxIncrease": 6701,
+    "taxIncreaseFuture": 189501
+  },
+  {
+    "button": "",
+    "location": "Saguache",
+    "designation": "City",
+    "currentDistributions": 26547,
+    "taxIncrease": 30766,
+    "taxIncreaseFuture": 870041
+  },
+  {
+    "button": "",
+    "location": "Salida",
+    "designation": "City",
+    "currentDistributions": 212547,
+    "taxIncrease": 245515,
+    "taxIncreaseFuture": 6943100
+  },
+  {
+    "button": "",
+    "location": "San Luis",
+    "designation": "City",
+    "currentDistributions": 26296,
+    "taxIncrease": 30227,
+    "taxIncreaseFuture": 854824
+  },
+  {
+    "button": "",
+    "location": "Sanford",
+    "designation": "City",
+    "currentDistributions": 66780,
+    "taxIncrease": 72484,
+    "taxIncreaseFuture": 2049819
+  },
+  {
+    "button": "",
+    "location": "Sawpit",
+    "designation": "City",
+    "currentDistributions": 1369,
+    "taxIncrease": 1423,
+    "taxIncreaseFuture": 40250
+  },
+  {
+    "button": "",
+    "location": "Sedgwick",
+    "designation": "City",
+    "currentDistributions": 13028,
+    "taxIncrease": 15354,
+    "taxIncreaseFuture": 434193
+  },
+  {
+    "button": "",
+    "location": "Seibert",
+    "designation": "City",
+    "currentDistributions": 11642,
+    "taxIncrease": 12966,
+    "taxIncreaseFuture": 366663
+  },
+  {
+    "button": "",
+    "location": "Severance",
+    "designation": "City",
+    "currentDistributions": 128110,
+    "taxIncrease": 136788,
+    "taxIncreaseFuture": 3868311
+  },
+  {
+    "button": "",
+    "location": "Sheridan",
+    "designation": "City",
+    "currentDistributions": 178371,
+    "taxIncrease": 180456,
+    "taxIncreaseFuture": 5103241
+  },
+  {
+    "button": "",
+    "location": "Sheridan Lake",
+    "designation": "City",
+    "currentDistributions": 6110,
+    "taxIncrease": 7029,
+    "taxIncreaseFuture": 198765
+  },
+  {
+    "button": "",
+    "location": "Silt",
+    "designation": "City",
+    "currentDistributions": 103829,
+    "taxIncrease": 112931,
+    "taxIncreaseFuture": 3193645
+  },
+  {
+    "button": "",
+    "location": "Silver Cliff",
+    "designation": "City",
+    "currentDistributions": 47975,
+    "taxIncrease": 52678,
+    "taxIncreaseFuture": 1489713
+  },
+  {
+    "button": "",
+    "location": "Silver Plume",
+    "designation": "City",
+    "currentDistributions": 9287,
+    "taxIncrease": 10494,
+    "taxIncreaseFuture": 296768
+  },
+  {
+    "button": "",
+    "location": "Silverthorne",
+    "designation": "City",
+    "currentDistributions": 219762,
+    "taxIncrease": 246652,
+    "taxIncreaseFuture": 6975229
+  },
+  {
+    "button": "",
+    "location": "Silverton",
+    "designation": "City",
+    "currentDistributions": 36245,
+    "taxIncrease": 42825,
+    "taxIncreaseFuture": 1211080
+  },
+  {
+    "button": "",
+    "location": "Simla",
+    "designation": "City",
+    "currentDistributions": 25818,
+    "taxIncrease": 29894,
+    "taxIncreaseFuture": 845402
+  },
+  {
+    "button": "",
+    "location": "Snowmass Village",
+    "designation": "City",
+    "currentDistributions": 129883,
+    "taxIncrease": 143378,
+    "taxIncreaseFuture": 4054698
+  },
+  {
+    "button": "",
+    "location": "South Fork",
+    "designation": "City",
+    "currentDistributions": 37597,
+    "taxIncrease": 43628,
+    "taxIncreaseFuture": 1233787
+  },
+  {
+    "button": "",
+    "location": "Springfield",
+    "designation": "City",
+    "currentDistributions": 65254,
+    "taxIncrease": 81442,
+    "taxIncreaseFuture": 2303144
+  },
+  {
+    "button": "",
+    "location": "Starkville",
+    "designation": "City",
+    "currentDistributions": 3398,
+    "taxIncrease": 4114,
+    "taxIncreaseFuture": 116334
+  },
+  {
+    "button": "",
+    "location": "Steamboat Springs",
+    "designation": "City",
+    "currentDistributions": 482020,
+    "taxIncrease": 502998,
+    "taxIncreaseFuture": 14224636
+  },
+  {
+    "button": "",
+    "location": "Sterling",
+    "designation": "City",
+    "currentDistributions": 355631,
+    "taxIncrease": 417562,
+    "taxIncreaseFuture": 11808509
+  },
+  {
+    "button": "",
+    "location": "Stratton",
+    "designation": "City",
+    "currentDistributions": 31537,
+    "taxIncrease": 39559,
+    "taxIncreaseFuture": 1118714
+  },
+  {
+    "button": "",
+    "location": "Sugar City",
+    "designation": "City",
+    "currentDistributions": 15102,
+    "taxIncrease": 17888,
+    "taxIncreaseFuture": 505862
+  },
+  {
+    "button": "",
+    "location": "Superior",
+    "designation": "City",
+    "currentDistributions": 312381,
+    "taxIncrease": 354954,
+    "taxIncreaseFuture": 10037993
+  },
+  {
+    "button": "",
+    "location": "Swink",
+    "designation": "City",
+    "currentDistributions": 21458,
+    "taxIncrease": 25579,
+    "taxIncreaseFuture": 723352
+  },
+  {
+    "button": "",
+    "location": "Telluride",
+    "designation": "City",
+    "currentDistributions": 70889,
+    "taxIncrease": 75973,
+    "taxIncreaseFuture": 2148492
+  },
+  {
+    "button": "",
+    "location": "Thornton",
+    "designation": "City",
+    "currentDistributions": 3938157,
+    "taxIncrease": 3931117,
+    "taxIncreaseFuture": 111170726
+  },
+  {
+    "button": "",
+    "location": "Timnath",
+    "designation": "City",
+    "currentDistributions": 122520,
+    "taxIncrease": 77852,
+    "taxIncreaseFuture": 2201633
+  },
+  {
+    "button": "",
+    "location": "Trinidad",
+    "designation": "City",
+    "currentDistributions": 314658,
+    "taxIncrease": 380916,
+    "taxIncreaseFuture": 10772186
+  },
+  {
+    "button": "",
+    "location": "Two Buttes",
+    "designation": "City",
+    "currentDistributions": 10358,
+    "taxIncrease": 11783,
+    "taxIncreaseFuture": 333233
+  },
+  {
+    "button": "",
+    "location": "Vail",
+    "designation": "City",
+    "currentDistributions": 218359,
+    "taxIncrease": 254087,
+    "taxIncreaseFuture": 7185505
+  },
+  {
+    "button": "",
+    "location": "Victor",
+    "designation": "City",
+    "currentDistributions": 18939,
+    "taxIncrease": 20793,
+    "taxIncreaseFuture": 588017
+  },
+  {
+    "button": "",
+    "location": "Vilas",
+    "designation": "City",
+    "currentDistributions": 5931,
+    "taxIncrease": 7232,
+    "taxIncreaseFuture": 204521
+  },
+  {
+    "button": "",
+    "location": "Vona",
+    "designation": "City",
+    "currentDistributions": 8150,
+    "taxIncrease": 9591,
+    "taxIncreaseFuture": 271223
+  },
+  {
+    "button": "",
+    "location": "Walden",
+    "designation": "City",
+    "currentDistributions": 30429,
+    "taxIncrease": 35812,
+    "taxIncreaseFuture": 1012748
+  },
+  {
+    "button": "",
+    "location": "Walsenburg",
+    "designation": "City",
+    "currentDistributions": 118567,
+    "taxIncrease": 140052,
+    "taxIncreaseFuture": 3960637
+  },
+  {
+    "button": "",
+    "location": "Walsh",
+    "designation": "City",
+    "currentDistributions": 30057,
+    "taxIncrease": 36618,
+    "taxIncreaseFuture": 1035534
+  },
+  {
+    "button": "",
+    "location": "Ward",
+    "designation": "City",
+    "currentDistributions": 8834,
+    "taxIncrease": 10048,
+    "taxIncreaseFuture": 284153
+  },
+  {
+    "button": "",
+    "location": "Wellington",
+    "designation": "City",
+    "currentDistributions": 234878,
+    "taxIncrease": 239259,
+    "taxIncreaseFuture": 6766174
+  },
+  {
+    "button": "",
+    "location": "Westcliffe",
+    "designation": "City",
+    "currentDistributions": 29674,
+    "taxIncrease": 38515,
+    "taxIncreaseFuture": 1089187
+  },
+  {
+    "button": "",
+    "location": "Westminster",
+    "designation": "City",
+    "currentDistributions": 3612548,
+    "taxIncrease": 3835399,
+    "taxIncreaseFuture": 108463862
+  },
+  {
+    "button": "",
+    "location": "Wheat Ridge",
+    "designation": "City",
+    "currentDistributions": 1062422,
+    "taxIncrease": 1184066,
+    "taxIncreaseFuture": 33485023
+  },
+  {
+    "button": "",
+    "location": "Wiggins",
+    "designation": "City",
+    "currentDistributions": 35556,
+    "taxIncrease": 39698,
+    "taxIncreaseFuture": 1122656
+  },
+  {
+    "button": "",
+    "location": "Wiley",
+    "designation": "City",
+    "currentDistributions": 15299,
+    "taxIncrease": 17796,
+    "taxIncreaseFuture": 503260
+  },
+  {
+    "button": "",
+    "location": "Williamsburg",
+    "designation": "City",
+    "currentDistributions": 35025,
+    "taxIncrease": 39878,
+    "taxIncreaseFuture": 1127742
+  },
+  {
+    "button": "",
+    "location": "Windsor",
+    "designation": "City",
+    "currentDistributions": 821110,
+    "taxIncrease": 842153,
+    "taxIncreaseFuture": 23815822
+  },
+  {
+    "button": "",
+    "location": "Winter Park",
+    "designation": "City",
+    "currentDistributions": 46724,
+    "taxIncrease": 51678,
+    "taxIncreaseFuture": 1461448
+  },
+  {
+    "button": "",
+    "location": "Woodland Park",
+    "designation": "City",
+    "currentDistributions": 293192,
+    "taxIncrease": 342849,
+    "taxIncreaseFuture": 9695654
+  },
+  {
+    "button": "",
+    "location": "Wray",
+    "designation": "City",
+    "currentDistributions": 87593,
+    "taxIncrease": 101157,
+    "taxIncreaseFuture": 2860688
+  },
+  {
+    "button": "",
+    "location": "Yampa",
+    "designation": "City",
+    "currentDistributions": 15542,
+    "taxIncrease": 17548,
+    "taxIncreaseFuture": 496243
+  },
+  {
+    "button": "",
+    "location": "Yuma",
+    "designation": "City",
+    "currentDistributions": 130778,
+    "taxIncrease": 149824,
+    "taxIncreaseFuture": 4236985
+  },
+  {
+    "button": "",
+    "location": "Adams County",
+    "designation": "County",
+    "currentDistributions": 9008860,
+    "taxIncrease": 6141172,
+    "taxIncreaseFuture": 173670396
+  },
+  {
+    "button": "",
+    "location": "Alamosa County",
+    "designation": "County",
+    "currentDistributions": 2016895,
+    "taxIncrease": 1380520,
+    "taxIncreaseFuture": 39040667
+  },
+  {
+    "button": "",
+    "location": "Arapahoe County",
+    "designation": "County",
+    "currentDistributions": 8761131,
+    "taxIncrease": 5410338,
+    "taxIncreaseFuture": 153002649
+  },
+  {
+    "button": "",
+    "location": "Archuleta County",
+    "designation": "County",
+    "currentDistributions": 2044204,
+    "taxIncrease": 1657957,
+    "taxIncreaseFuture": 46886488
+  },
+  {
+    "button": "",
+    "location": "Baca County",
+    "designation": "County",
+    "currentDistributions": 2507259,
+    "taxIncrease": 1932470,
+    "taxIncreaseFuture": 54649641
+  },
+  {
+    "button": "",
+    "location": "Bent County",
+    "designation": "County",
+    "currentDistributions": 1240053,
+    "taxIncrease": 930732,
+    "taxIncreaseFuture": 26320804
+  },
+  {
+    "button": "",
+    "location": "Boulder County",
+    "designation": "County",
+    "currentDistributions": 5997166,
+    "taxIncrease": 4182683,
+    "taxIncreaseFuture": 118284946
+  },
+  {
+    "button": "",
+    "location": "Chaffee County",
+    "designation": "County",
+    "currentDistributions": 1870120,
+    "taxIncrease": 1292790,
+    "taxIncreaseFuture": 36559691
+  },
+  {
+    "button": "",
+    "location": "Cheyenne County",
+    "designation": "County",
+    "currentDistributions": 1422914,
+    "taxIncrease": 1122095,
+    "taxIncreaseFuture": 31732482
+  },
+  {
+    "button": "",
+    "location": "Clear Creek County",
+    "designation": "County",
+    "currentDistributions": 954892,
+    "taxIncrease": 715105,
+    "taxIncreaseFuture": 20222950
+  },
+  {
+    "button": "",
+    "location": "Conejos County",
+    "designation": "County",
+    "currentDistributions": 1837413,
+    "taxIncrease": 1368544,
+    "taxIncreaseFuture": 38701994
+  },
+  {
+    "button": "",
+    "location": "Costilla County",
+    "designation": "County",
+    "currentDistributions": 3848559,
+    "taxIncrease": 3100282,
+    "taxIncreaseFuture": 87675002
+  },
+  {
+    "button": "",
+    "location": "Crowley County",
+    "designation": "County",
+    "currentDistributions": 701576,
+    "taxIncrease": 531847,
+    "taxIncreaseFuture": 15040471
+  },
+  {
+    "button": "",
+    "location": "Custer County",
+    "designation": "County",
+    "currentDistributions": 1212258,
+    "taxIncrease": 892153,
+    "taxIncreaseFuture": 25229804
+  },
+  {
+    "button": "",
+    "location": "Delta County",
+    "designation": "County",
+    "currentDistributions": 2825433,
+    "taxIncrease": 2173015,
+    "taxIncreaseFuture": 61452161
+  },
+  {
+    "button": "",
+    "location": "Dolores County",
+    "designation": "County",
+    "currentDistributions": 1667346,
+    "taxIncrease": 1106843,
+    "taxIncreaseFuture": 31301167
+  },
+  {
+    "button": "",
+    "location": "Douglas County",
+    "designation": "County",
+    "currentDistributions": 8086674,
+    "taxIncrease": 7832630,
+    "taxIncreaseFuture": 221504270
+  },
+  {
+    "button": "",
+    "location": "Eagle County",
+    "designation": "County",
+    "currentDistributions": 2315590,
+    "taxIncrease": 1827429,
+    "taxIncreaseFuture": 51679123
+  },
+  {
+    "button": "",
+    "location": "El Paso County",
+    "designation": "County",
+    "currentDistributions": 12696515,
+    "taxIncrease": 10098321,
+    "taxIncreaseFuture": 285577316
+  },
+  {
+    "button": "",
+    "location": "Elbert County",
+    "designation": "County",
+    "currentDistributions": 2682277,
+    "taxIncrease": 2222207,
+    "taxIncreaseFuture": 62843320
+  },
+  {
+    "button": "",
+    "location": "Fremont County",
+    "designation": "County",
+    "currentDistributions": 2704058,
+    "taxIncrease": 2194167,
+    "taxIncreaseFuture": 62050349
+  },
+  {
+    "button": "",
+    "location": "Garfield County",
+    "designation": "County",
+    "currentDistributions": 3517300,
+    "taxIncrease": 2834916,
+    "taxIncreaseFuture": 80170536
+  },
+  {
+    "button": "",
+    "location": "Gilpin County",
+    "designation": "County",
+    "currentDistributions": 653821,
+    "taxIncrease": 483782,
+    "taxIncreaseFuture": 13681205
+  },
+  {
+    "button": "",
+    "location": "Grand County",
+    "designation": "County",
+    "currentDistributions": 2759485,
+    "taxIncrease": 2047212,
+    "taxIncreaseFuture": 57894495
+  },
+  {
+    "button": "",
+    "location": "Gunnison County",
+    "designation": "County",
+    "currentDistributions": 2797449,
+    "taxIncrease": 1993671,
+    "taxIncreaseFuture": 56380379
+  },
+  {
+    "button": "",
+    "location": "Hinsdale County",
+    "designation": "County",
+    "currentDistributions": 744395,
+    "taxIncrease": 456125,
+    "taxIncreaseFuture": 12899075
+  },
+  {
+    "button": "",
+    "location": "Huerfano County",
+    "designation": "County",
+    "currentDistributions": 1701130,
+    "taxIncrease": 1222312,
+    "taxIncreaseFuture": 34566599
+  },
+  {
+    "button": "",
+    "location": "Jackson County",
+    "designation": "County",
+    "currentDistributions": 1360444,
+    "taxIncrease": 936627,
+    "taxIncreaseFuture": 26487519
+  },
+  {
+    "button": "",
+    "location": "Jefferson County",
+    "designation": "County",
+    "currentDistributions": 14204014,
+    "taxIncrease": 10531112,
+    "taxIncreaseFuture": 297816508
+  },
+  {
+    "button": "",
+    "location": "Kiowa County",
+    "designation": "County",
+    "currentDistributions": 1400301,
+    "taxIncrease": 1025341,
+    "taxIncreaseFuture": 28996328
+  },
+  {
+    "button": "",
+    "location": "Kit Carson County",
+    "designation": "County",
+    "currentDistributions": 2759017,
+    "taxIncrease": 2110165,
+    "taxIncreaseFuture": 59674787
+  },
+  {
+    "button": "",
+    "location": "La Plata County",
+    "designation": "County",
+    "currentDistributions": 3217115,
+    "taxIncrease": 2527052,
+    "taxIncreaseFuture": 71464214
+  },
+  {
+    "button": "",
+    "location": "Lake County",
+    "designation": "County",
+    "currentDistributions": 720101,
+    "taxIncrease": 573677,
+    "taxIncreaseFuture": 16223403
+  },
+  {
+    "button": "",
+    "location": "Larimer County",
+    "designation": "County",
+    "currentDistributions": 8328423,
+    "taxIncrease": 6502841,
+    "taxIncreaseFuture": 183898284
+  },
+  {
+    "button": "",
+    "location": "Las Animas County",
+    "designation": "County",
+    "currentDistributions": 3226892,
+    "taxIncrease": 2343860,
+    "taxIncreaseFuture": 66283628
+  },
+  {
+    "button": "",
+    "location": "Lincoln County",
+    "designation": "County",
+    "currentDistributions": 2420605,
+    "taxIncrease": 1695740,
+    "taxIncreaseFuture": 47954978
+  },
+  {
+    "button": "",
+    "location": "Logan County",
+    "designation": "County",
+    "currentDistributions": 3810478,
+    "taxIncrease": 2715223,
+    "taxIncreaseFuture": 76785655
+  },
+  {
+    "button": "",
+    "location": "Mesa County",
+    "designation": "County",
+    "currentDistributions": 7998813,
+    "taxIncrease": 5848435,
+    "taxIncreaseFuture": 165391881
+  },
+  {
+    "button": "",
+    "location": "Mineral County",
+    "designation": "County",
+    "currentDistributions": 586231,
+    "taxIncrease": 381595,
+    "taxIncreaseFuture": 10791384
+  },
+  {
+    "button": "",
+    "location": "Moffat County",
+    "designation": "County",
+    "currentDistributions": 4260494,
+    "taxIncrease": 2821800,
+    "taxIncreaseFuture": 79799615
+  },
+  {
+    "button": "",
+    "location": "Montezuma County",
+    "designation": "County",
+    "currentDistributions": 2660870,
+    "taxIncrease": 2079152,
+    "taxIncreaseFuture": 58797768
+  },
+  {
+    "button": "",
+    "location": "Montrose County",
+    "designation": "County",
+    "currentDistributions": 4708547,
+    "taxIncrease": 3516088,
+    "taxIncreaseFuture": 99433838
+  },
+  {
+    "button": "",
+    "location": "Morgan County",
+    "designation": "County",
+    "currentDistributions": 3006918,
+    "taxIncrease": 2155740,
+    "taxIncreaseFuture": 60963645
+  },
+  {
+    "button": "",
+    "location": "Otero County",
+    "designation": "County",
+    "currentDistributions": 1695788,
+    "taxIncrease": 1164185,
+    "taxIncreaseFuture": 32922786
+  },
+  {
+    "button": "",
+    "location": "Ouray County",
+    "designation": "County",
+    "currentDistributions": 786775,
+    "taxIncrease": 580220,
+    "taxIncreaseFuture": 16408449
+  },
+  {
+    "button": "",
+    "location": "Park County",
+    "designation": "County",
+    "currentDistributions": 5087156,
+    "taxIncrease": 3724539,
+    "taxIncreaseFuture": 105328789
+  },
+  {
+    "button": "",
+    "location": "Phillips County",
+    "designation": "County",
+    "currentDistributions": 1233705,
+    "taxIncrease": 900546,
+    "taxIncreaseFuture": 25467163
+  },
+  {
+    "button": "",
+    "location": "Pitkin County",
+    "designation": "County",
+    "currentDistributions": 1174946,
+    "taxIncrease": 888727,
+    "taxIncreaseFuture": 25132905
+  },
+  {
+    "button": "",
+    "location": "Prowers County",
+    "designation": "County",
+    "currentDistributions": 2045716,
+    "taxIncrease": 1583346,
+    "taxIncreaseFuture": 44776511
+  },
+  {
+    "button": "",
+    "location": "Pueblo County",
+    "designation": "County",
+    "currentDistributions": 4962444,
+    "taxIncrease": 3743197,
+    "taxIncreaseFuture": 105856411
+  },
+  {
+    "button": "",
+    "location": "Rio Blanco County",
+    "designation": "County",
+    "currentDistributions": 3052331,
+    "taxIncrease": 2205750,
+    "taxIncreaseFuture": 62377905
+  },
+  {
+    "button": "",
+    "location": "Rio Grande County",
+    "designation": "County",
+    "currentDistributions": 2344201,
+    "taxIncrease": 1716240,
+    "taxIncreaseFuture": 48534716
+  },
+  {
+    "button": "",
+    "location": "Routt County",
+    "designation": "County",
+    "currentDistributions": 3022576,
+    "taxIncrease": 2214900,
+    "taxIncreaseFuture": 62636670
+  },
+  {
+    "button": "",
+    "location": "Saguache County",
+    "designation": "County",
+    "currentDistributions": 2778943,
+    "taxIncrease": 2052797,
+    "taxIncreaseFuture": 58052458
+  },
+  {
+    "button": "",
+    "location": "San Juan County",
+    "designation": "County",
+    "currentDistributions": 341740,
+    "taxIncrease": 267662,
+    "taxIncreaseFuture": 7569394
+  },
+  {
+    "button": "",
+    "location": "San Miguel County",
+    "designation": "County",
+    "currentDistributions": 1950009,
+    "taxIncrease": 1301779,
+    "taxIncreaseFuture": 36813883
+  },
+  {
+    "button": "",
+    "location": "Sedgwick County",
+    "designation": "County",
+    "currentDistributions": 949017,
+    "taxIncrease": 736746,
+    "taxIncreaseFuture": 20834935
+  },
+  {
+    "button": "",
+    "location": "Summit County",
+    "designation": "County",
+    "currentDistributions": 1209569,
+    "taxIncrease": 886652,
+    "taxIncreaseFuture": 25074245
+  },
+  {
+    "button": "",
+    "location": "Teller County",
+    "designation": "County",
+    "currentDistributions": 2393160,
+    "taxIncrease": 1853702,
+    "taxIncreaseFuture": 52422107
+  },
+  {
+    "button": "",
+    "location": "Washington County",
+    "designation": "County",
+    "currentDistributions": 3190233,
+    "taxIncrease": 2423054,
+    "taxIncreaseFuture": 68523184
+  },
+  {
+    "button": "",
+    "location": "Weld County",
+    "designation": "County",
+    "currentDistributions": 10475009,
+    "taxIncrease": 7851468,
+    "taxIncreaseFuture": 222037017
+  },
+  {
+    "button": "",
+    "location": "Yuma County",
+    "designation": "County",
+    "currentDistributions": 3015951,
+    "taxIncrease": 2328720,
+    "taxIncreaseFuture": 65855467
+  }
+]
