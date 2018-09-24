@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Republican and Democratic Governors Association Donors</title>
+    <title>Colorado Donors: Republican and Democratic Governors Association | The Denver Post</title>
     <meta charset="utf-8">
     <meta name="robots" content="noindex,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -22,18 +22,22 @@
     <script src="//cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
     <script src="//cdn.datatables.net/responsive/2.2.1/js/responsive.foundation.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
-    <!-- <script src="jquery.dataTables.yadcf.js"></script> -->
     <style>
     body {
         background-color: #fafafa;
+        font-family: 'Roboto', sans-serif;
     }
 
     .table-title {
-        font-family: 'Roboto', sans-serif;
+        line-height: 125%;
+        font-weight: 700;
     }
 
-    .body-text {
-        font-family: 'Roboto', sans-serif;
+    .instructions-text {
+        color: red;
+        font-size: .8em;
+        font-style: italic;
+        text-align: center;
     }
 
     #filters {
@@ -92,8 +96,9 @@
     <div id="rga-donor-table-container">
         <div class="row">
             <div class="large-12 columns">
-                <h2 class="body-text">Title will go here and here and here</h2>
-                <p class="table-title">Chatter will go here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here. <strong>And let's mention the source of the data and link to it if possible</strong>.</p>
+                <h2 class="table-title">Colorado donors to the Republican Governors Association and Democratic Governors Association</h2>
+                <p class="body-text">The <a href="https://www.rga.org/" target="_top">Republican Governors Association</a> and the <a href="https://democraticgovernors.org/" target="_top">Democratic Governors Association</a> &mdash; advocacy groups called <a href="https://www.opensecrets.org/527s/" target="_top">527 organizations</a> that can raise unlimited money from donors and report their contributions and expenditures to the IRS &mdash; are putting money into the Colorado governor's race. This database shows the companies and individuals from Colorado who have donated from Jan. 1, 2017, through June 30, 2018. <em>Note: Individuals who donated less than $300 are listed with the name "Individual." <strong>Source: <a href="https://www.irs.gov/charities-non-profits/political-organizations/political-organization-filing-and-disclosure" target="_top">Internal Revenue Service</a></strong></em></p>
+                <p class="instructions-text">Use dropdown menus to filter table; click column headers to sort</p>
             </div>
         </div>
         <div id="filters">
@@ -115,7 +120,7 @@
             </div>
             <div class="row">
                 <div class="large-6 small-12 left columns">
-                <p class="filter-text">Select amount</p>
+                <p class="filter-text">Filter by amount</p>
                     <span id="amount-filter" style="font-weight: bold;"></span>
                 </div>
             </div>
@@ -126,7 +131,7 @@
                     <thead>
                         <tr>
                             <th></th>
-                            <th data-priority="3">Party</th>
+                            <th data-priority="3">Org</th>
                             <th data-priority="1">Name</th>
                             <th data-priority="2">Amount</th>
                             <th data-priority="4">Date</th>
@@ -181,7 +186,7 @@
             columns: [
                 { data: 'button' },
                 {
-                    data: 'party',
+                    data: 'organization',
                     // render: function(data, type, row) {
                     //     if (data == 'DEM') {
                     //         return '<div class="dem">&nbsp;</div>'
@@ -206,30 +211,17 @@
                     data: 'year',
                     visible: false
                 }
-
-                // {
-                //     data: 'stockReturn2017',
-                //     // render: function(data, type, full, meta) {
-                //     //     return +data + '%';
-                //     // },
-                //     render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
-                //     defaultContent: "" // not working on NaN
-                // },
-                // {
-                //     data: 'sex',
-                //     visible: false
-                // }
             ],
 
             initComplete: function() {
                 yadcf.init(rgaDonorTable, [{
                         column_number: 1,
                         filter_container_id: 'party-filter',
-                        filter_default_label: 'Select party'
+                        filter_default_label: 'Filter by organization'
                     }, {
                         column_number: 2,
                         filter_container_id: 'donor-name-filter',
-                        filter_default_label: 'Select donor'
+                        filter_default_label: 'Filter by donor'
                     }, {
                         column_number: 3,
                         filter_container_id: 'amount-filter',
@@ -239,12 +231,12 @@
                     {
                         column_number: 5,
                         filter_container_id: 'city-filter',
-                        filter_default_label: 'Select city'
+                        filter_default_label: 'Filter by city'
                     },
                     {
                         column_number: 8,
                         filter_container_id: 'year-filter',
-                        filter_default_label: 'Select year'
+                        filter_default_label: 'Filter by year'
                     }
                 ], {
                     cumulative_filtering: true,

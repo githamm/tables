@@ -8,7 +8,7 @@
     "amount": 300,
     "date": "7/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -19,7 +19,7 @@
     "amount": 2000,
     "date": "8/2/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -30,7 +30,7 @@
     "amount": 5000,
     "date": "10/25/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -41,7 +41,7 @@
     "amount": 350,
     "date": "3/28/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -52,7 +52,7 @@
     "amount": 350,
     "date": "11/01/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -63,7 +63,7 @@
     "amount": 25000,
     "date": "3/6/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -74,7 +74,7 @@
     "amount": 25000,
     "date": "1/23/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -85,7 +85,7 @@
     "amount": 25000,
     "date": "3/31/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -96,7 +96,7 @@
     "amount": 25000,
     "date": "5/25/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -107,7 +107,7 @@
     "amount": 25000,
     "date": "11/30/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -118,7 +118,7 @@
     "amount": 500,
     "date": "8/1/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -129,7 +129,7 @@
     "amount": 500,
     "date": "7/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -140,7 +140,7 @@
     "amount": 15000,
     "date": "6/29/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -151,7 +151,7 @@
     "amount": 25000,
     "date": "4/6/2018",
     "year": 2018,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -162,7 +162,7 @@
     "amount": 6250,
     "date": "12/12/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -173,7 +173,7 @@
     "amount": 6250,
     "date": "9/29/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -184,7 +184,7 @@
     "amount": 6250,
     "date": "6/6/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -195,7 +195,7 @@
     "amount": 6250,
     "date": "2/17/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -206,7 +206,7 @@
     "amount": 6250,
     "date": "6/19/2018",
     "year": 2018,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -217,7 +217,7 @@
     "amount": 6250,
     "date": "2/22/2018",
     "year": 2018,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -228,7 +228,7 @@
     "amount": 15000,
     "date": "1/30/2018",
     "year": 2018,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -239,7 +239,7 @@
     "amount": 10000,
     "date": "5/18/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -250,7 +250,7 @@
     "amount": 15000,
     "date": "2/20/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -261,7 +261,7 @@
     "amount": 15000,
     "date": "3/16/2018",
     "year": 2018,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -272,7 +272,7 @@
     "amount": 5000,
     "date": "4/7/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -283,7 +283,7 @@
     "amount": 5000,
     "date": "9/6/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -294,7 +294,7 @@
     "amount": 5000,
     "date": "5/9/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -305,7 +305,7 @@
     "amount": 5000,
     "date": "4/7/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -316,7 +316,7 @@
     "amount": 10000,
     "date": "11/2/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -327,7 +327,7 @@
     "amount": 450,
     "date": "10/6/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -338,7 +338,7 @@
     "amount": 450,
     "date": "10/31/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -349,7 +349,7 @@
     "amount": 3500,
     "date": "9/26/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -360,7 +360,7 @@
     "amount": 6500,
     "date": "9/5/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -371,7 +371,7 @@
     "amount": 25000,
     "date": "8/1/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -382,7 +382,7 @@
     "amount": 350,
     "date": "4/4/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -393,7 +393,7 @@
     "amount": 1000,
     "date": "6/14/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -404,7 +404,7 @@
     "amount": 1000,
     "date": "1/24/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -415,7 +415,7 @@
     "amount": 300,
     "date": "4/19/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -426,7 +426,7 @@
     "amount": 10000,
     "date": "11/14/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -437,7 +437,7 @@
     "amount": 1350,
     "date": "11/01/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -448,7 +448,7 @@
     "amount": 50000,
     "date": "7/18/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -459,7 +459,7 @@
     "amount": 5000,
     "date": "12/29/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -470,7 +470,7 @@
     "amount": 25000,
     "date": "7/18/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -481,7 +481,7 @@
     "amount": 50000,
     "date": "5/8/2018",
     "year": 2018,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -492,7 +492,7 @@
     "amount": 500,
     "date": "8/9/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -503,7 +503,7 @@
     "amount": 10000,
     "date": "1/16/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -514,7 +514,7 @@
     "amount": 75000,
     "date": "6/6/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -525,7 +525,7 @@
     "amount": 15000,
     "date": "7/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -536,7 +536,7 @@
     "amount": 25000,
     "date": "1/31/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -547,7 +547,7 @@
     "amount": 500,
     "date": "10/3/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -558,7 +558,7 @@
     "amount": 1000,
     "date": "8/8/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -569,7 +569,7 @@
     "amount": 350,
     "date": "6/8/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -580,7 +580,7 @@
     "amount": 500,
     "date": "3/23/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -591,7 +591,7 @@
     "amount": 350,
     "date": "12/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -602,7 +602,7 @@
     "amount": 350,
     "date": "11/1/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -613,7 +613,7 @@
     "amount": 350,
     "date": "6/21/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -624,7 +624,7 @@
     "amount": 25000,
     "date": "5/30/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -635,7 +635,7 @@
     "amount": 50000,
     "date": "2/13/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -646,7 +646,7 @@
     "amount": 25000,
     "date": "2/13/2018",
     "year": 2018,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -657,7 +657,7 @@
     "amount": 25000,
     "date": "2/13/2018",
     "year": "2018",
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -668,7 +668,7 @@
     "amount": 100,
     "date": "8/3/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -679,7 +679,7 @@
     "amount": 100,
     "date": "9/12/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -690,7 +690,7 @@
     "amount": 100,
     "date": "7/11/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -701,7 +701,7 @@
     "amount": 25,
     "date": "12/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -712,7 +712,7 @@
     "amount": 25,
     "date": "11/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -723,7 +723,7 @@
     "amount": 25,
     "date": "10/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -734,7 +734,7 @@
     "amount": 25,
     "date": "9/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -745,7 +745,7 @@
     "amount": 25,
     "date": "8/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -756,7 +756,7 @@
     "amount": 25,
     "date": "7/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -767,7 +767,7 @@
     "amount": 250,
     "date": "6/6/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -778,7 +778,7 @@
     "amount": 250,
     "date": "7/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -789,7 +789,7 @@
     "amount": 100,
     "date": "6/12/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -800,7 +800,7 @@
     "amount": 150,
     "date": "4/6/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -811,7 +811,7 @@
     "amount": 100,
     "date": "2/27/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -822,7 +822,7 @@
     "amount": 100,
     "date": "2/11/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -833,7 +833,7 @@
     "amount": 36,
     "date": "3/2/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -844,7 +844,7 @@
     "amount": 100,
     "date": "11/9/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -855,7 +855,7 @@
     "amount": 100,
     "date": "10/17/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -866,7 +866,7 @@
     "amount": 100,
     "date": "9/28/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -877,7 +877,7 @@
     "amount": 100,
     "date": "7/13/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -888,7 +888,7 @@
     "amount": 100,
     "date": "7/13/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -899,7 +899,7 @@
     "amount": 200,
     "date": "6/15/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -910,7 +910,7 @@
     "amount": 250,
     "date": "8/8/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -921,7 +921,7 @@
     "amount": 250,
     "date": "8/1/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -932,7 +932,7 @@
     "amount": 250,
     "date": "8/8/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -943,7 +943,7 @@
     "amount": 250,
     "date": "11/1/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -954,7 +954,7 @@
     "amount": 250,
     "date": "11/1/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -965,7 +965,7 @@
     "amount": 200,
     "date": "2/15/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -976,7 +976,7 @@
     "amount": 250,
     "date": "1/17/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -987,7 +987,7 @@
     "amount": 250,
     "date": "8/1/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -998,7 +998,7 @@
     "amount": 250,
     "date": "8/1/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1009,7 +1009,7 @@
     "amount": 250,
     "date": "9/28/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1020,7 +1020,7 @@
     "amount": 250,
     "date": "6/6/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1031,7 +1031,7 @@
     "amount": 250,
     "date": "8/8/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1042,7 +1042,7 @@
     "amount": 50,
     "date": "10/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1053,7 +1053,7 @@
     "amount": 25,
     "date": "12/18/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1064,7 +1064,7 @@
     "amount": 25,
     "date": "12/18/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1075,7 +1075,7 @@
     "amount": 25,
     "date": "11/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1086,7 +1086,7 @@
     "amount": 25,
     "date": "11/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1097,7 +1097,7 @@
     "amount": 25,
     "date": "10/10/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1108,7 +1108,7 @@
     "amount": 25,
     "date": "10/10/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1119,7 +1119,7 @@
     "amount": 25,
     "date": "9/12/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1130,7 +1130,7 @@
     "amount": 25,
     "date": "8/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1141,7 +1141,7 @@
     "amount": 25,
     "date": "8/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1152,7 +1152,7 @@
     "amount": 25,
     "date": "8/7/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1163,7 +1163,7 @@
     "amount": 25,
     "date": "7/11/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1174,7 +1174,7 @@
     "amount": 25,
     "date": "7/11/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1185,7 +1185,7 @@
     "amount": 100,
     "date": "8/24/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1196,7 +1196,7 @@
     "amount": 100,
     "date": "8/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1207,7 +1207,7 @@
     "amount": 25,
     "date": "1/24/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1218,7 +1218,7 @@
     "amount": 50,
     "date": "10/19/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1229,7 +1229,7 @@
     "amount": 50,
     "date": "5/16/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1240,7 +1240,7 @@
     "amount": 50,
     "date": "2/6/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1251,7 +1251,7 @@
     "amount": 75,
     "date": "10/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1262,7 +1262,7 @@
     "amount": 100,
     "date": "4/24/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1273,7 +1273,7 @@
     "amount": 100,
     "date": "7/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1284,7 +1284,7 @@
     "amount": 100,
     "date": "4/10/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1295,7 +1295,7 @@
     "amount": 100,
     "date": "2/27/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1306,7 +1306,7 @@
     "amount": 100,
     "date": "10/27/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1317,7 +1317,7 @@
     "amount": 100,
     "date": "10/27/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1328,7 +1328,7 @@
     "amount": 125,
     "date": "9/12/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1339,7 +1339,7 @@
     "amount": 125,
     "date": "8/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1350,7 +1350,7 @@
     "amount": 150,
     "date": "6/12/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1361,7 +1361,7 @@
     "amount": 150,
     "date": "2/13/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1372,7 +1372,7 @@
     "amount": 175,
     "date": "8/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1383,7 +1383,7 @@
     "amount": 175,
     "date": "8/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1394,7 +1394,7 @@
     "amount": 200,
     "date": "7/5/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1405,7 +1405,7 @@
     "amount": 200,
     "date": "7/5/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1416,7 +1416,7 @@
     "amount": 250,
     "date": "8/17/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1427,7 +1427,7 @@
     "amount": 100,
     "date": "6/22/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1438,7 +1438,7 @@
     "amount": 100,
     "date": "5/2/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1449,7 +1449,7 @@
     "amount": 100,
     "date": "11/2/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1460,7 +1460,7 @@
     "amount": 100,
     "date": "5/1/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1471,7 +1471,7 @@
     "amount": 100,
     "date": "6/26/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1482,7 +1482,7 @@
     "amount": 100,
     "date": "5/26/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1493,7 +1493,7 @@
     "amount": 100,
     "date": "4/26/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1504,7 +1504,7 @@
     "amount": 100,
     "date": "3/26/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1515,7 +1515,7 @@
     "amount": 100,
     "date": "2/26/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1526,7 +1526,7 @@
     "amount": 100,
     "date": "1/26/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1537,7 +1537,7 @@
     "amount": 100,
     "date": "12/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1548,7 +1548,7 @@
     "amount": 100,
     "date": "11/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1559,7 +1559,7 @@
     "amount": 100,
     "date": "10/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1570,7 +1570,7 @@
     "amount": 100,
     "date": "10/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1581,7 +1581,7 @@
     "amount": 100,
     "date": "9/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1592,7 +1592,7 @@
     "amount": 100,
     "date": "8/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1603,7 +1603,7 @@
     "amount": 100,
     "date": "7/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1614,7 +1614,7 @@
     "amount": 100,
     "date": "3/27/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1625,7 +1625,7 @@
     "amount": 100,
     "date": "1/24/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1636,7 +1636,7 @@
     "amount": 158,
     "date": "2/13/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1647,7 +1647,7 @@
     "amount": 158,
     "date": "11/22/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1658,7 +1658,7 @@
     "amount": 5,
     "date": "9/4/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1669,7 +1669,7 @@
     "amount": 25,
     "date": "12/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1680,7 +1680,7 @@
     "amount": 25,
     "date": "11/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1691,7 +1691,7 @@
     "amount": 25,
     "date": "10/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1702,7 +1702,7 @@
     "amount": 25,
     "date": "9/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1713,7 +1713,7 @@
     "amount": 25,
     "date": "8/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1724,7 +1724,7 @@
     "amount": 25,
     "date": "7/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1735,7 +1735,7 @@
     "amount": 25,
     "date": "8/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1746,7 +1746,7 @@
     "amount": 25,
     "date": "8/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1757,7 +1757,7 @@
     "amount": 100,
     "date": "12/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1768,7 +1768,7 @@
     "amount": 100,
     "date": "12/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1779,7 +1779,7 @@
     "amount": 100,
     "date": "11/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1790,7 +1790,7 @@
     "amount": 200,
     "date": "8/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1801,7 +1801,7 @@
     "amount": 200,
     "date": "8/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1812,7 +1812,7 @@
     "amount": 250,
     "date": "7/7/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1823,7 +1823,7 @@
     "amount": 250,
     "date": "7/7/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1834,7 +1834,7 @@
     "amount": 10,
     "date": "11/15/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1845,7 +1845,7 @@
     "amount": 10,
     "date": "8/9/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1856,7 +1856,7 @@
     "amount": 10,
     "date": "8/9/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1867,7 +1867,7 @@
     "amount": 20,
     "date": "6/15/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1878,7 +1878,7 @@
     "amount": 20,
     "date": "8/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1889,7 +1889,7 @@
     "amount": 20,
     "date": "8/9/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1900,7 +1900,7 @@
     "amount": 20,
     "date": "8/9/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1911,7 +1911,7 @@
     "amount": 20,
     "date": "7/12/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1922,7 +1922,7 @@
     "amount": 20,
     "date": "7/12/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1933,7 +1933,7 @@
     "amount": 25,
     "date": "6/25/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1944,7 +1944,7 @@
     "amount": 25,
     "date": "3/7/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1955,7 +1955,7 @@
     "amount": 50,
     "date": "11/09/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1966,7 +1966,7 @@
     "amount": 50,
     "date": "8/8/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1977,7 +1977,7 @@
     "amount": 50,
     "date": "5/9/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1988,7 +1988,7 @@
     "amount": 50,
     "date": "2/9/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -1999,7 +1999,7 @@
     "amount": 60,
     "date": "10/10/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2010,7 +2010,7 @@
     "amount": 70,
     "date": "6/26/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2021,7 +2021,7 @@
     "amount": 70,
     "date": "6/7/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2032,7 +2032,7 @@
     "amount": 75,
     "date": "9/12/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2043,7 +2043,7 @@
     "amount": 100,
     "date": "4/19/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2054,7 +2054,7 @@
     "amount": 100,
     "date": "6/6/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2065,7 +2065,7 @@
     "amount": 100,
     "date": "5/10/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2076,7 +2076,7 @@
     "amount": 100,
     "date": "4/10/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2087,7 +2087,7 @@
     "amount": 100,
     "date": "6/26/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2098,7 +2098,7 @@
     "amount": 150,
     "date": "8/9/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2109,7 +2109,7 @@
     "amount": 100,
     "date": "3/15/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2120,7 +2120,7 @@
     "amount": 100,
     "date": "2/15/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2131,7 +2131,7 @@
     "amount": 100,
     "date": "6/22/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2142,7 +2142,7 @@
     "amount": 100,
     "date": "2/27/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2153,7 +2153,7 @@
     "amount": 50,
     "date": "9/12/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2164,7 +2164,7 @@
     "amount": 50,
     "date": "7/18/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2175,7 +2175,7 @@
     "amount": 50,
     "date": "11/28/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2186,7 +2186,7 @@
     "amount": 50,
     "date": "11/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2197,7 +2197,7 @@
     "amount": 50,
     "date": "9/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2208,7 +2208,7 @@
     "amount": 50,
     "date": "9/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2219,7 +2219,7 @@
     "amount": 50,
     "date": "8/28/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2230,7 +2230,7 @@
     "amount": 100,
     "date": "12/21/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2241,7 +2241,7 @@
     "amount": 100,
     "date": "2/8/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2252,7 +2252,7 @@
     "amount": 100,
     "date": "1/19/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2263,7 +2263,7 @@
     "amount": 100,
     "date": "12/18/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2274,7 +2274,7 @@
     "amount": 150,
     "date": "10/18/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2285,7 +2285,7 @@
     "amount": 150,
     "date": "10/18/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2296,7 +2296,7 @@
     "amount": 200,
     "date": "2/24/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2307,7 +2307,7 @@
     "amount": 200,
     "date": "6/16/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2318,7 +2318,7 @@
     "amount": 217,
     "date": "5/30/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2329,7 +2329,7 @@
     "amount": 50,
     "date": "5/7/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2340,7 +2340,7 @@
     "amount": 100,
     "date": "10/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2351,7 +2351,7 @@
     "amount": 100,
     "date": "10/21/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2362,7 +2362,7 @@
     "amount": 100,
     "date": "10/21/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2373,7 +2373,7 @@
     "amount": 150,
     "date": "5/30/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2384,7 +2384,7 @@
     "amount": 200,
     "date": "8/28/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2395,7 +2395,7 @@
     "amount": 50,
     "date": "4/16/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2406,7 +2406,7 @@
     "amount": 58,
     "date": "6/22/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2417,7 +2417,7 @@
     "amount": 100,
     "date": "5/23/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2428,7 +2428,7 @@
     "amount": 250,
     "date": "8/1/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2439,7 +2439,7 @@
     "amount": 100,
     "date": "6/4/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2450,7 +2450,7 @@
     "amount": 5,
     "date": "3/22/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2461,7 +2461,7 @@
     "amount": 50,
     "date": "3/19/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2472,7 +2472,7 @@
     "amount": 50,
     "date": "3/19/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2483,7 +2483,7 @@
     "amount": 100,
     "date": "3/16/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2494,7 +2494,7 @@
     "amount": 100,
     "date": "11/09/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2505,7 +2505,7 @@
     "amount": 200,
     "date": "10/11/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2516,7 +2516,7 @@
     "amount": 200,
     "date": "6/26/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2527,7 +2527,7 @@
     "amount": 250,
     "date": "9/29/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2538,7 +2538,7 @@
     "amount": 100,
     "date": "8/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2549,7 +2549,7 @@
     "amount": 100,
     "date": "8/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2560,7 +2560,7 @@
     "amount": 200,
     "date": "11/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2571,7 +2571,7 @@
     "amount": 100,
     "date": "11/27/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2582,7 +2582,7 @@
     "amount": 200,
     "date": "10/24/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2593,7 +2593,7 @@
     "amount": 200,
     "date": "9/21/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2604,7 +2604,7 @@
     "amount": 200,
     "date": "9/21/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2615,7 +2615,7 @@
     "amount": 200,
     "date": "8/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2626,7 +2626,7 @@
     "amount": 100,
     "date": "8/1/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2637,7 +2637,7 @@
     "amount": 5,
     "date": "7/27/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2648,7 +2648,7 @@
     "amount": 25,
     "date": "7/31/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2659,7 +2659,7 @@
     "amount": 25,
     "date": "7/31/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2670,7 +2670,7 @@
     "amount": 50,
     "date": "10/25/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2681,7 +2681,7 @@
     "amount": 50,
     "date": "10/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2692,7 +2692,7 @@
     "amount": 50,
     "date": "10/3/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2703,7 +2703,7 @@
     "amount": 200,
     "date": "11/01/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2714,7 +2714,7 @@
     "amount": 200,
     "date": "11/01/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2725,7 +2725,7 @@
     "amount": 200,
     "date": "2/22/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2736,7 +2736,7 @@
     "amount": 250,
     "date": "3/13/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2747,7 +2747,7 @@
     "amount": 250,
     "date": "5/31/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2758,7 +2758,7 @@
     "amount": 100,
     "date": "3/6/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2769,7 +2769,7 @@
     "amount": 100,
     "date": "2/12/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2780,7 +2780,7 @@
     "amount": 50,
     "date": "6/5/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2791,7 +2791,7 @@
     "amount": 50,
     "date": "4/19/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2802,7 +2802,7 @@
     "amount": 75,
     "date": "6/21/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2813,7 +2813,7 @@
     "amount": 30,
     "date": "6/26/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2824,7 +2824,7 @@
     "amount": 40,
     "date": "5/30/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2835,7 +2835,7 @@
     "amount": 100,
     "date": "9/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2846,7 +2846,7 @@
     "amount": 100,
     "date": "5/27/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2857,7 +2857,7 @@
     "amount": 100,
     "date": "4/22/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2868,7 +2868,7 @@
     "amount": 100,
     "date": "1/29/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2879,7 +2879,7 @@
     "amount": 100,
     "date": "12/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2890,7 +2890,7 @@
     "amount": 100,
     "date": "12/2/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2901,7 +2901,7 @@
     "amount": 100,
     "date": "10/10/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2912,7 +2912,7 @@
     "amount": 100,
     "date": "10/10/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2923,7 +2923,7 @@
     "amount": 100,
     "date": "9/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2934,7 +2934,7 @@
     "amount": 100,
     "date": "9/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2945,7 +2945,7 @@
     "amount": 100,
     "date": "8/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2956,7 +2956,7 @@
     "amount": 100,
     "date": "7/13/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2967,7 +2967,7 @@
     "amount": 100,
     "date": "7/13/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2978,7 +2978,7 @@
     "amount": 100,
     "date": "5/30/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -2989,7 +2989,7 @@
     "amount": 100,
     "date": "4/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3000,7 +3000,7 @@
     "amount": 100,
     "date": "3/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3011,7 +3011,7 @@
     "amount": 100,
     "date": "2/9/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3022,7 +3022,7 @@
     "amount": 100,
     "date": "1/19/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3033,7 +3033,7 @@
     "amount": 100,
     "date": "6/26/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3044,7 +3044,7 @@
     "amount": 200,
     "date": "6/6/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3055,7 +3055,7 @@
     "amount": 200,
     "date": "3/18/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3066,7 +3066,7 @@
     "amount": 25,
     "date": "12/17/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3077,7 +3077,7 @@
     "amount": 25,
     "date": "11/17/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3088,7 +3088,7 @@
     "amount": 25,
     "date": "11/17/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3099,7 +3099,7 @@
     "amount": 25,
     "date": "10/17/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3110,7 +3110,7 @@
     "amount": 25,
     "date": "10/17/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3121,7 +3121,7 @@
     "amount": 25,
     "date": "9/17/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3132,7 +3132,7 @@
     "amount": 25,
     "date": "8/17/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3143,7 +3143,7 @@
     "amount": 25,
     "date": "7/17/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3154,7 +3154,7 @@
     "amount": 250,
     "date": "5/15/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3165,7 +3165,7 @@
     "amount": 250,
     "date": "9/13/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3176,7 +3176,7 @@
     "amount": 250,
     "date": "9/13/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3187,7 +3187,7 @@
     "amount": 100,
     "date": "10/11/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3198,7 +3198,7 @@
     "amount": 100,
     "date": "9/13/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3209,7 +3209,7 @@
     "amount": 50,
     "date": "7/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3220,7 +3220,7 @@
     "amount": 50,
     "date": "10/29/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3231,7 +3231,7 @@
     "amount": 50,
     "date": "10/29/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3242,7 +3242,7 @@
     "amount": 100,
     "date": "11/01/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3253,7 +3253,7 @@
     "amount": 100,
     "date": "10/25/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3264,7 +3264,7 @@
     "amount": 10,
     "date": "10/3/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3275,7 +3275,7 @@
     "amount": 10,
     "date": "7/6/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3286,7 +3286,7 @@
     "amount": 100,
     "date": "6/28/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3297,7 +3297,7 @@
     "amount": 250,
     "date": "5/8/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3308,7 +3308,7 @@
     "amount": 250,
     "date": "8/2/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3319,7 +3319,7 @@
     "amount": 50,
     "date": "12/29/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3330,7 +3330,7 @@
     "amount": 50,
     "date": "12/29/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3341,7 +3341,7 @@
     "amount": 50,
     "date": "11/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3352,7 +3352,7 @@
     "amount": 50,
     "date": "9/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3363,7 +3363,7 @@
     "amount": 50,
     "date": "8/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3374,7 +3374,7 @@
     "amount": 50,
     "date": "6/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3385,7 +3385,7 @@
     "amount": 50,
     "date": "4/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3396,7 +3396,7 @@
     "amount": 50,
     "date": "3/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3407,7 +3407,7 @@
     "amount": 50,
     "date": "2/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3418,7 +3418,7 @@
     "amount": 50,
     "date": "1/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3429,7 +3429,7 @@
     "amount": 50,
     "date": "6/23/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3440,7 +3440,7 @@
     "amount": 50,
     "date": "5/23/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3451,7 +3451,7 @@
     "amount": 50,
     "date": "4/23/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3462,7 +3462,7 @@
     "amount": 50,
     "date": "7/23/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3473,7 +3473,7 @@
     "amount": 100,
     "date": "10/30/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3484,7 +3484,7 @@
     "amount": 200,
     "date": "12/19/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3495,7 +3495,7 @@
     "amount": 200,
     "date": "10/11/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3506,7 +3506,7 @@
     "amount": 200,
     "date": "10/11/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3517,7 +3517,7 @@
     "amount": 100,
     "date": "7/21/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3528,7 +3528,7 @@
     "amount": 150,
     "date": "11/02/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3539,7 +3539,7 @@
     "amount": 202,
     "date": "3/9/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3550,7 +3550,7 @@
     "amount": 50,
     "date": "2/9/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3561,7 +3561,7 @@
     "amount": 150,
     "date": "3/20/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3572,7 +3572,7 @@
     "amount": 250,
     "date": "3/24/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3583,7 +3583,7 @@
     "amount": 200,
     "date": "11/21/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3594,7 +3594,7 @@
     "amount": 200,
     "date": "11/21/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3605,7 +3605,7 @@
     "amount": 100,
     "date": "5/16/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3616,7 +3616,7 @@
     "amount": 900,
     "date": "10/12/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -3627,7 +3627,7 @@
     "amount": 25000,
     "date": "2/3/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -3638,7 +3638,7 @@
     "amount": 1000,
     "date": "7/20/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3649,7 +3649,7 @@
     "amount": 500,
     "date": "5/9/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3660,7 +3660,7 @@
     "amount": 25000,
     "date": "10/5/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -3671,7 +3671,7 @@
     "amount": 25000,
     "date": "10/5/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -3682,7 +3682,7 @@
     "amount": 5000,
     "date": "7/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3693,7 +3693,7 @@
     "amount": 500,
     "date": "8/8/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3704,7 +3704,7 @@
     "amount": 1000,
     "date": "1/18/2018",
     "year": 2018,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -3715,7 +3715,7 @@
     "amount": 500,
     "date": "7/15/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3726,7 +3726,7 @@
     "amount": 25000,
     "date": "2/20/2018",
     "year": 2018,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -3737,7 +3737,7 @@
     "amount": 1000,
     "date": "11/01/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3748,7 +3748,7 @@
     "amount": 1000,
     "date": "10/11/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3759,7 +3759,7 @@
     "amount": 1000,
     "date": "1/8/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3770,7 +3770,7 @@
     "amount": 25000,
     "date": "10/6/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3781,7 +3781,7 @@
     "amount": 12500,
     "date": "2/17/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -3792,7 +3792,7 @@
     "amount": 25000,
     "date": "2/20/2018",
     "year": 2018,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -3803,7 +3803,7 @@
     "amount": 12500,
     "date": "2/17/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -3814,7 +3814,7 @@
     "amount": 25000,
     "date": "2/20/2018",
     "year": 2018,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -3825,7 +3825,7 @@
     "amount": 1000,
     "date": "12/12/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3836,7 +3836,7 @@
     "amount": 450,
     "date": "10/12/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -3847,7 +3847,7 @@
     "amount": 500,
     "date": "12/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3858,7 +3858,7 @@
     "amount": 1000,
     "date": "10/19/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3869,7 +3869,7 @@
     "amount": 1000,
     "date": "2/28/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3880,7 +3880,7 @@
     "amount": 25000,
     "date": "5/17/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -3891,7 +3891,7 @@
     "amount": 350,
     "date": "3/30/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3902,7 +3902,7 @@
     "amount": 25000,
     "date": "8/1/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3913,7 +3913,7 @@
     "amount": 25000,
     "date": "2/7/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -3924,7 +3924,7 @@
     "amount": 10000,
     "date": "8/11/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -3935,7 +3935,7 @@
     "amount": 10000,
     "date": "8/11/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3946,7 +3946,7 @@
     "amount": 5000,
     "date": "11/28/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3957,7 +3957,7 @@
     "amount": 50000,
     "date": "9/25/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3968,7 +3968,7 @@
     "amount": 500,
     "date": "11/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3979,7 +3979,7 @@
     "amount": 500,
     "date": "10/24/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -3990,7 +3990,7 @@
     "amount": 500,
     "date": "10/24/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4001,7 +4001,7 @@
     "amount": 25000,
     "date": "6/26/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4012,7 +4012,7 @@
     "amount": 25000,
     "date": "6/27/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4023,7 +4023,7 @@
     "amount": 25000,
     "date": "1/30/2018",
     "year": 2018,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4034,7 +4034,7 @@
     "amount": 25000,
     "date": "2/10/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4045,7 +4045,7 @@
     "amount": 300,
     "date": "3/20/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4056,7 +4056,7 @@
     "amount": 25000,
     "date": "5/16/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4067,7 +4067,7 @@
     "amount": 450,
     "date": "9/26/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4078,7 +4078,7 @@
     "amount": 25000,
     "date": "8/11/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4089,7 +4089,7 @@
     "amount": 500,
     "date": "7/27/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4100,7 +4100,7 @@
     "amount": 500,
     "date": "9/12/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4111,7 +4111,7 @@
     "amount": 500,
     "date": "7/31/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4122,7 +4122,7 @@
     "amount": 500,
     "date": "2/20/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4133,7 +4133,7 @@
     "amount": 500,
     "date": "11/7/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4144,7 +4144,7 @@
     "amount": 450,
     "date": "9/25/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4155,7 +4155,7 @@
     "amount": 500,
     "date": "7/27/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4166,7 +4166,7 @@
     "amount": 100000,
     "date": "4/7/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4177,7 +4177,7 @@
     "amount": 25000,
     "date": "8/14/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4188,7 +4188,7 @@
     "amount": 1000,
     "date": "8/1/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4199,7 +4199,7 @@
     "amount": 6295,
     "date": "7/25/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4210,7 +4210,7 @@
     "amount": 25000,
     "date": "8/4/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4221,7 +4221,7 @@
     "amount": 25000,
     "date": "2/20/2018",
     "year": 2018,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4232,7 +4232,7 @@
     "amount": 25000,
     "date": "3/31/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4243,7 +4243,7 @@
     "amount": 10000,
     "date": "8/22/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4254,7 +4254,7 @@
     "amount": 5000,
     "date": "6/18/2018",
     "year": 2018,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4265,7 +4265,7 @@
     "amount": 5000,
     "date": "12/21/2017",
     "year": 2017,
-    "party": "DEM"
+    "organization": "DGA"
   },
   {
     "button": "",
@@ -4276,7 +4276,7 @@
     "amount": 450,
     "date": "10/25/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4287,7 +4287,7 @@
     "amount": 25000,
     "date": "6/7/2018",
     "year": 2018,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4298,7 +4298,7 @@
     "amount": 25000,
     "date": "10/3/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4309,7 +4309,7 @@
     "amount": 25000,
     "date": "6/8/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4320,7 +4320,7 @@
     "amount": 25000,
     "date": "12/7/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4331,7 +4331,7 @@
     "amount": 25000,
     "date": "12/21/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4342,7 +4342,7 @@
     "amount": 11121,
     "date": "7/25/2017",
     "year": 2017,
-    "party": "REP"
+    "organization": "RGA"
   },
   {
     "button": "",
@@ -4353,6 +4353,6 @@
     "amount": 10000,
     "date": "4/6/2018",
     "year": 2018,
-    "party": "REP"
+    "organization": "RGA"
   }
 ]
