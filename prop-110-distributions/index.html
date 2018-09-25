@@ -26,14 +26,13 @@
     <style>
     body {
         background-color: #fafafa;
+        font-family: 'Roboto', sans-serif;
     }
 
     .table-title {
-        font-family: 'Roboto', sans-serif;
-    }
-
-    .body-text {
-        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 1.75em;
+        line-height: 120%;
     }
 
     #filters {
@@ -61,20 +60,6 @@
         font-size: .85rem;
     }
 
-    .dem {
-        background-color: lightblue;
-        width: 15px;
-        height: 15px;
-        margin-left: .5em;
-    }
-
-    .rep {
-        background-color: red;
-        width: 15px;
-        height: 15px;
-        margin-left: .5em;
-    }
-
     .yadcf-filter-range {
         height: 2.9em;
         border: 1px solid silver;
@@ -92,8 +77,8 @@
     <div id="prop-110-table-container">
         <div class="row">
             <div class="large-12 columns">
-                <h2 class="body-text">Title will go here and here and here</h2>
-                <p class="table-title">Chatter will go here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here and here. <strong>And let's mention the source of the data and link to it if possible</strong>.</p>
+                <h2 class="table-title">Big funding boost for cities and counties</h2>
+                <p>Proposition 110 on Colorado's Nov. 6 ballot would increase the 2.9 percent state sales tax by 0.62 percentage points. Forty percent of proceeds &mdash; or an estimated $307 million in the first year &mdash; would go to counties and incorporated cities and towns across the state, for use on transportation-related projects and maintenance. <em>Click column headers to sort data; use dropdown menu to filter by city or county. <strong>Source: <a href="https://docs.google.com/spreadsheets/d/10geMvklj_RFHsX8MaF3ZMQKWfmxLmpbdUFJRmXOqDlQ/edit#gid=1314871589">Let's Go Colorado campaign</a></strong></em></p>
             </div>
         </div>
         <div id="filters">
@@ -110,9 +95,8 @@
                             <th></th>
                             <th data-priority="1">Location</th>
                             <th data-priority="">Designation</th>
-                            <th data-priority="2">Current</th>
-                            <th data-priority="3">Tax increase</th>
-                            <th data-priority="4">Tax increase future</th>
+                            <th data-priority="3">1st-year tax share</th>
+                            <th data-priority="4">Projected 20-year share</th>
                         </tr>
                     </thead>
                     <tfoot>
@@ -172,10 +156,6 @@
                 { 
                     data: 'designation',
                     visible: false
-                },
-                {
-                    data: 'currentDistributions',
-                    render: $.fn.dataTable.render.number(',', '.', 0, '$')
                 },
                 {
                     data: 'taxIncrease',
