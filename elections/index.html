@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Colorado Donors: Republican and Democratic Governors Association | The Denver Post</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/responsive/2.2.1/css/responsive.foundation.min.css" />
+    <!-- <link rel="stylesheet" href="jquery.dataTables.yadcf.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.foundation.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <script src="//cdn.datatables.net/plug-ins/1.10.16/dataRender/datetime.js"></script>
+    <script src="//cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+    <script src="//cdn.datatables.net/responsive/2.2.1/js/responsive.foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
+    <style>
+    body {
+        background-color: #fafafa;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .table-title {
+        line-height: 125%;
+        font-weight: 700;
+    }
+
+    .instructions-text {
+        color: red;
+        font-size: .8em;
+        font-style: italic;
+        text-align: center;
+    }
+
+    #filters {
+        font-size: .85rem;
+    }
+
+    #rga-donor-table-container {
+        margin-top: 10px;
+        padding: 3px;
+    }
+
+    #rga-donor-table {
+        font-size: .85rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    button.yadcf-filter-reset-button {
+        color: red;
+        margin-left: 10px;
+    }
+
+    select {
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-size: .85rem;
+    }
+
+    .dem {
+        background-color: lightblue;
+        /*width: 15px;
+        height: 15px;
+        margin-left: .5em;*/
+    }
+
+    .rep {
+        background-color: red;
+        /*width: 15px;
+        height: 15px;
+        margin-left: .5em;*/
+    }
+
+    .yadcf-filter-range {
+        height: 2.9em;
+        border: 1px solid silver;
+    }
+
+    .filter-text {
+        font-weight: bold;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="rga-donor-table-container">
+        <div class="row">
+            <div class="large-12 columns">
+                <h2 class="table-title">Colorado donors to the Republican Governors Association and Democratic Governors Association</h2>
+                <p class="body-text">The <a href="https://www.rga.org/" target="_top">Republican Governors Association</a> and the <a href="https://democraticgovernors.org/" target="_top">Democratic Governors Association</a> &mdash; advocacy groups called <a href="https://www.opensecrets.org/527s/" target="_top">527 organizations</a> that can raise unlimited money from donors and report their contributions and expenditures to the IRS &mdash; are putting money into the Colorado governor's race. This database shows the companies and individuals from Colorado who have donated from Jan. 1, 2017, through June 30, 2018. <em>Note: Individuals who donated less than $300 are listed with the name "Individual." <strong>Source: <a href="https://www.irs.gov/charities-non-profits/political-organizations/political-organization-filing-and-disclosure" target="_top">Internal Revenue Service</a></strong></em></p>
+                <p class="instructions-text">Use dropdown menus to filter table; click column headers to sort</p>
+            </div>
+        </div>
+        <div id="filters">
+            <div class="row">
+                <div class="large-6 medium-6 small-6 columns">
+                    <span id="party-filter" style="font-weight: bold;"></span>
+                </div>
+                <div class="large-6 medium-6 small-6 columns">
+                    <span id="donor-name-filter" style="font-weight: bold;"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-6 medium-6 small-6 columns">
+                    <span id="city-filter" style="font-weight: bold;"></span>
+                </div>
+                <div class="large-6 medium-6 small-6 columns">
+                    <span id="year-filter" style="font-weight: bold;"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-6 small-12 left columns">
+                <p class="filter-text">Filter by amount</p>
+                    <span id="amount-filter" style="font-weight: bold;"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <table id="rga-donor-table" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <!-- <th></th> -->
+                            <th data-priority="3">County</th>
+                            <th data-priority="">Org</th>
+                            <th data-priority="1">Name</th>
+                            <th data-priority="2">Amount</th>
+                            <th data-priority="4">Date</th>
+                            <th data-priority="5">City</th>
+                            <th data-priority="6">Occupation</th>
+                            <th data-priority="7">Employer</th>
+                            <th data-priority="">Year</th>
+                            <th data-priority="">Year</th>
+                            <th data-priority="">Year</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                    </tfoot>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script>
+    var dataFile = 'colorado-election-results.json'
+
+    $(document).ready(function() {
+        function disableDependentFilter(level, inuse) {
+            if (level < 4) {
+                filter = $('#yadcf-filter--example-' + level);
+                yadcf.exResetFilters(rgaDonorTable, [level]);
+                filter.prop('disabled', !inuse);
+
+                disableDependentFilter(level + 1, false);
+            }
+        }
+
+        var rgaDonorTable = $('#rga-donor-table').DataTable({
+            ajax: {
+                'url': dataFile,
+                'dataSrc': ''
+            },
+            pageLength: 15,
+            responsive: {
+                details: {
+                    type: 'column'
+                }
+            },
+            dom: '<if<t>lp>',
+            columnDefs: [{
+                className: 'control',
+                orderable: false,
+                targets: null
+            }],
+            order: [
+                [3, 'desc']
+            ],
+            columns: [
+                //{ data: 'button' },
+                {
+                    data: 'county',
+                    render: function(data, type, row) {
+                        if (data == 'ADAMS') {
+                            return '<div class="dem">' + data + '</div>'
+                        } else //if (data == 'REP') {
+                            return '<div class="rep">' + data + '</div>'
+                        //}
+                    }
+                },
+                { data: '2018GovVotes' },
+                {
+                    data: '2018GovPct'
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                },
+                {
+                    data: '2016PrezVotes'
+                    //type: 'date'
+                },
+                { data: '2016PrezPct' },
+                { data: '2016SenVotes' },
+                { data: '2016SenPct' },
+                {
+                    data: '2014SenVotes'
+                    //visible: false
+                },
+                { data: '2014SenPct' },
+                { data: '2014GovVotes' },
+                { data: '2014GovPct'}
+            ],
+
+            initComplete: function() {
+                yadcf.init(rgaDonorTable, [{
+                        column_number: 1,
+                        filter_container_id: 'party-filter',
+                        filter_default_label: 'Filter by organization'
+                    }, {
+                        column_number: 2,
+                        filter_container_id: 'donor-name-filter',
+                        filter_default_label: 'Filter by donor'
+                    }, {
+                        column_number: 3,
+                        filter_container_id: 'amount-filter',
+                        // column_data_type: 'rendered_html',
+                        filter_type: 'range_number'
+                    },
+                    {
+                        column_number: 5,
+                        filter_container_id: 'city-filter',
+                        filter_default_label: 'Filter by city'
+                    },
+                    {
+                        column_number: 8,
+                        filter_container_id: 'year-filter',
+                        filter_default_label: 'Filter by year'
+                    }
+                ], {
+                    cumulative_filtering: true,
+                    filter_reset_button_text: 'Reset filter'
+                });
+
+                // get it started
+                disableDependentFilter(1, true);
+
+                $('.yadcf-filter-reset-button').on('click', function() {
+                    level = parseInt(this.id.split('-')[4]);
+                    disableDependentFilter(level, true);
+                });
+
+                $('.yadcf-filter').on('change', function() {
+                    level = parseInt(this.id.slice(-1));
+                    inuse = $(this).hasClass('inuse');
+
+                    disableDependentFilter(level + 1, inuse);
+                });
+            }
+        });
+    });
+    </script>
+</body>
+
+</html>
