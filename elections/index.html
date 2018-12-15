@@ -33,6 +33,10 @@
         font-weight: 700;
     }
 
+    table tr:nth-of-type(even) {
+        background-color: transparent !important;
+    }
+
     .instructions-text {
         color: red;
         font-size: .8em;
@@ -132,16 +136,16 @@
                         <tr>
                             <!-- <th></th> -->
                             <th data-priority="3">County</th>
-                            <th data-priority="">GovVotes2018</th>
-                            <th data-priority="1">2</th>
-                            <th data-priority="2">3</th>
-                            <th data-priority="4">4</th>
-                            <th data-priority="5">5</th>
-                            <th data-priority="6">6</th>
+                            <th data-priority="">G18</th>
+                            <th data-priority="1">P16</th>
+                            <th data-priority="2">S16</th>
+                            <th data-priority="4">S14</th>
+                            <th data-priority="5">G14</th>
+                            <!-- <th data-priority="6">6</th>
                             <th data-priority="7">7</th>
                             <th data-priority="">8</th>
                             <th data-priority="">9</th>
-                            <th data-priority="">10</th>
+                            <th data-priority="">10</th> -->
                         </tr>
                     </thead>
                     <tfoot>
@@ -179,16 +183,71 @@
             },
             dom: '<if<t>lp>',
             rowCallback: function(row, data, index) {
-                if (data.GovVotes2018 > 100000) {
-                    $(row).find('td:eq(1)').css('background-color', 'red');
-                } else if (data.GovVotes2018 > 50000) {
-                    $(row).find('td:eq(1)').css('background-color', 'blue');
-                } else if (data.GovVotes2018 > 10000) {
-                    $(row).find('td:eq(1)').css('background-color', 'lightblue');
+                if (data.govPct2018 > 70) {
+                    $(row).find('td:eq(1)').css('background-color', 'rgba(53, 121, 168,.8');
+                } else if (data.govPct2018 > 55) {
+                    $(row).find('td:eq(1)').css('background-color', 'rgba(53, 121, 168,.5');
+                } else if (data.govPct2018 > 50) {
+                    $(row).find('td:eq(1)').css('background-color', 'rgba(53, 121, 168,.2');
+                } else if (data.govPct2018 > 45) {
+                    $(row).find('td:eq(1)').css('background-color', 'rgba(220, 81, 71,.2');
+                } else if (data.govPct2018 > 30) {
+                    $(row).find('td:eq(1)').css('background-color', 'rgba(220, 81, 71,.5');
+                } else {
+                    $(row).find('td:eq(1)').css('background-color', 'rgba(220, 81, 71,.8');
                 };
-                if (data.county == 'DENVER') {
-                    $(row).find('td:eq(0)').css('background-color', 'green');
-                }
+                if (data.prezPct2016 > 70) {
+                    $(row).find('td:eq(2)').css('background-color', 'rgba(53, 121, 168,.8');
+                } else if (data.prezPct2016 > 55) {
+                    $(row).find('td:eq(2)').css('background-color', 'rgba(53, 121, 168,.5');
+                } else if (data.prezPct2016 > 50) {
+                    $(row).find('td:eq(2)').css('background-color', 'rgba(53, 121, 168,.2');
+                } else if (data.prezPct2016 > 45) {
+                    $(row).find('td:eq(2)').css('background-color', 'rgba(220, 81, 71,.2');
+                } else if (data.prezPct2016 > 30) {
+                    $(row).find('td:eq(2)').css('background-color', 'rgba(220, 81, 71,.5');
+                } else {
+                    $(row).find('td:eq(2)').css('background-color', 'rgba(220, 81, 71,.8');
+                };
+                if (data.senPct2016 > 70) {
+                    $(row).find('td:eq(3)').css('background-color', 'rgba(53, 121, 168,.8');
+                } else if (data.senPct2016 > 55) {
+                    $(row).find('td:eq(3)').css('background-color', 'rgba(53, 121, 168,.5');
+                } else if (data.senPct2016 > 50) {
+                    $(row).find('td:eq(3)').css('background-color', 'rgba(53, 121, 168,.2');
+                } else if (data.senPct2016 > 45) {
+                    $(row).find('td:eq(3)').css('background-color', 'rgba(220, 81, 71,.2');
+                } else if (data.senPct2016 > 30) {
+                    $(row).find('td:eq(3)').css('background-color', 'rgba(220, 81, 71,.5');
+                } else {
+                    $(row).find('td:eq(3)').css('background-color', 'rgba(220, 81, 71,.8');
+                };
+                if (data.senPct2014 > 70) {
+                    $(row).find('td:eq(4)').css('background-color', 'rgba(53, 121, 168,.8');
+                } else if (data.senPct2014 > 55) {
+                    $(row).find('td:eq(4)').css('background-color', 'rgba(53, 121, 168,.5');
+                } else if (data.senPct2014 > 50) {
+                    $(row).find('td:eq(4)').css('background-color', 'rgba(53, 121, 168,.2');
+                } else if (data.senPct2014 > 45) {
+                    $(row).find('td:eq(4)').css('background-color', 'rgba(220, 81, 71,.2');
+                } else if (data.senPct2014 > 30) {
+                    $(row).find('td:eq(4)').css('background-color', 'rgba(220, 81, 71,.5');
+                } else {
+                    $(row).find('td:eq(4)').css('background-color', 'rgba(220, 81, 71,.8');
+                };
+                if (data.govPct2014 > 70) {
+                    $(row).find('td:eq(5)').css('background-color', 'rgba(53, 121, 168,.8');
+                } else if (data.govPct2014 > 55) {
+                    $(row).find('td:eq(5)').css('background-color', 'rgba(53, 121, 168,.5');
+                } else if (data.govPct2014 > 50) {
+                    $(row).find('td:eq(5)').css('background-color', 'rgba(53, 121, 168,.2');
+                } else if (data.govPct2014 > 45) {
+                    $(row).find('td:eq(5)').css('background-color', 'rgba(220, 81, 71,.2');
+                } else if (data.govPct2014 > 30) {
+                    $(row).find('td:eq(5)').css('background-color', 'rgba(220, 81, 71,.5');
+                } else {
+                    $(row).find('td:eq(5)').css('background-color', 'rgba(220, 81, 71,.8');
+                };
             },
             columnDefs: [{
                 //className: 'control',
@@ -210,8 +269,16 @@
                 // }
             }],
             order: [
-                [3, 'desc']
+                [0, 'asc']
             ],
+            // target: 1,
+            // data: 'govPct2018',
+            // render: function(data, type, row, meta) {
+            //     console.log(data);
+            //     //return type === 'display' && data.length > 40 ?
+            //     // '<span title="' + data + '">' + data.substr(0, 38) + '...</span>' :
+            //     // data;
+            // },
             columns: [
                 //{ data: 'button' },
                 // {
@@ -241,25 +308,77 @@
                 //     }
                 // },
                 { data: 'county' },
-                { data: 'GovVotes2018' },
+                //{ data: 'GovVotes2018' },
                 {
-                    data: '2018GovPct'
-                    //render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                    data: 'govPct2018',
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                    render: function(data, type, row) {
+                        //return Math.round(data) + '%';
+                        if (data < 50) {
+                            return Math.round((100 - data)) + '%'
+                        } else {
+                            return Math.round(data) + '%'
+                        }
+                    }
                 },
+                // {
+                //     data: '2016PrezVotes'
+                //     //type: 'date'
+                // },
                 {
-                    data: '2016PrezVotes'
-                    //type: 'date'
+                    data: 'prezPct2016',
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%')
+                    render: function(data, type, row) {
+                        //return Math.round(data) + '%';
+                        if (data < 50) {
+                            return Math.round((100 - data)) + '%'
+                        } else {
+                            return Math.round(data) + '%'
+                        }
+                    }
                 },
-                { data: '2016PrezPct' },
-                { data: '2016SenVotes' },
-                { data: '2016SenPct' },
+                //{ data: '2016SenVotes' },
                 {
-                    data: '2014SenVotes'
-                    //visible: false
+                    data: 'senPct2016',
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%')
+                    render: function(data, type, row) {
+                        //return Math.round(data) + '%';
+                        if (data < 50) {
+                            return Math.round((100 - data)) + '%'
+                        } else {
+                            return Math.round(data) + '%'
+                        }
+                    }
                 },
-                { data: '2014SenPct' },
-                { data: '2014GovVotes' },
-                { data: '2014GovPct' }
+                // {
+                //     data: '2014SenVotes'
+                //     //visible: false
+                // },
+                {
+                    data: 'senPct2014',
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%')
+                    render: function(data, type, row) {
+                        //return Math.round(data) + '%';
+                        if (data < 50) {
+                            return Math.round((100 - data)) + '%'
+                        } else {
+                            return Math.round(data) + '%'
+                        }
+                    }
+                },
+                //{ data: '2014GovVotes' },
+                {
+                    data: 'govPct2014',
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%')
+                    render: function(data, type, row) {
+                        //return Math.round(data) + '%';
+                        if (data < 50) {
+                            return Math.round((100 - data)) + '%'
+                        } else {
+                            return Math.round(data) + '%'
+                        }
+                    }
+                }
             ],
 
             initComplete: function() {
