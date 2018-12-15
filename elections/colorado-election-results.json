@@ -1,7 +1,7 @@
 [
   {
     "county": "ADAMS",
-    "2018GovVotes": 93449,
+    "GovVotes2018": 93449,
     "2018GovPct": 57.3609389,
     "2016PrezVotes": 96558,
     "2016PrezPct": 54.66372283,
@@ -14,7 +14,7 @@
   },
   {
     "county": "ALAMOSA",
-    "2018GovVotes": 3039,
+    "GovVotes2018": 3039,
     "2018GovPct": 52.99040976,
     "2016PrezVotes": 3189,
     "2016PrezPct": 51.14675221,
@@ -27,7 +27,7 @@
   },
   {
     "county": "ARAPAHOE",
-    "2018GovVotes": 155056,
+    "GovVotes2018": 155056,
     "2018GovPct": 59.20676317,
     "2016PrezVotes": 159885,
     "2016PrezPct": 57.73313883,
@@ -40,7 +40,7 @@
   },
   {
     "county": "ARCHULETA",
-    "2018GovVotes": 2800,
+    "GovVotes2018": 2800,
     "2018GovPct": 42.83965728,
     "2016PrezVotes": 2500,
     "2016PrezPct": 36.96037847,
@@ -53,7 +53,7 @@
   },
   {
     "county": "BACA",
-    "2018GovVotes": 331,
+    "GovVotes2018": 331,
     "2018GovPct": 18.54341737,
     "2016PrezVotes": 283,
     "2016PrezPct": 13.89980354,
@@ -66,7 +66,7 @@
   },
   {
     "county": "BENT",
-    "2018GovVotes": 638,
+    "GovVotes2018": 638,
     "2018GovPct": 36.83602771,
     "2016PrezVotes": 590,
     "2016PrezPct": 33.18335208,
@@ -79,7 +79,7 @@
   },
   {
     "county": "BOULDER",
-    "2018GovVotes": 133116,
+    "GovVotes2018": 133116,
     "2018GovPct": 77.60101201,
     "2016PrezVotes": 132334,
     "2016PrezPct": 76.17222126,
@@ -92,7 +92,7 @@
   },
   {
     "county": "BROOMFIELD",
-    "2018GovVotes": 21405,
+    "GovVotes2018": 21405,
     "2018GovPct": 61.17986681,
     "2016PrezVotes": 19731,
     "2016PrezPct": 57.86556396,
@@ -105,7 +105,7 @@
   },
   {
     "county": "CHAFFEE",
-    "2018GovVotes": 5461,
+    "GovVotes2018": 5461,
     "2018GovPct": 52.11375131,
     "2016PrezVotes": 4888,
     "2016PrezPct": 47.55326394,
@@ -118,7 +118,7 @@
   },
   {
     "county": "CHEYENNE",
-    "2018GovVotes": 138,
+    "GovVotes2018": 138,
     "2018GovPct": 14.57233369,
     "2016PrezVotes": 132,
     "2016PrezPct": 12.48817408,
@@ -131,7 +131,7 @@
   },
   {
     "county": "CLEAR CREEK",
-    "2018GovVotes": 2932,
+    "GovVotes2018": 2932,
     "2018GovPct": 56.96522246,
     "2016PrezVotes": 2729,
     "2016PrezPct": 51.45173454,
@@ -144,7 +144,7 @@
   },
   {
     "county": "CONEJOS",
-    "2018GovVotes": 1652,
+    "GovVotes2018": 1652,
     "2018GovPct": 48.4741784,
     "2016PrezVotes": 1771,
     "2016PrezPct": 48.05970149,
@@ -157,7 +157,7 @@
   },
   {
     "county": "COSTILLA",
-    "2018GovVotes": 1012,
+    "GovVotes2018": 1012,
     "2018GovPct": 66.49145861,
     "2016PrezVotes": 1125,
     "2016PrezPct": 65.67425569,
@@ -170,7 +170,7 @@
   },
   {
     "county": "CROWLEY",
-    "2018GovVotes": 400,
+    "GovVotes2018": 400,
     "2018GovPct": 31.05590062,
     "2016PrezVotes": 339,
     "2016PrezPct": 23.90691114,
@@ -183,7 +183,7 @@
   },
   {
     "county": "CUSTER",
-    "2018GovVotes": 895,
+    "GovVotes2018": 895,
     "2018GovPct": 32.38060781,
     "2016PrezVotes": 797,
     "2016PrezPct": 27.88663401,
@@ -196,7 +196,7 @@
   },
   {
     "county": "DELTA",
-    "2018GovVotes": 4817,
+    "GovVotes2018": 4817,
     "2018GovPct": 33.18407275,
     "2016PrezVotes": 4087,
     "2016PrezPct": 25.9623936,
@@ -209,7 +209,7 @@
   },
   {
     "county": "DENVER",
-    "2018GovVotes": 238762,
+    "GovVotes2018": 238762,
     "2018GovPct": 79.87675344,
     "2016PrezVotes": 244551,
     "2016PrezPct": 79.59582217,
@@ -222,7 +222,7 @@
   },
   {
     "county": "DOLORES",
-    "2018GovVotes": 270,
+    "GovVotes2018": 270,
     "2018GovPct": 23.7258348,
     "2016PrezVotes": 242,
     "2016PrezPct": 20.40472175,
@@ -235,7 +235,7 @@
   },
   {
     "county": "DOUGLAS",
-    "2018GovVotes": 71573,
+    "GovVotes2018": 71573,
     "2018GovPct": 41.93009795,
     "2016PrezVotes": 68657,
     "2016PrezPct": 40.09636162,
@@ -248,7 +248,7 @@
   },
   {
     "county": "EAGLE",
-    "2018GovVotes": 13802,
+    "GovVotes2018": 13802,
     "2018GovPct": 63.88040359,
     "2016PrezVotes": 14099,
     "2016PrezPct": 61.06370999,
@@ -261,7 +261,7 @@
   },
   {
     "county": "EL PASO",
-    "2018GovVotes": 109154,
+    "GovVotes2018": 109154,
     "2018GovPct": 41.32116899,
     "2016PrezVotes": 108010,
     "2016PrezPct": 37.6029634,
@@ -274,7 +274,7 @@
   },
   {
     "county": "ELBERT",
-    "2018GovVotes": 3242,
+    "GovVotes2018": 3242,
     "2018GovPct": 22.99127721,
     "2016PrezVotes": 3134,
     "2016PrezPct": 21.12002156,
@@ -287,7 +287,7 @@
   },
   {
     "county": "FREMONT",
-    "2018GovVotes": 6022,
+    "GovVotes2018": 6022,
     "2018GovPct": 32.38330824,
     "2016PrezVotes": 5297,
     "2016PrezPct": 25.94152505,
@@ -300,7 +300,7 @@
   },
   {
     "county": "GARFIELD",
-    "2018GovVotes": 11791,
+    "GovVotes2018": 11791,
     "2018GovPct": 50.76419684,
     "2016PrezVotes": 11271,
     "2016PrezPct": 46.18694423,
@@ -313,7 +313,7 @@
   },
   {
     "county": "GILPIN",
-    "2018GovVotes": 1809,
+    "GovVotes2018": 1809,
     "2018GovPct": 56.25,
     "2016PrezVotes": 1634,
     "2016PrezPct": 51.0625,
@@ -326,7 +326,7 @@
   },
   {
     "county": "GRAND",
-    "2018GovVotes": 3596,
+    "GovVotes2018": 3596,
     "2018GovPct": 48.37885107,
     "2016PrezVotes": 3358,
     "2016PrezPct": 42.76617422,
@@ -339,7 +339,7 @@
   },
   {
     "county": "GUNNISON",
-    "2018GovVotes": 5526,
+    "GovVotes2018": 5526,
     "2018GovPct": 65.37324027,
     "2016PrezVotes": 5128,
     "2016PrezPct": 60.92431983,
@@ -352,7 +352,7 @@
   },
   {
     "county": "HINSDALE",
-    "2018GovVotes": 218,
+    "GovVotes2018": 218,
     "2018GovPct": 40.67164179,
     "2016PrezVotes": 197,
     "2016PrezPct": 36.75373134,
@@ -365,7 +365,7 @@
   },
   {
     "county": "HUERFANO",
-    "2018GovVotes": 1798,
+    "GovVotes2018": 1798,
     "2018GovPct": 52.191582,
     "2016PrezVotes": 1633,
     "2016PrezPct": 46.44482366,
@@ -378,7 +378,7 @@
   },
   {
     "county": "JACKSON",
-    "2018GovVotes": 176,
+    "GovVotes2018": 176,
     "2018GovPct": 23.78378378,
     "2016PrezVotes": 171,
     "2016PrezPct": 21.375,
@@ -391,7 +391,7 @@
   },
   {
     "county": "JEFFERSON",
-    "2018GovVotes": 166455,
+    "GovVotes2018": 166455,
     "2018GovPct": 56.71515164,
     "2016PrezVotes": 160776,
     "2016PrezPct": 53.77969112,
@@ -404,7 +404,7 @@
   },
   {
     "county": "KIOWA",
-    "2018GovVotes": 94,
+    "GovVotes2018": 94,
     "2018GovPct": 12.84153005,
     "2016PrezVotes": 91,
     "2016PrezPct": 11.11111111,
@@ -417,7 +417,7 @@
   },
   {
     "county": "KIT CARSON",
-    "2018GovVotes": 547,
+    "GovVotes2018": 547,
     "2018GovPct": 18.45479082,
     "2016PrezVotes": 536,
     "2016PrezPct": 15.30117043,
@@ -430,7 +430,7 @@
   },
   {
     "county": "LA PLATA",
-    "2018GovVotes": 15859,
+    "GovVotes2018": 15859,
     "2018GovPct": 57.48930617,
     "2016PrezVotes": 15525,
     "2016PrezPct": 55.22552647,
@@ -443,7 +443,7 @@
   },
   {
     "county": "LAKE",
-    "2018GovVotes": 1678,
+    "GovVotes2018": 1678,
     "2018GovPct": 62.70553064,
     "2016PrezVotes": 1616,
     "2016PrezPct": 55.99445599,
@@ -456,7 +456,7 @@
   },
   {
     "county": "LARIMER",
-    "2018GovVotes": 98361,
+    "GovVotes2018": 98361,
     "2018GovPct": 56.73702001,
     "2016PrezVotes": 93113,
     "2016PrezPct": 52.74239137,
@@ -469,7 +469,7 @@
   },
   {
     "county": "LAS ANIMAS",
-    "2018GovVotes": 2949,
+    "GovVotes2018": 2949,
     "2018GovPct": 49.50478429,
     "2016PrezVotes": 2650,
     "2016PrezPct": 41.66666667,
@@ -482,7 +482,7 @@
   },
   {
     "county": "LINCOLN",
-    "2018GovVotes": 358,
+    "GovVotes2018": 358,
     "2018GovPct": 18.10824482,
     "2016PrezVotes": 409,
     "2016PrezPct": 17.77488049,
@@ -495,7 +495,7 @@
   },
   {
     "county": "LOGAN",
-    "2018GovVotes": 1867,
+    "GovVotes2018": 1867,
     "2018GovPct": 22.72395326,
     "2016PrezVotes": 1851,
     "2016PrezPct": 20.26716304,
@@ -508,7 +508,7 @@
   },
   {
     "county": "MESA",
-    "2018GovVotes": 23873,
+    "GovVotes2018": 23873,
     "2018GovPct": 36.6904374,
     "2016PrezVotes": 21729,
     "2016PrezPct": 30.38680987,
@@ -521,7 +521,7 @@
   },
   {
     "county": "MINERAL",
-    "2018GovVotes": 259,
+    "GovVotes2018": 259,
     "2018GovPct": 44.80968858,
     "2016PrezVotes": 237,
     "2016PrezPct": 40.79173838,
@@ -534,7 +534,7 @@
   },
   {
     "county": "MOFFAT",
-    "2018GovVotes": 946,
+    "GovVotes2018": 946,
     "2018GovPct": 18.28372632,
     "2016PrezVotes": 874,
     "2016PrezPct": 14.14468361,
@@ -547,7 +547,7 @@
   },
   {
     "county": "MONTEZUMA",
-    "2018GovVotes": 4403,
+    "GovVotes2018": 4403,
     "2018GovPct": 38.84086097,
     "2016PrezVotes": 3973,
     "2016PrezPct": 33.59546761,
@@ -560,7 +560,7 @@
   },
   {
     "county": "MONTROSE",
-    "2018GovVotes": 5855,
+    "GovVotes2018": 5855,
     "2018GovPct": 31.95786256,
     "2016PrezVotes": 5466,
     "2016PrezPct": 27.53929867,
@@ -573,7 +573,7 @@
   },
   {
     "county": "MORGAN",
-    "2018GovVotes": 2844,
+    "GovVotes2018": 2844,
     "2018GovPct": 27.95635506,
     "2016PrezVotes": 3151,
     "2016PrezPct": 27.89483003,
@@ -586,7 +586,7 @@
   },
   {
     "county": "OTERO",
-    "2018GovVotes": 2913,
+    "GovVotes2018": 2913,
     "2018GovPct": 41.67978252,
     "2016PrezVotes": 2943,
     "2016PrezPct": 37.39042053,
@@ -599,7 +599,7 @@
   },
   {
     "county": "OURAY",
-    "2018GovVotes": 1868,
+    "GovVotes2018": 1868,
     "2018GovPct": 60.1610306,
     "2016PrezVotes": 1697,
     "2016PrezPct": 55.67585302,
@@ -612,7 +612,7 @@
   },
   {
     "county": "PARK",
-    "2018GovVotes": 3645,
+    "GovVotes2018": 3645,
     "2018GovPct": 40.06815434,
     "2016PrezVotes": 3421,
     "2016PrezPct": 35.7994977,
@@ -625,7 +625,7 @@
   },
   {
     "county": "PHILLIPS",
-    "2018GovVotes": 397,
+    "GovVotes2018": 397,
     "2018GovPct": 20.05050505,
     "2016PrezVotes": 436,
     "2016PrezPct": 19.5779075,
@@ -638,7 +638,7 @@
   },
   {
     "county": "PITKIN",
-    "2018GovVotes": 7244,
+    "GovVotes2018": 7244,
     "2018GovPct": 75.4740571,
     "2016PrezVotes": 7333,
     "2016PrezPct": 74.19811798,
@@ -651,7 +651,7 @@
   },
   {
     "county": "PROWERS",
-    "2018GovVotes": 1090,
+    "GovVotes2018": 1090,
     "2018GovPct": 27.33199599,
     "2016PrezVotes": 1186,
     "2016PrezPct": 25.14309943,
@@ -664,7 +664,7 @@
   },
   {
     "county": "PUEBLO",
-    "2018GovVotes": 33674,
+    "GovVotes2018": 33674,
     "2018GovPct": 53.26563217,
     "2016PrezVotes": 35875,
     "2016PrezPct": 49.72969227,
@@ -677,7 +677,7 @@
   },
   {
     "county": "RIO BLANCO",
-    "2018GovVotes": 488,
+    "GovVotes2018": 488,
     "2018GovPct": 16.48091861,
     "2016PrezVotes": 436,
     "2016PrezPct": 13.51100093,
@@ -690,7 +690,7 @@
   },
   {
     "county": "RIO GRANDE",
-    "2018GovVotes": 1912,
+    "GovVotes2018": 1912,
     "2018GovPct": 40.62035267,
     "2016PrezVotes": 2001,
     "2016PrezPct": 39.34329532,
@@ -703,7 +703,7 @@
   },
   {
     "county": "ROUTT",
-    "2018GovVotes": 8163,
+    "GovVotes2018": 8163,
     "2018GovPct": 63.03474903,
     "2016PrezVotes": 7600,
     "2016PrezPct": 59.23616524,
@@ -716,7 +716,7 @@
   },
   {
     "county": "SAGUACHE",
-    "2018GovVotes": 1529,
+    "GovVotes2018": 1529,
     "2018GovPct": 60.12583563,
     "2016PrezVotes": 1417,
     "2016PrezPct": 55.26521061,
@@ -729,7 +729,7 @@
   },
   {
     "county": "SAN JUAN",
-    "2018GovVotes": 271,
+    "GovVotes2018": 271,
     "2018GovPct": 61.87214612,
     "2016PrezVotes": 265,
     "2016PrezPct": 55.20833333,
@@ -742,7 +742,7 @@
   },
   {
     "county": "SAN MIGUEL",
-    "2018GovVotes": 3047,
+    "GovVotes2018": 3047,
     "2018GovPct": 76.75062972,
     "2016PrezVotes": 2975,
     "2016PrezPct": 74.22654691,
@@ -755,7 +755,7 @@
   },
   {
     "county": "SEDGWICK",
-    "2018GovVotes": 290,
+    "GovVotes2018": 290,
     "2018GovPct": 25.23933856,
     "2016PrezVotes": 267,
     "2016PrezPct": 20.82683307,
@@ -768,7 +768,7 @@
   },
   {
     "county": "SUMMIT",
-    "2018GovVotes": 9499,
+    "GovVotes2018": 9499,
     "2018GovPct": 69.12385388,
     "2016PrezVotes": 9557,
     "2016PrezPct": 65.20433922,
@@ -781,7 +781,7 @@
   },
   {
     "county": "TELLER",
-    "2018GovVotes": 3986,
+    "GovVotes2018": 3986,
     "2018GovPct": 32.15812828,
     "2016PrezVotes": 3603,
     "2016PrezPct": 26.99280791,
@@ -794,7 +794,7 @@
   },
   {
     "county": "WASHINGTON",
-    "2018GovVotes": 294,
+    "GovVotes2018": 294,
     "2018GovPct": 12.79373368,
     "2016PrezVotes": 296,
     "2016PrezPct": 11.40655106,
@@ -807,7 +807,7 @@
   },
   {
     "county": "WELD",
-    "2018GovVotes": 46653,
+    "GovVotes2018": 46653,
     "2018GovPct": 39.02743038,
     "2016PrezVotes": 46519,
     "2016PrezPct": 37.76812536,
@@ -820,7 +820,7 @@
   },
   {
     "county": "YUMA",
-    "2018GovVotes": 697,
+    "GovVotes2018": 697,
     "2018GovPct": 17.59656652,
     "2016PrezVotes": 726,
     "2016PrezPct": 15.86538462,

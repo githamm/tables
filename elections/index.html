@@ -120,7 +120,7 @@
             </div>
             <div class="row">
                 <div class="large-6 small-12 left columns">
-                <p class="filter-text">Filter by amount</p>
+                    <p class="filter-text">Filter by amount</p>
                     <span id="amount-filter" style="font-weight: bold;"></span>
                 </div>
             </div>
@@ -132,16 +132,16 @@
                         <tr>
                             <!-- <th></th> -->
                             <th data-priority="3">County</th>
-                            <th data-priority="">Org</th>
-                            <th data-priority="1">Name</th>
-                            <th data-priority="2">Amount</th>
-                            <th data-priority="4">Date</th>
-                            <th data-priority="5">City</th>
-                            <th data-priority="6">Occupation</th>
-                            <th data-priority="7">Employer</th>
-                            <th data-priority="">Year</th>
-                            <th data-priority="">Year</th>
-                            <th data-priority="">Year</th>
+                            <th data-priority="">GovVotes2018</th>
+                            <th data-priority="1">2</th>
+                            <th data-priority="2">3</th>
+                            <th data-priority="4">4</th>
+                            <th data-priority="5">5</th>
+                            <th data-priority="6">6</th>
+                            <th data-priority="7">7</th>
+                            <th data-priority="">8</th>
+                            <th data-priority="">9</th>
+                            <th data-priority="">10</th>
                         </tr>
                     </thead>
                     <tfoot>
@@ -178,27 +178,70 @@
                 }
             },
             dom: '<if<t>lp>',
+            rowCallback: function(row, data, index) {
+                if (data.GovVotes2018 > 100000) {
+                    $(row).find('td:eq(1)').css('background-color', 'red');
+                } else if (data.GovVotes2018 > 50000) {
+                    $(row).find('td:eq(1)').css('background-color', 'blue');
+                } else if (data.GovVotes2018 > 10000) {
+                    $(row).find('td:eq(1)').css('background-color', 'lightblue');
+                };
+                if (data.county == 'DENVER') {
+                    $(row).find('td:eq(0)').css('background-color', 'green');
+                }
+            },
             columnDefs: [{
-                className: 'control',
-                orderable: false,
-                targets: null
+                //className: 'control',
+                //orderable: false,
+                // targets: '1',
+                // createdCell: function(td, cellData, rowData, row, col) {
+                //     console.log(cellData);
+                //     if (cellData > 100000) {
+                //         $(td).css('background-color', 'red')
+                //     } else {
+                //         $(td).css('background-color', 'blue')
+                //     }
+                // }
+                // targets: "2",
+                // createdCell: function(td, cellData, rowData, row, col) {
+                //     if (cellData < 25) {
+                //         $(td).css('background-color', 'green')
+                //     }
+                // }
             }],
             order: [
                 [3, 'desc']
             ],
             columns: [
                 //{ data: 'button' },
-                {
-                    data: 'county',
-                    render: function(data, type, row) {
-                        if (data == 'ADAMS') {
-                            return '<div class="dem">' + data + '</div>'
-                        } else //if (data == 'REP') {
-                            return '<div class="rep">' + data + '</div>'
-                        //}
-                    }
-                },
-                { data: '2018GovVotes' },
+                // {
+                //     data: 'county',
+                //     //render: function(data, type, row) {
+                //         //console.log(data);
+                //         //if (data == 'DENVER') {
+                //             //$(row).find('td:eq(0)').css('color', 'red');
+                //         }
+                //         //if (data == 'ADAMS') {
+                //             //$(row).find('td:eq(0)').css('color', 'blue');
+                //         //}
+                //         // if (data == 'ADAMS') {
+                //         //     return '<div class="dem">' + data + '</div>'
+                //         // } else //if (data == 'REP') {
+                //         //     return '<div class="rep">' + data + '</div>'
+                //         //}
+                //     //}
+                // },
+                //{ data: 'county' },
+                // {
+                //     "data": null,
+                //     "render": function(data, type, row) {
+                //         if (row.county == 'DENVER') {
+                //             return '<td style="background-color:blue">' + data + '</td>'
+                //         }
+                //     }
+                // },
+                { data: 'county' },
+                { data: 'GovVotes2018' },
                 {
                     data: '2018GovPct'
                     //render: $.fn.dataTable.render.number(',', '.', 0, '$')
@@ -216,7 +259,7 @@
                 },
                 { data: '2014SenPct' },
                 { data: '2014GovVotes' },
-                { data: '2014GovPct'}
+                { data: '2014GovPct' }
             ],
 
             initComplete: function() {
