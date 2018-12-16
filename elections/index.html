@@ -39,17 +39,22 @@
     }
 
     tr {
-        line-height: 15px;
+        line-height: 9px;
     }
 
     td {
         border: 1px solid #c8c8c8;
+        padding-top: 12px !important;
     }
 
-    .vote-total {
+    .cell-contents {
+        color: rgba(0, 0, 0, .5);
+    }
+
+    .vote-total-container {
+        margin-top: 6px;
+        margin-bottom: -2px;
         font-size: .8em;
-        color: rgba(0, 0, 0, .6);
-        margin-top: 0;
     }
 
     .instructions-text {
@@ -333,9 +338,9 @@
                         //console.log(row.govVotes2018);
                         //return Math.round(data) + '%';
                         if (data < 50) {
-                            return Math.round((100 - row.govPct2018)) + '%<br><span class="vote-total">' + row.govVotes2018.toLocaleString() + '</span>'
+                            return '<div class="cell-contents">' + Math.round((100 - row.govPct2018)) + '%<div class="vote-total-container">' + row.govVotes2018.toLocaleString() + '</div></div>'
                         } else {
-                            return Math.round(data) + '%<br><span class="vote-total">' + row.govVotes2018.toLocaleString() + '</span>'
+                            return '<div class="cell-contents">' + Math.round(data) + '%<br><div class="vote-total-container">' + row.govVotes2018.toLocaleString() + '</div></div>'
                         };
                         // return full.FirstName + full.LastName + full.MiddleInitial;
                         // }
@@ -352,9 +357,9 @@
                         //console.log(row.govVotes2018);
                         //return Math.round(data) + '%';
                         if (data < 50) {
-                            return Math.round((100 - row.senPct2014)) + '%<br><span class="vote-total">' + row.prezVotes2016.toLocaleString() + '</span>'
+                            return '<div class="cell-contents">' + Math.round((100 - row.senPct2014)) + '%<div class="vote-total-container">' + row.prezVotes2016.toLocaleString() + '</div></div>'
                         } else {
-                            return Math.round(data) + '%<br><span class="vote-total">' + row.prezVotes2016.toLocaleString() + '</span>'
+                            return '<div class="cell-contents">' + Math.round(data) + '%<div class="vote-total-container">' + row.prezVotes2016.toLocaleString() + '</div></div>'
                         };
                         // return full.FirstName + full.LastName + full.MiddleInitial;
                         // }
@@ -368,9 +373,9 @@
                         //console.log(row.govVotes2018);
                         //return Math.round(data) + '%';
                         if (data < 50) {
-                            return Math.round((100 - row.senPct2016)) + '%<br><span class="vote-total">' + row.senVotes2016.toLocaleString() + '</span>'
+                            return '<div class="cell-contents">' + Math.round((100 - row.senPct2016)) + '%<div class="vote-total-container">' + row.senVotes2016.toLocaleString() + '</div></div>'
                         } else {
-                            return Math.round(data) + '%<br><span class="vote-total">' + row.senVotes2016.toLocaleString() + '</span>'
+                            return '<div class="cell-contents">' + Math.round(data) + '<div class="vote-total-container">' + row.senVotes2016.toLocaleString() + '</div></div>'
                         };
                         // return full.FirstName + full.LastName + full.MiddleInitial;
                         // }
@@ -387,9 +392,9 @@
                         //console.log(row.govVotes2018);
                         //return Math.round(data) + '%';
                         if (data < 50) {
-                            return Math.round((100 - row.senPct2014)) + '%<br><span class="vote-total">' + row.senVotes2014.toLocaleString() + '</span>'
+                            return '<div class="cell-contents">' + Math.round((100 - row.senPct2014)) + '%<div class="vote-total-container">' + row.senVotes2014.toLocaleString() + '</div></div>'
                         } else {
-                            return Math.round(data) + '%<br><span class="vote-total">' + row.senVotes2014.toLocaleString() + '</span>'
+                            return '<div class="cell-contents">' + Math.round(data) + '%<div class="vote-total-container">' + row.senVotes2014.toLocaleString() + '</div></div>'
                         };
                         // return full.FirstName + full.LastName + full.MiddleInitial;
                         // }
@@ -403,9 +408,9 @@
                         //console.log(row.govVotes2018);
                         //return Math.round(data) + '%';
                         if (data < 50) {
-                            return Math.round((100 - row.govPct2014)) + '%<br><span class="vote-total">' + row.govVotes2014.toLocaleString() + '</span>'
+                            return '<div class="cell-contents">' + Math.round((100 - row.govPct2014)) + '%<div class="vote-total-container">' + row.govVotes2014.toLocaleString() + '</div></div>'
                         } else {
-                            return Math.round(data) + '%<br><span class="vote-total">' + row.govVotes2014.toLocaleString() + '</span>'
+                            return '<div class="cell-contents">' + Math.round(data) + '%<div class="vote-total-container">' + row.govVotes2014.toLocaleString() + '</div></div>'
                         };
                         // return full.FirstName + full.LastName + full.MiddleInitial;
                         // }
