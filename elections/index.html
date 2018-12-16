@@ -22,6 +22,7 @@
     <script src="//cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
     <script src="//cdn.datatables.net/responsive/2.2.1/js/responsive.foundation.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.19/sorting/natural.js"></script>
     <style>
     body {
         background-color: #fafafa;
@@ -35,6 +36,20 @@
 
     table tr:nth-of-type(even) {
         background-color: transparent !important;
+    }
+
+    tr {
+        line-height: 15px;
+    }
+
+    td {
+        border: 1px solid #c8c8c8;
+    }
+
+    .vote-total {
+        font-size: .8em;
+        color: rgba(0, 0, 0, .6);
+        margin-top: 0;
     }
 
     .instructions-text {
@@ -85,7 +100,7 @@
 
     .yadcf-filter-range {
         height: 2.9em;
-        border: 1px solid silver;
+        border: 1px solid #c8c8c8;
     }
 
     .filter-text {
@@ -196,15 +211,15 @@
                 } else {
                     $(row).find('td:eq(1)').css('background-color', 'rgba(220, 81, 71,.8');
                 };
-                if (data.prezPct2016 > 70) {
+                if (data.senPct2014 > 70) {
                     $(row).find('td:eq(2)').css('background-color', 'rgba(53, 121, 168,.8');
-                } else if (data.prezPct2016 > 55) {
+                } else if (data.senPct2014 > 55) {
                     $(row).find('td:eq(2)').css('background-color', 'rgba(53, 121, 168,.5');
-                } else if (data.prezPct2016 > 50) {
+                } else if (data.senPct2014 > 50) {
                     $(row).find('td:eq(2)').css('background-color', 'rgba(53, 121, 168,.2');
-                } else if (data.prezPct2016 > 45) {
+                } else if (data.senPct2014 > 45) {
                     $(row).find('td:eq(2)').css('background-color', 'rgba(220, 81, 71,.2');
-                } else if (data.prezPct2016 > 30) {
+                } else if (data.senPct2014 > 30) {
                     $(row).find('td:eq(2)').css('background-color', 'rgba(220, 81, 71,.5');
                 } else {
                     $(row).find('td:eq(2)').css('background-color', 'rgba(220, 81, 71,.8');
@@ -250,6 +265,8 @@
                 };
             },
             columnDefs: [{
+                type: 'natural',
+                targets: [0, 1, 2, 3, 4, 5]
                 //className: 'control',
                 //orderable: false,
                 // targets: '1',
@@ -312,13 +329,16 @@
                 {
                     data: 'govPct2018',
                     //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
-                    render: function(data, type, row) {
+                    render: function(data, type, row, meta) {
+                        //console.log(row.govVotes2018);
                         //return Math.round(data) + '%';
                         if (data < 50) {
-                            return Math.round((100 - data)) + '%'
+                            return Math.round((100 - row.govPct2018)) + '%<br><span class="vote-total">' + row.govVotes2018.toLocaleString() + '</span>'
                         } else {
-                            return Math.round(data) + '%'
-                        }
+                            return Math.round(data) + '%<br><span class="vote-total">' + row.govVotes2018.toLocaleString() + '</span>'
+                        };
+                        // return full.FirstName + full.LastName + full.MiddleInitial;
+                        // }
                     }
                 },
                 // {
@@ -326,28 +346,34 @@
                 //     //type: 'date'
                 // },
                 {
-                    data: 'prezPct2016',
-                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%')
-                    render: function(data, type, row) {
+                    data: 'senPct2014',
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                    render: function(data, type, row, meta) {
+                        //console.log(row.govVotes2018);
                         //return Math.round(data) + '%';
                         if (data < 50) {
-                            return Math.round((100 - data)) + '%'
+                            return Math.round((100 - row.senPct2014)) + '%<br><span class="vote-total">' + row.prezVotes2016.toLocaleString() + '</span>'
                         } else {
-                            return Math.round(data) + '%'
-                        }
+                            return Math.round(data) + '%<br><span class="vote-total">' + row.prezVotes2016.toLocaleString() + '</span>'
+                        };
+                        // return full.FirstName + full.LastName + full.MiddleInitial;
+                        // }
                     }
                 },
                 //{ data: '2016SenVotes' },
                 {
                     data: 'senPct2016',
-                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%')
-                    render: function(data, type, row) {
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                    render: function(data, type, row, meta) {
+                        //console.log(row.govVotes2018);
                         //return Math.round(data) + '%';
                         if (data < 50) {
-                            return Math.round((100 - data)) + '%'
+                            return Math.round((100 - row.senPct2016)) + '%<br><span class="vote-total">' + row.senVotes2016.toLocaleString() + '</span>'
                         } else {
-                            return Math.round(data) + '%'
-                        }
+                            return Math.round(data) + '%<br><span class="vote-total">' + row.senVotes2016.toLocaleString() + '</span>'
+                        };
+                        // return full.FirstName + full.LastName + full.MiddleInitial;
+                        // }
                     }
                 },
                 // {
@@ -356,27 +382,33 @@
                 // },
                 {
                     data: 'senPct2014',
-                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%')
-                    render: function(data, type, row) {
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                    render: function(data, type, row, meta) {
+                        //console.log(row.govVotes2018);
                         //return Math.round(data) + '%';
                         if (data < 50) {
-                            return Math.round((100 - data)) + '%'
+                            return Math.round((100 - row.senPct2014)) + '%<br><span class="vote-total">' + row.senVotes2014.toLocaleString() + '</span>'
                         } else {
-                            return Math.round(data) + '%'
-                        }
+                            return Math.round(data) + '%<br><span class="vote-total">' + row.senVotes2014.toLocaleString() + '</span>'
+                        };
+                        // return full.FirstName + full.LastName + full.MiddleInitial;
+                        // }
                     }
                 },
                 //{ data: '2014GovVotes' },
                 {
                     data: 'govPct2014',
-                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%')
-                    render: function(data, type, row) {
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                    render: function(data, type, row, meta) {
+                        //console.log(row.govVotes2018);
                         //return Math.round(data) + '%';
                         if (data < 50) {
-                            return Math.round((100 - data)) + '%'
+                            return Math.round((100 - row.govPct2014)) + '%<br><span class="vote-total">' + row.govVotes2014.toLocaleString() + '</span>'
                         } else {
-                            return Math.round(data) + '%'
-                        }
+                            return Math.round(data) + '%<br><span class="vote-total">' + row.govVotes2014.toLocaleString() + '</span>'
+                        };
+                        // return full.FirstName + full.LastName + full.MiddleInitial;
+                        // }
                     }
                 }
             ],
