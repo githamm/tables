@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Colorado BEST Grants | The Denver Post</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/responsive/2.2.1/css/responsive.foundation.min.css" />
+    <!-- <link rel="stylesheet" href="jquery.dataTables.yadcf.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.foundation.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <script src="//cdn.datatables.net/plug-ins/1.10.16/dataRender/datetime.js"></script>
+    <script src="//cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+    <script src="//cdn.datatables.net/responsive/2.2.1/js/responsive.foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
+    <!-- <script src="jquery.dataTables.yadcf.js"></script> -->
+    <style>
+    body {
+        background-color: #fafafa;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .table-title {
+        font-weight: 700;
+        font-size: 1.75em;
+        line-height: 120%;
+    }
+
+    #filters {
+        font-size: .85rem;
+    }
+
+    #best-grants-table-container {
+        margin-top: 10px;
+        padding: 3px;
+    }
+
+    #best-grants-table {
+        font-size: .85rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    button.yadcf-filter-reset-button {
+        color: red;
+        margin-left: 10px;
+    }
+
+    select {
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-size: .85rem;
+    }
+
+    .yadcf-filter-range {
+        height: 2.9em;
+        border: 1px solid silver;
+    }
+
+    .filter-text {
+        font-weight: bold;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="best-grants-table-container">
+        <div class="row">
+            <div class="large-12 columns">
+                <h2 class="table-title">Colorado BEST grants 2014-2018</h2>
+                <p>The table shows BEST grants for the 2014-15 to 2018-19 school years, including the amount of the grant, the school district's contribution and the total project cost. <em>Click column headers to sort data; use dropdown menus to filter by year, county and/or school district. <strong>Source: <a href="https://www.cde.state.co.us/cdefinance/capconstbest" target="_blank">Colorado Department of Education</a></strong></em></p>
+            </div>
+        </div>
+        <div id="filters">
+            <div class="row">
+                <div class="large-4 columns">
+                    <span id="year-filter" style="font-weight: bold;"></span>
+                </div>
+                <div class="large-4 columns">
+                    <span id="county-filter" style="font-weight: bold;"></span>
+                </div>
+                <div class="large-4 columns">
+                    <span id="district-filter" style="font-weight: bold;"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-12 columns">
+                    <table id="best-grants-table" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th data-priority="1">Year</th>
+                                <th data-priority="2">County</th>
+                                <th data-priority="3">District</th>
+                                <th data-priority="4">Grant</th>
+                                <th data-priority="5">Contribution</th>
+                                <th data-priority="6">Total</th>
+                                <th data-priority="7">Project</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                        </tfoot>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script>
+        var dataFile = 'best-grants.json'
+
+        $(document).ready(function() {
+            function disableDependentFilter(level, inuse) {
+                if (level < 4) {
+                    filter = $('#yadcf-filter--example-' + level);
+                    yadcf.exResetFilters(bestGrantsTable, [level]);
+                    filter.prop('disabled', !inuse);
+
+                    disableDependentFilter(level + 1, false);
+                }
+            }
+
+            var bestGrantsTable = $('#best-grants-table').DataTable({
+                ajax: {
+                    'url': dataFile,
+                    'dataSrc': ''
+                },
+                pageLength: 15,
+                responsive: {
+                    details: {
+                        type: 'column'
+                    }
+                },
+                dom: '<if<t>lp>',
+                columnDefs: [{
+                    className: 'control',
+                    orderable: false,
+                    targets: 0
+                }],
+                order: [
+                    [1, 'desc']
+                ],
+                columns: [
+                    { data: 'button' },
+                    { data: 'year' },
+                    { data: 'county' },
+                    { data: 'district' },
+                    {
+                        data: 'request',
+                        render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                    },
+                    {
+                        data: 'contribution',
+                        render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                    },
+                    {
+                        data: 'total',
+                        render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                    },
+                    { data: 'projectTitle' }
+                ],
+
+                initComplete: function() {
+                    yadcf.init(bestGrantsTable, [{
+                        column_number: 1,
+                        filter_container_id: 'year-filter',
+                        filter_default_label: 'Filter by year'
+                    },
+                    {
+                        column_number: 2,
+                        filter_container_id: 'county-filter',
+                        filter_default_label: 'Filter by county'
+                    },
+                    {
+                        column_number: 3,
+                        filter_container_id: 'district-filter',
+                        filter_default_label: 'Filter by district'
+                    }], {
+                        cumulative_filtering: true,
+                        filter_reset_button_text: 'Reset filter'
+                    });
+
+                    // get it started
+                    disableDependentFilter(1, true);
+
+                    $('.yadcf-filter-reset-button').on('click', function() {
+                        level = parseInt(this.id.split('-')[1]);
+                        disableDependentFilter(level, true);
+                    });
+
+                    $('.yadcf-filter').on('change', function() {
+                        level = parseInt(this.id.slice(-1));
+                        inuse = $(this).hasClass('inuse');
+
+                        disableDependentFilter(level + 1, inuse);
+                    });
+                }
+            });
+        });
+        </script>
+</body>
+
+</html>
