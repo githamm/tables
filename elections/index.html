@@ -49,12 +49,14 @@
 
     .cell-contents {
         color: rgba(0, 0, 0, .5);
+        font-size: 1em;
     }
 
     .vote-total-container {
         margin-top: 6px;
         margin-bottom: -2px;
         font-size: .8em;
+        line-height: 105%;
     }
 
     .instructions-text {
@@ -113,6 +115,23 @@
         margin-top: .5em;
         margin-bottom: .5em;
     }
+
+    .Urban,
+    .Rural {
+        height: 4px;
+        width: 4px;
+        border-radius: 50%;
+        margin-left: 5px;
+        display: inline-block;
+    }
+
+    .Urban {
+        border: 3px solid green;
+    }
+
+    .Rural {
+        border: 3px solid gray;
+    }
     </style>
 </head>
 
@@ -144,7 +163,7 @@
             </div>
             <div class="row">
                 <div class="large-6 small-12 left columns">
-                    <p class="filter-text">Filter by amount</p>
+                    <p class="filter-text">Filter by winning votes</p>
                     <span id="amount-filter" style="font-weight: bold;"></span>
                 </div>
             </div>
@@ -159,6 +178,13 @@
                             <th data-priority="2">2016</th>
                             <th data-priortiy="3">2012</th>
                             <th data-priority="4">2008</th>
+                            <th data-priority="5">2004</th>
+                            <th data-priority="6">2000</th>
+                            <th data-priority="7">1996</th>
+                            <th data-priority="8">1992</th>
+                            <th data-priority="9">1988</th>
+                            <th data-priority="10">1984</th>
+                            <th data-priority="11">1980</th>
                         </tr>
                     </thead>
                     <tfoot>
@@ -197,7 +223,9 @@
             dom: '<if<t>lp>',
             rowCallback: function(row, data, index) {
                 function colorCells(demPct, repPct, colNum) {
-                    if ((demPct - repPct) > 20) {
+                    if (isNaN(demPct)) {
+                        $(row).find('td:eq(' + colNum + ')').css('background-color', '#fafafa');
+                    } else if ((demPct - repPct) > 20) {
                         $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(53, 121, 168,.8)');
                     } else if ((demPct - repPct) > 10) {
                         $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(53, 121, 168,.5)');
@@ -232,13 +260,62 @@
                     colorCells(demPct, repPct, 4);
                 };
 
+                function results2004() {
+                    var demPct = Math.round((data.demVotes2004 / data.totalVotes2004) * 100);
+                    var repPct = Math.round((data.repVotes2004 / data.totalVotes2004) * 100);
+                    colorCells(demPct, repPct, 5);
+                };
+
+                function results2000() {
+                    var demPct = Math.round((data.demVotes2000 / data.totalVotes2000) * 100);
+                    var repPct = Math.round((data.repVotes2000 / data.totalVotes2000) * 100);
+                    colorCells(demPct, repPct, 6);
+                };
+
+                function results1996() {
+                    var demPct = Math.round((data.demVotes1996 / data.totalVotes1996) * 100);
+                    var repPct = Math.round((data.repVotes1996 / data.totalVotes1996) * 100);
+                    colorCells(demPct, repPct, 7);
+                };
+
+                function results1992() {
+                    var demPct = Math.round((data.demVotes1992 / data.totalVotes1992) * 100);
+                    var repPct = Math.round((data.repVotes1992 / data.totalVotes1992) * 100);
+                    colorCells(demPct, repPct, 8);
+                };
+
+                function results1988() {
+                    var demPct = Math.round((data.demVotes1988 / data.totalVotes1988) * 100);
+                    var repPct = Math.round((data.repVotes1988 / data.totalVotes1988) * 100);
+                    colorCells(demPct, repPct, 9);
+                };
+
+                function results1984() {
+                    var demPct = Math.round((data.demVotes1984 / data.totalVotes1984) * 100);
+                    var repPct = Math.round((data.repVotes1984 / data.totalVotes1984) * 100);
+                    colorCells(demPct, repPct, 10);
+                };
+
+                function results1980() {
+                    var demPct = Math.round((data.demVotes1980 / data.totalVotes1980) * 100);
+                    var repPct = Math.round((data.repVotes1980 / data.totalVotes1980) * 100);
+                    colorCells(demPct, repPct, 11);
+                };
+
                 results2016();
                 results2012();
                 results2008();
+                results2004();
+                results2000();
+                results1996();
+                results1992();
+                results1988();
+                results1984();
+                results1980();
             },
             columnDefs: [{
                 type: 'natural',
-                //targets: [0, 1, 2, 3]
+                targets: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                 //className: 'control',
                 //orderable: false,
                 // targets: '1',
@@ -296,7 +373,16 @@
                 //         }
                 //     }
                 // },
-                { data: 'classification' },
+                {
+                    data: 'classification',
+                    render: function(data, type, row, meta) {
+                        if (row.classification === 'Urban') {
+                            return 'U'
+                        } else {
+                            return 'R'
+                        }
+                    }
+                },
                 { data: 'county' },
                 {
                     data: 'demVotes2016',
@@ -307,9 +393,9 @@
                         var repPct = ((row.repVotes2016 / row.totalVotes2016) * 100);
                         var pctDiff = (demPct - repPct);
                         if (demPct > repPct) {
-                            return '<div class="cell-contents">' + Math.round(demPct * 10) / 10 + '% D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + row.demVotes2016.toLocaleString() + '</div></div>'
+                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes2016.toLocaleString() + '</div></div>'
                         } else {
-                            return '<div class="cell-contents">' + Math.round(repPct * 10) / 10 + '% R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + row.repVotes2016.toLocaleString() + '</div></div>'
+                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes2016.toLocaleString() + '</div></div>'
                         }
                     }
                 },
@@ -322,9 +408,9 @@
                         var repPct = ((row.repVotes2012 / row.totalVotes2012) * 100);
                         var pctDiff = (demPct - repPct);
                         if (demPct > repPct) {
-                            return '<div class="cell-contents">' + Math.round(demPct * 10) / 10 + '% D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + row.demVotes2012.toLocaleString() + '</div></div>'
+                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes2012.toLocaleString() + '</div></div>'
                         } else {
-                            return '<div class="cell-contents">' + Math.round(repPct * 10) / 10 + '% R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + row.repVotes2012.toLocaleString() + '</div></div>'
+                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes2012.toLocaleString() + '</div></div>'
                         }
                     }
                 },
@@ -337,9 +423,126 @@
                         var repPct = ((row.repVotes2008 / row.totalVotes2008) * 100);
                         var pctDiff = (demPct - repPct);
                         if (demPct > repPct) {
-                            return '<div class="cell-contents">' + Math.round(demPct * 10) / 10 + '% D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + row.demVotes2008.toLocaleString() + '</div></div>'
+                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes2008.toLocaleString() + '</div></div>'
                         } else {
-                            return '<div class="cell-contents">' + Math.round(repPct * 10) / 10 + '% R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + row.repVotes2008.toLocaleString() + '</div></div>'
+                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes2008.toLocaleString() + '</div></div>'
+                        }
+                    }
+                },
+                {
+                    data: 'demVotes2004',
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                    render: function(data, type, row, meta) {
+                        //console.log(row);
+                        var demPct = ((row.demVotes2004 / row.totalVotes2004) * 100);
+                        var repPct = ((row.repVotes2004 / row.totalVotes2004) * 100);
+                        var pctDiff = (demPct - repPct);
+                        if (demPct > repPct) {
+                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes2004.toLocaleString() + '</div></div>'
+                        } else {
+                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes2004.toLocaleString() + '</div></div>'
+                        }
+                    }
+                },
+                {
+                    data: 'demVotes2000',
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                    render: function(data, type, row, meta) {
+                        //console.log(row);
+                        var demPct = ((row.demVotes2000 / row.totalVotes2000) * 100);
+                        var repPct = ((row.repVotes2000 / row.totalVotes2000) * 100);
+                        var pctDiff = (demPct - repPct);
+                        if (isNaN(pctDiff)) {
+                            return '<span class="cell-contents">n/a</span>'
+                        } else if (demPct > repPct) {
+                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes2000.toLocaleString() + '</div></div>'
+                        } else {
+                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes2000.toLocaleString() + '</div></div>'
+                        }
+                    }
+                },
+                {
+                    data: 'demVotes1996',
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                    render: function(data, type, row, meta) {
+                        //console.log(row);
+                        var demPct = ((row.demVotes1996 / row.totalVotes1996) * 100);
+                        var repPct = ((row.repVotes1996 / row.totalVotes1996) * 100);
+                        var pctDiff = (demPct - repPct);
+                        if (isNaN(pctDiff)) {
+                            return '<span class="cell-contents">n/a</span>'
+                        } else if (demPct > repPct) {
+                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes1996.toLocaleString() + '</div></div>'
+                        } else {
+                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes1996.toLocaleString() + '</div></div>'
+                        }
+                    }
+                },
+                {
+                    data: 'demVotes1992',
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                    render: function(data, type, row, meta) {
+                        //console.log(row);
+                        var demPct = ((row.demVotes1992 / row.totalVotes1992) * 100);
+                        var repPct = ((row.repVotes1992 / row.totalVotes1992) * 100);
+                        var pctDiff = (demPct - repPct);
+                        if (isNaN(pctDiff)) {
+                            return '<span class="cell-contents">n/a</span>'
+                        } else if (demPct > repPct) {
+                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes1992.toLocaleString() + '</div></div>'
+                        } else {
+                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes1992.toLocaleString() + '</div></div>'
+                        }
+                    }
+                },
+                {
+                    data: 'demVotes1988',
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                    render: function(data, type, row, meta) {
+                        //console.log(row);
+                        var demPct = ((row.demVotes1988 / row.totalVotes1988) * 100);
+                        var repPct = ((row.repVotes1988 / row.totalVotes1988) * 100);
+                        var pctDiff = (demPct - repPct);
+                        if (isNaN(pctDiff)) {
+                            return '<span class="cell-contents">n/a</span>'
+                        } else if (demPct > repPct) {
+                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes1988.toLocaleString() + '</div></div>'
+                        } else {
+                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes1988.toLocaleString() + '</div></div>'
+                        }
+                    }
+                },
+                {
+                    data: 'demVotes1984',
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                    render: function(data, type, row, meta) {
+                        //console.log(row);
+                        var demPct = ((row.demVotes1984 / row.totalVotes1984) * 100);
+                        var repPct = ((row.repVotes1984 / row.totalVotes1984) * 100);
+                        var pctDiff = (demPct - repPct);
+                        if (isNaN(pctDiff)) {
+                            return '<span class="cell-contents">n/a</span>'
+                        } else if (demPct > repPct) {
+                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes1984.toLocaleString() + '</div></div>'
+                        } else {
+                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes1984.toLocaleString() + '</div></div>'
+                        }
+                    }
+                },
+                {
+                    data: 'demVotes1980',
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                    render: function(data, type, row, meta) {
+                        //console.log(row);
+                        var demPct = ((row.demVotes1980 / row.totalVotes1980) * 100);
+                        var repPct = ((row.repVotes1980 / row.totalVotes1980) * 100);
+                        var pctDiff = (demPct - repPct);
+                        if (isNaN(pctDiff)) {
+                            return '<span class="cell-contents">n/a</span>'
+                        } else if (demPct > repPct) {
+                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes1980.toLocaleString() + '</div></div>'
+                        } else {
+                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes1980.toLocaleString() + '</div></div>'
                         }
                     }
                 }
@@ -355,7 +558,7 @@
                         filter_container_id: 'donor-name-filter',
                         filter_default_label: 'Filter by donor'
                     }, {
-                        column_number: 3,
+                        column_number: 2,
                         filter_container_id: 'amount-filter',
                         // column_data_type: 'rendered_html',
                         filter_type: 'range_number'
