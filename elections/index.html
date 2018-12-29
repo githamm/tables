@@ -120,7 +120,7 @@
     <div id="rga-donor-table-container">
         <div class="row">
             <div class="large-12 columns">
-                <h2 class="table-title">Colorado donors to the Republican Governors Association and Democratic Governors Association</h2>
+                <h2 class="table-title">Colorado presidential voting 1980-2016</h2>
                 <p class="body-text">The <a href="https://www.rga.org/" target="_top">Republican Governors Association</a> and the <a href="https://democraticgovernors.org/" target="_top">Democratic Governors Association</a> &mdash; advocacy groups called <a href="https://www.opensecrets.org/527s/" target="_top">527 organizations</a> that can raise unlimited money from donors and report their contributions and expenditures to the IRS &mdash; are putting money into the Colorado governor's race. This database shows the companies and individuals from Colorado who have donated from Jan. 1, 2017, through June 30, 2018. <em>Note: Individuals who donated less than $300 are listed with the name "Individual." <strong>Source: <a href="https://www.irs.gov/charities-non-profits/political-organizations/political-organization-filing-and-disclosure" target="_top">Internal Revenue Service</a></strong></em></p>
                 <p class="instructions-text">Use dropdown menus to filter table; click column headers to sort</p>
             </div>
@@ -128,7 +128,7 @@
         <div id="filters">
             <div class="row">
                 <div class="large-6 medium-6 small-6 columns">
-                    <span id="party-filter" style="font-weight: bold;"></span>
+                    <span id="urban-filter" style="font-weight: bold;"></span>
                 </div>
                 <div class="large-6 medium-6 small-6 columns">
                     <span id="donor-name-filter" style="font-weight: bold;"></span>
@@ -154,11 +154,11 @@
                 <table id="rga-donor-table" cellspacing="0" width="100%">
                     <thead>
                         <tr>
-                            <!-- <th></th> -->
+                            <th data-priority="11"></th>
                             <th data-priority="1">County</th>
-                            <th data-priority="2">2018</th>
-                            <th data-priority="3">Rep</th>
-                            <th data-priority="4">Total</th>
+                            <th data-priority="2">2016</th>
+                            <th data-priortiy="3">2012</th>
+                            <th data-priority="4">2008</th>
                         </tr>
                     </thead>
                     <tfoot>
@@ -170,7 +170,7 @@
         </div>
     </div>
     <script>
-    var dataFile = 'colorado-gov-results.json'
+    var dataFile = 'colorado-prez-results.json'
 
     $(document).ready(function() {
         // function disableDependentFilter(level, inuse) {
@@ -196,27 +196,49 @@
             },
             dom: '<if<t>lp>',
             rowCallback: function(row, data, index) {
-                var demPct = Math.round((data.demVotes2016 / data.totalVotes2016) * 100);
-                var repPct = Math.round((data.repVotes2016 / data.totalVotes2016) * 100);
+                function colorCells(demPct, repPct, colNum) {
                     if ((demPct - repPct) > 20) {
-                        $(row).find('td:eq(1)').css('background-color', 'rgba(53, 121, 168,.8)');
+                        $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(53, 121, 168,.8)');
                     } else if ((demPct - repPct) > 10) {
-                        $(row).find('td:eq(1)').css('background-color', 'rgba(53, 121, 168,.5)');
+                        $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(53, 121, 168,.5)');
                     } else if ((demPct - repPct) >= 3) {
-                        $(row).find('td:eq(1)').css('background-color', 'rgba(53, 121, 168,.2)');
+                        $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(53, 121, 168,.2)');
                     } else if ((repPct - demPct) > 20) {
-                        $(row).find('td:eq(1)').css('background-color', 'rgba(220, 81, 71, .8)');
+                        $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(220, 81, 71, .8)');
                     } else if ((repPct - demPct) > 10) {
-                        $(row).find('td:eq(1)').css('background-color', 'rgba(220, 81, 71,.5)');
+                        $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(220, 81, 71,.5)');
                     } else if ((repPct - demPct) >= 3) {
-                        $(row).find('td:eq(1)').css('background-color', 'rgba(220, 81, 71,.2)');
+                        $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(220, 81, 71,.2)');
                     } else {
-                        $(row).find('td:eq(1)').css('background-color', 'rgba(128, 0, 128, .3)');
+                        $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(128, 0, 128, .3)');
                     }
+                };
+
+                function results2016() {
+                    var demPct = Math.round((data.demVotes2016 / data.totalVotes2016) * 100);
+                    var repPct = Math.round((data.repVotes2016 / data.totalVotes2016) * 100);
+                    colorCells(demPct, repPct, 2);
+                };
+
+                function results2012() {
+                    var demPct = Math.round((data.demVotes2012 / data.totalVotes2012) * 100);
+                    var repPct = Math.round((data.repVotes2012 / data.totalVotes2012) * 100);
+                    colorCells(demPct, repPct, 3);
+                };
+
+                function results2008() {
+                    var demPct = Math.round((data.demVotes2008 / data.totalVotes2008) * 100);
+                    var repPct = Math.round((data.repVotes2008 / data.totalVotes2008) * 100);
+                    colorCells(demPct, repPct, 4);
+                };
+
+                results2016();
+                results2012();
+                results2008();
             },
             columnDefs: [{
                 type: 'natural',
-                targets: [0, 1, 2, 3]
+                //targets: [0, 1, 2, 3]
                 //className: 'control',
                 //orderable: false,
                 // targets: '1',
@@ -236,7 +258,7 @@
                 // }
             }],
             order: [
-                [0, 'asc']
+                [1, 'asc']
             ],
             // target: 1,
             // data: 'govPct2018',
@@ -274,6 +296,7 @@
                 //         }
                 //     }
                 // },
+                { data: 'classification' },
                 { data: 'county' },
                 {
                     data: 'demVotes2016',
@@ -291,18 +314,42 @@
                     }
                 },
                 {
-                    data: 'repVotes2016'
+                    data: 'demVotes2012',
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                    render: function(data, type, row, meta) {
+                        //console.log(row);
+                        var demPct = ((row.demVotes2012 / row.totalVotes2012) * 100);
+                        var repPct = ((row.repVotes2012 / row.totalVotes2012) * 100);
+                        var pctDiff = (demPct - repPct);
+                        if (demPct > repPct) {
+                            return '<div class="cell-contents">' + Math.round(demPct * 10) / 10 + '% D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + row.demVotes2012.toLocaleString() + '</div></div>'
+                        } else {
+                            return '<div class="cell-contents">' + Math.round(repPct * 10) / 10 + '% R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + row.repVotes2012.toLocaleString() + '</div></div>'
+                        }
+                    }
                 },
                 {
-                    data: 'totalVotes2016'
+                    data: 'demVotes2008',
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                    render: function(data, type, row, meta) {
+                        //console.log(row);
+                        var demPct = ((row.demVotes2008 / row.totalVotes2008) * 100);
+                        var repPct = ((row.repVotes2008 / row.totalVotes2008) * 100);
+                        var pctDiff = (demPct - repPct);
+                        if (demPct > repPct) {
+                            return '<div class="cell-contents">' + Math.round(demPct * 10) / 10 + '% D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + row.demVotes2008.toLocaleString() + '</div></div>'
+                        } else {
+                            return '<div class="cell-contents">' + Math.round(repPct * 10) / 10 + '% R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + row.repVotes2008.toLocaleString() + '</div></div>'
+                        }
+                    }
                 }
             ],
 
             initComplete: function() {
                 yadcf.init(rgaDonorTable, [{
-                        column_number: 1,
-                        filter_container_id: 'party-filter',
-                        filter_default_label: 'Filter by organization'
+                        column_number: 0,
+                        filter_container_id: 'urban-filter',
+                        filter_default_label: 'Filter by urban/rural'
                     }, {
                         column_number: 2,
                         filter_container_id: 'donor-name-filter',
