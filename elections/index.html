@@ -29,13 +29,30 @@
         font-family: 'Roboto', sans-serif;
     }
 
+    .table-container {
+        width: 1300px;
+        margin: 0 auto;
+    }
+
     .table-title {
         line-height: 125%;
         font-weight: 700;
     }
 
+    table {
+        width: 1100px;
+    }
+
     table tr:nth-of-type(even) {
         background-color: transparent !important;
+    }
+
+    th, td {
+        white-space: nowrap;
+    }
+
+    th {
+        font-size: 1em;
     }
 
     tr {
@@ -43,8 +60,10 @@
     }
 
     td {
-        border: 1px solid #c8c8c8;
+        /*border: 1px solid #c8c8c8;*/
+        border: 1px solid rgba(0, 0, 0, .1);
         padding-top: 12px !important;
+        line-height: 105%;
     }
 
     .cell-contents {
@@ -53,7 +72,7 @@
     }
 
     .vote-total-container {
-        margin-top: 6px;
+        margin-top: 3px;
         margin-bottom: -2px;
         font-size: .8em;
         line-height: 105%;
@@ -170,28 +189,32 @@
         </div>
         <div class="row">
             <div class="large-12 columns">
-                <table id="rga-donor-table" cellspacing="0" width="100%">
-                    <thead>
-                        <tr>
-                            <th data-priority="11"></th>
-                            <th data-priority="1">County</th>
-                            <th data-priority="2">2016</th>
-                            <th data-priortiy="3">2012</th>
-                            <th data-priority="4">2008</th>
-                            <th data-priority="5">2004</th>
-                            <th data-priority="6">2000</th>
-                            <th data-priority="7">1996</th>
-                            <th data-priority="8">1992</th>
-                            <th data-priority="9">1988</th>
-                            <th data-priority="10">1984</th>
-                            <th data-priority="11">1980</th>
-                        </tr>
-                    </thead>
-                    <tfoot>
-                    </tfoot>
-                    <tbody>
-                    </tbody>
-                </table>
+                <div class="table-container">
+                    <table id="rga-donor-table" cellspacing="0" class="display nowrap" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Pop.</th>
+                                <th>Income</th>
+                                <th data-priority="1">County</th>
+                                <th data-priority="2">2016</th>
+                                <th data-priortiy="3">2012</th>
+                                <th data-priority="4">2008</th>
+                                <th data-priority="5">2004</th>
+                                <th data-priority="6">2000</th>
+                                <th data-priority="7">1996</th>
+                                <th data-priority="8">1992</th>
+                                <th data-priority="9">1988</th>
+                                <th data-priority="10">1984</th>
+                                <th data-priority="11">1980</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                        </tfoot>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
@@ -215,11 +238,13 @@
                 'dataSrc': ''
             },
             pageLength: 15,
-            responsive: {
-                details: {
-                    type: 'column'
-                }
-            },
+            // responsive: {
+            //     details: {
+            //         type: 'column'
+            //     }
+            // },
+            //scrollX: true,
+            //fixedHeader: true,
             dom: '<if<t>lp>',
             rowCallback: function(row, data, index) {
                 function colorCells(demPct, repPct, colNum) {
@@ -245,61 +270,61 @@
                 function results2016() {
                     var demPct = Math.round((data.demVotes2016 / data.totalVotes2016) * 100);
                     var repPct = Math.round((data.repVotes2016 / data.totalVotes2016) * 100);
-                    colorCells(demPct, repPct, 2);
+                    colorCells(demPct, repPct, 4);
                 };
 
                 function results2012() {
                     var demPct = Math.round((data.demVotes2012 / data.totalVotes2012) * 100);
                     var repPct = Math.round((data.repVotes2012 / data.totalVotes2012) * 100);
-                    colorCells(demPct, repPct, 3);
+                    colorCells(demPct, repPct, 5);
                 };
 
                 function results2008() {
                     var demPct = Math.round((data.demVotes2008 / data.totalVotes2008) * 100);
                     var repPct = Math.round((data.repVotes2008 / data.totalVotes2008) * 100);
-                    colorCells(demPct, repPct, 4);
+                    colorCells(demPct, repPct, 6);
                 };
 
                 function results2004() {
                     var demPct = Math.round((data.demVotes2004 / data.totalVotes2004) * 100);
                     var repPct = Math.round((data.repVotes2004 / data.totalVotes2004) * 100);
-                    colorCells(demPct, repPct, 5);
+                    colorCells(demPct, repPct, 7);
                 };
 
                 function results2000() {
                     var demPct = Math.round((data.demVotes2000 / data.totalVotes2000) * 100);
                     var repPct = Math.round((data.repVotes2000 / data.totalVotes2000) * 100);
-                    colorCells(demPct, repPct, 6);
+                    colorCells(demPct, repPct, 8);
                 };
 
                 function results1996() {
                     var demPct = Math.round((data.demVotes1996 / data.totalVotes1996) * 100);
                     var repPct = Math.round((data.repVotes1996 / data.totalVotes1996) * 100);
-                    colorCells(demPct, repPct, 7);
+                    colorCells(demPct, repPct, 9);
                 };
 
                 function results1992() {
                     var demPct = Math.round((data.demVotes1992 / data.totalVotes1992) * 100);
                     var repPct = Math.round((data.repVotes1992 / data.totalVotes1992) * 100);
-                    colorCells(demPct, repPct, 8);
+                    colorCells(demPct, repPct, 10);
                 };
 
                 function results1988() {
                     var demPct = Math.round((data.demVotes1988 / data.totalVotes1988) * 100);
                     var repPct = Math.round((data.repVotes1988 / data.totalVotes1988) * 100);
-                    colorCells(demPct, repPct, 9);
+                    colorCells(demPct, repPct, 11);
                 };
 
                 function results1984() {
                     var demPct = Math.round((data.demVotes1984 / data.totalVotes1984) * 100);
                     var repPct = Math.round((data.repVotes1984 / data.totalVotes1984) * 100);
-                    colorCells(demPct, repPct, 10);
+                    colorCells(demPct, repPct, 12);
                 };
 
                 function results1980() {
                     var demPct = Math.round((data.demVotes1980 / data.totalVotes1980) * 100);
                     var repPct = Math.round((data.repVotes1980 / data.totalVotes1980) * 100);
-                    colorCells(demPct, repPct, 11);
+                    colorCells(demPct, repPct, 13);
                 };
 
                 results2016();
@@ -315,7 +340,9 @@
             },
             columnDefs: [{
                 type: 'natural',
-                targets: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+                targets: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+                // targets: [12, 13],
+                // visible: false
                 //className: 'control',
                 //orderable: false,
                 // targets: '1',
@@ -335,7 +362,7 @@
                 // }
             }],
             order: [
-                [1, 'asc']
+                [3, 'asc']
             ],
             // target: 1,
             // data: 'govPct2018',
@@ -377,13 +404,34 @@
                     data: 'classification',
                     render: function(data, type, row, meta) {
                         if (row.classification === 'Urban') {
-                            return 'U'
+                            return 'Urb'
                         } else {
-                            return 'R'
+                            return 'Rur'
                         }
                     }
                 },
-                { data: 'county' },
+                {
+                    data: 'population2017ACS',
+                    render: function(data, type, row, meta) {
+                        return row.population2017ACS.toLocaleString()
+                    }
+                },
+                {
+                    data: 'income2017ACS',
+                    render: function(data, type, row, meta) {
+                        return '$' + row.income2017ACS.toLocaleString()
+                    }
+                },
+                {
+                    data: 'county',
+                    render: function(data, type, row, meta) {
+                        if (row.county == 'Ouray') {
+                            return '<a href="https://censusreporter.org/profiles/05000US08091-ouray-county-co/" target="_blank">' + row.county + '</a>'
+                        } else {
+                            return row.county
+                        }
+                    }
+                },
                 {
                     data: 'demVotes2016',
                     //render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
@@ -550,7 +598,7 @@
 
             initComplete: function() {
                 yadcf.init(rgaDonorTable, [{
-                        column_number: 0,
+                        column_number: 14,
                         filter_container_id: 'urban-filter',
                         filter_default_label: 'Filter by urban/rural'
                     }, {
