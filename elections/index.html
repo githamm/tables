@@ -29,25 +29,26 @@
         font-family: 'Roboto', sans-serif;
     }
 
-    .table-container {
+    /*.table-container {
         width: 1300px;
         margin: 0 auto;
-    }
+    }*/
 
     .table-title {
         line-height: 125%;
         font-weight: 700;
     }
 
-    table {
+    /*table {
         width: 1100px;
-    }
+    }*/
 
     table tr:nth-of-type(even) {
         background-color: transparent !important;
     }
 
-    th, td {
+    th,
+    td {
         white-space: nowrap;
     }
 
@@ -89,14 +90,16 @@
         font-size: .85rem;
     }
 
-    #rga-donor-table-container {
+    #prez-vote-table-container {
         margin-top: 10px;
         padding: 3px;
     }
 
-    #rga-donor-table {
+    #prez-vote-table {
         font-size: .85rem;
         font-family: 'Roboto', sans-serif;
+        width: 1300px;
+        margin: 0 auto;
     }
 
     button.yadcf-filter-reset-button {
@@ -155,7 +158,7 @@
 </head>
 
 <body>
-    <div id="rga-donor-table-container">
+    <div id="prez-vote-table-container">
         <div class="row">
             <div class="large-12 columns">
                 <h2 class="table-title">Colorado presidential voting 1980-2016</h2>
@@ -164,7 +167,7 @@
             </div>
         </div>
         <div id="filters">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="large-6 medium-6 small-6 columns">
                     <span id="urban-filter" style="font-weight: bold;"></span>
                 </div>
@@ -185,12 +188,11 @@
                     <p class="filter-text">Filter by winning votes</p>
                     <span id="amount-filter" style="font-weight: bold;"></span>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="row">
             <div class="large-12 columns">
-                <div class="table-container">
-                    <table id="rga-donor-table" cellspacing="0" class="display nowrap" style="width:100%">
+                <table id="prez-vote-table" cellspacing="0" class="display nowrap" style="width:100%">
                         <thead>
                             <tr>
                                 <th></th>
@@ -213,8 +215,7 @@
                         </tfoot>
                         <tbody>
                         </tbody>
-                    </table>
-                </div>
+                        </table>
             </div>
         </div>
     </div>
@@ -225,14 +226,14 @@
         // function disableDependentFilter(level, inuse) {
         //     if (level < 4) {
         //         filter = $('#yadcf-filter--example-' + level);
-        //         yadcf.exResetFilters(rgaDonorTable, [level]);
+        //         yadcf.exResetFilters(prezVoteTable, [level]);
         //         filter.prop('disabled', !inuse);
 
         //         disableDependentFilter(level + 1, false);
         //     }
         // }
 
-        var rgaDonorTable = $('#rga-donor-table').DataTable({
+        var prezVoteTable = $('#prez-vote-table').DataTable({
             ajax: {
                 'url': dataFile,
                 'dataSrc': ''
@@ -254,13 +255,13 @@
                         $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(53, 121, 168,.8)');
                     } else if ((demPct - repPct) > 10) {
                         $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(53, 121, 168,.5)');
-                    } else if ((demPct - repPct) >= 3) {
+                    } else if ((demPct - repPct) > 3.5) {
                         $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(53, 121, 168,.2)');
                     } else if ((repPct - demPct) > 20) {
                         $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(220, 81, 71, .8)');
                     } else if ((repPct - demPct) > 10) {
                         $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(220, 81, 71,.5)');
-                    } else if ((repPct - demPct) >= 3) {
+                    } else if ((repPct - demPct) > 3.5) {
                         $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(220, 81, 71,.2)');
                     } else {
                         $(row).find('td:eq(' + colNum + ')').css('background-color', 'rgba(128, 0, 128, .3)');
@@ -268,62 +269,62 @@
                 };
 
                 function results2016() {
-                    var demPct = Math.round((data.demVotes2016 / data.totalVotes2016) * 100);
-                    var repPct = Math.round((data.repVotes2016 / data.totalVotes2016) * 100);
+                    var demPct = (data.demVotes2016 / data.totalVotes2016) * 100;
+                    var repPct = (data.repVotes2016 / data.totalVotes2016) * 100;
                     colorCells(demPct, repPct, 4);
                 };
 
                 function results2012() {
-                    var demPct = Math.round((data.demVotes2012 / data.totalVotes2012) * 100);
-                    var repPct = Math.round((data.repVotes2012 / data.totalVotes2012) * 100);
+                    var demPct = (data.demVotes2012 / data.totalVotes2012) * 100;
+                    var repPct = (data.repVotes2012 / data.totalVotes2012) * 100;
                     colorCells(demPct, repPct, 5);
                 };
 
                 function results2008() {
-                    var demPct = Math.round((data.demVotes2008 / data.totalVotes2008) * 100);
-                    var repPct = Math.round((data.repVotes2008 / data.totalVotes2008) * 100);
+                    var demPct = (data.demVotes2008 / data.totalVotes2008) * 100;
+                    var repPct = (data.repVotes2008 / data.totalVotes2008) * 100;
                     colorCells(demPct, repPct, 6);
                 };
 
                 function results2004() {
-                    var demPct = Math.round((data.demVotes2004 / data.totalVotes2004) * 100);
-                    var repPct = Math.round((data.repVotes2004 / data.totalVotes2004) * 100);
+                    var demPct = (data.demVotes2004 / data.totalVotes2004) * 100;
+                    var repPct = (data.repVotes2004 / data.totalVotes2004) * 100;
                     colorCells(demPct, repPct, 7);
                 };
 
                 function results2000() {
-                    var demPct = Math.round((data.demVotes2000 / data.totalVotes2000) * 100);
-                    var repPct = Math.round((data.repVotes2000 / data.totalVotes2000) * 100);
+                    var demPct = (data.demVotes2000 / data.totalVotes2000) * 100;
+                    var repPct = (data.repVotes2000 / data.totalVotes2000) * 100;
                     colorCells(demPct, repPct, 8);
                 };
 
                 function results1996() {
-                    var demPct = Math.round((data.demVotes1996 / data.totalVotes1996) * 100);
-                    var repPct = Math.round((data.repVotes1996 / data.totalVotes1996) * 100);
+                    var demPct = (data.demVotes1996 / data.totalVotes1996) * 100;
+                    var repPct = (data.repVotes1996 / data.totalVotes1996) * 100;
                     colorCells(demPct, repPct, 9);
                 };
 
                 function results1992() {
-                    var demPct = Math.round((data.demVotes1992 / data.totalVotes1992) * 100);
-                    var repPct = Math.round((data.repVotes1992 / data.totalVotes1992) * 100);
+                    var demPct = (data.demVotes1992 / data.totalVotes1992) * 100;
+                    var repPct = (data.repVotes1992 / data.totalVotes1992) * 100;
                     colorCells(demPct, repPct, 10);
                 };
 
                 function results1988() {
-                    var demPct = Math.round((data.demVotes1988 / data.totalVotes1988) * 100);
-                    var repPct = Math.round((data.repVotes1988 / data.totalVotes1988) * 100);
+                    var demPct = (data.demVotes1988 / data.totalVotes1988) * 100;
+                    var repPct = (data.repVotes1988 / data.totalVotes1988) * 100;
                     colorCells(demPct, repPct, 11);
                 };
 
                 function results1984() {
-                    var demPct = Math.round((data.demVotes1984 / data.totalVotes1984) * 100);
-                    var repPct = Math.round((data.repVotes1984 / data.totalVotes1984) * 100);
+                    var demPct = (data.demVotes1984 / data.totalVotes1984) * 100;
+                    var repPct = (data.repVotes1984 / data.totalVotes1984) * 100
                     colorCells(demPct, repPct, 12);
                 };
 
                 function results1980() {
-                    var demPct = Math.round((data.demVotes1980 / data.totalVotes1980) * 100);
-                    var repPct = Math.round((data.repVotes1980 / data.totalVotes1980) * 100);
+                    var demPct = (data.demVotes1980 / data.totalVotes1980) * 100;
+                    var repPct = (data.repVotes1980 / data.totalVotes1980) * 100;
                     colorCells(demPct, repPct, 13);
                 };
 
@@ -339,8 +340,8 @@
                 results1980();
             },
             columnDefs: [{
-                type: 'natural',
-                targets: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+                // type: 'natural',
+                // targets: [0, 1, 2, 3]
                 // targets: [12, 13],
                 // visible: false
                 //className: 'control',
@@ -403,23 +404,35 @@
                 {
                     data: 'classification',
                     render: function(data, type, row, meta) {
-                        if (row.classification === 'Urban') {
-                            return 'Urb'
+                        if (type === 'display' || type === 'filter') {
+                            if (row.classification === 'Urban') {
+                                return 'Urb'
+                            } else {
+                                return 'Rur'
+                            }
                         } else {
-                            return 'Rur'
+                            return row.classification
                         }
                     }
                 },
                 {
                     data: 'population2017ACS',
                     render: function(data, type, row, meta) {
-                        return row.population2017ACS.toLocaleString()
-                    }
+                        if (type === 'display' || type === 'filter') {
+                            return row.population2017ACS.toLocaleString() + '<span style="font-size: .8em;vertical-align:super;color:#aaa;"> (' + row.populationRank + ')</span>'
+                        } else {
+                            return row.populationRank
+                        }
+                    },
                 },
                 {
                     data: 'income2017ACS',
                     render: function(data, type, row, meta) {
-                        return '$' + row.income2017ACS.toLocaleString()
+                        if (type === 'display' || type === 'filter') {
+                            return '$' + row.income2017ACS.toLocaleString() + '<span style="font-size: .8em;vertical-align:super;color:#aaa;"> (' + row.incomeRank + ')</span>'
+                        } else {
+                            return row.incomeRank
+                        }
                     }
                 },
                 {
@@ -440,10 +453,14 @@
                         var demPct = ((row.demVotes2016 / row.totalVotes2016) * 100);
                         var repPct = ((row.repVotes2016 / row.totalVotes2016) * 100);
                         var pctDiff = (demPct - repPct);
-                        if (demPct > repPct) {
-                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes2016.toLocaleString() + '</div></div>'
+                        if (type === 'display' || type === 'filter') {
+                            if (demPct > repPct) {
+                                return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes2016.toLocaleString() + '</div></div>'
+                            } else {
+                                return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes2016.toLocaleString() + '</div></div>'
+                            }
                         } else {
-                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes2016.toLocaleString() + '</div></div>'
+                            return pctDiff
                         }
                     }
                 },
@@ -455,10 +472,14 @@
                         var demPct = ((row.demVotes2012 / row.totalVotes2012) * 100);
                         var repPct = ((row.repVotes2012 / row.totalVotes2012) * 100);
                         var pctDiff = (demPct - repPct);
-                        if (demPct > repPct) {
-                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes2012.toLocaleString() + '</div></div>'
+                        if (type === 'display' || type === 'filter') {
+                            if (demPct > repPct) {
+                                return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes2012.toLocaleString() + '</div></div>'
+                            } else {
+                                return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes2012.toLocaleString() + '</div></div>'
+                            }
                         } else {
-                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes2012.toLocaleString() + '</div></div>'
+                            return pctDiff
                         }
                     }
                 },
@@ -470,10 +491,14 @@
                         var demPct = ((row.demVotes2008 / row.totalVotes2008) * 100);
                         var repPct = ((row.repVotes2008 / row.totalVotes2008) * 100);
                         var pctDiff = (demPct - repPct);
-                        if (demPct > repPct) {
-                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes2008.toLocaleString() + '</div></div>'
+                        if (type === 'display' || type === 'filter') {
+                            if (demPct > repPct) {
+                                return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes2008.toLocaleString() + '</div></div>'
+                            } else {
+                                return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes2008.toLocaleString() + '</div></div>'
+                            }
                         } else {
-                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes2008.toLocaleString() + '</div></div>'
+                            return pctDiff
                         }
                     }
                 },
@@ -485,10 +510,14 @@
                         var demPct = ((row.demVotes2004 / row.totalVotes2004) * 100);
                         var repPct = ((row.repVotes2004 / row.totalVotes2004) * 100);
                         var pctDiff = (demPct - repPct);
-                        if (demPct > repPct) {
-                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes2004.toLocaleString() + '</div></div>'
+                        if (type === 'display' || type === 'filter') {
+                            if (demPct > repPct) {
+                                return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes2004.toLocaleString() + '</div></div>'
+                            } else {
+                                return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes2004.toLocaleString() + '</div></div>'
+                            }
                         } else {
-                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes2004.toLocaleString() + '</div></div>'
+                            return pctDiff
                         }
                     }
                 },
@@ -500,12 +529,16 @@
                         var demPct = ((row.demVotes2000 / row.totalVotes2000) * 100);
                         var repPct = ((row.repVotes2000 / row.totalVotes2000) * 100);
                         var pctDiff = (demPct - repPct);
-                        if (isNaN(pctDiff)) {
-                            return '<span class="cell-contents">n/a</span>'
-                        } else if (demPct > repPct) {
-                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes2000.toLocaleString() + '</div></div>'
+                        if (type === 'display' || type === 'filter') {
+                            if (isNaN(pctDiff)) {
+                                return '<span class="cell-contents">n/a</span>'
+                            } else if (demPct > repPct) {
+                                return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes2000.toLocaleString() + '</div></div>'
+                            } else {
+                                return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes2000.toLocaleString() + '</div></div>'
+                            }
                         } else {
-                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes2000.toLocaleString() + '</div></div>'
+                            return pctDiff
                         }
                     }
                 },
@@ -517,12 +550,16 @@
                         var demPct = ((row.demVotes1996 / row.totalVotes1996) * 100);
                         var repPct = ((row.repVotes1996 / row.totalVotes1996) * 100);
                         var pctDiff = (demPct - repPct);
-                        if (isNaN(pctDiff)) {
-                            return '<span class="cell-contents">n/a</span>'
-                        } else if (demPct > repPct) {
-                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes1996.toLocaleString() + '</div></div>'
+                        if (type === 'display' || type === 'filter') {
+                            if (isNaN(pctDiff)) {
+                                return '<span class="cell-contents">n/a</span>'
+                            } else if (demPct > repPct) {
+                                return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes1996.toLocaleString() + '</div></div>'
+                            } else {
+                                return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes1996.toLocaleString() + '</div></div>'
+                            }
                         } else {
-                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes1996.toLocaleString() + '</div></div>'
+                            return pctDiff
                         }
                     }
                 },
@@ -534,12 +571,16 @@
                         var demPct = ((row.demVotes1992 / row.totalVotes1992) * 100);
                         var repPct = ((row.repVotes1992 / row.totalVotes1992) * 100);
                         var pctDiff = (demPct - repPct);
-                        if (isNaN(pctDiff)) {
-                            return '<span class="cell-contents">n/a</span>'
-                        } else if (demPct > repPct) {
-                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes1992.toLocaleString() + '</div></div>'
+                        if (type === 'display' || type === 'filter') {
+                            if (isNaN(pctDiff)) {
+                                return '<span class="cell-contents">n/a</span>'
+                            } else if (demPct > repPct) {
+                                return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes1992.toLocaleString() + '</div></div>'
+                            } else {
+                                return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes1992.toLocaleString() + '</div></div>'
+                            }
                         } else {
-                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes1992.toLocaleString() + '</div></div>'
+                            return pctDiff
                         }
                     }
                 },
@@ -551,12 +592,16 @@
                         var demPct = ((row.demVotes1988 / row.totalVotes1988) * 100);
                         var repPct = ((row.repVotes1988 / row.totalVotes1988) * 100);
                         var pctDiff = (demPct - repPct);
-                        if (isNaN(pctDiff)) {
-                            return '<span class="cell-contents">n/a</span>'
-                        } else if (demPct > repPct) {
-                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes1988.toLocaleString() + '</div></div>'
+                        if (type === 'display' || type === 'filter') {
+                            if (isNaN(pctDiff)) {
+                                return '<span class="cell-contents">n/a</span>'
+                            } else if (demPct > repPct) {
+                                return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes1988.toLocaleString() + '</div></div>'
+                            } else {
+                                return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes1988.toLocaleString() + '</div></div>'
+                            }
                         } else {
-                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes1988.toLocaleString() + '</div></div>'
+                            return pctDiff
                         }
                     }
                 },
@@ -568,12 +613,16 @@
                         var demPct = ((row.demVotes1984 / row.totalVotes1984) * 100);
                         var repPct = ((row.repVotes1984 / row.totalVotes1984) * 100);
                         var pctDiff = (demPct - repPct);
-                        if (isNaN(pctDiff)) {
-                            return '<span class="cell-contents">n/a</span>'
-                        } else if (demPct > repPct) {
-                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes1984.toLocaleString() + '</div></div>'
+                        if (type === 'display' || type === 'filter') {
+                            if (isNaN(pctDiff)) {
+                                return '<span class="cell-contents">n/a</span>'
+                            } else if (demPct > repPct) {
+                                return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes1984.toLocaleString() + '</div></div>'
+                            } else {
+                                return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes1984.toLocaleString() + '</div></div>'
+                            }
                         } else {
-                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes1984.toLocaleString() + '</div></div>'
+                            return pctDiff
                         }
                     }
                 },
@@ -585,62 +634,78 @@
                         var demPct = ((row.demVotes1980 / row.totalVotes1980) * 100);
                         var repPct = ((row.repVotes1980 / row.totalVotes1980) * 100);
                         var pctDiff = (demPct - repPct);
-                        if (isNaN(pctDiff)) {
-                            return '<span class="cell-contents">n/a</span>'
-                        } else if (demPct > repPct) {
-                            return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes1980.toLocaleString() + '</div></div>'
+                        if (type === 'display' || type === 'filter') {
+                            if (isNaN(pctDiff)) {
+                                return '<span class="cell-contents">n/a</span>'
+                            } else if (demPct > repPct) {
+                                return '<div class="cell-contents">' + 'D+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(demPct * 10) / 10 + '% &bull; ' + row.demVotes1980.toLocaleString() + '</div></div>'
+                            } else {
+                                return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes1980.toLocaleString() + '</div></div>'
+                            }
                         } else {
-                            return '<div class="cell-contents">' + 'R+' + Math.round(Math.abs(pctDiff)) + '<div class="vote-total-container">' + Math.round(repPct * 10) / 10 + '% &bull; ' + row.repVotes1980.toLocaleString() + '</div></div>'
+                            return pctDiff
                         }
                     }
                 }
             ],
 
-            initComplete: function() {
-                yadcf.init(rgaDonorTable, [{
-                        column_number: 14,
-                        filter_container_id: 'urban-filter',
-                        filter_default_label: 'Filter by urban/rural'
-                    }, {
-                        column_number: 2,
-                        filter_container_id: 'donor-name-filter',
-                        filter_default_label: 'Filter by donor'
-                    }, {
-                        column_number: 2,
-                        filter_container_id: 'amount-filter',
-                        // column_data_type: 'rendered_html',
-                        filter_type: 'range_number'
-                    },
-                    {
-                        column_number: 5,
-                        filter_container_id: 'city-filter',
-                        filter_default_label: 'Filter by city'
-                    },
-                    {
-                        column_number: 8,
-                        filter_container_id: 'year-filter',
-                        filter_default_label: 'Filter by year'
+            // initComplete: function() {
+            //     yadcf.init(prezVoteTable, [{
+            //             column_number: 0,
+            //             filter_container_id: 'urban-filter',
+            //             filter_default_label: 'Filter by urban/rural'
+            //         }, {
+            //             column_number: 2,
+            //             filter_container_id: 'donor-name-filter',
+            //             filter_default_label: 'Filter by donor'
+            //         }, {
+            //             column_number: 2,
+            //             filter_container_id: 'amount-filter',
+            //             // column_data_type: 'rendered_html',
+            //             filter_type: 'range_number'
+            //         },
+            //         {
+            //             column_number: 5,
+            //             filter_container_id: 'city-filter',
+            //             filter_default_label: 'Filter by city'
+            //         },
+            //         {
+            //             column_number: 8,
+            //             filter_container_id: 'year-filter',
+            //             filter_default_label: 'Filter by year'
+            //         }
+            //     ], {
+            //         cumulative_filtering: true,
+            //         filter_reset_button_text: 'Reset filter'
+            //     });
+
+            // get it started
+            // disableDependentFilter(1, true);
+
+            // $('.yadcf-filter-reset-button').on('click', function() {
+            //     level = parseInt(this.id.split('-')[4]);
+            //     disableDependentFilter(level, true);
+            // });
+
+            // $('.yadcf-filter').on('change', function() {
+            //     level = parseInt(this.id.slice(-1));
+            //     inuse = $(this).hasClass('inuse');
+
+            //     disableDependentFilter(level + 1, inuse);
+            // });
+            // }
+        });
+        $("#filter").click(function() {
+            $.fn.dataTable.ext.search.push(
+                function(settings, data, dataIndex) {
+                    //return parseFloat(data[0]) < 50 ?
+                    data[1] < 200000 ?
+                        true :
+                        false
                     }
-                ], {
-                    cumulative_filtering: true,
-                    filter_reset_button_text: 'Reset filter'
-                });
-
-                // get it started
-                disableDependentFilter(1, true);
-
-                $('.yadcf-filter-reset-button').on('click', function() {
-                    level = parseInt(this.id.split('-')[4]);
-                    disableDependentFilter(level, true);
-                });
-
-                $('.yadcf-filter').on('change', function() {
-                    level = parseInt(this.id.slice(-1));
-                    inuse = $(this).hasClass('inuse');
-
-                    disableDependentFilter(level + 1, inuse);
-                });
-            }
+            );
+            prezVoteTable.draw();
+            $.fn.dataTable.ext.search.pop();
         });
     });
     </script>
