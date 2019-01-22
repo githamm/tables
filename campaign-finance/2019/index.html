@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Colorado Lobbyist Database 2018 | The Denver Post</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/responsive/2.2.1/css/responsive.foundation.min.css" />
+    <!-- <link rel="stylesheet" href="jquery.dataTables.yadcf.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.foundation.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <script src="//cdn.datatables.net/plug-ins/1.10.16/dataRender/datetime.js"></script>
+    <script src="//cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+    <script src="//cdn.datatables.net/responsive/2.2.1/js/responsive.foundation.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
+    <style>
+    body {
+        background-color: #fafafa;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .table-title {
+        line-height: 125%;
+        font-weight: 700;
+    }
+
+    .instructions-text {
+        color: red;
+        font-size: .8em;
+        font-style: italic;
+        text-align: center;
+    }
+
+    #filters {
+        font-size: .85rem;
+    }
+
+    #lobbyists-table-container {
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    #lobbyists-table {
+        font-size: .85rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    button.yadcf-filter-reset-button {
+        color: red;
+        margin-left: 10px;
+    }
+
+    select {
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-size: .85rem;
+    }
+
+    .dem {
+        background-color: lightblue;
+        width: 15px;
+        height: 15px;
+        margin-left: .5em;
+    }
+
+    .rep {
+        background-color: red;
+        width: 15px;
+        height: 15px;
+        margin-left: .5em;
+    }
+
+    .yadcf-filter-range {
+        height: 2.9em;
+        border: 1px solid silver;
+    }
+
+    .filter-text {
+        font-weight: bold;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="lobbyists-table-container">
+        <div class="row">
+            <div class="large-12 columns">
+                <h2 class="table-title">Colorado Lobbyist Database</h2>
+                <p class="body-text">Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and. <em>Note: any notes? <strong>Source: <a href="#" target="_top">source</a></strong></em></p>
+                <p class="instructions-text">Use dropdown menus to filter table; click column headers to sort</p>
+            </div>
+        </div>
+        <div id="filters">
+            <div class="row">
+                <div class="large-4 medium-4 small-12 columns">
+                    <span id="lobbyist-filter" style="font-weight: bold;"></span>
+                </div>
+                <div class="large-4 medium-4 small-12 columns">
+                    <span id="client-filter" style="font-weight: bold;"></span>
+                </div>
+                <div class="large-4 medium-4 small-12 columns">
+                    <span id="industry-filter" style="font-weight: bold;"></span>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div class="large-6 medium-6 small-12 left columns">
+                <p class="filter-text">Filter by amount</p>
+                <span id="income-filter" style="font-weight: bold;"></span>
+            </div>
+        </div> -->
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <table id="lobbyists-table" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th data-priority="1">Lobbyist</th>
+                        <th data-priority="3">Client</th>
+                        <th data-priority="2">Income</th>
+                        <th data-priority="4">Industry</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                </tfoot>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+    <script>
+    var dataFile = 'lobbyists.json'
+
+    $(document).ready(function() {
+        function disableDependentFilter(level, inuse) {
+            if (level < 4) {
+                filter = $('#yadcf-filter--example-' + level);
+                yadcf.exResetFilters(lobbyistsTable, [level]);
+                filter.prop('disabled', !inuse);
+
+                disableDependentFilter(level + 1, false);
+            }
+        }
+
+        var lobbyistsTable = $('#lobbyists-table').DataTable({
+            ajax: {
+                'url': dataFile,
+                'dataSrc': ''
+            },
+            pageLength: 15,
+            responsive: {
+                details: {
+                    type: 'column'
+                }
+            },
+            dom: '<if<t>lp>',
+            columnDefs: [{
+                className: 'control',
+                orderable: false,
+                targets: 0
+            }],
+            order: [
+                [1, 'asc']
+            ],
+            columns: [
+                { data: 'button' },
+                {
+                    data: 'lobbyist-firm-name',
+                    // render: function(data, type, row) {
+                    //     if (data == 'DEM') {
+                    //         return '<div class="dem">&nbsp;</div>'
+                    //     } else if (data == 'REP') {
+                    //         return '<div class="rep">&nbsp;</div>'
+                    //     }
+                    // }
+                },
+                { data: 'client-name' },
+                {
+                    data: 'income',
+                    render: function(data, type, row) {
+                        //console.log(row.income);
+                        var incomeNumber = (row.income).replace(/[^0-9]+/g, '');
+                        return '$' + parseInt(incomeNumber).toLocaleString();
+                    }
+                    //render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                    // render: function(data, type, row) {
+                    //     if(row.income == '') {
+                    //         return 0
+                    //     } else {
+                    //         return row.income
+                    //     }
+                    // }
+                },
+                {
+                    data: 'industry'
+                }
+            ],
+
+            initComplete: function() {
+                yadcf.init(lobbyistsTable, [{
+                    column_number: 1,
+                    filter_container_id: 'lobbyist-filter',
+                    filter_default_label: 'Filter by lobbyist'
+                }, {
+                    column_number: 2,
+                    filter_container_id: 'client-filter',
+                    filter_default_label: 'Filter by client'
+                },
+                // {
+                //     column_number: 3,
+                //     filter_container_id: 'income-filter',
+                //     //column_data_type: 'rendered_html',
+                //     filter_type: 'range_number'
+                // },
+                {
+                    column_number: 4,
+                    filter_container_id: 'industry-filter',
+                    filter_default_label: 'Filter by industry',
+                    //column_data_type: 'rendered_html'
+                }
+                ], {
+                    cumulative_filtering: true,
+                    filter_reset_button_text: 'Reset filter'
+                });
+
+                // get it started
+                disableDependentFilter(1, true);
+
+                $('.yadcf-filter-reset-button').on('click', function() {
+                    level = parseInt(this.id.split('-')[4]);
+                    disableDependentFilter(level, true);
+                });
+
+                $('.yadcf-filter').on('change', function() {
+                    level = parseInt(this.id.slice(-1));
+                    inuse = $(this).hasClass('inuse');
+
+                    disableDependentFilter(level + 1, inuse);
+                });
+            }
+        });
+    });
+    </script>
+</body>
+
+</html>
