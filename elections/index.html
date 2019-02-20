@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Colorado Donors: Republican and Democratic Governors Association | The Denver Post</title>
+    <title>Colorado Presidential Voting History | The Denver Post</title>
     <meta charset="utf-8">
     <meta name="robots" content="noindex,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -154,6 +154,57 @@
     .Rural {
         border: 3px solid gray;
     }
+
+    .legend-text {
+        text-transform: uppercase;
+        font-size: .9rem;
+        font-weight: bold;
+        color: #737373;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+
+    h2 {
+        font-size: 2em;
+        font-weight: 700;
+        letter-spacing: -2px;
+        line-height: 100%
+    }
+
+    h4 {
+        font-weight: 700;
+        font-size: 1.1em;
+        /*letter-spacing: .5px;*/
+        text-transform: uppercase;
+        color: #8e1024;
+        margin-bottom: 0;
+    }
+
+    .byline {
+        font-size: .85em;
+        text-align: right;
+        font-style: italic;
+    }
+
+    .source {
+        font-size: .9em;
+        font-style: italic;
+    }
+
+    .legend {
+        width: 60px;
+        height: 30px;
+        opacity: .6;
+        float: left;
+    }
+
+    .legend-text {
+        font-size: .7em;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 7px;
+        letter-spacing: 1px;
+    }
     </style>
 </head>
 
@@ -162,8 +213,8 @@
         <div class="row">
             <div class="large-12 columns">
                 <h2 class="table-title">Colorado presidential voting 1980-2016</h2>
-                <p class="body-text">The <a href="https://www.rga.org/" target="_top">Republican Governors Association</a> and the <a href="https://democraticgovernors.org/" target="_top">Democratic Governors Association</a> &mdash; advocacy groups called <a href="https://www.opensecrets.org/527s/" target="_top">527 organizations</a> that can raise unlimited money from donors and report their contributions and expenditures to the IRS &mdash; are putting money into the Colorado governor's race. This database shows the companies and individuals from Colorado who have donated from Jan. 1, 2017, through June 30, 2018. <em>Note: Individuals who donated less than $300 are listed with the name "Individual." <strong>Source: <a href="https://www.irs.gov/charities-non-profits/political-organizations/political-organization-filing-and-disclosure" target="_top">Internal Revenue Service</a></strong></em></p>
-                <p class="instructions-text">Use dropdown menus to filter table; click column headers to sort</p>
+                <p class="body-text">The table shows vote margins for Colorado counties in presidential elections from 1980 to 2016. Each table cell shows the party that "won" the county, its margin in percentage points, the percentage votes the party took and the number of votes for the party. Counties are classified as rural or urban, and can be sorted by their population and median income (and rank).</p>
+                <p class="instructions-text">Click column headers to sort</p>
             </div>
         </div>
         <div id="filters">
@@ -191,31 +242,56 @@
             </div> -->
         </div>
         <div class="row">
+            <div style="margin: 10px 0 10px 0;overflow:hidden;float:right;" id="legend">
+                <div class="legend" style="background-color:rgba(53,121,168,.8);">
+                    <p class="legend-text" style="color:#000;">D+20</p>
+                </div>
+                <div class="legend" style="background-color:rgba(53,121,168,.5);">
+                    <p class="legend-text" style="color:#000;"></p>
+                </div>
+                <div class="legend" style="background-color:rgba(53,121,168,.2);">
+                    <p class="legend-text" style="color:#000;"></p>
+                </div>
+                <div class="legend" style="background-color:rgba(128,0,128,.3);">
+                    <p class="legend-text" style="color:#000;">+/-3.5</p>
+                </div>
+                <div class="legend" style="background-color:rgba(220, 81, 71,.2);">
+                    <p class="legend-text" style="color:#000;"></p>
+                </div>
+                <div class="legend" style="background-color:rgba(220, 81, 71,.5);">
+                    <p class="legend-text" style="color:#000;"></p>
+                </div>
+                <div class="legend" style="background-color:rgba(220, 81, 71,.8);">
+                    <p class="legend-text" style="color:#000;">R+20</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
             <div class="large-12 columns">
                 <table id="prez-vote-table" cellspacing="0" class="display nowrap" style="width:100%">
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th>Pop.</th>
-                                <th>Income</th>
-                                <th data-priority="1">County</th>
-                                <th data-priority="2">2016</th>
-                                <th data-priortiy="3">2012</th>
-                                <th data-priority="4">2008</th>
-                                <th data-priority="5">2004</th>
-                                <th data-priority="6">2000</th>
-                                <th data-priority="7">1996</th>
-                                <th data-priority="8">1992</th>
-                                <th data-priority="9">1988</th>
-                                <th data-priority="10">1984</th>
-                                <th data-priority="11">1980</th>
-                            </tr>
-                        </thead>
-                        <tfoot>
-                        </tfoot>
-                        <tbody>
-                        </tbody>
-                        </table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Pop.</th>
+                            <th>Income</th>
+                            <th data-priority="1">County</th>
+                            <th data-priority="2">2016</th>
+                            <th data-priortiy="3">2012</th>
+                            <th data-priority="4">2008</th>
+                            <th data-priority="5">2004</th>
+                            <th data-priority="6">2000</th>
+                            <th data-priority="7">1996</th>
+                            <th data-priority="8">1992</th>
+                            <th data-priority="9">1988</th>
+                            <th data-priority="10">1984</th>
+                            <th data-priority="11">1980</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                    </tfoot>
+                    <tbody>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
@@ -702,7 +778,7 @@
                     data[1] < 200000 ?
                         true :
                         false
-                    }
+                }
             );
             prezVoteTable.draw();
             $.fn.dataTable.ext.search.pop();
