@@ -558,7 +558,7 @@
             '</td></tr></tbody></table>'
         ];
         //put all three of our HTML strings into our div we made at the top of the page
-        document.getElementById('mayor-table').innerHTML = '<p><em>Updated at ' + json.feed.entry[0].gsx$updated.$t + '<br>* denotes incumbent &#10004; denotes winner &#9733; denotes runoff</em></p><hr><p><em>In races where no candidate gets more than 50% of the votes, a runoff between the top two candidates will be held June 4 (does not apply to at-large council race).</em></p>' + mayor_html + auditor_html + clerk_html + atlarge_html + district1_html + district2_html + district3_html + district4_html + district5_html + district6_html + district7_html + district8_html + district9_html + district10_html + district11_html + initiative300_html + initiative301_html
+        document.getElementById('mayor-table').innerHTML = '<p style="margin-bottom:5px;font-style:italic">Final unofficial results</p><p style="font-style:italic;font-weight:bold;margin-bottom:-5px">&#10004; denotes winner | &#9733; denotes runoff | * denotes incumbent</p><hr><p style="font-style:italic">In races where no candidate gets more than 50% of the votes, a runoff between the top two candidates will be held June 4 (does not apply to at-large council race).</p>' + mayor_html + auditor_html + clerk_html + atlarge_html + district1_html + district2_html + district3_html + district4_html + district5_html + district6_html + district7_html + district8_html + district9_html + district10_html + district11_html + initiative300_html + initiative301_html
     }
     </script>
 </head>
