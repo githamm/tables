@@ -29,28 +29,40 @@
         font-family: 'Roboto', sans-serif;
     }
 
+    /*#main-container {
+            width: 900px;
+            margin: 0 auto;
+        }*/
+
     .table-title {
+        font-size: 2.3rem;
+        line-height: 35px;
         font-weight: 700;
-        font-size: 1.75em;
-        line-height: 120%;
+    }
+
+    .instructions-text {
+        color: #cb181d;
+        font-size: .8em;
+        font-style: italic;
+        text-align: center;
     }
 
     #filters {
         font-size: .85rem;
     }
 
-    #golf-course-table-container {
+    #lockdowns-table-container {
         margin-top: 10px;
-        padding: 3px;
+        padding: 10px;
     }
 
-    #golf-course-table {
+    #student-debt-table {
         font-size: .85rem;
         font-family: 'Roboto', sans-serif;
     }
 
     button.yadcf-filter-reset-button {
-        color: red;
+        color: #cb181d;
         margin-left: 10px;
     }
 
@@ -58,6 +70,20 @@
         margin-top: 7px;
         margin-bottom: 0;
         font-size: .85rem;
+    }
+
+    .dem {
+        background-color: lightblue;
+        width: 15px;
+        height: 15px;
+        margin-left: .5em;
+    }
+
+    .rep {
+        background-color: red;
+        width: 15px;
+        height: 15px;
+        margin-left: .5em;
     }
 
     .yadcf-filter-range {
@@ -70,6 +96,62 @@
         margin-top: .5em;
         margin-bottom: .5em;
     }
+
+    p.source {
+        font-size: .9rem;
+        text-align: right;
+        font-style: italic;
+    }
+
+    .herd {
+        color: red;
+    }
+
+    .filter-description {
+        font-style: italic;
+        display: inline-block;
+        line-height: 16px;
+    }
+
+    thead {
+        line-height: 18px;
+        font-size: .85rem;
+    }
+
+    .topcorner {
+        /*position: relative;
+            top: 10px;
+            right: 10px;*/
+        float: right;
+        padding-right: 10px;
+    }
+
+    img {
+        height: 32px;
+        width: 32px;
+    }
+
+    .reveal {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .modal-title {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    .modal-subtitle {
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, .8);
+        margin-bottom: 4px;
+    }
+
+    .info-button {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 4px;
+        line-height: 17px;
+    }
     </style>
 </head>
 
@@ -78,19 +160,20 @@
         <div class="row">
             <div class="large-12 columns">
                 <h2 class="table-title">Colorado Golf Courses</h2>
-                <p>Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter. <strong>Source: <a href="https://www.cde.state.co.us/cdefinance/capconstbest" target="_blank">Colorado Department of Education</a></strong></em></p>
+                <p>Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter. <em>Click address for directions in Google maps.</em></p>
+                <p class="instructions-text">Use dropdown menus or keyword search to filter table &bull; click column headers to sort</p>
             </div>
         </div>
         <div id="filters">
             <div class="row">
                 <div class="large-4 medium-4 columns">
-                    <span id="filter-1" style="font-weight: bold;"></span>
+                    <span id="filter-1"></span>
                 </div>
                 <div class="large-4 medium-4 columns">
-                    <span id="filter-2" style="font-weight: bold;"></span>
+                    <span id="filter-2"></span>
                 </div>
                 <div class="large-4 medium-4 columns">
-                    <span id="filter-3" style="font-weight: bold;"></span>
+                    <span id="filter-3"></span>
                 </div>
             </div>
             <div class="row">
@@ -104,12 +187,12 @@
                                 <th data-priority="3">Type</th>
                                 <th data-priority="4">Holes</th>
                                 <th data-priority="5">Architect</th>
-                                <th data-priority="6">Phone</th>
-                                <th data-priority="7">Website</th>
-                                <th>Address</th>
-                                <th>Founded</th>
-                                <th>Zip</th>
-                                <th>Holes normalized</th>
+                                <th class="none">Phone</th>
+                                <th class="none">Website</th>
+                                <th class="none">Directions</th>
+                                <th data-priority="6">Founded</th>
+                                <th class="none">Zip</th>
+                                <th class="none">Holes normalized</th>
                             </tr>
                         </thead>
                         <tfoot>
@@ -118,69 +201,78 @@
                         </tbody>
                     </table>
                 </div>
+                <p class="source">Source: Colorado Golf Association</p>
             </div>
         </div>
-        <script>
-        var dataFile = 'golf-course-data.json'
+    </div>
+    <script>
+    var dataFile = 'golf-course-data.json'
 
-        $(document).ready(function() {
-            function disableDependentFilter(level, inuse) {
-                if (level < 4) {
-                    filter = $('#yadcf-filter' + level);
-                    yadcf.exResetFilters(golfCourseTable, [level]);
-                    filter.prop('disabled', !inuse);
+    $(document).ready(function() {
+        // function disableDependentFilter(level, inuse) {
+        //     if (level < 4) {
+        //         filter = $('#yadcf-filter' + level);
+        //         yadcf.exResetFilters(golfCourseTable, [level]);
+        //         filter.prop('disabled', !inuse);
 
-                    disableDependentFilter(level + 1, false);
+        //         disableDependentFilter(level + 1, false);
+        //     }
+        // }
+
+        var golfCourseTable = $('#golf-course-table').DataTable({
+            ajax: {
+                'url': dataFile,
+                'dataSrc': ''
+            },
+            responsive: {
+                details: {
+                    type: 'column'
                 }
-            }
-
-            var golfCourseTable = $('#golf-course-table').DataTable({
-                ajax: {
-                    'url': dataFile,
-                    'dataSrc': ''
-                },
-                pageLength: 15,
-                responsive: {
-                    details: {
-                        type: 'column'
+            },
+            scrollY: "600px",
+            scrollCollapse: true,
+            paging: false,
+            dom: '<if<t>lp>',
+            columnDefs: [{
+                className: 'control',
+                orderable: false,
+                targets: 0
+            }],
+            order: [
+                [1, 'asc']
+            ],
+            columns: [
+                { data: 'button' },
+                { data: 'club_name' },
+                { data: 'city' },
+                { data: 'type' },
+                { data: 'number_of_holes' },
+                { data: 'architect' },
+                { data: 'number' },
+                {
+                    data: 'website_url',
+                    render: function(data, type, row) {
+                        return '<a href="//' + data + '" target="_blank">' + data + '</a>'
                     }
                 },
-                dom: '<if<t>lp>',
-                columnDefs: [{
-                    className: 'control',
-                    orderable: false,
-                    targets: 0
-                }],
-                order: [
-                    [1, 'asc']
-                ],
-                columns: [
-                    { data: 'button' },
-                    { data: 'club_name' },
-                    { data: 'city' },
-                    { data: 'type' },
-                    { data: 'number_of_holes' },
-                    { data: 'architect' },
-                    { data: 'number' },
-                    {
-                        data: 'website_url',
-                        render: function(data, type, row) {
-                            return '<a href="//' + data + '" target="_blank">' + data + '</a>'
-                        }
-                    },
-                    { data: 'street1' },
-                    { data: 'year_founded' },
-                    {
-                        data: 'zip',
-                        visible: false
-                    },
-                    { 
-                        data: 'holes_normalized',
-                        visible: false
+                {
+                    data: 'street1',
+                    render: function(data, type, row) {
+                        return '<a href="https://www.google.com/maps/dir//' + data + '+' + row.city + '+CO+' + row.zip + '" target="_blank">' + data + '</a>'
                     }
-                ],
+                },
+                { data: 'year_founded' },
+                {
+                    data: 'zip',
+                    visible: false
+                },
+                {
+                    data: 'holes_normalized',
+                    visible: false
+                }
+            ],
 
-                initComplete: function() {
+            initComplete: function() {
                 yadcf.init(golfCourseTable, [{
                         column_number: 2,
                         filter_container_id: 'filter-1',
@@ -193,7 +285,7 @@
                     {
                         column_number: 5,
                         filter_container_id: 'filter-3',
-                        filter_default_label: 'Choose course architect',
+                        filter_default_label: 'Choose course architect'
                         //column_data_type: 'rendered_html'
                     }
                 ], {
@@ -202,29 +294,28 @@
                 });
 
                 // get it started
-                disableDependentFilter(1, true);
+                // disableDependentFilter(1, true);
 
                 $('.yadcf-filter-reset-button').on('click', function() {
                     level = parseInt(this.id.split('-')[4]);
-                    disableDependentFilter(level, true);
+                    // disableDependentFilter(level, true);
                 });
 
                 $('.yadcf-filter').on('change', function() {
                     level = parseInt(this.id.slice(-1));
                     inuse = $(this).hasClass('inuse');
-
-                    disableDependentFilter(level + 1, inuse);
+                    // disableDependentFilter(level + 1, inuse);
                 });
             }
         });
-  //       var filteredData = lockdownTable
+        //  var filteredData = lockdownTable
         //  .column(17)
         //  .data()
         //  .filter(function(value, index) {
         //  return value == 'Not complete' ? true : false;
         // });
     });
-        </script>
+    </script>
 </body>
 
 </html>
