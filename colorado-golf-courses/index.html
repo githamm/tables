@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Colorado Golf Courses | The Denver Post</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/responsive/2.2.1/css/responsive.foundation.min.css" />
+    <!-- <link rel="stylesheet" href="jquery.dataTables.yadcf.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.foundation.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <script src="//cdn.datatables.net/plug-ins/1.10.16/dataRender/datetime.js"></script>
+    <script src="//cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+    <script src="//cdn.datatables.net/responsive/2.2.1/js/responsive.foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
+    <!-- <script src="jquery.dataTables.yadcf.js"></script> -->
+    <style>
+    body {
+        background-color: #fafafa;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .table-title {
+        font-weight: 700;
+        font-size: 1.75em;
+        line-height: 120%;
+    }
+
+    #filters {
+        font-size: .85rem;
+    }
+
+    #golf-course-table-container {
+        margin-top: 10px;
+        padding: 3px;
+    }
+
+    #golf-course-table {
+        font-size: .85rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    button.yadcf-filter-reset-button {
+        color: red;
+        margin-left: 10px;
+    }
+
+    select {
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-size: .85rem;
+    }
+
+    .yadcf-filter-range {
+        height: 2.9em;
+        border: 1px solid silver;
+    }
+
+    .filter-text {
+        font-weight: bold;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="golf-course-table-container">
+        <div class="row">
+            <div class="large-12 columns">
+                <h2 class="table-title">Colorado Golf Courses</h2>
+                <p>Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter. <strong>Source: <a href="https://www.cde.state.co.us/cdefinance/capconstbest" target="_blank">Colorado Department of Education</a></strong></em></p>
+            </div>
+        </div>
+        <div id="filters">
+            <div class="row">
+                <div class="large-4 medium-4 columns">
+                    <span id="filter-1" style="font-weight: bold;"></span>
+                </div>
+                <div class="large-4 medium-4 columns">
+                    <span id="filter-2" style="font-weight: bold;"></span>
+                </div>
+                <div class="large-4 medium-4 columns">
+                    <span id="filter-3" style="font-weight: bold;"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-12 columns">
+                    <table id="golf-course-table" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th data-priority="1">Name</th>
+                                <th data-priority="2">City</th>
+                                <th data-priority="3">Type</th>
+                                <th data-priority="4">Holes</th>
+                                <th data-priority="5">Architect</th>
+                                <th data-priority="6">Phone</th>
+                                <th data-priority="7">Website</th>
+                                <th>Address</th>
+                                <th>Founded</th>
+                                <th>Zip</th>
+                                <th>Holes normalized</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                        </tfoot>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script>
+        var dataFile = 'golf-course-data.json'
+
+        $(document).ready(function() {
+            function disableDependentFilter(level, inuse) {
+                if (level < 4) {
+                    filter = $('#yadcf-filter' + level);
+                    yadcf.exResetFilters(golfCourseTable, [level]);
+                    filter.prop('disabled', !inuse);
+
+                    disableDependentFilter(level + 1, false);
+                }
+            }
+
+            var golfCourseTable = $('#golf-course-table').DataTable({
+                ajax: {
+                    'url': dataFile,
+                    'dataSrc': ''
+                },
+                pageLength: 15,
+                responsive: {
+                    details: {
+                        type: 'column'
+                    }
+                },
+                dom: '<if<t>lp>',
+                columnDefs: [{
+                    className: 'control',
+                    orderable: false,
+                    targets: 0
+                }],
+                order: [
+                    [1, 'asc']
+                ],
+                columns: [
+                    { data: 'button' },
+                    { data: 'club_name' },
+                    { data: 'city' },
+                    { data: 'type' },
+                    { data: 'number_of_holes' },
+                    { data: 'architect' },
+                    { data: 'number' },
+                    {
+                        data: 'website_url',
+                        render: function(data, type, row) {
+                            return '<a href="//' + data + '" target="_blank">' + data + '</a>'
+                        }
+                    },
+                    { data: 'street1' },
+                    { data: 'year_founded' },
+                    {
+                        data: 'zip',
+                        visible: false
+                    },
+                    { 
+                        data: 'holes_normalized',
+                        visible: false
+                    }
+                ],
+
+                initComplete: function() {
+                yadcf.init(golfCourseTable, [{
+                        column_number: 2,
+                        filter_container_id: 'filter-1',
+                        filter_default_label: 'Choose city'
+                    }, {
+                        column_number: 11,
+                        filter_container_id: 'filter-2',
+                        filter_default_label: 'Choose number of holes'
+                    },
+                    {
+                        column_number: 5,
+                        filter_container_id: 'filter-3',
+                        filter_default_label: 'Choose course architect',
+                        //column_data_type: 'rendered_html'
+                    }
+                ], {
+                    cumulative_filtering: true,
+                    filter_reset_button_text: 'Reset filter'
+                });
+
+                // get it started
+                disableDependentFilter(1, true);
+
+                $('.yadcf-filter-reset-button').on('click', function() {
+                    level = parseInt(this.id.split('-')[4]);
+                    disableDependentFilter(level, true);
+                });
+
+                $('.yadcf-filter').on('change', function() {
+                    level = parseInt(this.id.slice(-1));
+                    inuse = $(this).hasClass('inuse');
+
+                    disableDependentFilter(level + 1, inuse);
+                });
+            }
+        });
+  //       var filteredData = lockdownTable
+        //  .column(17)
+        //  .data()
+        //  .filter(function(value, index) {
+        //  return value == 'Not complete' ? true : false;
+        // });
+    });
+        </script>
+</body>
+
+</html>
