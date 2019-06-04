@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Denver 2019 Runoff Election Results</title>
+    <link rel="canonical" href="http://extras.denverpost.com/weather-closures/denver-election-results.html" />
+    <link rel="shortcut icon" href="http://extras.mnginteractive.com/live/media/favIcon/dpo/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Mono" rel="stylesheet">
+    <meta name="distribution" content="global" />
+    <meta name="robots" content="index, nofollow" />
+    <!-- Style sheets -->
+    <link rel="stylesheet" type="text/css" href="http://extras.denverpost.com/foundation/css/foundation.css" />
+    <!-- Scripts -->
+    <script src="http://extras.denverpost.com/foundation/js/vendor/jquery.js "></script>
+    <script src="http://extras.denverpost.com/foundation/js/vendor/modernizr.js"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #fafafa;
+        }
+        table {
+            width: 100%;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .race-title {
+            font-size: 1.5rem;
+            font-family: 'Roboto Condensed', sans-serif;
+            line-height: 25px;
+        }
+    </style>
+    <script type='text/javascript'>
+    //Write a function that allows us to add commas to raw numbers in spreadsheet for display.  2413 becomes 2,413.
+    function addCommas(nStr) {
+        nStr += '';
+        x = nStr.split('.');
+        x1 = x[0];
+        x2 = x.length > 1 ? '.' + x[1] : '';
+        var rgx = /(\d+)(\d{3})/;
+        while (rgx.test(x1)) {
+            x1 = x1.replace(rgx, '$1' + ',' + '$2');
+        }
+        return x1 + x2;
+    }
+
+    // SCHOOLS
+    //this will be executed after we "fetch" the contents of a spreadsheet. The json parameter will hold our spreadsheet's data
+    function displayContent(json) {
+        //start an html table and write out our headers.  Using <td width="20%"> tags so it isn't bold and centered, which is the <th> default.
+        //var pre_html = '<table id = "denver-election-results"><tr><td width="20%">School district</td><td width="20%">Status</td></thead><tbody>';
+        //same as above but gets rid of column headers
+        // var pre_html = '<table id = "denver-election-results"><tbody><tr><td width="20%"><em>Updated at ' + json.feed.entry[0].gsx$updated.$t + '</em></td></tr>';
+        //Create an empty string to hold the HTML. We will put table data here.
+        var mayor_html,
+            clerk_html,
+            district1_html,
+            district3_html,
+            district5_html,
+            district9_html,
+            district10_html,
+            ordinance302_html;
+        //After we grab the table, close the HTML table.
+        // var post_html = '</tbody></table>'
+        //figure out how many rows our spreadsheet has
+        var len = json.feed.entry.length
+
+        //loop through the spreadsheet, gathering data
+        //for (var i = 0; i < 7; i++) {
+        //for each row, add the following to actual HTML, grabbing it as a list, and then joining the list together as one long string.
+        //Uses HTML for table cells, and then grabs attributes from the spreadsheet, using appropriate syntax. Enter your table header in the Google spreadsheet between            
+        //the gsx$ and .$t.
+        mayor_html = [
+            '<h2 class="race-title">Mayor</h2><table id="denver-election-results"><thead><tr><th></th><th>Pct</th><th>Votes</th></tr></thead><tbody><tr><td width="60%">' +
+            json.feed.entry[0].gsx$mayorname.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[0].gsx$mayorpct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[0].gsx$mayorvote.$t +
+            '</td></tr><tr><td width="60%">' +
+            json.feed.entry[1].gsx$mayorname.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[1].gsx$mayorpct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[1].gsx$mayorvote.$t +
+            '</td></tr></tbody></table>'
+        ];
+        clerk_html = [
+            '<h2 class="race-title">Clerk and recorder</h2><table id="denver-election-results"><thead><tr><th></th><th>Pct</th><th>Votes</th></tr></thead><tbody><tr><td width="60%">' +
+            json.feed.entry[0].gsx$clerkname.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[0].gsx$clerkpct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[0].gsx$clerkvote.$t +
+            '</td></tr><tr><td width="60%">' +
+            json.feed.entry[1].gsx$clerkname.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[1].gsx$clerkpct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[1].gsx$clerkvote.$t +
+            '</td></tr></tbody></table>'
+        ];
+        district1_html = [
+            '<h2 class="race-title">City Council District 1</h2><table id="denver-election-results"><thead><tr><th></th><th>Pct</th><th>Votes</th></tr></thead><tbody><tr><td width="60%">' +
+            json.feed.entry[0].gsx$district1name.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[0].gsx$district1pct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[0].gsx$district1vote.$t +
+            '</td></tr><tr><td width="60%">' +
+            json.feed.entry[1].gsx$district1name.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[1].gsx$district1pct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[1].gsx$district1vote.$t +
+            '</td></tr></tbody></table>'
+        ];
+        district3_html = [
+            '<h2 class="race-title">City Council District 3</h2><table id="denver-election-results"><thead><tr><th></th><th>Pct</th><th>Votes</th></tr></thead><tbody><tr><td width="60%">' +
+            json.feed.entry[0].gsx$district3name.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[0].gsx$district3pct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[0].gsx$district3vote.$t +
+            '</td></tr><tr><td width="60%">' +
+            json.feed.entry[1].gsx$district3name.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[1].gsx$district3pct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[1].gsx$district3vote.$t +
+            '</td></tr></tbody></table>'
+        ];
+        district5_html = [
+            '<h2 class="race-title">City Council District 5</h2><table id="denver-election-results"><thead><tr><th></th><th>Pct</th><th>Votes</th></tr></thead><tbody><tr><td width="60%">' +
+            json.feed.entry[0].gsx$district5name.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[0].gsx$district5pct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[0].gsx$district5vote.$t +
+            '</td></tr><tr><td width="60%">' +
+            json.feed.entry[1].gsx$district5name.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[1].gsx$district5pct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[1].gsx$district5vote.$t +
+            '</td></tr></tbody></table>'
+        ];
+        district9_html = [
+            '<h2 class="race-title">City Council District 9</h2><table id="denver-election-results"><thead><tr><th></th><th>Pct</th><th>Votes</th></tr></thead><tbody><tr><td width="60%">' +
+            json.feed.entry[0].gsx$district9name.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[0].gsx$district9pct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[0].gsx$district9vote.$t +
+            '</td></tr><tr><td width="60%">' +
+            json.feed.entry[1].gsx$district9name.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[1].gsx$district9pct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[1].gsx$district9vote.$t +
+            '</td></tr></tbody></table>'
+        ];
+        district10_html = [
+            '<h2 class="race-title">City Council District 10</h2><table id="denver-election-results"><thead><tr><th></th><th>Pct</th><th>Votes</th></tr></thead><tbody><tr><td width="60%">' +
+            json.feed.entry[0].gsx$district10name.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[0].gsx$district10pct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[0].gsx$district10vote.$t +
+            '</td></tr><tr><td width="60%">' +
+            json.feed.entry[1].gsx$district10name.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[1].gsx$district10pct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[1].gsx$district10vote.$t +
+            '</td></tr></tbody></table>'
+        ];
+        ordinance302_html = [
+            '<h2 class="race-title">Ordinance 302: Require voter approval for Olympics</h2><table id="denver-election-results"><thead><tr><th></th><th>Pct</th><th>Votes</th></tr></thead><tbody><tr><td width="60%">' +
+            json.feed.entry[0].gsx$ordinance302name.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[0].gsx$ordinance302pct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[0].gsx$ordinance302vote.$t +
+            '</td></tr><tr><td width="60%">' +
+            json.feed.entry[1].gsx$ordinance302name.$t +
+            '</td><td width="20%">' +
+            json.feed.entry[1].gsx$ordinance302pct.$t +
+            '%</td><td width="20%">' +
+            json.feed.entry[1].gsx$ordinance302vote.$t +
+            '</td></tr></tbody></table>'
+        ];
+        //put all three of our HTML strings into our div we made at the top of the page
+        document.getElementById('mayor-table').innerHTML = '<p style="margin-bottom:5px;font-style:italic">Updated at ' + json.feed.entry[0].gsx$updated.$t + '</p><p style="font-style:italic;font-weight:bold;margin-bottom:-5px">&#10004; denotes winner | * denotes incumbent</p><hr>' + mayor_html + clerk_html + district1_html + district3_html + district5_html + district9_html + district10_html + ordinance302_html
+    }
+    </script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="large-8 large-centered medium-10 medium-centered columns">
+            <div id="mayor-table">
+                <!-- Grab the data from our google spreadsheet, using the callback to call the function we just created -->
+                <script src="https://spreadsheets.google.com/feeds/list/1uTGyMPvQtb5pNrVDOauCmY--6tlxT7r0DyNEyKt5Gwk/od6/public/values?alt=json-in-script&amp;callback=displayContent " type="text/javascript "></script>
+            </div>
+        </div>
+    </div>
+    <script src="http://extras.denverpost.com/foundation/js/foundation.min.js "></script>
+    <script>
+    $(document).foundation();
+    </script>
+    <footer>
+    </footer>
+</body>
+
+</html>
