@@ -63,13 +63,17 @@
     td {
         /*border: 1px solid #c8c8c8;*/
         border: 1px solid rgba(0, 0, 0, .1);
-        padding-top: 12px !important;
-        line-height: 105%;
+        /*padding-top: 12px !important;*/
+        line-height: 102%;
     }
 
     .cell-contents {
         color: rgba(0, 0, 0, .5);
         font-size: 1em;
+    }
+
+    label {
+        margin-bottom: 10px !important;
     }
 
     .vote-total-container {
@@ -98,8 +102,14 @@
     #prez-vote-table {
         font-size: .85rem;
         font-family: 'Roboto', sans-serif;
-        width: 1300px;
+        width: 100%;
         margin: 0 auto;
+    }
+
+    .super-script {
+        font-size: .8em;
+        vertical-align: super;
+        color: #aaa;
     }
 
     button.yadcf-filter-reset-button {
@@ -158,16 +168,17 @@
 </head>
 
 <body>
-    <div id="prez-vote-table-container">
-        <div class="row">
-            <div class="large-12 columns">
-                <h2 class="table-title">Colorado presidential voting 1980-2016</h2>
-                <p class="body-text">The <a href="https://www.rga.org/" target="_top">Republican Governors Association</a> and the <a href="https://democraticgovernors.org/" target="_top">Democratic Governors Association</a> &mdash; advocacy groups called <a href="https://www.opensecrets.org/527s/" target="_top">527 organizations</a> that can raise unlimited money from donors and report their contributions and expenditures to the IRS &mdash; are putting money into the Colorado governor's race. This database shows the companies and individuals from Colorado who have donated from Jan. 1, 2017, through June 30, 2018. <em>Note: Individuals who donated less than $300 are listed with the name "Individual." <strong>Source: <a href="https://www.irs.gov/charities-non-profits/political-organizations/political-organization-filing-and-disclosure" target="_top">Internal Revenue Service</a></strong></em></p>
-                <p class="instructions-text">Use dropdown menus to filter table; click column headers to sort</p>
-            </div>
-        </div>
-        <div id="filters">
-            <!-- <div class="row">
+    <h2 class="table-title">Colorado presidential voting 1980-2016</h2>
+    <p class="body-text">The <a href="https://www.rga.org/" target="_top">Republican Governors Association</a> and the <a href="https://democraticgovernors.org/" target="_top">Democratic Governors Association</a> &mdash; advocacy groups called <a href="https://www.opensecrets.org/527s/" target="_top">527 organizations</a> that can raise unlimited money from donors and report their contributions and expenditures to the IRS &mdash; are putting money into the Colorado governor's race. This database shows the companies and individuals from Colorado who have donated from Jan. 1, 2017, through June 30, 2018. <em>Note: Individuals who donated less than $300 are listed with the name "Individual." <strong>Source: <a href="https://www.irs.gov/charities-non-profits/political-organizations/political-organization-filing-and-disclosure" target="_top">Internal Revenue Service</a></strong></em></p>
+    <div style="width:45%;float:left">
+        <iframe id="datawrapper-chart-yTV9r" src="//datawrapper.dwcdn.net/yTV9r/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important;" height="500"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["yTV9r"]={},window.datawrapper["yTV9r"].embedDeltas={"100":787,"200":618,"300":559,"400":517,"500":500,"700":500,"800":500,"900":500,"1000":483},window.datawrapper["yTV9r"].iframe=document.getElementById("datawrapper-chart-yTV9r"),window.datawrapper["yTV9r"].iframe.style.height=window.datawrapper["yTV9r"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["yTV9r"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("yTV9r"==b)window.datawrapper["yTV9r"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
+    </div>
+    <div style="width:45%;float:right">
+        <iframe id="datawrapper-chart-2Gaea" src="//datawrapper.dwcdn.net/2Gaea/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important;" height="500"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["2Gaea"]={},window.datawrapper["2Gaea"].embedDeltas={"100":787,"200":618,"300":559,"400":517,"500":517,"700":500,"800":500,"900":500,"1000":500},window.datawrapper["2Gaea"].iframe=document.getElementById("datawrapper-chart-2Gaea"),window.datawrapper["2Gaea"].iframe.style.height=window.datawrapper["2Gaea"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["2Gaea"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("2Gaea"==b)window.datawrapper["2Gaea"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
+    </div>
+    <!-- <p class="instructions-text">Use dropdown menus to filter table; click column headers to sort</p> -->
+    <div id="filters">
+        <!-- <div class="row">
                 <div class="large-6 medium-6 small-6 columns">
                     <span id="urban-filter" style="font-weight: bold;"></span>
                 </div>
@@ -189,35 +200,32 @@
                     <span id="amount-filter" style="font-weight: bold;"></span>
                 </div>
             </div> -->
-        </div>
-        <div class="row">
-            <div class="large-12 columns">
-                <table id="prez-vote-table" cellspacing="0" class="display nowrap" style="width:100%">
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th>Pop.</th>
-                                <th>Income</th>
-                                <th data-priority="1">County</th>
-                                <th data-priority="2">2016</th>
-                                <th data-priortiy="3">2012</th>
-                                <th data-priority="4">2008</th>
-                                <th data-priority="5">2004</th>
-                                <th data-priority="6">2000</th>
-                                <th data-priority="7">1996</th>
-                                <th data-priority="8">1992</th>
-                                <th data-priority="9">1988</th>
-                                <th data-priority="10">1984</th>
-                                <th data-priority="11">1980</th>
-                            </tr>
-                        </thead>
-                        <tfoot>
-                        </tfoot>
-                        <tbody>
-                        </tbody>
-                        </table>
-            </div>
-        </div>
+    </div>
+    <div id="prez-vote-table-container">
+        <table id="prez-vote-table" cellspacing="0" class="display nowrap">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Pop.<span class="super-script" style="font-weight:normal">(rank)</span></th>
+                    <th>Income</th>
+                    <th data-priority="1">County</th>
+                    <th data-priority="2" title="Donald Trump (R) def Hillary Clinton (D)">2016</th>
+                    <th data-priortiy="3" title="Barack Obama (D) def Mitt Romney (R)">2012</th>
+                    <th data-priority="4" title="Barack Obama (D) def John McCain (R)">2008</th>
+                    <th data-priority="5" title="George W. Bush (R) def John Kerrey (D)">2004</th>
+                    <th data-priority="6" title="George W. Bush (R) def Al Gore (D)">2000</th>
+                    <th data-priority="7" title="Bill Clinton (D) def Bob Dole (R)">1996</th>
+                    <th data-priority="8" title="Bill Clinton (D) def George H.W. Bush (R)">1992</th>
+                    <th data-priority="9" title="George H.W. Bush (R) def Michael Dukakis (D)">1988</th>
+                    <th data-priority="10" title="Ronald Reagan (R) def Walter Mondale (D)">1984</th>
+                    <th data-priority="11" title="Ronald Reagan (R) def Jimmy Carter (D)">1980</th>
+                </tr>
+            </thead>
+            <tfoot>
+            </tfoot>
+            <tbody>
+            </tbody>
+        </table>
     </div>
     <script>
     var dataFile = 'colorado-prez-results.json'
@@ -238,7 +246,7 @@
                 'url': dataFile,
                 'dataSrc': ''
             },
-            pageLength: 15,
+            pageLength: 64,
             // responsive: {
             //     details: {
             //         type: 'column'
@@ -246,7 +254,7 @@
             // },
             //scrollX: true,
             //fixedHeader: true,
-            dom: '<if<t>lp>',
+            dom: 'frti',
             rowCallback: function(row, data, index) {
                 function colorCells(demPct, repPct, colNum) {
                     if (isNaN(demPct)) {
@@ -419,7 +427,7 @@
                     data: 'population2017ACS',
                     render: function(data, type, row, meta) {
                         if (type === 'display' || type === 'filter') {
-                            return row.population2017ACS.toLocaleString() + '<span style="font-size: .8em;vertical-align:super;color:#aaa;"> (' + row.populationRank + ')</span>'
+                            return row.population2017ACS.toLocaleString() + '<span class="super-script"> (' + row.populationRank + ')</span>'
                         } else {
                             return row.populationRank
                         }
@@ -429,7 +437,7 @@
                     data: 'income2017ACS',
                     render: function(data, type, row, meta) {
                         if (type === 'display' || type === 'filter') {
-                            return '$' + row.income2017ACS.toLocaleString() + '<span style="font-size: .8em;vertical-align:super;color:#aaa;"> (' + row.incomeRank + ')</span>'
+                            return '$' + row.income2017ACS.toLocaleString() + '<span class="super-script"> (' + row.incomeRank + ')</span>'
                         } else {
                             return row.incomeRank
                         }
@@ -702,7 +710,7 @@
                     data[1] < 200000 ?
                         true :
                         false
-                    }
+                }
             );
             prezVoteTable.draw();
             $.fn.dataTable.ext.search.pop();

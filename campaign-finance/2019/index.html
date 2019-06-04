@@ -97,7 +97,7 @@
         <div class="row">
             <div class="large-12 columns">
                 <h2 class="table-title">Colorado Lobbyist Database</h2>
-                <p class="body-text">Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and. <em>Note: any notes? <strong>Source: <a href="#" target="_top">source</a></strong></em></p>
+                <p class="body-text">Colorado lobbyists reported more than $33 million in gross revenue from their clients and employers in 2018, according to state records compiled and analyzed by The Denver Post. In this exclusive database, you can find which organizations hired lobbyists and how much lobbyists reported being paid. <em>Note: Colorado lobbying records can be incomplete, in part because the data is self-reported and there is little standardization. Have a question about the data? Email <a href="mailto:ngarcia@denverpost.com">ngarcia@denverpost.com</a>. <strong>Source: Colorado Secretary of State</strong></em></p>
                 <p class="instructions-text">Use dropdown menus to filter table; click column headers to sort</p>
             </div>
         </div>
@@ -127,9 +127,9 @@
                 <thead>
                     <tr>
                         <th></th>
-                        <th data-priority="1">Lobbyist</th>
+                        <th data-priority="1">Lobbyist/firm</th>
                         <th data-priority="3">Client</th>
-                        <th data-priority="2">Income</th>
+                        <th data-priority="2">Income reported</th>
                         <th data-priority="4">Industry</th>
                     </tr>
                 </thead>
@@ -139,7 +139,6 @@
                 </tbody>
             </table>
         </div>
-    </div>
     </div>
     <script>
     var dataFile = 'lobbyists-2.json'
@@ -211,26 +210,26 @@
 
             initComplete: function() {
                 yadcf.init(lobbyistsTable, [{
-                    column_number: 1,
-                    filter_container_id: 'lobbyist-filter',
-                    filter_default_label: 'Filter by lobbyist'
-                }, {
-                    column_number: 2,
-                    filter_container_id: 'client-filter',
-                    filter_default_label: 'Filter by client'
-                },
-                // {
-                //     column_number: 3,
-                //     filter_container_id: 'income-filter',
-                //     //column_data_type: 'rendered_html',
-                //     filter_type: 'range_number'
-                // },
-                {
-                    column_number: 4,
-                    filter_container_id: 'industry-filter',
-                    filter_default_label: 'Filter by industry',
-                    //column_data_type: 'rendered_html'
-                }
+                        column_number: 1,
+                        filter_container_id: 'lobbyist-filter',
+                        filter_default_label: 'Filter by lobbyist/firm'
+                    }, {
+                        column_number: 2,
+                        filter_container_id: 'client-filter',
+                        filter_default_label: 'Filter by client'
+                    },
+                    // {
+                    //     column_number: 3,
+                    //     filter_container_id: 'income-filter',
+                    //     //column_data_type: 'rendered_html',
+                    //     filter_type: 'range_number'
+                    // },
+                    {
+                        column_number: 4,
+                        filter_container_id: 'industry-filter',
+                        filter_default_label: 'Filter by industry',
+                        //column_data_type: 'rendered_html'
+                    }
                 ], {
                     cumulative_filtering: true,
                     filter_reset_button_text: 'Reset filter'
