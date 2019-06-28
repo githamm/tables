@@ -364,17 +364,6 @@
 },
 {
     "button": "",
-    "neighborhood": "Auraria",
-    "censusTract": "Census Tract 19.02",
-    "povertyPopulation": 62,
-    "belowPoverty": 8,
-    "racePopulation": 798,
-    "whiteAlone": 540,
-    "rate2006": "",
-    "rate2013": ""
-},
-{
-    "button": "",
     "neighborhood": "Civic Center",
     "censusTract": "Census Tract 20",
     "povertyPopulation": 1962,

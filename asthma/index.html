@@ -157,7 +157,7 @@
         font-size: .75rem;
         font-style: italic;
         color: rgba(0,0,0,.7);
-        margin-top: -5px;
+        margin-top: -4px;
     }
     </style>
 </head>
@@ -166,9 +166,10 @@
     <div id="asthma-table-container">
         <div class="row">
             <div class="large-12 columns">
-                <h2 class="table-title">Denver neighborhood asthma rates</h2>
-                <p>Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter. <em>Click address for directions in Google maps.</em></p>
-                <p class="instructions-text">Use dropdown menus or keyword search to filter table &bull; click column headers to sort</p>
+                <h2 class="table-title">Denver asthma rates</h2>
+                <p>The table shows asthma rates* for Denver neighborhoods by census tracts, as well as poverty and race information.</p>
+                <p><em>*Rate of hositalizations per 100,000 people</em>
+                <p class="instructions-text">Use keyword search to filter table &bull; click column headers to sort</p>
             </div>
         </div>
         <div id="filters">
@@ -191,12 +192,12 @@
                                 <th></th>
                                 <th data-priority="1">Neighborhood</th>
                                 <th>Census tract</th>
-                                <th data-priority="5">Rate 2006</th>
-                                <th data-priority="5">Rate 2013</th>
-                                <th>Change</th>
-                                <th data-priority="4">Below poverty</th>
-                                <th>Race pop</th>
-                                <th data-priority="5">Nonwhite population</th>
+                                <th data-priority="5">Rate 2006-10</th>
+                                <th data-priority="2">Rate 2013-17</th>
+                                <th data-priority="4">Difference from 2013 state average</th>
+                                <th data-priority="3">Rate change</th>
+                                <th data-priority="6">Below poverty</th>
+                                <th data-priority="7">Nonwhite population</th>
                                 
                                 <!-- <th class="none">Phone</th> -->
                             </tr>
@@ -280,6 +281,13 @@
                     }
                 },
                 {
+                    data: 'racePopulation',
+                    render: function(data, type, row) {
+                    	return Math.round(((row.rate2013 -637.8) / 637.8) *100) + '%';
+                    }
+                    //visible: false
+                },
+                {
                     data: 'povertyPopulation',
                     render: function(data, type, row) {
                         var rateChange = ((row.rate2013 - row.rate2006) / row.rate2006);
@@ -293,10 +301,6 @@
                     render: function(data, type, row) {
                         return Math.round((data / row.povertyPopulation) * 100) + '%';
                     }
-                },
-                {
-                    data: 'racePopulation',
-                    visible: false
                 },
                 {
                     data: 'whiteAlone',
