@@ -152,6 +152,13 @@
         padding: 4px;
         line-height: 17px;
     }
+
+    .sub-row {
+        font-size: .75rem;
+        font-style: italic;
+        color: rgba(0,0,0,.7);
+        margin-top: -5px;
+    }
     </style>
 </head>
 
@@ -183,13 +190,14 @@
                             <tr>
                                 <th></th>
                                 <th data-priority="1">Neighborhood</th>
-                                <th data-priority="2">Census tract</th>
-                                <th data-priority="3">Poverty pop</th>
-                                <th data-priority="4">Below poverty</th>
-                                <th data-priority="5">Race pop</th>
-                                <th data-priority="5">White alone</th>
+                                <th>Census tract</th>
                                 <th data-priority="5">Rate 2006</th>
                                 <th data-priority="5">Rate 2013</th>
+                                <th>Change</th>
+                                <th data-priority="4">Below poverty</th>
+                                <th>Race pop</th>
+                                <th data-priority="5">Nonwhite population</th>
+                                
                                 <!-- <th class="none">Phone</th> -->
                             </tr>
                         </thead>
@@ -241,14 +249,61 @@
             ],
             columns: [
                 { data: 'button' },
-                { data: 'neighborhood' },
-                { data: 'censusTract' },
-                { data: 'povertyPopulation' },
-                { data: 'belowPoverty' },
-                { data: 'racePopulation' },
-                { data: 'whiteAlone' },
-                { data: 'rate2006' },
-                { data: 'rate2013' }
+                {
+                    data: 'neighborhood',
+                    render: function(data, type, row) {
+                        return data + '<br><div class="sub-row">' + row.censusTract + '</div>'
+                    }
+                },
+                {
+                    data: 'censusTract',
+                    visible: false
+                },
+                {
+                    data: 'rate2006',
+                    render: function(data, type, row) {
+                        var rateTextColor;
+                        if (data > 636.4) {
+                            rateTextColor = '#cb181d'
+                        } else rateTextColor = '';
+                        return '<div style="color:' + rateTextColor + '"">' + data.toLocaleString() + '</div>'
+                    }
+                },
+                {
+                    data: 'rate2013',
+                    render: function(data, type, row) {
+                        var rateTextColor;
+                        if (data > 637.8) {
+                            rateTextColor = '#cb181d'
+                        } else rateTextColor = '';
+                        return '<div style="color:' + rateTextColor + '"">' + data.toLocaleString() + '</div>'
+                    }
+                },
+                {
+                    data: 'povertyPopulation',
+                    render: function(data, type, row) {
+                        var rateChange = ((row.rate2013 - row.rate2006) / row.rate2006);
+                        if (row.rate2006 == '' && row.rate2013 == '') {
+                            return ''
+                        } else return Math.round(rateChange * 100) + '%'
+                    }
+                },
+                {
+                    data: 'belowPoverty',
+                    render: function(data, type, row) {
+                        return Math.round((data / row.povertyPopulation) * 100) + '%';
+                    }
+                },
+                {
+                    data: 'racePopulation',
+                    visible: false
+                },
+                {
+                    data: 'whiteAlone',
+                    render: function(data, type, row) {
+                        return 100 - Math.round((data / row.racePopulation) * 100) + '%';
+                    }
+                }
                 // {
                 //     data: 'website_url',
                 //     render: function(data, type, row) {
