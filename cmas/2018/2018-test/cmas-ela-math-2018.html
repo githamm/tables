@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Colorado CMAS English Language Arts and Math Scores 2019</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.foundation.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.foundation.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.16/dataRender/datetime.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.1/js/responsive.foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
+    <style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #fafafa;
+        font-size: .85rem;
+    }
+
+    #cmas-table-container {
+        margin-top: 10px;
+        padding: 3px;
+    }
+
+    #cmas-table {
+        font-size: .85rem;
+    }
+
+    button.yadcf-filter-reset-button {
+        color: red;
+        margin-left: 10px;
+    }
+
+    select {
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-size: .85rem;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="cmas-table-container">
+        <div class="row">
+            <div class="large-4 medium-4 small-12 columns">
+                <span id="district-filter" style="font-weight: bold;"></span>
+            </div>
+            <div class="large-4 medium-4 small-12 columns">
+                <span id="school-filter" style="font-weight: bold;"></span>
+            </div>
+            <div class="large-4 medium-4 small-12 columns">
+                <span id="content-filter" style="font-weight: bold;"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <table id="cmas-table" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th data-priority="1">District</th>
+                            <th data-priority="2">School</th>
+                            <th data-priority="3">Test</th>
+                            <th data-priority="11">Participation</th>
+                            <th data-priority="12">Mean schore</th>
+                            <th data-priority="8">Met expectations</th>
+                            <th data-priority="7">Exceeded expectations</th>
+                            <th data-priority="4">2017 Met or exceeded expectations</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                    </tfoot>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script>
+    var dataFile = 'cmas-ela-math-2018.json'
+
+    $(document).ready(function() {
+        function disableDependentFilter(level, inuse) {
+            if (level < 4) {
+                filter = $('#yadcf-filter--example-' + level);
+                yadcf.exResetFilters(cmasTable, [level]);
+                filter.prop('disabled', !inuse);
+
+                disableDependentFilter(level + 1, false);
+            }
+        }
+
+        var cmasTable = $('#cmas-table').DataTable({
+            ajax: {
+                'url': dataFile,
+                'dataSrc': ''
+            },
+            pageLength: 15,
+            responsive: {
+                details: {
+                    type: 'column'
+                }
+            },
+            dom: '<if<t>lp>',
+            columnDefs: [{
+                className: 'control',
+                orderable: false,
+                targets: 0
+            }],
+            order: [
+                [4, 'desc']
+            ],
+            columns: [
+                { data: 'button' },
+                { data: 'district' },
+                { data: 'school' },
+                { data: 'testGrade' },
+                {
+                    data: 'participation',
+                    render: $.fn.dataTable.render.number(',', '.', 1, '', '%')
+                },
+                { data: 'meanScore' },
+                {
+                    data: 'met',
+                    render: $.fn.dataTable.render.number(',', '.', 1, '', '%')
+                },
+                {
+                    data: 'exceeded',
+                    render: $.fn.dataTable.render.number(',', '.', 1, '', '%')
+                    // render: function(data, type, row) {
+                    //     if (data == '*' || data == '-') {
+                    //         return ' '
+                    //     } else {
+                    //         return data + '%'
+                    //     }
+                    // }
+                },
+                {
+                    data: '2017MetOrExceeded',
+                    render: $.fn.dataTable.render.number(',', '.', 1, '', '%')
+                }
+
+                // {
+                //     data: 'stockReturn2017',
+                //     // render: function(data, type, full, meta) {
+                //     //     return +data + '%';
+                //     // },
+                //     render: $.fn.dataTable.render.number(',', '.', 0, '', '%'),
+                //     defaultContent: "" // not working on NaN
+                // },
+                // {
+                //     data: 'sex',
+                //     visible: false
+                // }
+            ],
+
+            initComplete: function() {
+                yadcf.init(cmasTable, [{
+                    column_number: 1,
+                    filter_container_id: 'district-filter',
+                    filter_default_label: 'Select district'
+                }, {
+                    column_number: 2,
+                    filter_container_id: 'school-filter',
+                    filter_default_label: 'Select school'
+                }, {
+                    column_number: 3,
+                    filter_container_id: 'content-filter',
+                    filter_default_label: 'Select test'
+                }], {
+                    cumulative_filtering: true,
+                    filter_reset_button_text: 'Reset filter'
+                });
+
+                // get it started
+                disableDependentFilter(1, true);
+
+                $('.yadcf-filter-reset-button').on('click', function() {
+                    level = parseInt(this.id.split('-')[4]);
+                    disableDependentFilter(level, true);
+                });
+
+                $('.yadcf-filter').on('change', function() {
+                    level = parseInt(this.id.slice(-1));
+                    inuse = $(this).hasClass('inuse');
+
+                    disableDependentFilter(level + 1, inuse);
+                });
+            }
+        });
+    });
+    </script>
+</body>
+
+</html>
