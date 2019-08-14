@@ -44,7 +44,7 @@
  */
  
 // DB table to use
-$table = 'debt';
+$table = 'cmas';
  
 // Table's primary key
 $primaryKey = 'id';
@@ -56,36 +56,32 @@ $primaryKey = 'id';
 $columns = array(
     array( 'db' => 'button', 'dt' => 0 ),
     array( 'db' => 'id', 'dt' => 1 ),
-    array( 'db' => 'name', 'dt' => 2 ),
-    array( 'db' => 'type', 'dt' => 3 ),
-    array( 'db' => 'cipdesc', 'dt' => 4 ),
-    array( 'db' => 'creddesc', 'dt' => 5 ),
-    array( 'db' => 'count', 'dt' => 6 ),
-    array( 'db' => 'debtmedian', 'dt' => 7 ),
-    array( 'db' => 'ipedscount', 'dt' => 8 )
+    array( 'db' => 'district', 'dt' => 2 ),
+    array( 'db' => 'school', 'dt' => 3 ),
+    array( 'db' => 'subject', 'dt' => 4 ),
+    array( 'db' => 'grade', 'dt' => 5 ),
+    array( 'db' => 'metExceeded2019', 'dt' => 6 ),
+    array( 'db' => 'metExceeded2018', 'dt' => 7 ),
+    array( 'db' => 'metExceededChange', 'dt' => 8 ),
+    array( 'db' => 'exceeded2019', 'dt' => 9 ),
+    array( 'db' => 'meanScore', 'dt' => 10 ),
+    array( 'db' => 'participationRate', 'dt' => 11 )
 );
  
 // SQL server connection information - plus server
 // $sql_details = array(
 //     'user' => '',
 //     'pass' => '',
-//     'db'   => 'student_debt',
+//     'db'   => 'cmas_2019',
 //     'host' => 'localhost'
 // );
 
 $sql_details = array(
     'user' => 'root',
     'pass' => 'root',
-    'db'   => 'student_debt_master',
+    'db'   => 'cmas_2019',
     'host' => 'localhost'
 );
-
-// $sql_details = array(
-//     'user' => 'datatables',
-//     'pass' => '',
-//     'db'   => '',
-//     'host' => 'localhost'
-// );
  
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * If you just want to use the basic configuration for DataTables with PHP
