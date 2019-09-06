@@ -1,0 +1,462 @@
+[
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "CLARA E. METZ ELEMENTARY SCHOOL",
+    "whitePct": 0.148,
+    "nonwhitePct": 0.852,
+    "whiteDiff": -0.01,
+    "nonwhiteDiff": 0.01,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "FAIRVIEW ELEMENTARY SCHOOL",
+    "whitePct": 0.095,
+    "nonwhitePct": 0.905,
+    "whiteDiff": -0.063,
+    "nonwhiteDiff": 0.063,
+    "pctMove": 0.032
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "FRANCIS M. DAY ELEMENTARY SCHOOL",
+    "whitePct": 0.056,
+    "nonwhitePct": 0.944,
+    "whiteDiff": -0.102,
+    "nonwhiteDiff": 0.102,
+    "pctMove": 0.051
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "GREGORY HILL PRESCHOOL",
+    "whitePct": 0.249,
+    "nonwhitePct": 0.751,
+    "whiteDiff": 0.091,
+    "nonwhiteDiff": -0.091,
+    "pctMove": 0.046
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "HARRIS PARK ELEMENTARY SCHOOL",
+    "whitePct": 0.208,
+    "nonwhitePct": 0.792,
+    "whiteDiff": 0.05,
+    "nonwhiteDiff": -0.05,
+    "pctMove": 0.025
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "HIDDEN LAKE HIGH SCHOOL",
+    "whitePct": 0.165,
+    "nonwhitePct": 0.835,
+    "whiteDiff": 0.007,
+    "nonwhiteDiff": -0.007,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "COLORADO STEM ACADEMY",
+    "whitePct": 0.387,
+    "nonwhitePct": 0.613,
+    "whiteDiff": 0.229,
+    "nonwhiteDiff": -0.229,
+    "pctMove": 0.115
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "JOSEPHINE HODGKINS ELEMENTARY SCHOOL",
+    "whitePct": 0.164,
+    "nonwhitePct": 0.836,
+    "whiteDiff": 0.006,
+    "nonwhiteDiff": -0.006,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "M. SCOTT CARPENTER MIDDLE SCHOOL",
+    "whitePct": 0.083,
+    "nonwhitePct": 0.917,
+    "whiteDiff": -0.075,
+    "nonwhiteDiff": 0.075,
+    "pctMove": 0.038
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "MESA ELEMENTARY SCHOOL",
+    "whitePct": 0.251,
+    "nonwhitePct": 0.749,
+    "whiteDiff": 0.093,
+    "nonwhiteDiff": -0.093,
+    "pctMove": 0.046
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "IVER C. RANUM MIDDLE SCHOOL",
+    "whitePct": 0.088,
+    "nonwhitePct": 0.912,
+    "whiteDiff": -0.07,
+    "nonwhiteDiff": 0.07,
+    "pctMove": 0.035
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "JOHN E. FLYNN A MARZANO ACADEMY",
+    "whitePct": 0.228,
+    "nonwhitePct": 0.772,
+    "whiteDiff": 0.07,
+    "nonwhiteDiff": -0.07,
+    "pctMove": 0.035
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "SHAW HEIGHTS MIDDLE SCHOOL",
+    "whitePct": 0.189,
+    "nonwhitePct": 0.811,
+    "whiteDiff": 0.031,
+    "nonwhiteDiff": -0.031,
+    "pctMove": 0.016
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "SHERRELWOOD ELEMENTARY SCHOOL",
+    "whitePct": 0.134,
+    "nonwhitePct": 0.866,
+    "whiteDiff": -0.024,
+    "nonwhiteDiff": 0.024,
+    "pctMove": 0.012
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "SKYLINE VISTA ELEMENTARY SCHOOL",
+    "whitePct": 0.122,
+    "nonwhitePct": 0.878,
+    "whiteDiff": -0.036,
+    "nonwhiteDiff": 0.036,
+    "pctMove": 0.018
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "SUNSET RIDGE ELEMENTARY SCHOOL",
+    "whitePct": 0.147,
+    "nonwhitePct": 0.853,
+    "whiteDiff": -0.011,
+    "nonwhiteDiff": 0.011,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "TENNYSON KNOLLS ELEMENTARY SCHOOL",
+    "whitePct": 0.164,
+    "nonwhitePct": 0.836,
+    "whiteDiff": 0.006,
+    "nonwhiteDiff": -0.006,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "WESTMINSTER ACADEMY FOR INTERNATIONAL STUDIES",
+    "whitePct": 0.132,
+    "nonwhitePct": 0.868,
+    "whiteDiff": -0.026,
+    "nonwhiteDiff": 0.026,
+    "pctMove": 0.013
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "WESTMINSTER HIGH SCHOOL",
+    "whitePct": 0.136,
+    "nonwhitePct": 0.864,
+    "whiteDiff": -0.022,
+    "nonwhiteDiff": 0.022,
+    "pctMove": 0.011
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "WESTMINSTER PUBLIC SCHOOLS EARLY LEARNING CENTER",
+    "whitePct": 0.622,
+    "nonwhitePct": 0.378,
+    "whiteDiff": 0.464,
+    "nonwhiteDiff": -0.464,
+    "pctMove": 0.232
+  },
+  {
+    "button": "",
+    "district": "WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "DISTRICT - WESTMINSTER PUBLIC SCHOOLS",
+    "whitePct": 0.158,
+    "nonwhitePct": 0.842,
+    "whiteDiff": 0,
+    "nonwhiteDiff": 0,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "SHERIDAN SCHOOL DISTRICT",
+    "schoolName": "ALICE TERRY ELEMENTARY SCHOOL",
+    "whitePct": 0.151,
+    "nonwhitePct": 0.849,
+    "whiteDiff": 0.021,
+    "nonwhiteDiff": -0.021,
+    "pctMove": 0.015
+  },
+  {
+    "button": "",
+    "district": "SHERIDAN SCHOOL DISTRICT",
+    "schoolName": "FORT LOGAN NORTHGATE",
+    "whitePct": 0.127,
+    "nonwhitePct": 0.873,
+    "whiteDiff": -0.003,
+    "nonwhiteDiff": 0.003,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "SHERIDAN SCHOOL DISTRICT",
+    "schoolName": "SHERIDAN HIGH SCHOOL",
+    "whitePct": 0.115,
+    "nonwhitePct": 0.885,
+    "whiteDiff": -0.015,
+    "nonwhiteDiff": 0.015,
+    "pctMove": 0.017
+  },
+  {
+    "button": "",
+    "district": "SHERIDAN SCHOOL DISTRICT",
+    "schoolName": "EARLY CHILDHOOD EDUCATION CENTER",
+    "whitePct": 0.14,
+    "nonwhitePct": 0.86,
+    "whiteDiff": 0.01,
+    "nonwhiteDiff": -0.01,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "SHERIDAN SCHOOL DISTRICT",
+    "schoolName": "SOAR ACADEMY",
+    "whitePct": 0.137,
+    "nonwhitePct": 0.863,
+    "whiteDiff": 0.007,
+    "nonwhiteDiff": -0.007,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "SHERIDAN SCHOOL DISTRICT",
+    "schoolName": "DISTRICT -SHERIDAN SCHOOL DISTRICT",
+    "whitePct": 0.13,
+    "nonwhitePct": 0.87,
+    "whiteDiff": 0,
+    "nonwhiteDiff": 0,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "MAPLETON EXPEDITIONARY SCHOOL OF THE ARTS",
+    "whitePct": 0.195,
+    "nonwhitePct": 0.805,
+    "whiteDiff": -0.077,
+    "nonwhiteDiff": 0.077,
+    "pctMove": 0.015
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "MAPLETON EARLY COLLEGE HIGH SCHOOL",
+    "whitePct": 0.202,
+    "nonwhitePct": 0.798,
+    "whiteDiff": -0.07,
+    "nonwhiteDiff": 0.07,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "GLOBAL LEADERSHIP ACADEMY",
+    "whitePct": 0.046,
+    "nonwhitePct": 0.954,
+    "whiteDiff": -0.226,
+    "nonwhiteDiff": 0.226,
+    "pctMove": 0.014
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "ACADEMY HIGH SCHOOL",
+    "whitePct": 0.097,
+    "nonwhitePct": 0.903,
+    "whiteDiff": -0.175,
+    "nonwhiteDiff": 0.175,
+    "pctMove": 0.022
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "MONTEREY COMMUNITY SCHOOL",
+    "whitePct": 0.103,
+    "nonwhitePct": 0.897,
+    "whiteDiff": -0.169,
+    "nonwhiteDiff": 0.169,
+    "pctMove": 0.019
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "MEADOW COMMUNITY SCHOOL",
+    "whitePct": 0.166,
+    "nonwhitePct": 0.834,
+    "whiteDiff": -0.106,
+    "nonwhiteDiff": 0.106,
+    "pctMove": 0.015
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "YORK INTERNATIONAL",
+    "whitePct": 0.083,
+    "nonwhitePct": 0.917,
+    "whiteDiff": -0.189,
+    "nonwhiteDiff": 0.189,
+    "pctMove": 0.044
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "WELBY COMMUNITY SCHOOL",
+    "whitePct": 0.186,
+    "nonwhitePct": 0.814,
+    "whiteDiff": -0.086,
+    "nonwhiteDiff": 0.086,
+    "pctMove": 0.009
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "ACHIEVE ACADEMY",
+    "whitePct": 0.126,
+    "nonwhitePct": 0.874,
+    "whiteDiff": -0.146,
+    "nonwhiteDiff": 0.146,
+    "pctMove": 0.023
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "EXPLORE ELEMENTARY",
+    "whitePct": 0.268,
+    "nonwhitePct": 0.732,
+    "whiteDiff": -0.004,
+    "nonwhiteDiff": 0.004,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "ADVENTURE ELEMENTARY",
+    "whitePct": 0.131,
+    "nonwhitePct": 0.869,
+    "whiteDiff": -0.141,
+    "nonwhiteDiff": 0.141,
+    "pctMove": 0.015
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "CLAYTON PARTNERSHIP SCHOOL",
+    "whitePct": 0.124,
+    "nonwhitePct": 0.876,
+    "whiteDiff": -0.148,
+    "nonwhiteDiff": 0.148,
+    "pctMove": 0.019
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "BIG PICTURE COLLEGE AND CAREER ACADEMY",
+    "whitePct": 0.205,
+    "nonwhitePct": 0.795,
+    "whiteDiff": -0.067,
+    "nonwhiteDiff": 0.067,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "COLORADO CONNECTIONS ACADEMY",
+    "whitePct": 0.651,
+    "nonwhitePct": 0.349,
+    "whiteDiff": 0.379,
+    "nonwhiteDiff": -0.379,
+    "pctMove": 0.243
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "GLOBAL INTERMEDIATE ACADEMY",
+    "whitePct": 0.044,
+    "nonwhitePct": 0.956,
+    "whiteDiff": -0.228,
+    "nonwhiteDiff": 0.228,
+    "pctMove": 0.018
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "GLOBAL PRIMARY ACADEMY",
+    "whitePct": 0.125,
+    "nonwhitePct": 0.875,
+    "whiteDiff": -0.147,
+    "nonwhiteDiff": 0.147,
+    "pctMove": 0.011
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "NORTH VALLEY SCHOOL FOR YOUNG ADULTS",
+    "whitePct": 0.247,
+    "nonwhitePct": 0.753,
+    "whiteDiff": -0.025,
+    "nonwhiteDiff": 0.025,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "VALLEY VIEW K-8",
+    "whitePct": 0.182,
+    "nonwhitePct": 0.818,
+    "whiteDiff": -0.09,
+    "nonwhiteDiff": 0.09,
+    "pctMove": 0.01
+  },
+  {
+    "button": "",
+    "district": "MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "DISTRICT - MAPLETON PUBLIC SCHOOLS",
+    "whitePct": 0.272,
+    "nonwhitePct": 0.728,
+    "whiteDiff": 0,
+    "nonwhiteDiff": 0,
+    "pctMove": 0
+  }
+]
