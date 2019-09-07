@@ -202,7 +202,7 @@
   {
     "button": "",
     "district": "WESTMINSTER PUBLIC SCHOOLS",
-    "schoolName": "DISTRICT - WESTMINSTER PUBLIC SCHOOLS",
+    "schoolName": "DISTRICT TOTAL",
     "whitePct": 0.158,
     "nonwhitePct": 0.842,
     "whiteDiff": 0,
@@ -262,7 +262,7 @@
   {
     "button": "",
     "district": "SHERIDAN SCHOOL DISTRICT",
-    "schoolName": "DISTRICT -SHERIDAN SCHOOL DISTRICT",
+    "schoolName": "DISTRICT TOTAL",
     "whitePct": 0.13,
     "nonwhitePct": 0.87,
     "whiteDiff": 0,
@@ -452,9 +452,7559 @@
   {
     "button": "",
     "district": "MAPLETON PUBLIC SCHOOLS",
-    "schoolName": "DISTRICT - MAPLETON PUBLIC SCHOOLS",
+    "schoolName": "DISTRICT TOTAL",
     "whitePct": 0.272,
     "nonwhitePct": 0.728,
+    "whiteDiff": 0,
+    "nonwhiteDiff": 0,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "ARAPAHOE HIGH SCHOOL",
+    "whitePct": 0.81,
+    "nonwhitePct": 0.19,
+    "whiteDiff": 0.076,
+    "nonwhiteDiff": -0.076,
+    "pctMove": 0.028
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "FRANKLIN ELEMENTARY SCHOOL",
+    "whitePct": 0.827,
+    "nonwhitePct": 0.173,
+    "whiteDiff": 0.093,
+    "nonwhiteDiff": -0.093,
+    "pctMove": 0.009
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "CENTENNIAL ACADEMY OF FINE ARTS EDUCATION",
+    "whitePct": 0.55,
+    "nonwhitePct": 0.45,
+    "whiteDiff": -0.184,
+    "nonwhiteDiff": 0.184,
+    "pctMove": 0.016
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "EAST ELEMENTARY SCHOOL",
+    "whitePct": 0.333,
+    "nonwhitePct": 0.667,
+    "whiteDiff": -0.401,
+    "nonwhiteDiff": 0.401,
+    "pctMove": 0.019
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "EUCLID MIDDLE SCHOOL",
+    "whitePct": 0.738,
+    "nonwhitePct": 0.262,
+    "whiteDiff": 0.004,
+    "nonwhiteDiff": -0.004,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "FIELD ELEMENTARY SCHOOL",
+    "whitePct": 0.336,
+    "nonwhitePct": 0.664,
+    "whiteDiff": -0.398,
+    "nonwhiteDiff": 0.398,
+    "pctMove": 0.019
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "GODDARD MIDDLE SCHOOL",
+    "whitePct": 0.548,
+    "nonwhitePct": 0.452,
+    "whiteDiff": -0.186,
+    "nonwhiteDiff": 0.186,
+    "pctMove": 0.023
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "HERITAGE HIGH SCHOOL",
+    "whitePct": 0.782,
+    "nonwhitePct": 0.218,
+    "whiteDiff": 0.048,
+    "nonwhiteDiff": -0.048,
+    "pctMove": 0.013
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "HIGHLAND ELEMENTARY SCHOOL",
+    "whitePct": 0.798,
+    "nonwhitePct": 0.202,
+    "whiteDiff": 0.064,
+    "nonwhiteDiff": -0.064,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "NEWTON MIDDLE SCHOOL",
+    "whitePct": 0.786,
+    "nonwhitePct": 0.214,
+    "whiteDiff": 0.052,
+    "nonwhiteDiff": -0.052,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "JOHN WESLEY POWELL MIDDLE SCHOOL",
+    "whitePct": 0.791,
+    "nonwhitePct": 0.209,
+    "whiteDiff": 0.057,
+    "nonwhiteDiff": -0.057,
+    "pctMove": 0.008
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "LITTLETON HIGH SCHOOL",
+    "whitePct": 0.595,
+    "nonwhitePct": 0.405,
+    "whiteDiff": -0.139,
+    "nonwhiteDiff": 0.139,
+    "pctMove": 0.029
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "LITTLETON ACADEMY",
+    "whitePct": 0.735,
+    "nonwhitePct": 0.265,
+    "whiteDiff": 0.001,
+    "nonwhiteDiff": -0.001,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "LITTLETON PREP CHARTER SCHOOL",
+    "whitePct": 0.7,
+    "nonwhitePct": 0.3,
+    "whiteDiff": -0.034,
+    "nonwhiteDiff": 0.034,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "LOIS LENSKI ELEMENTARY SCHOOL",
+    "whitePct": 0.856,
+    "nonwhitePct": 0.144,
+    "whiteDiff": 0.122,
+    "nonwhiteDiff": -0.122,
+    "pctMove": 0.011
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "HOPKINS ELEMENTARY SCHOOL",
+    "whitePct": 0.761,
+    "nonwhitePct": 0.239,
+    "whiteDiff": 0.027,
+    "nonwhiteDiff": -0.027,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "TWAIN ELEMENTARY SCHOOL",
+    "whitePct": 0.762,
+    "nonwhitePct": 0.238,
+    "whiteDiff": 0.028,
+    "nonwhiteDiff": -0.028,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "VILLAGE AT NORTH",
+    "whitePct": 0.593,
+    "nonwhitePct": 0.407,
+    "whiteDiff": -0.141,
+    "nonwhiteDiff": 0.141,
+    "pctMove": 0.011
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "PEABODY ELEMENTARY SCHOOL",
+    "whitePct": 0.81,
+    "nonwhitePct": 0.19,
+    "whiteDiff": 0.076,
+    "nonwhiteDiff": -0.076,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "RUNYON ELEMENTARY SCHOOL",
+    "whitePct": 0.87,
+    "nonwhitePct": 0.13,
+    "whiteDiff": 0.136,
+    "nonwhiteDiff": -0.136,
+    "pctMove": 0.011
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "SANDBURG ELEMENTARY SCHOOL",
+    "whitePct": 0.87,
+    "nonwhitePct": 0.13,
+    "whiteDiff": 0.136,
+    "nonwhiteDiff": -0.136,
+    "pctMove": 0.011
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "MOODY ELEMENTARY SCHOOL",
+    "whitePct": 0.718,
+    "nonwhitePct": 0.282,
+    "whiteDiff": -0.016,
+    "nonwhiteDiff": 0.016,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "WILDER ELEMENTARY SCHOOL",
+    "whitePct": 0.839,
+    "nonwhitePct": 0.161,
+    "whiteDiff": 0.105,
+    "nonwhiteDiff": -0.105,
+    "pctMove": 0.012
+  },
+  {
+    "button": "",
+    "district": "LITTLETON PUBLIC SCHOOLS",
+    "schoolName": "DISTRICT TOTAL",
+    "whitePct": 0.734,
+    "nonwhitePct": 0.266,
+    "whiteDiff": 0,
+    "nonwhiteDiff": 0,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "ADAMS ELEMENTARY SCHOOL",
+    "whitePct": 0.636,
+    "nonwhitePct": 0.364,
+    "whiteDiff": -0.042,
+    "nonwhiteDiff": 0.042,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "MCLAIN COMMUNITY HIGH SCHOOL",
+    "whitePct": 0.65,
+    "nonwhitePct": 0.35,
+    "whiteDiff": -0.028,
+    "nonwhiteDiff": 0.028,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "ALAMEDA INTERNATIONAL JUNIOR/SENIOR HIGH SCHOOL",
+    "whitePct": 0.15,
+    "nonwhitePct": 0.85,
+    "whiteDiff": -0.528,
+    "nonwhiteDiff": 0.528,
+    "pctMove": 0.016
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "ARVADA K-8",
+    "whitePct": 0.382,
+    "nonwhitePct": 0.618,
+    "whiteDiff": -0.296,
+    "nonwhiteDiff": 0.296,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "ALLENDALE ELEMENTARY SCHOOL",
+    "whitePct": 0.606,
+    "nonwhitePct": 0.394,
+    "whiteDiff": -0.072,
+    "nonwhiteDiff": 0.072,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "ARVADA HIGH SCHOOL",
+    "whitePct": 0.395,
+    "nonwhitePct": 0.605,
+    "whiteDiff": -0.283,
+    "nonwhiteDiff": 0.283,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "ARVADA WEST HIGH SCHOOL",
+    "whitePct": 0.755,
+    "nonwhitePct": 0.245,
+    "whiteDiff": 0.077,
+    "nonwhiteDiff": -0.077,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "ADDENBROOKE CLASSICAL GRAMMAR SCHOOL",
+    "whitePct": 0.715,
+    "nonwhitePct": 0.285,
+    "whiteDiff": 0.037,
+    "nonwhiteDiff": -0.037,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "BEAR CREEK K-8 SCHOOL",
+    "whitePct": 0.487,
+    "nonwhitePct": 0.513,
+    "whiteDiff": -0.191,
+    "nonwhiteDiff": 0.191,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "BEAR CREEK HIGH SCHOOL",
+    "whitePct": 0.48,
+    "nonwhitePct": 0.52,
+    "whiteDiff": -0.198,
+    "nonwhiteDiff": 0.198,
+    "pctMove": 0.008
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "BELL MIDDLE SCHOOL",
+    "whitePct": 0.77,
+    "nonwhitePct": 0.23,
+    "whiteDiff": 0.092,
+    "nonwhiteDiff": -0.092,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "BELMAR ELEMENTARY SCHOOL",
+    "whitePct": 0.472,
+    "nonwhitePct": 0.528,
+    "whiteDiff": -0.206,
+    "nonwhiteDiff": 0.206,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "BERGEN MEADOW PRIMARY SCHOOL",
+    "whitePct": 0.896,
+    "nonwhitePct": 0.104,
+    "whiteDiff": 0.218,
+    "nonwhiteDiff": -0.218,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "BERGEN VALLEY INTERMEDIATE SCHOOL",
+    "whitePct": 0.914,
+    "nonwhitePct": 0.086,
+    "whiteDiff": 0.236,
+    "nonwhiteDiff": -0.236,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "BRADFORD K8 SOUTH",
+    "whitePct": 0.904,
+    "nonwhitePct": 0.096,
+    "whiteDiff": 0.226,
+    "nonwhiteDiff": -0.226,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "BLUE HERON ELEMENTARY SCHOOL",
+    "whitePct": 0.593,
+    "nonwhitePct": 0.407,
+    "whiteDiff": -0.085,
+    "nonwhiteDiff": 0.085,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "BRADFORD K8 NORTH",
+    "whitePct": 0.892,
+    "nonwhitePct": 0.108,
+    "whiteDiff": 0.214,
+    "nonwhiteDiff": -0.214,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "BRADY EXPLORATION SCHOOL",
+    "whitePct": 0.393,
+    "nonwhitePct": 0.607,
+    "whiteDiff": -0.285,
+    "nonwhiteDiff": 0.285,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "CAMPBELL ELEMENTARY SCHOOL",
+    "whitePct": 0.767,
+    "nonwhitePct": 0.233,
+    "whiteDiff": 0.089,
+    "nonwhiteDiff": -0.089,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "CARMODY MIDDLE SCHOOL",
+    "whitePct": 0.553,
+    "nonwhitePct": 0.447,
+    "whiteDiff": -0.125,
+    "nonwhiteDiff": 0.125,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "ADDENBROOKE CLASSICAL ACADEMY",
+    "whitePct": 0.686,
+    "nonwhitePct": 0.314,
+    "whiteDiff": 0.008,
+    "nonwhiteDiff": -0.008,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "CHATFIELD HIGH SCHOOL",
+    "whitePct": 0.816,
+    "nonwhitePct": 0.184,
+    "whiteDiff": 0.138,
+    "nonwhiteDiff": -0.138,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "COAL CREEK CANYON K-8 ELEMENTARY SCHOOL",
+    "whitePct": 0.904,
+    "nonwhitePct": 0.096,
+    "whiteDiff": 0.226,
+    "nonwhiteDiff": -0.226,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "COLOROW ELEMENTARY SCHOOL",
+    "whitePct": 0.728,
+    "nonwhitePct": 0.272,
+    "whiteDiff": 0.05,
+    "nonwhiteDiff": -0.05,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "COLUMBINE HILLS ELEMENTARY SCHOOL",
+    "whitePct": 0.759,
+    "nonwhitePct": 0.241,
+    "whiteDiff": 0.081,
+    "nonwhiteDiff": -0.081,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "COLUMBINE HIGH SCHOOL",
+    "whitePct": 0.722,
+    "nonwhitePct": 0.278,
+    "whiteDiff": 0.044,
+    "nonwhiteDiff": -0.044,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "COMPASS MONTESSORI - WHEAT RIDGE CHARTER SCHOOL",
+    "whitePct": 0.822,
+    "nonwhitePct": 0.178,
+    "whiteDiff": 0.144,
+    "nonwhiteDiff": -0.144,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "CORONADO ELEMENTARY SCHOOL",
+    "whitePct": 0.773,
+    "nonwhitePct": 0.227,
+    "whiteDiff": 0.095,
+    "nonwhiteDiff": -0.095,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "COMPASS MONTESSORI - GOLDEN CHARTER SCHOOL",
+    "whitePct": 0.797,
+    "nonwhitePct": 0.203,
+    "whiteDiff": 0.119,
+    "nonwhiteDiff": -0.119,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "CONIFER SENIOR HIGH SCHOOL",
+    "whitePct": 0.884,
+    "nonwhitePct": 0.116,
+    "whiteDiff": 0.206,
+    "nonwhiteDiff": -0.206,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "CREIGHTON MIDDLE SCHOOL",
+    "whitePct": 0.43,
+    "nonwhitePct": 0.57,
+    "whiteDiff": -0.248,
+    "nonwhiteDiff": 0.248,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "DAKOTA RIDGE SENIOR HIGH SCHOOL",
+    "whitePct": 0.738,
+    "nonwhitePct": 0.262,
+    "whiteDiff": 0.06,
+    "nonwhiteDiff": -0.06,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "D'EVELYN JUNIOR/SENIOR HIGH SCHOOL",
+    "whitePct": 0.734,
+    "nonwhitePct": 0.266,
+    "whiteDiff": 0.056,
+    "nonwhiteDiff": -0.056,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "DEER CREEK MIDDLE SCHOOL",
+    "whitePct": 0.771,
+    "nonwhitePct": 0.229,
+    "whiteDiff": 0.093,
+    "nonwhiteDiff": -0.093,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "DORAL ACADEMY OF COLORADO",
+    "whitePct": 0.661,
+    "nonwhitePct": 0.339,
+    "whiteDiff": -0.017,
+    "nonwhiteDiff": 0.017,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "DEVINNY ELEMENTARY SCHOOL",
+    "whitePct": 0.788,
+    "nonwhitePct": 0.212,
+    "whiteDiff": 0.11,
+    "nonwhiteDiff": -0.11,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "DRAKE JUNIOR HIGH SCHOOL",
+    "whitePct": 0.781,
+    "nonwhitePct": 0.219,
+    "whiteDiff": 0.103,
+    "nonwhiteDiff": -0.103,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "DUNSTAN MIDDLE SCHOOL",
+    "whitePct": 0.715,
+    "nonwhitePct": 0.285,
+    "whiteDiff": 0.037,
+    "nonwhiteDiff": -0.037,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "DUTCH CREEK ELEMENTARY SCHOOL",
+    "whitePct": 0.763,
+    "nonwhitePct": 0.237,
+    "whiteDiff": 0.085,
+    "nonwhiteDiff": -0.085,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "EDGEWATER ELEMENTARY SCHOOL",
+    "whitePct": 0.152,
+    "nonwhitePct": 0.848,
+    "whiteDiff": -0.526,
+    "nonwhiteDiff": 0.526,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "EIBER ELEMENTARY SCHOOL",
+    "whitePct": 0.303,
+    "nonwhitePct": 0.697,
+    "whiteDiff": -0.375,
+    "nonwhiteDiff": 0.375,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "ELK CREEK ELEMENTARY SCHOOL",
+    "whitePct": 0.873,
+    "nonwhitePct": 0.127,
+    "whiteDiff": 0.195,
+    "nonwhiteDiff": -0.195,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "EXCEL ACADEMY CHARTER SCHOOL",
+    "whitePct": 0.806,
+    "nonwhitePct": 0.194,
+    "whiteDiff": 0.128,
+    "nonwhiteDiff": -0.128,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "EVERITT MIDDLE SCHOOL",
+    "whitePct": 0.474,
+    "nonwhitePct": 0.526,
+    "whiteDiff": -0.204,
+    "nonwhiteDiff": 0.204,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "EVERGREEN MIDDLE SCHOOL",
+    "whitePct": 0.896,
+    "nonwhitePct": 0.104,
+    "whiteDiff": 0.218,
+    "nonwhiteDiff": -0.218,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "EVERGREEN HIGH SCHOOL",
+    "whitePct": 0.892,
+    "nonwhitePct": 0.108,
+    "whiteDiff": 0.214,
+    "nonwhiteDiff": -0.214,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "FAIRMOUNT ELEMENTARY SCHOOL",
+    "whitePct": 0.855,
+    "nonwhitePct": 0.145,
+    "whiteDiff": 0.177,
+    "nonwhiteDiff": -0.177,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "FITZMORRIS ELEMENTARY SCHOOL",
+    "whitePct": 0.637,
+    "nonwhitePct": 0.363,
+    "whiteDiff": -0.041,
+    "nonwhiteDiff": 0.041,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "FALCON BLUFFS MIDDLE SCHOOL",
+    "whitePct": 0.785,
+    "nonwhitePct": 0.215,
+    "whiteDiff": 0.107,
+    "nonwhiteDiff": -0.107,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "FOOTHILLS ELEMENTARY SCHOOL",
+    "whitePct": 0.547,
+    "nonwhitePct": 0.453,
+    "whiteDiff": -0.131,
+    "nonwhiteDiff": 0.131,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "FOSTER ELEMENTARY SCHOOL",
+    "whitePct": 0.326,
+    "nonwhitePct": 0.674,
+    "whiteDiff": -0.352,
+    "nonwhiteDiff": 0.352,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "FREE HORIZON MONTESSORI",
+    "whitePct": 0.831,
+    "nonwhitePct": 0.169,
+    "whiteDiff": 0.153,
+    "nonwhiteDiff": -0.153,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "FREMONT ELEMENTARY SCHOOL",
+    "whitePct": 0.758,
+    "nonwhitePct": 0.242,
+    "whiteDiff": 0.08,
+    "nonwhiteDiff": -0.08,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "NORMA ANDERSON PRESCHOOL",
+    "whitePct": 0.724,
+    "nonwhitePct": 0.276,
+    "whiteDiff": 0.046,
+    "nonwhiteDiff": -0.046,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "GLENNON HEIGHTS ELEMENTARY SCHOOL",
+    "whitePct": 0.627,
+    "nonwhitePct": 0.373,
+    "whiteDiff": -0.051,
+    "nonwhiteDiff": 0.051,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "GOLDEN HIGH SCHOOL",
+    "whitePct": 0.791,
+    "nonwhitePct": 0.209,
+    "whiteDiff": 0.113,
+    "nonwhiteDiff": -0.113,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "GOVERNOR'S RANCH ELEMENTARY SCHOOL",
+    "whitePct": 0.777,
+    "nonwhitePct": 0.223,
+    "whiteDiff": 0.099,
+    "nonwhiteDiff": -0.099,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "GREEN GABLES ELEMENTARY SCHOOL",
+    "whitePct": 0.68,
+    "nonwhitePct": 0.32,
+    "whiteDiff": 0.002,
+    "nonwhiteDiff": -0.002,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "GREEN MOUNTAIN ELEMENTARY SCHOOL",
+    "whitePct": 0.577,
+    "nonwhitePct": 0.423,
+    "whiteDiff": -0.101,
+    "nonwhiteDiff": 0.101,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "GREEN MOUNTAIN HIGH SCHOOL",
+    "whitePct": 0.723,
+    "nonwhitePct": 0.277,
+    "whiteDiff": 0.045,
+    "nonwhiteDiff": -0.045,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "GREAT WORK MONTESSORI",
+    "whitePct": 0.603,
+    "nonwhitePct": 0.397,
+    "whiteDiff": -0.075,
+    "nonwhiteDiff": 0.075,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "HACKBERRY HILL ELEMENTARY SCHOOL",
+    "whitePct": 0.723,
+    "nonwhitePct": 0.277,
+    "whiteDiff": 0.045,
+    "nonwhiteDiff": -0.045,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "HUTCHINSON ELEMENTARY SCHOOL",
+    "whitePct": 0.742,
+    "nonwhitePct": 0.258,
+    "whiteDiff": 0.064,
+    "nonwhiteDiff": -0.064,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "IRWIN PRESCHOOL",
+    "whitePct": 0.6,
+    "nonwhitePct": 0.4,
+    "whiteDiff": -0.078,
+    "nonwhiteDiff": 0.078,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "JEFFERSON ACADEMY ELEMENTARY",
+    "whitePct": 0.783,
+    "nonwhitePct": 0.217,
+    "whiteDiff": 0.105,
+    "nonwhiteDiff": -0.105,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "JEFFERSON ACADEMY",
+    "whitePct": 0.777,
+    "nonwhitePct": 0.223,
+    "whiteDiff": 0.099,
+    "nonwhiteDiff": -0.099,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "JEFFCO VIRTUAL ACADEMY",
+    "whitePct": 0.702,
+    "nonwhitePct": 0.298,
+    "whiteDiff": 0.024,
+    "nonwhiteDiff": -0.024,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "JEFFERSON ACADEMY HIGH SCHOOL",
+    "whitePct": 0.742,
+    "nonwhitePct": 0.258,
+    "whiteDiff": 0.064,
+    "nonwhiteDiff": -0.064,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "JEFFERSON JUNIOR/SENIOR HIGH SCHOOL",
+    "whitePct": 0.164,
+    "nonwhitePct": 0.836,
+    "whiteDiff": -0.514,
+    "nonwhiteDiff": 0.514,
+    "pctMove": 0.009
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "SHERIDAN GREEN ELEMENTARY SCHOOL",
+    "whitePct": 0.66,
+    "nonwhitePct": 0.34,
+    "whiteDiff": -0.018,
+    "nonwhiteDiff": 0.018,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "KEN CARYL MIDDLE SCHOOL",
+    "whitePct": 0.761,
+    "nonwhitePct": 0.239,
+    "whiteDiff": 0.083,
+    "nonwhiteDiff": -0.083,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "KENDALLVUE ELEMENTARY SCHOOL",
+    "whitePct": 0.697,
+    "nonwhitePct": 0.303,
+    "whiteDiff": 0.019,
+    "nonwhiteDiff": -0.019,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "KENDRICK LAKES ELEMENTARY SCHOOL",
+    "whitePct": 0.624,
+    "nonwhitePct": 0.376,
+    "whiteDiff": -0.054,
+    "nonwhiteDiff": 0.054,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "CONNECTIONS LEARNING CENTER ON THE EARLE JOHNSON CAMPUS",
+    "whitePct": 0.5,
+    "nonwhitePct": 0.5,
+    "whiteDiff": -0.178,
+    "nonwhiteDiff": 0.178,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "KULLERSTRAND ELEMENTARY SCHOOL",
+    "whitePct": 0.507,
+    "nonwhitePct": 0.493,
+    "whiteDiff": -0.171,
+    "nonwhiteDiff": 0.171,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "KYFFIN ELEMENTARY SCHOOL",
+    "whitePct": 0.8,
+    "nonwhitePct": 0.2,
+    "whiteDiff": 0.122,
+    "nonwhiteDiff": -0.122,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "LAKEWOOD HIGH SCHOOL",
+    "whitePct": 0.541,
+    "nonwhitePct": 0.459,
+    "whiteDiff": -0.137,
+    "nonwhiteDiff": 0.137,
+    "pctMove": 0.008
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "LASLEY ELEMENTARY SCHOOL",
+    "whitePct": 0.251,
+    "nonwhitePct": 0.749,
+    "whiteDiff": -0.427,
+    "nonwhiteDiff": 0.427,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "LAWRENCE ELEMENTARY SCHOOL",
+    "whitePct": 0.559,
+    "nonwhitePct": 0.441,
+    "whiteDiff": -0.119,
+    "nonwhiteDiff": 0.119,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "LEAWOOD ELEMENTARY SCHOOL",
+    "whitePct": 0.732,
+    "nonwhitePct": 0.268,
+    "whiteDiff": 0.054,
+    "nonwhiteDiff": -0.054,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "LINCOLN CHARTER ACADEMY",
+    "whitePct": 0.775,
+    "nonwhitePct": 0.225,
+    "whiteDiff": 0.097,
+    "nonwhiteDiff": -0.097,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "LITTLE ELEMENTARY SCHOOL",
+    "whitePct": 0.578,
+    "nonwhitePct": 0.422,
+    "whiteDiff": -0.1,
+    "nonwhiteDiff": 0.1,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "LUKAS ELEMENTARY SCHOOL",
+    "whitePct": 0.739,
+    "nonwhitePct": 0.261,
+    "whiteDiff": 0.061,
+    "nonwhiteDiff": -0.061,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "LUMBERG ELEMENTARY SCHOOL",
+    "whitePct": 0.224,
+    "nonwhitePct": 0.776,
+    "whiteDiff": -0.454,
+    "nonwhiteDiff": 0.454,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "ROCKY MOUNTAIN DEAF SCHOOL",
+    "whitePct": 0.544,
+    "nonwhitePct": 0.456,
+    "whiteDiff": -0.134,
+    "nonwhiteDiff": 0.134,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "MANDALAY MIDDLE SCHOOL",
+    "whitePct": 0.614,
+    "nonwhitePct": 0.386,
+    "whiteDiff": -0.064,
+    "nonwhiteDiff": 0.064,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "MANNING OPTIONS SCHOOL",
+    "whitePct": 0.816,
+    "nonwhitePct": 0.184,
+    "whiteDiff": 0.138,
+    "nonwhiteDiff": -0.138,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "MAPLE GROVE ELEMENTARY SCHOOL",
+    "whitePct": 0.852,
+    "nonwhitePct": 0.148,
+    "whiteDiff": 0.174,
+    "nonwhiteDiff": -0.174,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "MARSHDALE ELEMENTARY SCHOOL",
+    "whitePct": 0.915,
+    "nonwhitePct": 0.085,
+    "whiteDiff": 0.237,
+    "nonwhiteDiff": -0.237,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "LONGVIEW HIGH SCHOOL",
+    "whitePct": 0.764,
+    "nonwhitePct": 0.236,
+    "whiteDiff": 0.086,
+    "nonwhiteDiff": -0.086,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "MEIKLEJOHN ELEMENTARY",
+    "whitePct": 0.844,
+    "nonwhitePct": 0.156,
+    "whiteDiff": 0.166,
+    "nonwhiteDiff": -0.166,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "MILLER SPECIAL EDUCATION",
+    "whitePct": 0.691,
+    "nonwhitePct": 0.309,
+    "whiteDiff": 0.013,
+    "nonwhiteDiff": -0.013,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "MITCHELL ELEMENTARY SCHOOL",
+    "whitePct": 0.867,
+    "nonwhitePct": 0.133,
+    "whiteDiff": 0.189,
+    "nonwhiteDiff": -0.189,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "MOLHOLM ELEMENTARY SCHOOL",
+    "whitePct": 0.196,
+    "nonwhitePct": 0.804,
+    "whiteDiff": -0.482,
+    "nonwhiteDiff": 0.482,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "MONTESSORI PEAKS CHARTER ACADEMY",
+    "whitePct": 0.806,
+    "nonwhitePct": 0.194,
+    "whiteDiff": 0.128,
+    "nonwhiteDiff": -0.128,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "MOORE MIDDLE SCHOOL",
+    "whitePct": 0.617,
+    "nonwhitePct": 0.383,
+    "whiteDiff": -0.061,
+    "nonwhiteDiff": 0.061,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "MORTENSEN ELEMENTARY SCHOOL",
+    "whitePct": 0.731,
+    "nonwhitePct": 0.269,
+    "whiteDiff": 0.053,
+    "nonwhiteDiff": -0.053,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "MOUNT CARBON ELEMENTARY SCHOOL",
+    "whitePct": 0.707,
+    "nonwhitePct": 0.293,
+    "whiteDiff": 0.029,
+    "nonwhiteDiff": -0.029,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "MOUNTAIN PHOENIX COMMUNITY SCHOOL",
+    "whitePct": 0.797,
+    "nonwhitePct": 0.203,
+    "whiteDiff": 0.119,
+    "nonwhiteDiff": -0.119,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "NEW AMERICA SCHOOL",
+    "whitePct": 0.34,
+    "nonwhitePct": 0.66,
+    "whiteDiff": -0.338,
+    "nonwhiteDiff": 0.338,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "NORMANDY ELEMENTARY SCHOOL",
+    "whitePct": 0.787,
+    "nonwhitePct": 0.213,
+    "whiteDiff": 0.109,
+    "nonwhiteDiff": -0.109,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "NORTH ARVADA MIDDLE SCHOOL",
+    "whitePct": 0.524,
+    "nonwhitePct": 0.476,
+    "whiteDiff": -0.154,
+    "nonwhiteDiff": 0.154,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "OBERON JUNIOR HIGH SCHOOL",
+    "whitePct": 0.768,
+    "nonwhitePct": 0.232,
+    "whiteDiff": 0.09,
+    "nonwhiteDiff": -0.09,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "JEFFERSON COUNTY OPEN ELEMENTARY SCHOOL",
+    "whitePct": 0.782,
+    "nonwhitePct": 0.218,
+    "whiteDiff": 0.104,
+    "nonwhiteDiff": -0.104,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "JEFFERSON COUNTY OPEN SECONDARY",
+    "whitePct": 0.815,
+    "nonwhitePct": 0.185,
+    "whiteDiff": 0.137,
+    "nonwhiteDiff": -0.137,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "PARMALEE ELEMENTARY SCHOOL",
+    "whitePct": 0.903,
+    "nonwhitePct": 0.097,
+    "whiteDiff": 0.225,
+    "nonwhiteDiff": -0.225,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "PARR ELEMENTARY SCHOOL",
+    "whitePct": 0.551,
+    "nonwhitePct": 0.449,
+    "whiteDiff": -0.127,
+    "nonwhiteDiff": 0.127,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "PATTERSON INTERNATIONAL SCHOOL",
+    "whitePct": 0.509,
+    "nonwhitePct": 0.491,
+    "whiteDiff": -0.169,
+    "nonwhiteDiff": 0.169,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "PECK ELEMENTARY SCHOOL",
+    "whitePct": 0.608,
+    "nonwhitePct": 0.392,
+    "whiteDiff": -0.07,
+    "nonwhiteDiff": 0.07,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "PEIFFER ELEMENTARY SCHOOL",
+    "whitePct": 0.686,
+    "nonwhitePct": 0.314,
+    "whiteDiff": 0.008,
+    "nonwhiteDiff": -0.008,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "PEAK EXPEDITIONARY - PENNINGTON",
+    "whitePct": 0.457,
+    "nonwhitePct": 0.543,
+    "whiteDiff": -0.221,
+    "nonwhiteDiff": 0.221,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "POMONA HIGH SCHOOL",
+    "whitePct": 0.563,
+    "nonwhitePct": 0.437,
+    "whiteDiff": -0.115,
+    "nonwhiteDiff": 0.115,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "POWDERHORN ELEMENTARY SCHOOL",
+    "whitePct": 0.752,
+    "nonwhitePct": 0.248,
+    "whiteDiff": 0.074,
+    "nonwhiteDiff": -0.074,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "PROSPECT VALLEY ELEMENTARY SCHOOL",
+    "whitePct": 0.761,
+    "nonwhitePct": 0.239,
+    "whiteDiff": 0.083,
+    "nonwhiteDiff": -0.083,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "RALSTON ELEMENTARY SCHOOL",
+    "whitePct": 0.857,
+    "nonwhitePct": 0.143,
+    "whiteDiff": 0.179,
+    "nonwhiteDiff": -0.179,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "RALSTON VALLEY SENIOR HIGH SCHOOL",
+    "whitePct": 0.829,
+    "nonwhitePct": 0.171,
+    "whiteDiff": 0.151,
+    "nonwhiteDiff": -0.151,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "RED ROCKS ELEMENTARY SCHOOL",
+    "whitePct": 0.814,
+    "nonwhitePct": 0.186,
+    "whiteDiff": 0.136,
+    "nonwhiteDiff": -0.136,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "ROCKY MOUNTAIN ACADEMY OF EVERGREEN",
+    "whitePct": 0.916,
+    "nonwhitePct": 0.084,
+    "whiteDiff": 0.238,
+    "nonwhiteDiff": -0.238,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "ROSE STEIN INTERNATIONAL ELEMENTARY",
+    "whitePct": 0.297,
+    "nonwhitePct": 0.703,
+    "whiteDiff": -0.381,
+    "nonwhiteDiff": 0.381,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "ROONEY RANCH ELEMENTARY SCHOOL",
+    "whitePct": 0.834,
+    "nonwhitePct": 0.166,
+    "whiteDiff": 0.156,
+    "nonwhiteDiff": -0.156,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "RYAN ELEMENTARY SCHOOL",
+    "whitePct": 0.726,
+    "nonwhitePct": 0.274,
+    "whiteDiff": 0.048,
+    "nonwhiteDiff": -0.048,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "COLLEGIATE ACADEMY OF COLORADO",
+    "whitePct": 0.766,
+    "nonwhitePct": 0.234,
+    "whiteDiff": 0.088,
+    "nonwhiteDiff": -0.088,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "SECREST ELEMENTARY SCHOOL",
+    "whitePct": 0.535,
+    "nonwhitePct": 0.465,
+    "whiteDiff": -0.143,
+    "nonwhiteDiff": 0.143,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "SEMPER ELEMENTARY SCHOOL",
+    "whitePct": 0.602,
+    "nonwhitePct": 0.398,
+    "whiteDiff": -0.076,
+    "nonwhiteDiff": 0.076,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "SHAFFER ELEMENTARY SCHOOL",
+    "whitePct": 0.824,
+    "nonwhitePct": 0.176,
+    "whiteDiff": 0.146,
+    "nonwhiteDiff": -0.146,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "SHELTON ELEMENTARY SCHOOL",
+    "whitePct": 0.736,
+    "nonwhitePct": 0.264,
+    "whiteDiff": 0.058,
+    "nonwhiteDiff": -0.058,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "SIERRA ELEMENTARY SCHOOL",
+    "whitePct": 0.847,
+    "nonwhitePct": 0.153,
+    "whiteDiff": 0.169,
+    "nonwhiteDiff": -0.169,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "SLATER ELEMENTARY SCHOOL",
+    "whitePct": 0.491,
+    "nonwhitePct": 0.509,
+    "whiteDiff": -0.187,
+    "nonwhiteDiff": 0.187,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "SOBESKY ACADEMY",
+    "whitePct": 0.59,
+    "nonwhitePct": 0.41,
+    "whiteDiff": -0.088,
+    "nonwhiteDiff": 0.088,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "DEANE ELEMENTARY SCHOOL",
+    "whitePct": 0.163,
+    "nonwhitePct": 0.837,
+    "whiteDiff": -0.515,
+    "nonwhiteDiff": 0.515,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "SOUTH LAKEWOOD ELEMENTARY SCHOOL",
+    "whitePct": 0.53,
+    "nonwhitePct": 0.47,
+    "whiteDiff": -0.148,
+    "nonwhiteDiff": 0.148,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "STANDLEY LAKE HIGH SCHOOL",
+    "whitePct": 0.654,
+    "nonwhitePct": 0.346,
+    "whiteDiff": -0.024,
+    "nonwhiteDiff": 0.024,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "STEVENS ELEMENTARY SCHOOL",
+    "whitePct": 0.454,
+    "nonwhitePct": 0.546,
+    "whiteDiff": -0.224,
+    "nonwhiteDiff": 0.224,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "EMORY ELEMENTARY SCHOOL",
+    "whitePct": 0.201,
+    "nonwhitePct": 0.799,
+    "whiteDiff": -0.477,
+    "nonwhiteDiff": 0.477,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "STOBER ELEMENTARY SCHOOL",
+    "whitePct": 0.748,
+    "nonwhitePct": 0.252,
+    "whiteDiff": 0.07,
+    "nonwhiteDiff": -0.07,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "STONY CREEK ELEMENTARY SCHOOL",
+    "whitePct": 0.754,
+    "nonwhitePct": 0.246,
+    "whiteDiff": 0.076,
+    "nonwhiteDiff": -0.076,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "STOTT ELEMENTARY SCHOOL",
+    "whitePct": 0.821,
+    "nonwhitePct": 0.179,
+    "whiteDiff": 0.143,
+    "nonwhiteDiff": -0.143,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "SUMMIT RIDGE MIDDLE SCHOOL",
+    "whitePct": 0.726,
+    "nonwhitePct": 0.274,
+    "whiteDiff": 0.048,
+    "nonwhiteDiff": -0.048,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "SWANSON ELEMENTARY SCHOOL",
+    "whitePct": 0.469,
+    "nonwhitePct": 0.531,
+    "whiteDiff": -0.209,
+    "nonwhiteDiff": 0.209,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "JOHN AND KAREN LITZ PRESCHOOL",
+    "whitePct": 0.835,
+    "nonwhitePct": 0.165,
+    "whiteDiff": 0.157,
+    "nonwhiteDiff": -0.157,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "TWO ROADS CHARTER SCHOOL",
+    "whitePct": 0.795,
+    "nonwhitePct": 0.205,
+    "whiteDiff": 0.117,
+    "nonwhiteDiff": -0.117,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "THOMSON ELEMENTARY SCHOOL",
+    "whitePct": 0.503,
+    "nonwhitePct": 0.497,
+    "whiteDiff": -0.175,
+    "nonwhiteDiff": 0.175,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "THREE CREEKS K-8",
+    "whitePct": 0.789,
+    "nonwhitePct": 0.211,
+    "whiteDiff": 0.111,
+    "nonwhiteDiff": -0.111,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "UTE MEADOWS ELEMENTARY SCHOOL",
+    "whitePct": 0.822,
+    "nonwhitePct": 0.178,
+    "whiteDiff": 0.144,
+    "nonwhiteDiff": -0.144,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "VAN ARSDALE ELEMENTARY SCHOOL",
+    "whitePct": 0.802,
+    "nonwhitePct": 0.198,
+    "whiteDiff": 0.124,
+    "nonwhiteDiff": -0.124,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "VANDERHOOF ELEMENTARY SCHOOL",
+    "whitePct": 0.748,
+    "nonwhitePct": 0.252,
+    "whiteDiff": 0.07,
+    "nonwhiteDiff": -0.07,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "VIVIAN ELEMENTARY SCHOOL",
+    "whitePct": 0.466,
+    "nonwhitePct": 0.534,
+    "whiteDiff": -0.212,
+    "nonwhiteDiff": 0.212,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WARDER ELEMENTARY SCHOOL",
+    "whitePct": 0.691,
+    "nonwhitePct": 0.309,
+    "whiteDiff": 0.013,
+    "nonwhiteDiff": -0.013,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WARREN TECH CENTRAL",
+    "whitePct": 0.935,
+    "nonwhitePct": 0.065,
+    "whiteDiff": 0.257,
+    "nonwhiteDiff": -0.257,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WARREN TECH NORTH",
+    "whitePct": 0.846,
+    "nonwhitePct": 0.154,
+    "whiteDiff": 0.168,
+    "nonwhiteDiff": -0.168,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WAYNE CARLE MIDDLE SCHOOL",
+    "whitePct": 0.792,
+    "nonwhitePct": 0.208,
+    "whiteDiff": 0.114,
+    "nonwhiteDiff": -0.114,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WEBER ELEMENTARY SCHOOL",
+    "whitePct": 0.7,
+    "nonwhitePct": 0.3,
+    "whiteDiff": 0.022,
+    "nonwhiteDiff": -0.022,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WELCHESTER ELEMENTARY SCHOOL",
+    "whitePct": 0.602,
+    "nonwhitePct": 0.398,
+    "whiteDiff": -0.076,
+    "nonwhiteDiff": 0.076,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WESTGATE ELEMENTARY SCHOOL",
+    "whitePct": 0.465,
+    "nonwhitePct": 0.535,
+    "whiteDiff": -0.213,
+    "nonwhiteDiff": 0.213,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WEST JEFFERSON ELEMENTARY SCHOOL",
+    "whitePct": 0.907,
+    "nonwhitePct": 0.093,
+    "whiteDiff": 0.229,
+    "nonwhiteDiff": -0.229,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WOODROW WILSON CHARTER ACADEMY",
+    "whitePct": 0.802,
+    "nonwhitePct": 0.198,
+    "whiteDiff": 0.124,
+    "nonwhiteDiff": -0.124,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WEST JEFFERSON MIDDLE SCHOOL",
+    "whitePct": 0.885,
+    "nonwhitePct": 0.115,
+    "whiteDiff": 0.207,
+    "nonwhiteDiff": -0.207,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WEST WOODS ELEMENTARY SCHOOL",
+    "whitePct": 0.866,
+    "nonwhitePct": 0.134,
+    "whiteDiff": 0.188,
+    "nonwhiteDiff": -0.188,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "DENNISON ELEMENTARY SCHOOL",
+    "whitePct": 0.732,
+    "nonwhitePct": 0.268,
+    "whiteDiff": 0.054,
+    "nonwhiteDiff": -0.054,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WESTRIDGE ELEMENTARY SCHOOL",
+    "whitePct": 0.747,
+    "nonwhitePct": 0.253,
+    "whiteDiff": 0.069,
+    "nonwhiteDiff": -0.069,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WHEAT RIDGE HIGH SCHOOL",
+    "whitePct": 0.561,
+    "nonwhitePct": 0.439,
+    "whiteDiff": -0.117,
+    "nonwhiteDiff": 0.117,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WILMORE DAVIS ELEMENTARY SCHOOL",
+    "whitePct": 0.524,
+    "nonwhitePct": 0.476,
+    "whiteDiff": -0.154,
+    "nonwhiteDiff": 0.154,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WILMOT ELEMENTARY SCHOOL",
+    "whitePct": 0.936,
+    "nonwhitePct": 0.064,
+    "whiteDiff": 0.258,
+    "nonwhiteDiff": -0.258,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "WITT ELEMENTARY SCHOOL",
+    "whitePct": 0.687,
+    "nonwhitePct": 0.313,
+    "whiteDiff": 0.009,
+    "nonwhiteDiff": -0.009,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "JEFFCO PUBLIC SCHOOLS",
+    "schoolName": "DISTRICT TOTAL",
+    "whitePct": 0.678,
+    "nonwhitePct": 0.322,
+    "whiteDiff": 0,
+    "nonwhiteDiff": 0,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "ENGLEWOOD PUBLIC SCHOOLS",
+    "schoolName": "COLORADO'S FINEST HIGH SCHOOL OF CHOICE",
+    "whitePct": 0.621,
+    "nonwhitePct": 0.379,
+    "whiteDiff": 0.13,
+    "nonwhiteDiff": -0.13,
+    "pctMove": 0.03
+  },
+  {
+    "button": "",
+    "district": "ENGLEWOOD PUBLIC SCHOOLS",
+    "schoolName": "CHARLES HAY WORLD SCHOOL",
+    "whitePct": 0.585,
+    "nonwhitePct": 0.415,
+    "whiteDiff": 0.094,
+    "nonwhiteDiff": -0.094,
+    "pctMove": 0.024
+  },
+  {
+    "button": "",
+    "district": "ENGLEWOOD PUBLIC SCHOOLS",
+    "schoolName": "CHERRELYN ELEMENTARY SCHOOL",
+    "whitePct": 0.535,
+    "nonwhitePct": 0.465,
+    "whiteDiff": 0.044,
+    "nonwhiteDiff": -0.044,
+    "pctMove": 0.008
+  },
+  {
+    "button": "",
+    "district": "ENGLEWOOD PUBLIC SCHOOLS",
+    "schoolName": "CLAYTON ELEMENTARY SCHOOL",
+    "whitePct": 0.438,
+    "nonwhitePct": 0.562,
+    "whiteDiff": -0.053,
+    "nonwhiteDiff": 0.053,
+    "pctMove": 0.017
+  },
+  {
+    "button": "",
+    "district": "ENGLEWOOD PUBLIC SCHOOLS",
+    "schoolName": "ENGLEWOOD HIGH SCHOOL",
+    "whitePct": 0.447,
+    "nonwhitePct": 0.553,
+    "whiteDiff": -0.044,
+    "nonwhiteDiff": 0.044,
+    "pctMove": 0.017
+  },
+  {
+    "button": "",
+    "district": "ENGLEWOOD PUBLIC SCHOOLS",
+    "schoolName": "ENGLEWOOD LEADERSHIP ACADEMY",
+    "whitePct": 0.692,
+    "nonwhitePct": 0.308,
+    "whiteDiff": 0.201,
+    "nonwhiteDiff": -0.201,
+    "pctMove": 0.012
+  },
+  {
+    "button": "",
+    "district": "ENGLEWOOD PUBLIC SCHOOLS",
+    "schoolName": "ENGLEWOOD MIDDLE SCHOOL",
+    "whitePct": 0.48,
+    "nonwhitePct": 0.52,
+    "whiteDiff": -0.011,
+    "nonwhiteDiff": 0.011,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "ENGLEWOOD PUBLIC SCHOOLS",
+    "schoolName": "ENGLEWOOD EARLY CHILDHOOD EDUCATION CENTER AT MADDOX",
+    "whitePct": 0.495,
+    "nonwhitePct": 0.505,
+    "whiteDiff": 0.004,
+    "nonwhiteDiff": -0.004,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "ENGLEWOOD PUBLIC SCHOOLS",
+    "schoolName": "WM E BISHOP ELEMENTARY SCHOOL",
+    "whitePct": 0.278,
+    "nonwhitePct": 0.722,
+    "whiteDiff": -0.213,
+    "nonwhiteDiff": 0.213,
+    "pctMove": 0.038
+  },
+  {
+    "button": "",
+    "district": "ENGLEWOOD PUBLIC SCHOOLS",
+    "schoolName": "DISTRICT TOTAL",
+    "whitePct": 0.491,
+    "nonwhitePct": 0.509,
+    "whiteDiff": 0,
+    "nonwhiteDiff": 0,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "ACADEMY CHARTER SCHOOL",
+    "whitePct": 0.809,
+    "nonwhitePct": 0.191,
+    "whiteDiff": 0.079,
+    "nonwhiteDiff": -0.079,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "ACRES GREEN ELEMENTARY SCHOOL",
+    "whitePct": 0.486,
+    "nonwhitePct": 0.514,
+    "whiteDiff": -0.244,
+    "nonwhiteDiff": 0.244,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "ASCENT CLASSICAL ACADEMY",
+    "whitePct": 0.809,
+    "nonwhitePct": 0.191,
+    "whiteDiff": 0.079,
+    "nonwhiteDiff": -0.079,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "BEN FRANKLIN ACADEMY",
+    "whitePct": 0.801,
+    "nonwhitePct": 0.199,
+    "whiteDiff": 0.071,
+    "nonwhiteDiff": -0.071,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "DANIEL C OAKES HIGH SCHOOL--CASTLE ROCK",
+    "whitePct": 0.711,
+    "nonwhitePct": 0.289,
+    "whiteDiff": -0.019,
+    "nonwhiteDiff": 0.019,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "AMERICAN ACADEMY",
+    "whitePct": 0.706,
+    "nonwhitePct": 0.294,
+    "whiteDiff": -0.024,
+    "nonwhiteDiff": 0.024,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "CIMARRON MIDDLE",
+    "whitePct": 0.779,
+    "nonwhitePct": 0.221,
+    "whiteDiff": 0.049,
+    "nonwhiteDiff": -0.049,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "CLEAR SKY ELEMENTARY",
+    "whitePct": 0.742,
+    "nonwhitePct": 0.258,
+    "whiteDiff": 0.012,
+    "nonwhiteDiff": -0.012,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "GOLD RUSH ELEMENTARY",
+    "whitePct": 0.798,
+    "nonwhitePct": 0.202,
+    "whiteDiff": 0.068,
+    "nonwhiteDiff": -0.068,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "MESA MIDDLE SCHOOL",
+    "whitePct": 0.737,
+    "nonwhitePct": 0.263,
+    "whiteDiff": 0.007,
+    "nonwhiteDiff": -0.007,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "ARROWWOOD ELEMENTARY SCHOOL",
+    "whitePct": 0.693,
+    "nonwhitePct": 0.307,
+    "whiteDiff": -0.037,
+    "nonwhiteDiff": 0.037,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "BEAR CANYON ELEMENTARY SCHOOL",
+    "whitePct": 0.794,
+    "nonwhitePct": 0.206,
+    "whiteDiff": 0.064,
+    "nonwhiteDiff": -0.064,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "BUFFALO RIDGE ELEMENTARY SCHOOL",
+    "whitePct": 0.794,
+    "nonwhitePct": 0.206,
+    "whiteDiff": 0.064,
+    "nonwhiteDiff": -0.064,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "EARLY CHILDHOOD CENTER",
+    "whitePct": 0.821,
+    "nonwhitePct": 0.179,
+    "whiteDiff": 0.091,
+    "nonwhiteDiff": -0.091,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "CASTLE ROCK ELEMENTARY SCHOOL",
+    "whitePct": 0.715,
+    "nonwhitePct": 0.285,
+    "whiteDiff": -0.015,
+    "nonwhiteDiff": 0.015,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "CASTLE VIEW HIGH SCHOOL",
+    "whitePct": 0.773,
+    "nonwhitePct": 0.227,
+    "whiteDiff": 0.043,
+    "nonwhiteDiff": -0.043,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "CHAPARRAL HIGH SCHOOL",
+    "whitePct": 0.736,
+    "nonwhitePct": 0.264,
+    "whiteDiff": 0.006,
+    "nonwhiteDiff": -0.006,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "CANTRIL",
+    "whitePct": 0.559,
+    "nonwhitePct": 0.441,
+    "whiteDiff": -0.171,
+    "nonwhiteDiff": 0.171,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "CHALLENGE TO EXCELLENCE CHARTER SCHOOL",
+    "whitePct": 0.57,
+    "nonwhitePct": 0.43,
+    "whiteDiff": -0.16,
+    "nonwhiteDiff": 0.16,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "CLOVERLEAF HOME EDUCATION",
+    "whitePct": 0.847,
+    "nonwhitePct": 0.153,
+    "whiteDiff": 0.117,
+    "nonwhiteDiff": -0.117,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "CHERRY VALLEY ELEMENTARY SCHOOL",
+    "whitePct": 0.795,
+    "nonwhitePct": 0.205,
+    "whiteDiff": 0.065,
+    "nonwhiteDiff": -0.065,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "NORTH STAR ACADEMY",
+    "whitePct": 0.696,
+    "nonwhitePct": 0.304,
+    "whiteDiff": -0.034,
+    "nonwhiteDiff": 0.034,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "PARKER CORE KNOWLEDGE CHARTER SCHOOL",
+    "whitePct": 0.737,
+    "nonwhitePct": 0.263,
+    "whiteDiff": 0.007,
+    "nonwhiteDiff": -0.007,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "COPPER MESA ELEMENTARY SCHOOL",
+    "whitePct": 0.743,
+    "nonwhitePct": 0.257,
+    "whiteDiff": 0.013,
+    "nonwhiteDiff": -0.013,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "COUGAR RUN ELEMENTARY SCHOOL",
+    "whitePct": 0.752,
+    "nonwhitePct": 0.248,
+    "whiteDiff": 0.022,
+    "nonwhiteDiff": -0.022,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "COYOTE CREEK ELEMENTARY SCHOOL",
+    "whitePct": 0.758,
+    "nonwhitePct": 0.242,
+    "whiteDiff": 0.028,
+    "nonwhiteDiff": -0.028,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "CRESTHILL MIDDLE SCHOOL",
+    "whitePct": 0.7,
+    "nonwhitePct": 0.3,
+    "whiteDiff": -0.03,
+    "nonwhiteDiff": 0.03,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "CASTLE ROCK MIDDLE SCHOOL",
+    "whitePct": 0.759,
+    "nonwhitePct": 0.241,
+    "whiteDiff": 0.029,
+    "nonwhiteDiff": -0.029,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "DOUGLAS COUNTY HIGH SCHOOL",
+    "whitePct": 0.757,
+    "nonwhitePct": 0.243,
+    "whiteDiff": 0.027,
+    "nonwhiteDiff": -0.027,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "ROCK RIDGE ELEMENTARY SCHOOL",
+    "whitePct": 0.733,
+    "nonwhitePct": 0.267,
+    "whiteDiff": 0.003,
+    "nonwhiteDiff": -0.003,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "CHEROKEE TRAIL ELEMENTARY SCHOOL",
+    "whitePct": 0.656,
+    "nonwhitePct": 0.344,
+    "whiteDiff": -0.074,
+    "nonwhiteDiff": 0.074,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "EAGLE RIDGE ELEMENTARY SCHOOL",
+    "whitePct": 0.625,
+    "nonwhitePct": 0.375,
+    "whiteDiff": -0.105,
+    "nonwhiteDiff": 0.105,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "EAGLE ACADEMY",
+    "whitePct": 0.727,
+    "nonwhitePct": 0.273,
+    "whiteDiff": -0.003,
+    "nonwhiteDiff": 0.003,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "ELDORADO ELEMENTARY SCHOOL",
+    "whitePct": 0.781,
+    "nonwhitePct": 0.219,
+    "whiteDiff": 0.051,
+    "nonwhiteDiff": -0.051,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "MAMMOTH HEIGHTS ELEMENTARY",
+    "whitePct": 0.729,
+    "nonwhitePct": 0.271,
+    "whiteDiff": -0.001,
+    "nonwhiteDiff": 0.001,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "STONE MOUNTAIN ELEMENTARY",
+    "whitePct": 0.83,
+    "nonwhitePct": 0.17,
+    "whiteDiff": 0.1,
+    "nonwhiteDiff": -0.1,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "ROXBOROUGH INTERMEDIATE",
+    "whitePct": 0.779,
+    "nonwhitePct": 0.221,
+    "whiteDiff": 0.049,
+    "nonwhiteDiff": -0.049,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "FLAGSTONE ELEMENTARY SCHOOL",
+    "whitePct": 0.785,
+    "nonwhitePct": 0.215,
+    "whiteDiff": 0.055,
+    "nonwhiteDiff": -0.055,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "FOX CREEK ELEMENTARY SCHOOL",
+    "whitePct": 0.753,
+    "nonwhitePct": 0.247,
+    "whiteDiff": 0.023,
+    "nonwhiteDiff": -0.023,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "FRANKTOWN ELEMENTARY SCHOOL",
+    "whitePct": 0.843,
+    "nonwhitePct": 0.157,
+    "whiteDiff": 0.113,
+    "nonwhiteDiff": -0.113,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "FRONTIER VALLEY ELEMENTARY SCHOOL",
+    "whitePct": 0.804,
+    "nonwhitePct": 0.196,
+    "whiteDiff": 0.074,
+    "nonwhiteDiff": -0.074,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "GLOBAL VILLAGE ACADEMY - DOUGLAS COUNTY",
+    "whitePct": 0.476,
+    "nonwhitePct": 0.524,
+    "whiteDiff": -0.254,
+    "nonwhiteDiff": 0.254,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "HOPE ONLINE LEARNING ACADEMY MIDDLE SCHOOL",
+    "whitePct": 0.077,
+    "nonwhitePct": 0.923,
+    "whiteDiff": -0.653,
+    "nonwhiteDiff": 0.653,
+    "pctMove": 0.013
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "HOPE ONLINE LEARNING ACADEMY ELEMENTARY",
+    "whitePct": 0.101,
+    "nonwhitePct": 0.899,
+    "whiteDiff": -0.629,
+    "nonwhiteDiff": 0.629,
+    "pctMove": 0.022
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "HERITAGE ELEMENTARY SCHOOL",
+    "whitePct": 0.757,
+    "nonwhitePct": 0.243,
+    "whiteDiff": 0.027,
+    "nonwhiteDiff": -0.027,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "HIGHLANDS RANCH HS PRE-K",
+    "whitePct": 0.318,
+    "nonwhitePct": 0.682,
+    "whiteDiff": -0.412,
+    "nonwhiteDiff": 0.412,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "HIGHLANDS RANCH HIGH SCHOOL",
+    "whitePct": 0.708,
+    "nonwhitePct": 0.292,
+    "whiteDiff": -0.022,
+    "nonwhiteDiff": 0.022,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "HOPE ONLINE LEARNING ACADEMY HIGH SCHOOL",
+    "whitePct": 0.209,
+    "nonwhitePct": 0.791,
+    "whiteDiff": -0.521,
+    "nonwhiteDiff": 0.521,
+    "pctMove": 0.012
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "LEGEND HIGH SCHOOL",
+    "whitePct": 0.804,
+    "nonwhitePct": 0.196,
+    "whiteDiff": 0.074,
+    "nonwhiteDiff": -0.074,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "IRON HORSE ELEMENTARY SCHOOL",
+    "whitePct": 0.716,
+    "nonwhitePct": 0.284,
+    "whiteDiff": -0.014,
+    "nonwhiteDiff": 0.014,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "LARKSPUR ELEMENTARY SCHOOL",
+    "whitePct": 0.847,
+    "nonwhitePct": 0.153,
+    "whiteDiff": 0.117,
+    "nonwhiteDiff": -0.117,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "LEGACY POINT ELEMENTARY SCHOOL",
+    "whitePct": 0.765,
+    "nonwhitePct": 0.235,
+    "whiteDiff": 0.035,
+    "nonwhiteDiff": -0.035,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "LEMAN CLASSICAL ACADEMY",
+    "whitePct": 0.806,
+    "nonwhitePct": 0.194,
+    "whiteDiff": 0.076,
+    "nonwhiteDiff": -0.076,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "STEM SCHOOL HIGHLANDS RANCH",
+    "whitePct": 0.621,
+    "nonwhitePct": 0.379,
+    "whiteDiff": -0.109,
+    "nonwhiteDiff": 0.109,
+    "pctMove": 0.008
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "EDCSD",
+    "whitePct": 0.786,
+    "nonwhitePct": 0.214,
+    "whiteDiff": 0.056,
+    "nonwhiteDiff": -0.056,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "SAGE CANYON ELEMENTARY",
+    "whitePct": 0.834,
+    "nonwhitePct": 0.166,
+    "whiteDiff": 0.104,
+    "nonwhiteDiff": -0.104,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "MEADOW VIEW ELEMENTARY SCHOOL",
+    "whitePct": 0.763,
+    "nonwhitePct": 0.237,
+    "whiteDiff": 0.033,
+    "nonwhiteDiff": -0.033,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "LONE TREE ELEMENTARY",
+    "whitePct": 0.679,
+    "nonwhitePct": 0.321,
+    "whiteDiff": -0.051,
+    "nonwhiteDiff": 0.051,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "DC MONTESSORI CHARTER SCHOOL",
+    "whitePct": 0.769,
+    "nonwhitePct": 0.231,
+    "whiteDiff": 0.039,
+    "nonwhiteDiff": -0.039,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "ASPEN VIEW ACADEMY",
+    "whitePct": 0.821,
+    "nonwhitePct": 0.179,
+    "whiteDiff": 0.091,
+    "nonwhiteDiff": -0.091,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "MOUNTAIN VIEW ELEMENTARY SCHOOL",
+    "whitePct": 0.796,
+    "nonwhitePct": 0.204,
+    "whiteDiff": 0.066,
+    "nonwhiteDiff": -0.066,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "MOUNTAIN RIDGE MIDDLE SCHOOL",
+    "whitePct": 0.778,
+    "nonwhitePct": 0.222,
+    "whiteDiff": 0.048,
+    "nonwhiteDiff": -0.048,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "MOUNTAIN VISTA HIGH SCHOOL",
+    "whitePct": 0.789,
+    "nonwhitePct": 0.211,
+    "whiteDiff": 0.059,
+    "nonwhiteDiff": -0.059,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "SKYVIEW ACADEMY",
+    "whitePct": 0.644,
+    "nonwhitePct": 0.356,
+    "whiteDiff": -0.086,
+    "nonwhiteDiff": 0.086,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "NORTHEAST ELEMENTARY SCHOOL",
+    "whitePct": 0.808,
+    "nonwhitePct": 0.192,
+    "whiteDiff": 0.078,
+    "nonwhiteDiff": -0.078,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "NORTHRIDGE ELEMENTARY SCHOOL",
+    "whitePct": 0.681,
+    "nonwhitePct": 0.319,
+    "whiteDiff": -0.049,
+    "nonwhiteDiff": 0.049,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "PARKER PERFORMING ARTS",
+    "whitePct": 0.694,
+    "nonwhitePct": 0.306,
+    "whiteDiff": -0.036,
+    "nonwhiteDiff": 0.036,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "SAGEWOOD MIDDLE SCHOOL",
+    "whitePct": 0.806,
+    "nonwhitePct": 0.194,
+    "whiteDiff": 0.076,
+    "nonwhiteDiff": -0.076,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "SIERRA MIDDLE SCHOOL",
+    "whitePct": 0.733,
+    "nonwhitePct": 0.267,
+    "whiteDiff": 0.003,
+    "nonwhiteDiff": -0.003,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "PINE GROVE ELEMENTARY SCHOOL",
+    "whitePct": 0.791,
+    "nonwhitePct": 0.209,
+    "whiteDiff": 0.061,
+    "nonwhiteDiff": -0.061,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "PINE LANE ELEMENTARY",
+    "whitePct": 0.709,
+    "nonwhitePct": 0.291,
+    "whiteDiff": -0.021,
+    "nonwhiteDiff": 0.021,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "PIONEER ELEMENTARY SCHOOL",
+    "whitePct": 0.761,
+    "nonwhitePct": 0.239,
+    "whiteDiff": 0.031,
+    "nonwhiteDiff": -0.031,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "PLATTE RIVER CHARTER ACADEMY",
+    "whitePct": 0.765,
+    "nonwhitePct": 0.235,
+    "whiteDiff": 0.035,
+    "nonwhiteDiff": -0.035,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "ROXBOROUGH ELEMENTARY SCHOOL",
+    "whitePct": 0.773,
+    "nonwhitePct": 0.227,
+    "whiteDiff": 0.043,
+    "nonwhiteDiff": -0.043,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "PONDEROSA HIGH SCHOOL",
+    "whitePct": 0.785,
+    "nonwhitePct": 0.215,
+    "whiteDiff": 0.055,
+    "nonwhiteDiff": -0.055,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "PRAIRIE CROSSING ELEMENTARY SCHOOL",
+    "whitePct": 0.746,
+    "nonwhitePct": 0.254,
+    "whiteDiff": 0.016,
+    "nonwhiteDiff": -0.016,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "RENAISSANCE SECONDARY SCHOOL",
+    "whitePct": 0.799,
+    "nonwhitePct": 0.201,
+    "whiteDiff": 0.069,
+    "nonwhiteDiff": -0.069,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "RANCH VIEW MIDDLE SCHOOL",
+    "whitePct": 0.767,
+    "nonwhitePct": 0.233,
+    "whiteDiff": 0.037,
+    "nonwhiteDiff": -0.037,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "REDSTONE ELEMENTARY SCHOOL",
+    "whitePct": 0.751,
+    "nonwhitePct": 0.249,
+    "whiteDiff": 0.021,
+    "nonwhiteDiff": -0.021,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "RENAISSANCE EXPEDITION LEARN OUTWARD BOUND SCHOOL",
+    "whitePct": 0.82,
+    "nonwhitePct": 0.18,
+    "whiteDiff": 0.09,
+    "nonwhiteDiff": -0.09,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "ROCK CANYON HIGH SCHOOL",
+    "whitePct": 0.774,
+    "nonwhitePct": 0.226,
+    "whiteDiff": 0.044,
+    "nonwhiteDiff": -0.044,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "ROCKY HEIGHTS MIDDLE SCHOOL",
+    "whitePct": 0.795,
+    "nonwhitePct": 0.205,
+    "whiteDiff": 0.065,
+    "nonwhiteDiff": -0.065,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "SADDLE RANCH ELEMENTARY SCHOOL",
+    "whitePct": 0.805,
+    "nonwhitePct": 0.195,
+    "whiteDiff": 0.075,
+    "nonwhiteDiff": -0.075,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "SAND CREEK ELEMENTARY SCHOOL",
+    "whitePct": 0.695,
+    "nonwhitePct": 0.305,
+    "whiteDiff": -0.035,
+    "nonwhiteDiff": 0.035,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "SEDALIA ELEMENTARY SCHOOL",
+    "whitePct": 0.576,
+    "nonwhitePct": 0.424,
+    "whiteDiff": -0.154,
+    "nonwhiteDiff": 0.154,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "SOARING HAWK ELEMENTARY SCHOOL",
+    "whitePct": 0.802,
+    "nonwhitePct": 0.198,
+    "whiteDiff": 0.072,
+    "nonwhiteDiff": -0.072,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "SOUTH RIDGE ELEMENTARY AN IB WORLD SCHOOL",
+    "whitePct": 0.623,
+    "nonwhitePct": 0.377,
+    "whiteDiff": -0.107,
+    "nonwhiteDiff": 0.107,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "SUMMIT VIEW ELEMENTARY SCHOOL",
+    "whitePct": 0.808,
+    "nonwhitePct": 0.192,
+    "whiteDiff": 0.078,
+    "nonwhiteDiff": -0.078,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "THUNDERRIDGE HIGH SCHOOL",
+    "whitePct": 0.777,
+    "nonwhitePct": 0.223,
+    "whiteDiff": 0.047,
+    "nonwhiteDiff": -0.047,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "TIMBER TRAIL ELEMENTARY SCHOOL",
+    "whitePct": 0.877,
+    "nonwhitePct": 0.123,
+    "whiteDiff": 0.147,
+    "nonwhiteDiff": -0.147,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "TRAILBLAZER ELEMENTARY SCHOOL",
+    "whitePct": 0.8,
+    "nonwhitePct": 0.2,
+    "whiteDiff": 0.07,
+    "nonwhiteDiff": -0.07,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "WORLD COMPASS ACADEMY",
+    "whitePct": 0.746,
+    "nonwhitePct": 0.254,
+    "whiteDiff": 0.016,
+    "nonwhiteDiff": -0.016,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "WILDCAT MOUNTAIN ELEMENTARY SCHOOL",
+    "whitePct": 0.762,
+    "nonwhitePct": 0.238,
+    "whiteDiff": 0.032,
+    "nonwhiteDiff": -0.032,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DOUGLAS COUNTY SCHOOL DISTRICT",
+    "schoolName": "DISTRICT TOTAL",
+    "whitePct": 0.73,
+    "nonwhitePct": 0.27,
+    "whiteDiff": 0,
+    "nonwhiteDiff": 0,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "ABRAHAM LINCOLN HIGH SCHOOL",
+    "whitePct": 0.026,
+    "nonwhitePct": 0.974,
+    "whiteDiff": -0.222,
+    "nonwhiteDiff": 0.222,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "RIDGE VIEW ACADEMY CHARTER SCHOOL",
+    "whitePct": 0.326,
+    "nonwhitePct": 0.674,
+    "whiteDiff": 0.078,
+    "nonwhiteDiff": -0.078,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "ACADEMY OF URBAN LEARNING",
+    "whitePct": 0.086,
+    "nonwhitePct": 0.914,
+    "whiteDiff": -0.162,
+    "nonwhiteDiff": 0.162,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "ACADEMY 360",
+    "whitePct": 0.152,
+    "nonwhitePct": 0.848,
+    "whiteDiff": -0.096,
+    "nonwhiteDiff": 0.096,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "JOHN H. AMESSE ELEMENTARY",
+    "whitePct": 0.026,
+    "nonwhitePct": 0.974,
+    "whiteDiff": -0.222,
+    "nonwhiteDiff": 0.222,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "ASBURY ELEMENTARY SCHOOL",
+    "whitePct": 0.656,
+    "nonwhitePct": 0.344,
+    "whiteDiff": 0.408,
+    "nonwhiteDiff": -0.408,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "VALDEZ ELEMENTARY SCHOOL",
+    "whitePct": 0.322,
+    "nonwhitePct": 0.678,
+    "whiteDiff": 0.074,
+    "nonwhiteDiff": -0.074,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "ASHLEY ELEMENTARY SCHOOL",
+    "whitePct": 0.137,
+    "nonwhitePct": 0.863,
+    "whiteDiff": -0.111,
+    "nonwhiteDiff": 0.111,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "BARNUM ELEMENTARY SCHOOL",
+    "whitePct": 0.048,
+    "nonwhitePct": 0.952,
+    "whiteDiff": -0.2,
+    "nonwhiteDiff": 0.2,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "BEACH COURT ELEMENTARY SCHOOL",
+    "whitePct": 0.08,
+    "nonwhitePct": 0.92,
+    "whiteDiff": -0.168,
+    "nonwhiteDiff": 0.168,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "BRADLEY INTERNATIONAL SCHOOL",
+    "whitePct": 0.539,
+    "nonwhitePct": 0.461,
+    "whiteDiff": 0.291,
+    "nonwhiteDiff": -0.291,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "BROMWELL ELEMENTARY SCHOOL",
+    "whitePct": 0.72,
+    "nonwhitePct": 0.28,
+    "whiteDiff": 0.472,
+    "nonwhiteDiff": -0.472,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "BROWN INTERNATIONAL ACADEMY",
+    "whitePct": 0.589,
+    "nonwhitePct": 0.411,
+    "whiteDiff": 0.341,
+    "nonwhiteDiff": -0.341,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "BEAR VALLEY INTERNATIONAL SCHOOL",
+    "whitePct": 0.152,
+    "nonwhitePct": 0.848,
+    "whiteDiff": -0.096,
+    "nonwhiteDiff": 0.096,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "BRYANT WEBSTER DUAL LANGUAGE ECE-8 SCHOOL",
+    "whitePct": 0.076,
+    "nonwhitePct": 0.924,
+    "whiteDiff": -0.172,
+    "nonwhiteDiff": 0.172,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "COLLEGIATE PREPARATORY ACADEMY",
+    "whitePct": 0.033,
+    "nonwhitePct": 0.967,
+    "whiteDiff": -0.215,
+    "nonwhiteDiff": 0.215,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "CAREER EDUCATION CENTER EARLY COLLEGE",
+    "whitePct": 0.043,
+    "nonwhitePct": 0.957,
+    "whiteDiff": -0.205,
+    "nonwhiteDiff": 0.205,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "CARSON ELEMENTARY SCHOOL",
+    "whitePct": 0.756,
+    "nonwhitePct": 0.244,
+    "whiteDiff": 0.508,
+    "nonwhiteDiff": -0.508,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "ROCKY MOUNTAIN PREP BERKELEY",
+    "whitePct": 0.258,
+    "nonwhitePct": 0.742,
+    "whiteDiff": 0.01,
+    "nonwhiteDiff": -0.01,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "CENTENNIAL A SCHOOL FOR EXPEDITIONARY LEARNING",
+    "whitePct": 0.43,
+    "nonwhitePct": 0.57,
+    "whiteDiff": 0.182,
+    "nonwhiteDiff": -0.182,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "COMPASSION ROAD ACADEMY",
+    "whitePct": 0.241,
+    "nonwhitePct": 0.759,
+    "whiteDiff": -0.007,
+    "nonwhiteDiff": 0.007,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "CHELTENHAM ELEMENTARY SCHOOL",
+    "whitePct": 0.057,
+    "nonwhitePct": 0.943,
+    "whiteDiff": -0.191,
+    "nonwhiteDiff": 0.191,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DSST: CONSERVATORY GREEN HIGH SCHOOL",
+    "whitePct": 0.144,
+    "nonwhitePct": 0.856,
+    "whiteDiff": -0.104,
+    "nonwhiteDiff": 0.104,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "COLORADO HIGH SCHOOL CHARTER - GES",
+    "whitePct": 0.029,
+    "nonwhitePct": 0.971,
+    "whiteDiff": -0.219,
+    "nonwhiteDiff": 0.219,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "COLORADO HIGH SCHOOL CHARTER",
+    "whitePct": 0.073,
+    "nonwhitePct": 0.927,
+    "whiteDiff": -0.175,
+    "nonwhiteDiff": 0.175,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "COLFAX ELEMENTARY SCHOOL",
+    "whitePct": 0.1,
+    "nonwhitePct": 0.9,
+    "whiteDiff": -0.148,
+    "nonwhiteDiff": 0.148,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "COLE ARTS AND SCIENCE ACADEMY",
+    "whitePct": 0.071,
+    "nonwhitePct": 0.929,
+    "whiteDiff": -0.177,
+    "nonwhiteDiff": 0.177,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "COLLEGE VIEW ELEMENTARY SCHOOL",
+    "whitePct": 0.036,
+    "nonwhitePct": 0.964,
+    "whiteDiff": -0.212,
+    "nonwhiteDiff": 0.212,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "COLUMBIAN ELEMENTARY SCHOOL",
+    "whitePct": 0.085,
+    "nonwhitePct": 0.915,
+    "whiteDiff": -0.163,
+    "nonwhiteDiff": 0.163,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "COLUMBINE ELEMENTARY SCHOOL",
+    "whitePct": 0.153,
+    "nonwhitePct": 0.847,
+    "whiteDiff": -0.095,
+    "nonwhiteDiff": 0.095,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "CORY ELEMENTARY SCHOOL",
+    "whitePct": 0.739,
+    "nonwhitePct": 0.261,
+    "whiteDiff": 0.491,
+    "nonwhiteDiff": -0.491,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "COWELL ELEMENTARY SCHOOL",
+    "whitePct": 0.036,
+    "nonwhitePct": 0.964,
+    "whiteDiff": -0.212,
+    "nonwhiteDiff": 0.212,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "COMPASS ACADEMY",
+    "whitePct": 0.031,
+    "nonwhitePct": 0.969,
+    "whiteDiff": -0.217,
+    "nonwhiteDiff": 0.217,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "POLARIS ELEMENTARY SCHOOL",
+    "whitePct": 0.723,
+    "nonwhitePct": 0.277,
+    "whiteDiff": 0.475,
+    "nonwhiteDiff": -0.475,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DSST: STAPLETON MIDDLE SCHOOL",
+    "whitePct": 0.147,
+    "nonwhitePct": 0.853,
+    "whiteDiff": -0.101,
+    "nonwhiteDiff": 0.101,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DSST: HENRY MIDDLE SCHOOL",
+    "whitePct": 0.122,
+    "nonwhitePct": 0.878,
+    "whiteDiff": -0.126,
+    "nonwhiteDiff": 0.126,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DENVER GREEN SCHOOL",
+    "whitePct": 0.329,
+    "nonwhitePct": 0.671,
+    "whiteDiff": 0.081,
+    "nonwhiteDiff": -0.081,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DENVER LANGUAGE SCHOOL",
+    "whitePct": 0.488,
+    "nonwhitePct": 0.512,
+    "whiteDiff": 0.24,
+    "nonwhiteDiff": -0.24,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DENVER CENTER FOR INTERNATIONAL STUDIES AT FAIRMONT",
+    "whitePct": 0.263,
+    "nonwhitePct": 0.737,
+    "whiteDiff": 0.015,
+    "nonwhiteDiff": -0.015,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DSST: GREEN VALLEY RANCH HIGH SCHOOL",
+    "whitePct": 0.073,
+    "nonwhitePct": 0.927,
+    "whiteDiff": -0.175,
+    "nonwhiteDiff": 0.175,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DENVER MONTESSORI JUNIOR/SENIOR HIGH SCHOOL",
+    "whitePct": 0.249,
+    "nonwhitePct": 0.751,
+    "whiteDiff": 0.001,
+    "nonwhiteDiff": -0.001,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DENISON MONTESSORI SCHOOL",
+    "whitePct": 0.323,
+    "nonwhitePct": 0.677,
+    "whiteDiff": 0.075,
+    "nonwhiteDiff": -0.075,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DSST: COLE HIGH SCHOOL",
+    "whitePct": 0.062,
+    "nonwhitePct": 0.938,
+    "whiteDiff": -0.186,
+    "nonwhiteDiff": 0.186,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DSST: GREEN VALLEY RANCH MIDDLE SCHOOL",
+    "whitePct": 0.062,
+    "nonwhitePct": 0.938,
+    "whiteDiff": -0.186,
+    "nonwhiteDiff": 0.186,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DENVER CENTER FOR INTERNATIONAL STUDIES",
+    "whitePct": 0.228,
+    "nonwhitePct": 0.772,
+    "whiteDiff": -0.02,
+    "nonwhiteDiff": 0.02,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DENVER SCHOOL OF THE ARTS",
+    "whitePct": 0.686,
+    "nonwhitePct": 0.314,
+    "whiteDiff": 0.438,
+    "nonwhiteDiff": -0.438,
+    "pctMove": 0.014
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DSST: STAPLETON HIGH SCHOOL",
+    "whitePct": 0.244,
+    "nonwhitePct": 0.756,
+    "whiteDiff": -0.004,
+    "nonwhiteDiff": 0.004,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DSST: BYERS MIDDLE SCHOOL",
+    "whitePct": 0.463,
+    "nonwhitePct": 0.537,
+    "whiteDiff": 0.215,
+    "nonwhiteDiff": -0.215,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DENVER CENTER FOR 21ST-CENTURY LEARNING AT WYMAN",
+    "whitePct": 0.097,
+    "nonwhitePct": 0.903,
+    "whiteDiff": -0.151,
+    "nonwhiteDiff": 0.151,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DSST MIDDLE SCHOOL @ NOEL CAMPUS",
+    "whitePct": 0.071,
+    "nonwhitePct": 0.929,
+    "whiteDiff": -0.177,
+    "nonwhiteDiff": 0.177,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DCIS AT FORD",
+    "whitePct": 0.034,
+    "nonwhitePct": 0.966,
+    "whiteDiff": -0.214,
+    "nonwhiteDiff": 0.214,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DOWNTOWN DENVER EXPEDITIONARY SCHOOL",
+    "whitePct": 0.613,
+    "nonwhitePct": 0.387,
+    "whiteDiff": 0.365,
+    "nonwhiteDiff": -0.365,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DCIS AT MONTBELLO",
+    "whitePct": 0.012,
+    "nonwhitePct": 0.988,
+    "whiteDiff": -0.236,
+    "nonwhiteDiff": 0.236,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DSST: CONSERVATORY GREEN MIDDLE SCHOOL",
+    "whitePct": 0.134,
+    "nonwhitePct": 0.866,
+    "whiteDiff": -0.114,
+    "nonwhiteDiff": 0.114,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DSST: COLE MIDDLE SCHOOL",
+    "whitePct": 0.031,
+    "nonwhitePct": 0.969,
+    "whiteDiff": -0.217,
+    "nonwhiteDiff": 0.217,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DENVER DISCOVERY SCHOOL",
+    "whitePct": 0.25,
+    "nonwhitePct": 0.75,
+    "whiteDiff": 0.002,
+    "nonwhiteDiff": -0.002,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DSST: BYERS HIGH SCHOOL",
+    "whitePct": 0.436,
+    "nonwhitePct": 0.564,
+    "whiteDiff": 0.188,
+    "nonwhiteDiff": -0.188,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DENVER SCHOOL OF INNOVATION AND SUSTAINABLE DESIGN",
+    "whitePct": 0.393,
+    "nonwhitePct": 0.607,
+    "whiteDiff": 0.145,
+    "nonwhiteDiff": -0.145,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DSST: COLLEGE VIEW HIGH SCHOOL",
+    "whitePct": 0.033,
+    "nonwhitePct": 0.967,
+    "whiteDiff": -0.215,
+    "nonwhiteDiff": 0.215,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DOULL ELEMENTARY SCHOOL",
+    "whitePct": 0.069,
+    "nonwhitePct": 0.931,
+    "whiteDiff": -0.179,
+    "nonwhiteDiff": 0.179,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "ESCALANTE-BIGGS ACADEMY",
+    "whitePct": 0.052,
+    "nonwhitePct": 0.948,
+    "whiteDiff": -0.196,
+    "nonwhiteDiff": 0.196,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "EAGLETON ELEMENTARY SCHOOL",
+    "whitePct": 0.049,
+    "nonwhitePct": 0.951,
+    "whiteDiff": -0.199,
+    "nonwhiteDiff": 0.199,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "EAST HIGH SCHOOL",
+    "whitePct": 0.493,
+    "nonwhitePct": 0.507,
+    "whiteDiff": 0.245,
+    "nonwhiteDiff": -0.245,
+    "pctMove": 0.019
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "EDISON ELEMENTARY SCHOOL",
+    "whitePct": 0.68,
+    "nonwhitePct": 0.32,
+    "whiteDiff": 0.432,
+    "nonwhiteDiff": -0.432,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "EXCEL ACADEMY",
+    "whitePct": 0.066,
+    "nonwhitePct": 0.934,
+    "whiteDiff": -0.182,
+    "nonwhiteDiff": 0.182,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "ELLIS ELEMENTARY SCHOOL",
+    "whitePct": 0.287,
+    "nonwhitePct": 0.713,
+    "whiteDiff": 0.039,
+    "nonwhiteDiff": -0.039,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "EMILY GRIFFITH HIGH SCHOOL",
+    "whitePct": 0.152,
+    "nonwhitePct": 0.848,
+    "whiteDiff": -0.096,
+    "nonwhiteDiff": 0.096,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "HIGH TECH EARLY COLLEGE",
+    "whitePct": 0.049,
+    "nonwhitePct": 0.951,
+    "whiteDiff": -0.199,
+    "nonwhiteDiff": 0.199,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "FAIRVIEW ELEMENTARY SCHOOL",
+    "whitePct": 0.06,
+    "nonwhitePct": 0.94,
+    "whiteDiff": -0.188,
+    "nonwhiteDiff": 0.188,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "SANDRA TODD-WILLIAMS ACADEMY",
+    "whitePct": 0.054,
+    "nonwhitePct": 0.946,
+    "whiteDiff": -0.194,
+    "nonwhiteDiff": 0.194,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "5280 HIGH SCHOOL",
+    "whitePct": 0.257,
+    "nonwhitePct": 0.743,
+    "whiteDiff": 0.009,
+    "nonwhiteDiff": -0.009,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "FLORENCE CRITTENTON HIGH SCHOOL",
+    "whitePct": 0.048,
+    "nonwhitePct": 0.952,
+    "whiteDiff": -0.2,
+    "nonwhiteDiff": 0.2,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "FORCE ELEMENTARY SCHOOL",
+    "whitePct": 0.045,
+    "nonwhitePct": 0.955,
+    "whiteDiff": -0.203,
+    "nonwhiteDiff": 0.203,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "GARDEN PLACE ACADEMY",
+    "whitePct": 0.043,
+    "nonwhitePct": 0.957,
+    "whiteDiff": -0.205,
+    "nonwhiteDiff": 0.205,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "LENA ARCHULETA ELEMENTARY SCHOOL",
+    "whitePct": 0.045,
+    "nonwhitePct": 0.955,
+    "whiteDiff": -0.203,
+    "nonwhiteDiff": 0.203,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "GEORGE WASHINGTON HIGH SCHOOL",
+    "whitePct": 0.35,
+    "nonwhitePct": 0.65,
+    "whiteDiff": 0.102,
+    "nonwhiteDiff": -0.102,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "GODSMAN ELEMENTARY SCHOOL",
+    "whitePct": 0.056,
+    "nonwhitePct": 0.944,
+    "whiteDiff": -0.192,
+    "nonwhiteDiff": 0.192,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "GOLDRICK ELEMENTARY SCHOOL",
+    "whitePct": 0.043,
+    "nonwhitePct": 0.957,
+    "whiteDiff": -0.205,
+    "nonwhiteDiff": 0.205,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "GIRLS ATHLETIC LEADERSHIP SCHOOL HIGH SCHOOL",
+    "whitePct": 0.336,
+    "nonwhitePct": 0.664,
+    "whiteDiff": 0.088,
+    "nonwhiteDiff": -0.088,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "GRANT BEACON MIDDLE SCHOOL",
+    "whitePct": 0.15,
+    "nonwhitePct": 0.85,
+    "whiteDiff": -0.098,
+    "nonwhiteDiff": 0.098,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "GRANT RANCH ECE-8 SCHOOL",
+    "whitePct": 0.307,
+    "nonwhitePct": 0.693,
+    "whiteDiff": 0.059,
+    "nonwhiteDiff": -0.059,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "GIRLS ATHLETIC LEADERSHIP SCHOOL MIDDLE SCHOOL",
+    "whitePct": 0.508,
+    "nonwhitePct": 0.492,
+    "whiteDiff": 0.26,
+    "nonwhiteDiff": -0.26,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "GREEN VALLEY ELEMENTARY SCHOOL",
+    "whitePct": 0.126,
+    "nonwhitePct": 0.874,
+    "whiteDiff": -0.122,
+    "nonwhiteDiff": 0.122,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MARIE L. GREENWOOD ACADEMY",
+    "whitePct": 0.033,
+    "nonwhitePct": 0.967,
+    "whiteDiff": -0.215,
+    "nonwhiteDiff": 0.215,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "CENTER FOR TALENT DEVELOPMENT AT GREENLEE",
+    "whitePct": 0.118,
+    "nonwhitePct": 0.882,
+    "whiteDiff": -0.13,
+    "nonwhiteDiff": 0.13,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "CREATIVITY CHALLENGE COMMUNITY",
+    "whitePct": 0.808,
+    "nonwhitePct": 0.192,
+    "whiteDiff": 0.56,
+    "nonwhiteDiff": -0.56,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DELTA HIGH SCHOOL",
+    "whitePct": 0.132,
+    "nonwhitePct": 0.868,
+    "whiteDiff": -0.116,
+    "nonwhiteDiff": 0.116,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "GUST ELEMENTARY SCHOOL",
+    "whitePct": 0.078,
+    "nonwhitePct": 0.922,
+    "whiteDiff": -0.17,
+    "nonwhiteDiff": 0.17,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "HAMILTON MIDDLE SCHOOL",
+    "whitePct": 0.24,
+    "nonwhitePct": 0.76,
+    "whiteDiff": -0.008,
+    "nonwhiteDiff": 0.008,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "INTERNATIONAL ACADEMY OF DENVER AT HARRINGTON",
+    "whitePct": 0.042,
+    "nonwhitePct": 0.958,
+    "whiteDiff": -0.206,
+    "nonwhiteDiff": 0.206,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "HIGHLINE ACADEMY SOUTHEAST",
+    "whitePct": 0.494,
+    "nonwhitePct": 0.506,
+    "whiteDiff": 0.246,
+    "nonwhiteDiff": -0.246,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "HILL CAMPUS OF ARTS AND SCIENCES",
+    "whitePct": 0.406,
+    "nonwhitePct": 0.594,
+    "whiteDiff": 0.158,
+    "nonwhiteDiff": -0.158,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "HIGH TECH ELEMENTARY SCHOOL",
+    "whitePct": 0.625,
+    "nonwhitePct": 0.375,
+    "whiteDiff": 0.377,
+    "nonwhiteDiff": -0.377,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "HIGHLINE ACADEMY NORTHEAST",
+    "whitePct": 0.175,
+    "nonwhitePct": 0.825,
+    "whiteDiff": -0.073,
+    "nonwhiteDiff": 0.073,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "HOLM ELEMENTARY SCHOOL",
+    "whitePct": 0.196,
+    "nonwhitePct": 0.804,
+    "whiteDiff": -0.052,
+    "nonwhiteDiff": 0.052,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "FARRELL B. HOWELL ECE-8 SCHOOL",
+    "whitePct": 0.018,
+    "nonwhitePct": 0.982,
+    "whiteDiff": -0.23,
+    "nonwhiteDiff": 0.23,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "ISABELLA BIRD COMMUNITY SCHOOL",
+    "whitePct": 0.584,
+    "nonwhitePct": 0.416,
+    "whiteDiff": 0.336,
+    "nonwhiteDiff": -0.336,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "INSPIRE ELEMENTARY",
+    "whitePct": 0.574,
+    "nonwhitePct": 0.426,
+    "whiteDiff": 0.326,
+    "nonwhiteDiff": -0.326,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DSST: COLLEGE VIEW MIDDLE SCHOOL",
+    "whitePct": 0.034,
+    "nonwhitePct": 0.966,
+    "whiteDiff": -0.214,
+    "nonwhiteDiff": 0.214,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "JOE SHOEMAKER SCHOOL",
+    "whitePct": 0.262,
+    "nonwhitePct": 0.738,
+    "whiteDiff": 0.014,
+    "nonwhiteDiff": -0.014,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "JOHN F KENNEDY HIGH SCHOOL",
+    "whitePct": 0.106,
+    "nonwhitePct": 0.894,
+    "whiteDiff": -0.142,
+    "nonwhiteDiff": 0.142,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "JOHNSON ELEMENTARY SCHOOL",
+    "whitePct": 0.06,
+    "nonwhitePct": 0.94,
+    "whiteDiff": -0.188,
+    "nonwhiteDiff": 0.188,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DENVER JUSTICE HIGH SCHOOL",
+    "whitePct": 0.063,
+    "nonwhitePct": 0.937,
+    "whiteDiff": -0.185,
+    "nonwhiteDiff": 0.185,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "KAISER ELEMENTARY SCHOOL",
+    "whitePct": 0.258,
+    "nonwhitePct": 0.742,
+    "whiteDiff": 0.01,
+    "nonwhiteDiff": -0.01,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "KIPP NORTHEAST ELEMENTARY",
+    "whitePct": 0.056,
+    "nonwhitePct": 0.944,
+    "whiteDiff": -0.192,
+    "nonwhiteDiff": 0.192,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "KIPP NORTHEAST DENVER MIDDLE SCHOOL",
+    "whitePct": 0.049,
+    "nonwhitePct": 0.951,
+    "whiteDiff": -0.199,
+    "nonwhiteDiff": 0.199,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "KIPP NORTHEAST DENVER LEADERSHIP ACADEMY",
+    "whitePct": 0.043,
+    "nonwhitePct": 0.957,
+    "whiteDiff": -0.205,
+    "nonwhiteDiff": 0.205,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "KEPNER BEACON MIDDLE SCHOOL",
+    "whitePct": 0.066,
+    "nonwhitePct": 0.934,
+    "whiteDiff": -0.182,
+    "nonwhiteDiff": 0.182,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "KIPP DENVER COLLEGIATE HIGH SCHOOL",
+    "whitePct": 0.013,
+    "nonwhitePct": 0.987,
+    "whiteDiff": -0.235,
+    "nonwhiteDiff": 0.235,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "KIPP SUNSHINE PEAK ACADEMY",
+    "whitePct": 0,
+    "nonwhitePct": 1,
+    "whiteDiff": -0.248,
+    "nonwhiteDiff": 0.248,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "KNAPP ELEMENTARY SCHOOL",
+    "whitePct": 0.04,
+    "nonwhitePct": 0.96,
+    "whiteDiff": -0.208,
+    "nonwhiteDiff": 0.208,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "HALLETT ACADEMY",
+    "whitePct": 0.032,
+    "nonwhitePct": 0.968,
+    "whiteDiff": -0.216,
+    "nonwhiteDiff": 0.216,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "KUNSMILLER CREATIVE ARTS ACADEMY",
+    "whitePct": 0.099,
+    "nonwhitePct": 0.901,
+    "whiteDiff": -0.149,
+    "nonwhiteDiff": 0.149,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "KIPP SUNSHINE PEAK ELEMENTARY",
+    "whitePct": 0.038,
+    "nonwhitePct": 0.962,
+    "whiteDiff": -0.21,
+    "nonwhiteDiff": 0.21,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "LEGACY OPTIONS HIGH SCHOOL",
+    "whitePct": 0.056,
+    "nonwhitePct": 0.944,
+    "whiteDiff": -0.192,
+    "nonwhiteDiff": 0.192,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "LINCOLN ELEMENTARY SCHOOL",
+    "whitePct": 0.693,
+    "nonwhitePct": 0.307,
+    "whiteDiff": 0.445,
+    "nonwhiteDiff": -0.445,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "LAKE MIDDLE SCHOOL",
+    "whitePct": 0.09,
+    "nonwhitePct": 0.91,
+    "whiteDiff": -0.158,
+    "nonwhiteDiff": 0.158,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "LOWRY ELEMENTARY SCHOOL",
+    "whitePct": 0.392,
+    "nonwhitePct": 0.608,
+    "whiteDiff": 0.144,
+    "nonwhiteDiff": -0.144,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MANUAL HIGH SCHOOL",
+    "whitePct": 0.037,
+    "nonwhitePct": 0.963,
+    "whiteDiff": -0.211,
+    "nonwhiteDiff": 0.211,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MARRAMA ELEMENTARY SCHOOL",
+    "whitePct": 0.073,
+    "nonwhitePct": 0.927,
+    "whiteDiff": -0.175,
+    "nonwhiteDiff": 0.175,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DR. MARTIN LUTHER KING JR. EARLY COLLEGE",
+    "whitePct": 0.054,
+    "nonwhitePct": 0.946,
+    "whiteDiff": -0.194,
+    "nonwhiteDiff": 0.194,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MATHEMATICS AND SCIENCE LEADERSHIP ACADEMY",
+    "whitePct": 0.011,
+    "nonwhitePct": 0.989,
+    "whiteDiff": -0.237,
+    "nonwhiteDiff": 0.237,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MONARCH MONTESSORI",
+    "whitePct": 0.142,
+    "nonwhitePct": 0.858,
+    "whiteDiff": -0.106,
+    "nonwhiteDiff": 0.106,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MAXWELL ELEMENTARY SCHOOL",
+    "whitePct": 0.033,
+    "nonwhitePct": 0.967,
+    "whiteDiff": -0.215,
+    "nonwhiteDiff": 0.215,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MCGLONE ACADEMY",
+    "whitePct": 0.019,
+    "nonwhitePct": 0.981,
+    "whiteDiff": -0.229,
+    "nonwhiteDiff": 0.229,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MCKINLEY-THATCHER ELEMENTARY SCHOOL",
+    "whitePct": 0.552,
+    "nonwhitePct": 0.448,
+    "whiteDiff": 0.304,
+    "nonwhiteDiff": -0.304,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MCMEEN ELEMENTARY SCHOOL",
+    "whitePct": 0.3,
+    "nonwhitePct": 0.7,
+    "whiteDiff": 0.052,
+    "nonwhiteDiff": -0.052,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MERRILL MIDDLE SCHOOL",
+    "whitePct": 0.539,
+    "nonwhitePct": 0.461,
+    "whiteDiff": 0.291,
+    "nonwhiteDiff": -0.291,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "CONTEMPORARY LEARNING ACADEMY",
+    "whitePct": 0.107,
+    "nonwhitePct": 0.893,
+    "whiteDiff": -0.141,
+    "nonwhiteDiff": 0.141,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MCAULIFFE INTERNATIONAL SCHOOL",
+    "whitePct": 0.639,
+    "nonwhitePct": 0.361,
+    "whiteDiff": 0.391,
+    "nonwhiteDiff": -0.391,
+    "pctMove": 0.016
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MCAULIFFE MANUAL MIDDLE SCHOOL",
+    "whitePct": 0.285,
+    "nonwhitePct": 0.715,
+    "whiteDiff": 0.037,
+    "nonwhiteDiff": -0.037,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MONTCLAIR SCHOOL OF ACADEMICS AND ENRICHMENT",
+    "whitePct": 0.213,
+    "nonwhitePct": 0.787,
+    "whiteDiff": -0.035,
+    "nonwhiteDiff": 0.035,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DORA MOORE ECE-8 SCHOOL",
+    "whitePct": 0.274,
+    "nonwhitePct": 0.726,
+    "whiteDiff": 0.026,
+    "nonwhiteDiff": -0.026,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MOREY MIDDLE SCHOOL",
+    "whitePct": 0.464,
+    "nonwhitePct": 0.536,
+    "whiteDiff": 0.216,
+    "nonwhiteDiff": -0.216,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MUNROE ELEMENTARY SCHOOL",
+    "whitePct": 0.031,
+    "nonwhitePct": 0.969,
+    "whiteDiff": -0.217,
+    "nonwhiteDiff": 0.217,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "NOEL COMMUNITY ARTS SCHOOL",
+    "whitePct": 0.065,
+    "nonwhitePct": 0.935,
+    "whiteDiff": -0.183,
+    "nonwhiteDiff": 0.183,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "NEWLON ELEMENTARY SCHOOL",
+    "whitePct": 0.053,
+    "nonwhitePct": 0.947,
+    "whiteDiff": -0.195,
+    "nonwhiteDiff": 0.195,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "NORTH HIGH SCHOOL ENGAGEMENT CENTER",
+    "whitePct": 0.028,
+    "nonwhitePct": 0.972,
+    "whiteDiff": -0.22,
+    "nonwhiteDiff": 0.22,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "NORTH HIGH SCHOOL",
+    "whitePct": 0.164,
+    "nonwhitePct": 0.836,
+    "whiteDiff": -0.084,
+    "nonwhiteDiff": 0.084,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "BRUCE RANDOLPH SCHOOL",
+    "whitePct": 0.011,
+    "nonwhitePct": 0.989,
+    "whiteDiff": -0.237,
+    "nonwhiteDiff": 0.237,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "NORTHFIELD HIGH SCHOOL",
+    "whitePct": 0.364,
+    "nonwhitePct": 0.636,
+    "whiteDiff": 0.116,
+    "nonwhiteDiff": -0.116,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "ACADEMIA ANA MARIE SANDOVAL",
+    "whitePct": 0.313,
+    "nonwhitePct": 0.687,
+    "whiteDiff": 0.065,
+    "nonwhiteDiff": -0.065,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "ODYSSEY SCHOOL OF DENVER",
+    "whitePct": 0.526,
+    "nonwhitePct": 0.474,
+    "whiteDiff": 0.278,
+    "nonwhiteDiff": -0.278,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "OMAR D BLAIR CHARTER SCHOOL",
+    "whitePct": 0.087,
+    "nonwhitePct": 0.913,
+    "whiteDiff": -0.161,
+    "nonwhiteDiff": 0.161,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DENVER ONLINE HIGH SCHOOL",
+    "whitePct": 0.502,
+    "nonwhitePct": 0.498,
+    "whiteDiff": 0.254,
+    "nonwhiteDiff": -0.254,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "PALMER ELEMENTARY SCHOOL",
+    "whitePct": 0.493,
+    "nonwhitePct": 0.507,
+    "whiteDiff": 0.245,
+    "nonwhiteDiff": -0.245,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "PARK HILL SCHOOL",
+    "whitePct": 0.727,
+    "nonwhitePct": 0.273,
+    "whiteDiff": 0.479,
+    "nonwhiteDiff": -0.479,
+    "pctMove": 0.01
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "UNIVERSITY PREP - STEELE ST.",
+    "whitePct": 0.045,
+    "nonwhitePct": 0.955,
+    "whiteDiff": -0.203,
+    "nonwhiteDiff": 0.203,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "FLORIDA PITT-WALLER ECE-8 SCHOOL",
+    "whitePct": 0.066,
+    "nonwhitePct": 0.934,
+    "whiteDiff": -0.182,
+    "nonwhiteDiff": 0.182,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "PLACE BRIDGE ACADEMY",
+    "whitePct": 0.137,
+    "nonwhitePct": 0.863,
+    "whiteDiff": -0.111,
+    "nonwhiteDiff": 0.111,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "PREP ACADEMY",
+    "whitePct": 0.081,
+    "nonwhitePct": 0.919,
+    "whiteDiff": -0.167,
+    "nonwhiteDiff": 0.167,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "MONTBELLO CAREER AND TECHNICAL HIGH SCHOOL",
+    "whitePct": 0.021,
+    "nonwhitePct": 0.979,
+    "whiteDiff": -0.227,
+    "nonwhiteDiff": 0.227,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "PASCUAL LEDOUX ACADEMY",
+    "whitePct": 0.075,
+    "nonwhitePct": 0.925,
+    "whiteDiff": -0.173,
+    "nonwhiteDiff": 0.173,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "ROCKY MOUNTAIN PREP: CREEKSIDE",
+    "whitePct": 0.128,
+    "nonwhitePct": 0.872,
+    "whiteDiff": -0.12,
+    "nonwhiteDiff": 0.12,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "REACH CHARTER SCHOOL",
+    "whitePct": 0.562,
+    "nonwhitePct": 0.438,
+    "whiteDiff": 0.314,
+    "nonwhiteDiff": -0.314,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "RESPECT ACADEMY",
+    "whitePct": 0.01,
+    "nonwhitePct": 0.99,
+    "whiteDiff": -0.238,
+    "nonwhiteDiff": 0.238,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "RISEUP COMMUNITY SCHOOL",
+    "whitePct": 0.064,
+    "nonwhitePct": 0.936,
+    "whiteDiff": -0.184,
+    "nonwhiteDiff": 0.184,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "ROCKY MOUNTAIN PREP: SOUTHWEST",
+    "whitePct": 0.04,
+    "nonwhitePct": 0.96,
+    "whiteDiff": -0.208,
+    "nonwhiteDiff": 0.208,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "ROOTS ELEMENTARY",
+    "whitePct": 0.088,
+    "nonwhitePct": 0.912,
+    "whiteDiff": -0.16,
+    "nonwhiteDiff": 0.16,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "SABIN WORLD SCHOOL",
+    "whitePct": 0.203,
+    "nonwhitePct": 0.797,
+    "whiteDiff": -0.045,
+    "nonwhiteDiff": 0.045,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "SAMUELS ELEMENTARY SCHOOL",
+    "whitePct": 0.192,
+    "nonwhitePct": 0.808,
+    "whiteDiff": -0.056,
+    "nonwhiteDiff": 0.056,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "CHARLES M. SCHENCK (CMS) COMMUNITY SCHOOL",
+    "whitePct": 0.003,
+    "nonwhitePct": 0.997,
+    "whiteDiff": -0.245,
+    "nonwhiteDiff": 0.245,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "SCHMITT ELEMENTARY SCHOOL",
+    "whitePct": 0.037,
+    "nonwhitePct": 0.963,
+    "whiteDiff": -0.211,
+    "nonwhiteDiff": 0.211,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "STRIVE PREP - KEPNER",
+    "whitePct": 0.037,
+    "nonwhitePct": 0.963,
+    "whiteDiff": -0.211,
+    "nonwhiteDiff": 0.211,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "SKINNER MIDDLE SCHOOL",
+    "whitePct": 0.336,
+    "nonwhitePct": 0.664,
+    "whiteDiff": 0.088,
+    "nonwhiteDiff": -0.088,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "SLAVENS K-8 SCHOOL",
+    "whitePct": 0.803,
+    "nonwhitePct": 0.197,
+    "whiteDiff": 0.555,
+    "nonwhiteDiff": -0.555,
+    "pctMove": 0.012
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "STRIVE PREP - RISE",
+    "whitePct": 0.059,
+    "nonwhitePct": 0.941,
+    "whiteDiff": -0.189,
+    "nonwhiteDiff": 0.189,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "SMITH ELEMENTARY SCHOOL",
+    "whitePct": 0.083,
+    "nonwhitePct": 0.917,
+    "whiteDiff": -0.165,
+    "nonwhiteDiff": 0.165,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "SOAR AT GREEN VALLEY RANCH",
+    "whitePct": 0.076,
+    "nonwhitePct": 0.924,
+    "whiteDiff": -0.172,
+    "nonwhiteDiff": 0.172,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "STRIVE PREP - FEDERAL",
+    "whitePct": 0.025,
+    "nonwhitePct": 0.975,
+    "whiteDiff": -0.223,
+    "nonwhiteDiff": 0.223,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "SOUTH HIGH SCHOOL",
+    "whitePct": 0.389,
+    "nonwhitePct": 0.611,
+    "whiteDiff": 0.141,
+    "nonwhiteDiff": -0.141,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "OAKLAND ELEMENTARY",
+    "whitePct": 0.046,
+    "nonwhitePct": 0.954,
+    "whiteDiff": -0.202,
+    "nonwhiteDiff": 0.202,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "EARLY COLLEGE OF DENVER",
+    "whitePct": 0,
+    "nonwhitePct": 1,
+    "whiteDiff": -0.248,
+    "nonwhiteDiff": 0.248,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "SOUTHMOOR ELEMENTARY SCHOOL",
+    "whitePct": 0.62,
+    "nonwhitePct": 0.38,
+    "whiteDiff": 0.372,
+    "nonwhiteDiff": -0.372,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "SUMMIT ACADEMY",
+    "whitePct": 0.059,
+    "nonwhitePct": 0.941,
+    "whiteDiff": -0.189,
+    "nonwhiteDiff": 0.189,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "STEPHEN KNIGHT CENTER FOR EARLY EDUCATION",
+    "whitePct": 0.679,
+    "nonwhitePct": 0.321,
+    "whiteDiff": 0.431,
+    "nonwhiteDiff": -0.431,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "STECK ELEMENTARY SCHOOL",
+    "whitePct": 0.695,
+    "nonwhitePct": 0.305,
+    "whiteDiff": 0.447,
+    "nonwhiteDiff": -0.447,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "STEDMAN ELEMENTARY SCHOOL",
+    "whitePct": 0.313,
+    "nonwhitePct": 0.687,
+    "whiteDiff": 0.065,
+    "nonwhiteDiff": -0.065,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "STEELE ELEMENTARY SCHOOL",
+    "whitePct": 0.796,
+    "nonwhitePct": 0.204,
+    "whiteDiff": 0.548,
+    "nonwhiteDiff": -0.548,
+    "pctMove": 0.008
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "STRIVE PREP - EXCEL",
+    "whitePct": 0.031,
+    "nonwhitePct": 0.969,
+    "whiteDiff": -0.217,
+    "nonwhiteDiff": 0.217,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "STRIVE PREP - RUBY HILL",
+    "whitePct": 0.048,
+    "nonwhitePct": 0.952,
+    "whiteDiff": -0.2,
+    "nonwhiteDiff": 0.2,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "SWANSEA ELEMENTARY SCHOOL",
+    "whitePct": 0.024,
+    "nonwhitePct": 0.976,
+    "whiteDiff": -0.224,
+    "nonwhiteDiff": 0.224,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "SWIGERT INTERNATIONAL SCHOOL",
+    "whitePct": 0.757,
+    "nonwhitePct": 0.243,
+    "whiteDiff": 0.509,
+    "nonwhiteDiff": -0.509,
+    "pctMove": 0.008
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "TELLER ELEMENTARY SCHOOL",
+    "whitePct": 0.678,
+    "nonwhitePct": 0.322,
+    "whiteDiff": 0.43,
+    "nonwhiteDiff": -0.43,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "THE BOYS SCHOOL OF DENVER",
+    "whitePct": 0.507,
+    "nonwhitePct": 0.493,
+    "whiteDiff": 0.259,
+    "nonwhiteDiff": -0.259,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "THOMAS JEFFERSON HIGH SCHOOL",
+    "whitePct": 0.382,
+    "nonwhitePct": 0.618,
+    "whiteDiff": 0.134,
+    "nonwhiteDiff": -0.134,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "TRAYLOR ACADEMY",
+    "whitePct": 0.152,
+    "nonwhitePct": 0.848,
+    "whiteDiff": -0.096,
+    "nonwhiteDiff": 0.096,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "TREVISTA AT HORACE MANN",
+    "whitePct": 0.09,
+    "nonwhitePct": 0.91,
+    "whiteDiff": -0.158,
+    "nonwhiteDiff": 0.158,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "UNIVERSITY PREP - ARAPAHOE ST.",
+    "whitePct": 0.06,
+    "nonwhitePct": 0.94,
+    "whiteDiff": -0.188,
+    "nonwhiteDiff": 0.188,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "UNIVERSITY PARK ELEMENTARY SCHOOL",
+    "whitePct": 0.665,
+    "nonwhitePct": 0.335,
+    "whiteDiff": 0.417,
+    "nonwhiteDiff": -0.417,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "VISTA ACADEMY",
+    "whitePct": 0.049,
+    "nonwhitePct": 0.951,
+    "whiteDiff": -0.199,
+    "nonwhiteDiff": 0.199,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "VALVERDE ELEMENTARY SCHOOL",
+    "whitePct": 0.048,
+    "nonwhitePct": 0.952,
+    "whiteDiff": -0.2,
+    "nonwhiteDiff": 0.2,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "STRIVE PREP - SUNNYSIDE",
+    "whitePct": 0.024,
+    "nonwhitePct": 0.976,
+    "whiteDiff": -0.224,
+    "nonwhiteDiff": 0.224,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "STRIVE PREP - WESTWOOD",
+    "whitePct": 0.015,
+    "nonwhitePct": 0.985,
+    "whiteDiff": -0.233,
+    "nonwhiteDiff": 0.233,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "STRIVE PREP - LAKE",
+    "whitePct": 0.029,
+    "nonwhitePct": 0.971,
+    "whiteDiff": -0.219,
+    "nonwhiteDiff": 0.219,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "WESTERLY CREEK ELEMENTARY",
+    "whitePct": 0.697,
+    "nonwhitePct": 0.303,
+    "whiteDiff": 0.449,
+    "nonwhiteDiff": -0.449,
+    "pctMove": 0.009
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "CASTRO ELEMENTARY SCHOOL",
+    "whitePct": 0.03,
+    "nonwhitePct": 0.97,
+    "whiteDiff": -0.218,
+    "nonwhiteDiff": 0.218,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "WHITTIER ECE-8 SCHOOL",
+    "whitePct": 0.08,
+    "nonwhitePct": 0.92,
+    "whiteDiff": -0.168,
+    "nonwhiteDiff": 0.168,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "WILLIAM (BILL) ROBERTS ECE-8 SCHOOL",
+    "whitePct": 0.723,
+    "nonwhitePct": 0.277,
+    "whiteDiff": 0.475,
+    "nonwhiteDiff": -0.475,
+    "pctMove": 0.013
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "STRIVE PREP - SMART ACADEMY",
+    "whitePct": 0.006,
+    "nonwhitePct": 0.994,
+    "whiteDiff": -0.242,
+    "nonwhiteDiff": 0.242,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "WEST EARLY COLLEGE",
+    "whitePct": 0.059,
+    "nonwhitePct": 0.941,
+    "whiteDiff": -0.189,
+    "nonwhiteDiff": 0.189,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "WEST LEADERSHIP ACADEMY",
+    "whitePct": 0.039,
+    "nonwhitePct": 0.961,
+    "whiteDiff": -0.209,
+    "nonwhiteDiff": 0.209,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "STRIVE PREP - GVR",
+    "whitePct": 0.069,
+    "nonwhitePct": 0.931,
+    "whiteDiff": -0.179,
+    "nonwhiteDiff": 0.179,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "STRIVE PREP - MONTBELLO",
+    "whitePct": 0.035,
+    "nonwhitePct": 0.965,
+    "whiteDiff": -0.213,
+    "nonwhiteDiff": 0.213,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "WYATT ACADEMY",
+    "whitePct": 0.053,
+    "nonwhitePct": 0.947,
+    "whiteDiff": -0.195,
+    "nonwhiteDiff": 0.195,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "DENVER PUBLIC SCHOOLS",
+    "schoolName": "DISTRICT TOTAL",
+    "whitePct": 0.248,
+    "nonwhitePct": 0.752,
+    "whiteDiff": 0,
+    "nonwhiteDiff": 0,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "FOX HOLLOW ELEMENTARY SCHOOL",
+    "whitePct": 0.607,
+    "nonwhitePct": 0.393,
+    "whiteDiff": 0.091,
+    "nonwhiteDiff": -0.091,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "LIBERTY MIDDLE SCHOOL",
+    "whitePct": 0.555,
+    "nonwhitePct": 0.445,
+    "whiteDiff": 0.039,
+    "nonwhiteDiff": -0.039,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "ALTITUDE ELEMENTARY SCHOOL",
+    "whitePct": 0.65,
+    "nonwhitePct": 0.35,
+    "whiteDiff": 0.134,
+    "nonwhiteDiff": -0.134,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "SKY VISTA MIDDLE SCHOOL",
+    "whitePct": 0.496,
+    "nonwhitePct": 0.504,
+    "whiteDiff": -0.02,
+    "nonwhiteDiff": 0.02,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "ANTELOPE RIDGE ELEMENTARY SCHOOL",
+    "whitePct": 0.613,
+    "nonwhitePct": 0.387,
+    "whiteDiff": 0.097,
+    "nonwhiteDiff": -0.097,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "COYOTE HILLS ELEMENTARY SCHOOL",
+    "whitePct": 0.65,
+    "nonwhitePct": 0.35,
+    "whiteDiff": 0.134,
+    "nonwhiteDiff": -0.134,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "ARROWHEAD ELEMENTARY SCHOOL",
+    "whitePct": 0.415,
+    "nonwhitePct": 0.585,
+    "whiteDiff": -0.101,
+    "nonwhiteDiff": 0.101,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "ASPEN CROSSING ELEMENTARY SCHOOL",
+    "whitePct": 0.54,
+    "nonwhitePct": 0.46,
+    "whiteDiff": 0.024,
+    "nonwhiteDiff": -0.024,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "BELLEVIEW ELEMENTARY SCHOOL",
+    "whitePct": 0.467,
+    "nonwhitePct": 0.533,
+    "whiteDiff": -0.049,
+    "nonwhiteDiff": 0.049,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "BUFFALO TRAIL ELEMENTARY SCHOOL",
+    "whitePct": 0.557,
+    "nonwhitePct": 0.443,
+    "whiteDiff": 0.041,
+    "nonwhiteDiff": -0.041,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "CANYON CREEK ELEMENTARY SCHOOL",
+    "whitePct": 0.558,
+    "nonwhitePct": 0.442,
+    "whiteDiff": 0.042,
+    "nonwhiteDiff": -0.042,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "CHALLENGE SCHOOL",
+    "whitePct": 0.423,
+    "nonwhitePct": 0.577,
+    "whiteDiff": -0.093,
+    "nonwhiteDiff": 0.093,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "CHEROKEE TRAIL HIGH SCHOOL",
+    "whitePct": 0.576,
+    "nonwhitePct": 0.424,
+    "whiteDiff": 0.06,
+    "nonwhiteDiff": -0.06,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "CAMPUS MIDDLE SCHOOL",
+    "whitePct": 0.623,
+    "nonwhitePct": 0.377,
+    "whiteDiff": 0.107,
+    "nonwhiteDiff": -0.107,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "WEST MIDDLE SCHOOL",
+    "whitePct": 0.705,
+    "nonwhitePct": 0.295,
+    "whiteDiff": 0.189,
+    "nonwhiteDiff": -0.189,
+    "pctMove": 0.009
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "CHERRY CREEK HIGH SCHOOL",
+    "whitePct": 0.665,
+    "nonwhitePct": 0.335,
+    "whiteDiff": 0.149,
+    "nonwhiteDiff": -0.149,
+    "pctMove": 0.02
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "CHERRY CREEK CHARTER ACADEMY",
+    "whitePct": 0.523,
+    "nonwhitePct": 0.477,
+    "whiteDiff": 0.007,
+    "nonwhiteDiff": -0.007,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "HIGH PLAINS ELEMENTARY SCHOOL",
+    "whitePct": 0.618,
+    "nonwhitePct": 0.382,
+    "whiteDiff": 0.102,
+    "nonwhiteDiff": -0.102,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "CHERRY HILLS VILLAGE ELEMENTARY SCHOOL",
+    "whitePct": 0.818,
+    "nonwhitePct": 0.182,
+    "whiteDiff": 0.302,
+    "nonwhiteDiff": -0.302,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "CIMARRON ELEMENTARY SCHOOL",
+    "whitePct": 0.381,
+    "nonwhitePct": 0.619,
+    "whiteDiff": -0.135,
+    "nonwhiteDiff": 0.135,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "COTTONWOOD CREEK ELEMENTARY SCHOOL",
+    "whitePct": 0.696,
+    "nonwhitePct": 0.304,
+    "whiteDiff": 0.18,
+    "nonwhiteDiff": -0.18,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "CREEKSIDE ELEMENTARY SCHOOL",
+    "whitePct": 0.606,
+    "nonwhitePct": 0.394,
+    "whiteDiff": 0.09,
+    "nonwhiteDiff": -0.09,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "DAKOTA VALLEY ELEMENTARY SCHOOL",
+    "whitePct": 0.56,
+    "nonwhitePct": 0.44,
+    "whiteDiff": 0.044,
+    "nonwhiteDiff": -0.044,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "DRY CREEK ELEMENTARY SCHOOL",
+    "whitePct": 0.625,
+    "nonwhitePct": 0.375,
+    "whiteDiff": 0.109,
+    "nonwhiteDiff": -0.109,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "EAGLECREST HIGH SCHOOL",
+    "whitePct": 0.492,
+    "nonwhitePct": 0.508,
+    "whiteDiff": -0.024,
+    "nonwhiteDiff": 0.024,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "EASTRIDGE COMMUNITY ELEMENTARY SCHOOL",
+    "whitePct": 0.257,
+    "nonwhitePct": 0.743,
+    "whiteDiff": -0.259,
+    "nonwhiteDiff": 0.259,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "ENDEAVOR ACADEMY",
+    "whitePct": 0.517,
+    "nonwhitePct": 0.483,
+    "whiteDiff": 0.001,
+    "nonwhiteDiff": -0.001,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "FALCON CREEK MIDDLE SCHOOL",
+    "whitePct": 0.603,
+    "nonwhitePct": 0.397,
+    "whiteDiff": 0.087,
+    "nonwhiteDiff": -0.087,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "FOX RIDGE MIDDLE SCHOOL",
+    "whitePct": 0.658,
+    "nonwhitePct": 0.342,
+    "whiteDiff": 0.142,
+    "nonwhiteDiff": -0.142,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "GRANDVIEW HIGH SCHOOL",
+    "whitePct": 0.567,
+    "nonwhitePct": 0.433,
+    "whiteDiff": 0.051,
+    "nonwhiteDiff": -0.051,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "GREENWOOD ELEMENTARY SCHOOL",
+    "whitePct": 0.788,
+    "nonwhitePct": 0.212,
+    "whiteDiff": 0.272,
+    "nonwhiteDiff": -0.272,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "HERITAGE ELEMENTARY SCHOOL",
+    "whitePct": 0.507,
+    "nonwhitePct": 0.493,
+    "whiteDiff": -0.009,
+    "nonwhiteDiff": 0.009,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "HIGHLINE COMMUNITY ELEMENTARY SCHOOL",
+    "whitePct": 0.144,
+    "nonwhitePct": 0.856,
+    "whiteDiff": -0.372,
+    "nonwhiteDiff": 0.372,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "HOLLY HILLS ELEMENTARY SCHOOL",
+    "whitePct": 0.285,
+    "nonwhitePct": 0.715,
+    "whiteDiff": -0.231,
+    "nonwhiteDiff": 0.231,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "HOMESTEAD ELEMENTARY SCHOOL",
+    "whitePct": 0.686,
+    "nonwhitePct": 0.314,
+    "whiteDiff": 0.17,
+    "nonwhiteDiff": -0.17,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "HORIZON MIDDLE SCHOOL",
+    "whitePct": 0.4,
+    "nonwhitePct": 0.6,
+    "whiteDiff": -0.116,
+    "nonwhiteDiff": 0.116,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "HERITAGE HEIGHTS ACADEMY",
+    "whitePct": 0.588,
+    "nonwhitePct": 0.412,
+    "whiteDiff": 0.072,
+    "nonwhiteDiff": -0.072,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "INDEPENDENCE ELEMENTARY SCHOOL",
+    "whitePct": 0.393,
+    "nonwhitePct": 0.607,
+    "whiteDiff": -0.123,
+    "nonwhiteDiff": 0.123,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "INDIAN RIDGE ELEMENTARY SCHOOL",
+    "whitePct": 0.582,
+    "nonwhitePct": 0.418,
+    "whiteDiff": 0.066,
+    "nonwhiteDiff": -0.066,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "BLACK FOREST HILLS ELEMENTARY SCHOOL",
+    "whitePct": 0.643,
+    "nonwhitePct": 0.357,
+    "whiteDiff": 0.127,
+    "nonwhiteDiff": -0.127,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "THE COTTAGE AT HOLLY RIDGE",
+    "whitePct": 0.438,
+    "nonwhitePct": 0.563,
+    "whiteDiff": -0.078,
+    "nonwhiteDiff": 0.079,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "LAREDO MIDDLE SCHOOL",
+    "whitePct": 0.466,
+    "nonwhitePct": 0.534,
+    "whiteDiff": -0.05,
+    "nonwhiteDiff": 0.05,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "MEADOW POINT ELEMENTARY SCHOOL",
+    "whitePct": 0.4,
+    "nonwhitePct": 0.6,
+    "whiteDiff": -0.116,
+    "nonwhiteDiff": 0.116,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "MISSION VIEJO ELEMENTARY SCHOOL",
+    "whitePct": 0.441,
+    "nonwhitePct": 0.559,
+    "whiteDiff": -0.075,
+    "nonwhiteDiff": 0.075,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "MOUNTAIN VISTA ELEMENTARY SCHOOL",
+    "whitePct": 0.545,
+    "nonwhitePct": 0.455,
+    "whiteDiff": 0.029,
+    "nonwhiteDiff": -0.029,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "OPTIONS SCHOOL",
+    "whitePct": 0.743,
+    "nonwhitePct": 0.257,
+    "whiteDiff": 0.227,
+    "nonwhiteDiff": -0.227,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "OUTBACK PRESCHOOL",
+    "whitePct": 0.423,
+    "nonwhitePct": 0.577,
+    "whiteDiff": -0.093,
+    "nonwhiteDiff": 0.093,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "PRAIRIE PRESCHOOL",
+    "whitePct": 0.112,
+    "nonwhitePct": 0.888,
+    "whiteDiff": -0.404,
+    "nonwhiteDiff": 0.404,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "OVERLAND HIGH SCHOOL",
+    "whitePct": 0.206,
+    "nonwhitePct": 0.794,
+    "whiteDiff": -0.31,
+    "nonwhiteDiff": 0.31,
+    "pctMove": 0.027
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "PEAKVIEW ELEMENTARY SCHOOL",
+    "whitePct": 0.592,
+    "nonwhitePct": 0.408,
+    "whiteDiff": 0.076,
+    "nonwhiteDiff": -0.076,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "PINE RIDGE ELEMENTARY SCHOOL",
+    "whitePct": 0.642,
+    "nonwhitePct": 0.358,
+    "whiteDiff": 0.126,
+    "nonwhiteDiff": -0.126,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "POLTON COMMUNITY ELEMENTARY SCHOOL",
+    "whitePct": 0.366,
+    "nonwhitePct": 0.634,
+    "whiteDiff": -0.15,
+    "nonwhiteDiff": 0.15,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "PONDEROSA ELEMENTARY SCHOOL",
+    "whitePct": 0.241,
+    "nonwhitePct": 0.759,
+    "whiteDiff": -0.275,
+    "nonwhiteDiff": 0.275,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "PRAIRIE MIDDLE SCHOOL",
+    "whitePct": 0.208,
+    "nonwhitePct": 0.792,
+    "whiteDiff": -0.308,
+    "nonwhiteDiff": 0.308,
+    "pctMove": 0.018
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "RED HAWK RIDGE ELEMENTARY SCHOOL",
+    "whitePct": 0.426,
+    "nonwhitePct": 0.574,
+    "whiteDiff": -0.09,
+    "nonwhiteDiff": 0.09,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "ROLLING HILLS ELEMENTARY SCHOOL",
+    "whitePct": 0.643,
+    "nonwhitePct": 0.357,
+    "whiteDiff": 0.127,
+    "nonwhiteDiff": -0.127,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "INFINITY MIDDLE SCHOOL",
+    "whitePct": 0.576,
+    "nonwhitePct": 0.424,
+    "whiteDiff": 0.06,
+    "nonwhiteDiff": -0.06,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "SAGEBRUSH ELEMENTARY SCHOOL",
+    "whitePct": 0.45,
+    "nonwhitePct": 0.55,
+    "whiteDiff": -0.066,
+    "nonwhiteDiff": 0.066,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "SMOKY HILL HIGH SCHOOL",
+    "whitePct": 0.431,
+    "nonwhitePct": 0.569,
+    "whiteDiff": -0.085,
+    "nonwhiteDiff": 0.085,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "SUMMIT ELEMENTARY SCHOOL",
+    "whitePct": 0.472,
+    "nonwhitePct": 0.528,
+    "whiteDiff": -0.044,
+    "nonwhiteDiff": 0.044,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "SUNRISE ELEMENTARY SCHOOL",
+    "whitePct": 0.351,
+    "nonwhitePct": 0.649,
+    "whiteDiff": -0.165,
+    "nonwhiteDiff": 0.165,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "THUNDER RIDGE MIDDLE SCHOOL",
+    "whitePct": 0.548,
+    "nonwhitePct": 0.452,
+    "whiteDiff": 0.032,
+    "nonwhiteDiff": -0.032,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "TIMBERLINE ELEMENTARY SCHOOL",
+    "whitePct": 0.56,
+    "nonwhitePct": 0.44,
+    "whiteDiff": 0.044,
+    "nonwhiteDiff": -0.044,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "TRAILS WEST ELEMENTARY SCHOOL",
+    "whitePct": 0.64,
+    "nonwhitePct": 0.36,
+    "whiteDiff": 0.124,
+    "nonwhiteDiff": -0.124,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "VILLAGE EAST COMMUNITY ELEMENTARY SCHOOL",
+    "whitePct": 0.219,
+    "nonwhitePct": 0.781,
+    "whiteDiff": -0.297,
+    "nonwhiteDiff": 0.297,
+    "pctMove": 0.008
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "WALNUT HILLS COMMUNITY ELEMENTARY SCHOOL",
+    "whitePct": 0.552,
+    "nonwhitePct": 0.448,
+    "whiteDiff": 0.036,
+    "nonwhiteDiff": -0.036,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "WILLOW CREEK ELEMENTARY SCHOOL",
+    "whitePct": 0.667,
+    "nonwhitePct": 0.333,
+    "whiteDiff": 0.151,
+    "nonwhiteDiff": -0.151,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "CHERRY CREEK SCHOOL DISTRICT",
+    "schoolName": "DISTRICT TOTAL",
+    "whitePct": 0.516,
+    "nonwhitePct": 0.484,
+    "whiteDiff": 0,
+    "nonwhiteDiff": 0,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "ARAPAHOE RIDGE HIGH SCHOOL",
+    "whitePct": 0.229,
+    "nonwhitePct": 0.771,
+    "whiteDiff": -0.455,
+    "nonwhiteDiff": 0.455,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "ASPEN CREEK K-8 SCHOOL",
+    "whitePct": 0.721,
+    "nonwhitePct": 0.279,
+    "whiteDiff": 0.037,
+    "nonwhiteDiff": -0.037,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "BEAR CREEK ELEMENTARY SCHOOL",
+    "whitePct": 0.781,
+    "nonwhitePct": 0.219,
+    "whiteDiff": 0.097,
+    "nonwhiteDiff": -0.097,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "BIRCH ELEMENTARY SCHOOL",
+    "whitePct": 0.651,
+    "nonwhitePct": 0.349,
+    "whiteDiff": -0.033,
+    "nonwhiteDiff": 0.033,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "BOULDER COMMUNITY SCHOOL/INTEGRATED STUDIES",
+    "whitePct": 0.825,
+    "nonwhitePct": 0.175,
+    "whiteDiff": 0.141,
+    "nonwhiteDiff": -0.141,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "BOULDER HIGH SCHOOL",
+    "whitePct": 0.67,
+    "nonwhitePct": 0.33,
+    "whiteDiff": -0.014,
+    "nonwhiteDiff": 0.014,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "BOULDER UNIVERSAL",
+    "whitePct": 0.809,
+    "nonwhitePct": 0.191,
+    "whiteDiff": 0.125,
+    "nonwhiteDiff": -0.125,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "BOULDER PREP CHARTER HIGH SCHOOL",
+    "whitePct": 0.706,
+    "nonwhitePct": 0.294,
+    "whiteDiff": 0.022,
+    "nonwhiteDiff": -0.022,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "BROOMFIELD HEIGHTS MIDDLE SCHOOL",
+    "whitePct": 0.678,
+    "nonwhitePct": 0.322,
+    "whiteDiff": -0.006,
+    "nonwhiteDiff": 0.006,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "BROOMFIELD HIGH SCHOOL",
+    "whitePct": 0.714,
+    "nonwhitePct": 0.286,
+    "whiteDiff": 0.03,
+    "nonwhiteDiff": -0.03,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "MANHATTAN MIDDLE SCHOOL OF THE ARTS AND ACADEMICS",
+    "whitePct": 0.653,
+    "nonwhitePct": 0.347,
+    "whiteDiff": -0.031,
+    "nonwhiteDiff": 0.031,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "CASEY MIDDLE SCHOOL",
+    "whitePct": 0.539,
+    "nonwhitePct": 0.461,
+    "whiteDiff": -0.145,
+    "nonwhiteDiff": 0.145,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "CENTAURUS HIGH SCHOOL",
+    "whitePct": 0.622,
+    "nonwhitePct": 0.378,
+    "whiteDiff": -0.062,
+    "nonwhiteDiff": 0.062,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "CENTENNIAL MIDDLE SCHOOL",
+    "whitePct": 0.656,
+    "nonwhitePct": 0.344,
+    "whiteDiff": -0.028,
+    "nonwhiteDiff": 0.028,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "COAL CREEK ELEMENTARY SCHOOL",
+    "whitePct": 0.798,
+    "nonwhitePct": 0.202,
+    "whiteDiff": 0.114,
+    "nonwhiteDiff": -0.114,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "COLUMBINE ELEMENTARY SCHOOL",
+    "whitePct": 0.368,
+    "nonwhitePct": 0.632,
+    "whiteDiff": -0.316,
+    "nonwhiteDiff": 0.316,
+    "pctMove": 0.012
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "COMMUNITY MONTESSORI SCHOOL",
+    "whitePct": 0.673,
+    "nonwhitePct": 0.327,
+    "whiteDiff": -0.011,
+    "nonwhiteDiff": 0.011,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "CREST VIEW ELEMENTARY SCHOOL",
+    "whitePct": 0.648,
+    "nonwhitePct": 0.352,
+    "whiteDiff": -0.036,
+    "nonwhiteDiff": 0.036,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "DOUGLASS ELEMENTARY SCHOOL",
+    "whitePct": 0.831,
+    "nonwhitePct": 0.169,
+    "whiteDiff": 0.147,
+    "nonwhiteDiff": -0.147,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "EISENHOWER ELEMENTARY SCHOOL",
+    "whitePct": 0.735,
+    "nonwhitePct": 0.265,
+    "whiteDiff": 0.051,
+    "nonwhiteDiff": -0.051,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "ELDORADO K-8 SCHOOL",
+    "whitePct": 0.727,
+    "nonwhitePct": 0.273,
+    "whiteDiff": 0.043,
+    "nonwhiteDiff": -0.043,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "MEADOWLARK SCHOOL",
+    "whitePct": 0.734,
+    "nonwhitePct": 0.266,
+    "whiteDiff": 0.05,
+    "nonwhiteDiff": -0.05,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "EMERALD ELEMENTARY SCHOOL",
+    "whitePct": 0.48,
+    "nonwhitePct": 0.52,
+    "whiteDiff": -0.204,
+    "nonwhiteDiff": 0.204,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "FAIRVIEW HIGH SCHOOL",
+    "whitePct": 0.708,
+    "nonwhitePct": 0.292,
+    "whiteDiff": 0.024,
+    "nonwhiteDiff": -0.024,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "FIRESIDE ELEMENTARY SCHOOL",
+    "whitePct": 0.739,
+    "nonwhitePct": 0.261,
+    "whiteDiff": 0.055,
+    "nonwhiteDiff": -0.055,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "FLATIRONS ELEMENTARY SCHOOL",
+    "whitePct": 0.882,
+    "nonwhitePct": 0.118,
+    "whiteDiff": 0.198,
+    "nonwhiteDiff": -0.198,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "FOOTHILL ELEMENTARY SCHOOL",
+    "whitePct": 0.834,
+    "nonwhitePct": 0.166,
+    "whiteDiff": 0.15,
+    "nonwhiteDiff": -0.15,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "GOLD HILL ELEMENTARY SCHOOL",
+    "whitePct": 0.895,
+    "nonwhitePct": 0.105,
+    "whiteDiff": 0.211,
+    "nonwhiteDiff": -0.211,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "HEATHERWOOD ELEMENTARY SCHOOL",
+    "whitePct": 0.841,
+    "nonwhitePct": 0.159,
+    "whiteDiff": 0.157,
+    "nonwhiteDiff": -0.157,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "HIGH PEAKS ELEMENTARY SCHOOL",
+    "whitePct": 0.674,
+    "nonwhitePct": 0.326,
+    "whiteDiff": -0.01,
+    "nonwhiteDiff": 0.01,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "JAMESTOWN ELEMENTARY SCHOOL",
+    "whitePct": 0.867,
+    "nonwhitePct": 0.133,
+    "whiteDiff": 0.183,
+    "nonwhiteDiff": -0.183,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "JUSTICE HIGH CHARTER SCHOOL",
+    "whitePct": 0.265,
+    "nonwhitePct": 0.735,
+    "whiteDiff": -0.419,
+    "nonwhiteDiff": 0.419,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "KOHL ELEMENTARY SCHOOL",
+    "whitePct": 0.709,
+    "nonwhitePct": 0.291,
+    "whiteDiff": 0.025,
+    "nonwhiteDiff": -0.025,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "LAFAYETTE ELEMENTARY SCHOOL",
+    "whitePct": 0.719,
+    "nonwhitePct": 0.281,
+    "whiteDiff": 0.035,
+    "nonwhiteDiff": -0.035,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "ANGEVINE MIDDLE SCHOOL",
+    "whitePct": 0.479,
+    "nonwhitePct": 0.521,
+    "whiteDiff": -0.205,
+    "nonwhiteDiff": 0.205,
+    "pctMove": 0.011
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "LOUISVILLE ELEMENTARY SCHOOL",
+    "whitePct": 0.806,
+    "nonwhitePct": 0.194,
+    "whiteDiff": 0.122,
+    "nonwhiteDiff": -0.122,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "LOUISVILLE MIDDLE SCHOOL",
+    "whitePct": 0.796,
+    "nonwhitePct": 0.204,
+    "whiteDiff": 0.112,
+    "nonwhiteDiff": -0.112,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "CREEKSIDE ELEMENTARY SCHOOL AT MARTIN PARK",
+    "whitePct": 0.673,
+    "nonwhitePct": 0.327,
+    "whiteDiff": -0.011,
+    "nonwhiteDiff": 0.011,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "MAPLETON EARLY CHILDHOOD CENTER",
+    "whitePct": 0.57,
+    "nonwhitePct": 0.43,
+    "whiteDiff": -0.114,
+    "nonwhiteDiff": 0.114,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "MESA ELEMENTARY SCHOOL",
+    "whitePct": 0.835,
+    "nonwhitePct": 0.165,
+    "whiteDiff": 0.151,
+    "nonwhiteDiff": -0.151,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "MONARCH HIGH SCHOOL",
+    "whitePct": 0.779,
+    "nonwhitePct": 0.221,
+    "whiteDiff": 0.095,
+    "nonwhiteDiff": -0.095,
+    "pctMove": 0.012
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "MONARCH K-8 SCHOOL",
+    "whitePct": 0.668,
+    "nonwhitePct": 0.332,
+    "whiteDiff": -0.016,
+    "nonwhiteDiff": 0.016,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "NEW VISTA HIGH SCHOOL",
+    "whitePct": 0.777,
+    "nonwhitePct": 0.223,
+    "whiteDiff": 0.093,
+    "nonwhiteDiff": -0.093,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "NEDERLAND ELEMENTARY SCHOOL",
+    "whitePct": 0.868,
+    "nonwhitePct": 0.132,
+    "whiteDiff": 0.184,
+    "nonwhiteDiff": -0.184,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "NEDERLAND MIDDLE-SENIOR HIGH SCHOOL",
+    "whitePct": 0.852,
+    "nonwhitePct": 0.148,
+    "whiteDiff": 0.168,
+    "nonwhiteDiff": -0.168,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "NEVIN PLATT MIDDLE SCHOOL",
+    "whitePct": 0.808,
+    "nonwhitePct": 0.192,
+    "whiteDiff": 0.124,
+    "nonwhiteDiff": -0.124,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "HORIZONS K-8 SCHOOL",
+    "whitePct": 0.825,
+    "nonwhitePct": 0.175,
+    "whiteDiff": 0.141,
+    "nonwhiteDiff": -0.141,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "PEAK TO PEAK CHARTER SCHOOL",
+    "whitePct": 0.687,
+    "nonwhitePct": 0.313,
+    "whiteDiff": 0.003,
+    "nonwhiteDiff": -0.003,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "PIONEER BILINGUAL ELEMENTARY SCHOOL",
+    "whitePct": 0.331,
+    "nonwhitePct": 0.669,
+    "whiteDiff": -0.353,
+    "nonwhiteDiff": 0.353,
+    "pctMove": 0.013
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "RYAN ELEMENTARY SCHOOL",
+    "whitePct": 0.672,
+    "nonwhitePct": 0.328,
+    "whiteDiff": -0.012,
+    "nonwhiteDiff": 0.012,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "ALICIA SANCHEZ INTERNATIONAL SCHOOL",
+    "whitePct": 0.283,
+    "nonwhitePct": 0.717,
+    "whiteDiff": -0.401,
+    "nonwhiteDiff": 0.401,
+    "pctMove": 0.011
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "SOUTHERN HILLS MIDDLE SCHOOL",
+    "whitePct": 0.807,
+    "nonwhitePct": 0.193,
+    "whiteDiff": 0.123,
+    "nonwhiteDiff": -0.123,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "SUMMIT MIDDLE CHARTER SCHOOL",
+    "whitePct": 0.631,
+    "nonwhitePct": 0.369,
+    "whiteDiff": -0.053,
+    "nonwhiteDiff": 0.053,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "SUPERIOR ELEMENTARY SCHOOL",
+    "whitePct": 0.8,
+    "nonwhitePct": 0.2,
+    "whiteDiff": 0.116,
+    "nonwhiteDiff": -0.116,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "UNIVERSITY HILL ELEMENTARY SCHOOL",
+    "whitePct": 0.264,
+    "nonwhitePct": 0.736,
+    "whiteDiff": -0.42,
+    "nonwhiteDiff": 0.42,
+    "pctMove": 0.014
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "WHITTIER ELEMENTARY SCHOOL",
+    "whitePct": 0.64,
+    "nonwhitePct": 0.36,
+    "whiteDiff": -0.044,
+    "nonwhiteDiff": 0.044,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "BOULDER VALLEY SCHOOL DISTRICT",
+    "schoolName": "DISTRICT TOTAL",
+    "whitePct": 0.684,
+    "nonwhitePct": 0.316,
+    "whiteDiff": 0,
+    "nonwhiteDiff": 0,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "ACADEMY OF ADVANCED LEARNING",
+    "whitePct": 0.103,
+    "nonwhitePct": 0.897,
+    "whiteDiff": -0.06,
+    "nonwhiteDiff": 0.06,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "APS EARLY BEGINNINGS - A ZOOM SITE",
+    "whitePct": 0.043,
+    "nonwhitePct": 0.957,
+    "whiteDiff": -0.12,
+    "nonwhiteDiff": 0.12,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "AXL ACADEMY",
+    "whitePct": 0.227,
+    "nonwhitePct": 0.773,
+    "whiteDiff": 0.064,
+    "nonwhiteDiff": -0.064,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "ALTURA ELEMENTARY SCHOOL",
+    "whitePct": 0.065,
+    "nonwhitePct": 0.935,
+    "whiteDiff": -0.098,
+    "nonwhiteDiff": 0.098,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "ARKANSAS ELEMENTARY SCHOOL",
+    "whitePct": 0.226,
+    "nonwhitePct": 0.774,
+    "whiteDiff": 0.063,
+    "nonwhiteDiff": -0.063,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "AURORA ACADEMY CHARTER SCHOOL",
+    "whitePct": 0.199,
+    "nonwhitePct": 0.801,
+    "whiteDiff": 0.036,
+    "nonwhiteDiff": -0.036,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "AURORA HILLS MIDDLE SCHOOL",
+    "whitePct": 0.089,
+    "nonwhitePct": 0.911,
+    "whiteDiff": -0.074,
+    "nonwhiteDiff": 0.074,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "AURORA FRONTIER K-8",
+    "whitePct": 0.358,
+    "nonwhitePct": 0.642,
+    "whiteDiff": 0.195,
+    "nonwhiteDiff": -0.195,
+    "pctMove": 0.012
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "BOSTON K-8 SCHOOL",
+    "whitePct": 0.043,
+    "nonwhitePct": 0.957,
+    "whiteDiff": -0.12,
+    "nonwhiteDiff": 0.12,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "AURORA CENTRAL HIGH SCHOOL",
+    "whitePct": 0.048,
+    "nonwhitePct": 0.953,
+    "whiteDiff": -0.115,
+    "nonwhiteDiff": 0.116,
+    "pctMove": 0.021
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "CENTURY ELEMENTARY SCHOOL",
+    "whitePct": 0.236,
+    "nonwhitePct": 0.764,
+    "whiteDiff": 0.073,
+    "nonwhiteDiff": -0.073,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "CLYDE MILLER K-8",
+    "whitePct": 0.088,
+    "nonwhitePct": 0.912,
+    "whiteDiff": -0.075,
+    "nonwhiteDiff": 0.075,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "COLUMBIA MIDDLE SCHOOL",
+    "whitePct": 0.257,
+    "nonwhitePct": 0.743,
+    "whiteDiff": 0.094,
+    "nonwhiteDiff": -0.094,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "CRAWFORD ELEMENTARY SCHOOL",
+    "whitePct": 0.054,
+    "nonwhitePct": 0.946,
+    "whiteDiff": -0.109,
+    "nonwhiteDiff": 0.109,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "DALTON ELEMENTARY SCHOOL",
+    "whitePct": 0.342,
+    "nonwhitePct": 0.658,
+    "whiteDiff": 0.179,
+    "nonwhiteDiff": -0.179,
+    "pctMove": 0.008
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "DARTMOUTH ELEMENTARY SCHOOL",
+    "whitePct": 0.317,
+    "nonwhitePct": 0.683,
+    "whiteDiff": 0.154,
+    "nonwhiteDiff": -0.154,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "EAST MIDDLE SCHOOL",
+    "whitePct": 0.055,
+    "nonwhitePct": 0.945,
+    "whiteDiff": -0.108,
+    "nonwhiteDiff": 0.108,
+    "pctMove": 0.009
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "ELKHART ELEMENTARY SCHOOL",
+    "whitePct": 0.045,
+    "nonwhitePct": 0.955,
+    "whiteDiff": -0.118,
+    "nonwhiteDiff": 0.118,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "EDNA AND JOHN W. MOSLEY P-8",
+    "whitePct": 0.177,
+    "nonwhitePct": 0.823,
+    "whiteDiff": 0.014,
+    "nonwhiteDiff": -0.014,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "LAREDO CHILD DEVELOPMENT CENTER",
+    "whitePct": 0.103,
+    "nonwhitePct": 0.897,
+    "whiteDiff": -0.06,
+    "nonwhiteDiff": 0.06,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "FLETCHER COMMUNITY SCHOOL",
+    "whitePct": 0.051,
+    "nonwhitePct": 0.949,
+    "whiteDiff": -0.112,
+    "nonwhiteDiff": 0.112,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "FULTON ACADEMY OF EXCELLENCE",
+    "whitePct": 0.058,
+    "nonwhitePct": 0.942,
+    "whiteDiff": -0.105,
+    "nonwhiteDiff": 0.105,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "GATEWAY HIGH SCHOOL",
+    "whitePct": 0.125,
+    "nonwhitePct": 0.875,
+    "whiteDiff": -0.038,
+    "nonwhiteDiff": 0.038,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "GLOBAL VILLAGE ACADEMY AURORA",
+    "whitePct": 0.112,
+    "nonwhitePct": 0.888,
+    "whiteDiff": -0.051,
+    "nonwhiteDiff": 0.051,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "HINKLEY HIGH SCHOOL",
+    "whitePct": 0.06,
+    "nonwhitePct": 0.94,
+    "whiteDiff": -0.103,
+    "nonwhiteDiff": 0.103,
+    "pctMove": 0.02
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "IOWA ELEMENTARY SCHOOL",
+    "whitePct": 0.188,
+    "nonwhitePct": 0.812,
+    "whiteDiff": 0.025,
+    "nonwhiteDiff": -0.025,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "JAMAICA CHILD DEVELOPMENT CENTER",
+    "whitePct": 0.084,
+    "nonwhitePct": 0.916,
+    "whiteDiff": -0.079,
+    "nonwhiteDiff": 0.079,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "JEWELL ELEMENTARY SCHOOL",
+    "whitePct": 0.16,
+    "nonwhitePct": 0.84,
+    "whiteDiff": -0.003,
+    "nonwhiteDiff": 0.003,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "KENTON ELEMENTARY SCHOOL",
+    "whitePct": 0.04,
+    "nonwhitePct": 0.96,
+    "whiteDiff": -0.123,
+    "nonwhiteDiff": 0.123,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "LANSING ELEMENTARY COMMUNITY SCHOOL",
+    "whitePct": 0.084,
+    "nonwhitePct": 0.916,
+    "whiteDiff": -0.079,
+    "nonwhiteDiff": 0.079,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "LAREDO ELEMENTARY SCHOOL",
+    "whitePct": 0.089,
+    "nonwhitePct": 0.911,
+    "whiteDiff": -0.074,
+    "nonwhiteDiff": 0.074,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "LOTUS SCHOOL FOR EXCELLENCE",
+    "whitePct": 0.147,
+    "nonwhitePct": 0.853,
+    "whiteDiff": -0.016,
+    "nonwhiteDiff": 0.016,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "LYN KNOLL ELEMENTARY SCHOOL",
+    "whitePct": 0.086,
+    "nonwhitePct": 0.914,
+    "whiteDiff": -0.077,
+    "nonwhiteDiff": 0.077,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "MEADOWOOD CHILD DEVELOPMENT CENTER",
+    "whitePct": 0.197,
+    "nonwhitePct": 0.803,
+    "whiteDiff": 0.034,
+    "nonwhiteDiff": -0.034,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "MONTVIEW MATH & HEALTH SCIENCES ELEMENTARY SCHOOL",
+    "whitePct": 0.079,
+    "nonwhitePct": 0.921,
+    "whiteDiff": -0.084,
+    "nonwhiteDiff": 0.084,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "MRACHEK MIDDLE SCHOOL",
+    "whitePct": 0.156,
+    "nonwhitePct": 0.844,
+    "whiteDiff": -0.007,
+    "nonwhiteDiff": 0.007,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "MURPHY CREEK K-8 SCHOOL",
+    "whitePct": 0.378,
+    "nonwhitePct": 0.622,
+    "whiteDiff": 0.215,
+    "nonwhiteDiff": -0.215,
+    "pctMove": 0.014
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "NORTH MIDDLE SCHOOL HEALTH SCIENCES AND TECHNOLOGY CAMPUS",
+    "whitePct": 0.039,
+    "nonwhitePct": 0.961,
+    "whiteDiff": -0.124,
+    "nonwhiteDiff": 0.124,
+    "pctMove": 0.008
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "OPTIONS SCHOOL",
+    "whitePct": 0.756,
+    "nonwhitePct": 0.244,
+    "whiteDiff": 0.593,
+    "nonwhiteDiff": -0.593,
+    "pctMove": 0.06
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "PARIS ELEMENTARY SCHOOL",
+    "whitePct": 0.024,
+    "nonwhitePct": 0.976,
+    "whiteDiff": -0.139,
+    "nonwhiteDiff": 0.139,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "PARK LANE ELEMENTARY SCHOOL",
+    "whitePct": 0.081,
+    "nonwhitePct": 0.919,
+    "whiteDiff": -0.082,
+    "nonwhiteDiff": 0.082,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "PEORIA ELEMENTARY SCHOOL",
+    "whitePct": 0.033,
+    "nonwhitePct": 0.967,
+    "whiteDiff": -0.13,
+    "nonwhiteDiff": 0.13,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "AURORA QUEST K-8",
+    "whitePct": 0.478,
+    "nonwhitePct": 0.522,
+    "whiteDiff": 0.315,
+    "nonwhiteDiff": -0.315,
+    "pctMove": 0.017
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "ROCKY MOUNTAIN PREP - FLETCHER CAMPUS",
+    "whitePct": 0.068,
+    "nonwhitePct": 0.932,
+    "whiteDiff": -0.095,
+    "nonwhiteDiff": 0.095,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "RANGEVIEW HIGH SCHOOL",
+    "whitePct": 0.243,
+    "nonwhitePct": 0.757,
+    "whiteDiff": 0.08,
+    "nonwhiteDiff": -0.08,
+    "pctMove": 0.017
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "SABLE ELEMENTARY SCHOOL",
+    "whitePct": 0.062,
+    "nonwhitePct": 0.938,
+    "whiteDiff": -0.101,
+    "nonwhiteDiff": 0.101,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "SIDE CREEK ELEMENTARY SCHOOL",
+    "whitePct": 0.244,
+    "nonwhitePct": 0.756,
+    "whiteDiff": 0.081,
+    "nonwhiteDiff": -0.081,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "SIXTH AVENUE ELEMENTARY SCHOOL",
+    "whitePct": 0.075,
+    "nonwhitePct": 0.925,
+    "whiteDiff": -0.088,
+    "nonwhiteDiff": 0.088,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "SOUTH MIDDLE SCHOOL",
+    "whitePct": 0.055,
+    "nonwhitePct": 0.945,
+    "whiteDiff": -0.108,
+    "nonwhiteDiff": 0.108,
+    "pctMove": 0.008
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "WILLIAM SMITH HIGH SCHOOL",
+    "whitePct": 0.167,
+    "nonwhitePct": 0.833,
+    "whiteDiff": 0.004,
+    "nonwhiteDiff": -0.004,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "TOLLGATE ELEMENTARY SCHOOL OF EXPEDITIONARY LEARNING",
+    "whitePct": 0.162,
+    "nonwhitePct": 0.838,
+    "whiteDiff": -0.001,
+    "nonwhiteDiff": 0.001,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "VEGA COLLEGIATE ACADEMY",
+    "whitePct": 0.059,
+    "nonwhitePct": 0.941,
+    "whiteDiff": -0.104,
+    "nonwhiteDiff": 0.104,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "VANGUARD CLASSICAL SCHOOL - WEST",
+    "whitePct": 0.154,
+    "nonwhitePct": 0.846,
+    "whiteDiff": -0.009,
+    "nonwhiteDiff": 0.009,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "VASSAR ELEMENTARY SCHOOL",
+    "whitePct": 0.179,
+    "nonwhitePct": 0.821,
+    "whiteDiff": 0.016,
+    "nonwhiteDiff": -0.016,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "VAUGHN ELEMENTARY SCHOOL",
+    "whitePct": 0.057,
+    "nonwhitePct": 0.943,
+    "whiteDiff": -0.106,
+    "nonwhiteDiff": 0.106,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "VISTA PEAK P-8 EXPLORATORY",
+    "whitePct": 0.285,
+    "nonwhitePct": 0.715,
+    "whiteDiff": 0.122,
+    "nonwhiteDiff": -0.122,
+    "pctMove": 0.013
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "VISTA PEAK 9-12 PREPARATORY",
+    "whitePct": 0.233,
+    "nonwhitePct": 0.767,
+    "whiteDiff": 0.07,
+    "nonwhiteDiff": -0.07,
+    "pctMove": 0.009
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "VIRGINIA COURT ELEMENTARY SCHOOL",
+    "whitePct": 0.106,
+    "nonwhitePct": 0.894,
+    "whiteDiff": -0.057,
+    "nonwhiteDiff": 0.057,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "VANGUARD CLASSICAL SCHOOL - EAST",
+    "whitePct": 0.195,
+    "nonwhitePct": 0.805,
+    "whiteDiff": 0.032,
+    "nonwhiteDiff": -0.032,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "AURORA WEST COLLEGE PREPARATORY ACADEMY",
+    "whitePct": 0.055,
+    "nonwhitePct": 0.945,
+    "whiteDiff": -0.108,
+    "nonwhiteDiff": 0.108,
+    "pctMove": 0.011
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "WHEELING ELEMENTARY SCHOOL",
+    "whitePct": 0.113,
+    "nonwhitePct": 0.888,
+    "whiteDiff": -0.05,
+    "nonwhiteDiff": 0.051,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "YALE ELEMENTARY SCHOOL",
+    "whitePct": 0.198,
+    "nonwhitePct": 0.802,
+    "whiteDiff": 0.035,
+    "nonwhiteDiff": -0.035,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "AURORA PUBLIC SCHOOLS",
+    "schoolName": "DISTRICT TOTAL",
+    "whitePct": 0.163,
+    "nonwhitePct": 0.837,
+    "whiteDiff": 0,
+    "nonwhiteDiff": 0,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "ADAMS COUNTY 14",
+    "schoolName": "ADAMS CITY MIDDLE SCHOOL",
+    "whitePct": 0.094,
+    "nonwhitePct": 0.906,
+    "whiteDiff": -0.007,
+    "nonwhiteDiff": 0.007,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "ADAMS COUNTY 14",
+    "schoolName": "LESTER R ARNOLD HIGH SCHOOL",
+    "whitePct": 0.103,
+    "nonwhitePct": 0.897,
+    "whiteDiff": 0.002,
+    "nonwhiteDiff": -0.002,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "ADAMS COUNTY 14",
+    "schoolName": "ADAMS CITY HIGH SCHOOL",
+    "whitePct": 0.091,
+    "nonwhitePct": 0.909,
+    "whiteDiff": -0.01,
+    "nonwhiteDiff": 0.01,
+    "pctMove": 0.014
+  },
+  {
+    "button": "",
+    "district": "ADAMS COUNTY 14",
+    "schoolName": "STARS EARLY LEARNING CENTER",
+    "whitePct": 0.212,
+    "nonwhitePct": 0.788,
+    "whiteDiff": 0.111,
+    "nonwhiteDiff": -0.111,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "ADAMS COUNTY 14",
+    "schoolName": "ALSUP ELEMENTARY SCHOOL",
+    "whitePct": 0.134,
+    "nonwhitePct": 0.866,
+    "whiteDiff": 0.033,
+    "nonwhiteDiff": -0.033,
+    "pctMove": 0.012
+  },
+  {
+    "button": "",
+    "district": "ADAMS COUNTY 14",
+    "schoolName": "CENTRAL ELEMENTARY SCHOOL",
+    "whitePct": 0.116,
+    "nonwhitePct": 0.884,
+    "whiteDiff": 0.015,
+    "nonwhiteDiff": -0.015,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "ADAMS COUNTY 14",
+    "schoolName": "DUPONT ELEMENTARY SCHOOL",
+    "whitePct": 0.102,
+    "nonwhitePct": 0.898,
+    "whiteDiff": 0.001,
+    "nonwhiteDiff": -0.001,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "ADAMS COUNTY 14",
+    "schoolName": "KEARNEY MIDDLE SCHOOL",
+    "whitePct": 0.095,
+    "nonwhitePct": 0.905,
+    "whiteDiff": -0.006,
+    "nonwhiteDiff": 0.006,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "ADAMS COUNTY 14",
+    "schoolName": "KEMP ELEMENTARY SCHOOL",
+    "whitePct": 0.101,
+    "nonwhitePct": 0.899,
+    "whiteDiff": 0,
+    "nonwhiteDiff": 0,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "ADAMS COUNTY 14",
+    "schoolName": "MILDRED L SANVILLE PRESCHOOL",
+    "whitePct": 0.105,
+    "nonwhitePct": 0.895,
+    "whiteDiff": 0.004,
+    "nonwhiteDiff": -0.004,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "ADAMS COUNTY 14",
+    "schoolName": "MONACO ELEMENTARY SCHOOL",
+    "whitePct": 0.124,
+    "nonwhitePct": 0.876,
+    "whiteDiff": 0.023,
+    "nonwhiteDiff": -0.023,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "ADAMS COUNTY 14",
+    "schoolName": "HANSON ELEMENTARY SCHOOL",
+    "whitePct": 0.078,
+    "nonwhitePct": 0.922,
+    "whiteDiff": -0.023,
+    "nonwhiteDiff": 0.023,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "ADAMS COUNTY 14",
+    "schoolName": "ROSE HILL ELEMENTARY SCHOOL",
+    "whitePct": 0.086,
+    "nonwhitePct": 0.914,
+    "whiteDiff": -0.015,
+    "nonwhiteDiff": 0.015,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "ADAMS COUNTY 14",
+    "schoolName": "DISTRICT TOTAL",
+    "whitePct": 0.101,
+    "nonwhitePct": 0.899,
+    "whiteDiff": 0,
+    "nonwhiteDiff": 0,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "GLACIER PEAK ELEMENTARY SCHOOL",
+    "whitePct": 0.486,
+    "nonwhitePct": 0.514,
+    "whiteDiff": 0.012,
+    "nonwhiteDiff": -0.012,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "ROCKY TOP MIDDLE SCHOOL",
+    "whitePct": 0.687,
+    "nonwhitePct": 0.313,
+    "whiteDiff": 0.213,
+    "nonwhiteDiff": -0.213,
+    "pctMove": 0.013
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "MERIDIAN ELEMENTARY SCHOOL",
+    "whitePct": 0.736,
+    "nonwhitePct": 0.264,
+    "whiteDiff": 0.262,
+    "nonwhiteDiff": -0.262,
+    "pctMove": 0.009
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "ADAMS12 FIVE STAR PRESCHOOL",
+    "whitePct": 0.296,
+    "nonwhitePct": 0.704,
+    "whiteDiff": -0.178,
+    "nonwhiteDiff": 0.178,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "VANTAGE POINT",
+    "whitePct": 0.312,
+    "nonwhitePct": 0.688,
+    "whiteDiff": -0.162,
+    "nonwhiteDiff": 0.162,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "ARAPAHOE RIDGE ELEMENTARY SCHOOL",
+    "whitePct": 0.501,
+    "nonwhitePct": 0.499,
+    "whiteDiff": 0.027,
+    "nonwhiteDiff": -0.027,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "CENTENNIAL ELEMENTARY SCHOOL",
+    "whitePct": 0.404,
+    "nonwhitePct": 0.596,
+    "whiteDiff": -0.07,
+    "nonwhiteDiff": 0.07,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "CENTURY MIDDLE SCHOOL",
+    "whitePct": 0.552,
+    "nonwhitePct": 0.448,
+    "whiteDiff": 0.078,
+    "nonwhiteDiff": -0.078,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "STARGATE CHARTER SCHOOL",
+    "whitePct": 0.625,
+    "nonwhitePct": 0.375,
+    "whiteDiff": 0.151,
+    "nonwhiteDiff": -0.151,
+    "pctMove": 0.011
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "CORONADO HILLS ELEMENTARY SCHOOL",
+    "whitePct": 0.116,
+    "nonwhitePct": 0.884,
+    "whiteDiff": -0.358,
+    "nonwhiteDiff": 0.358,
+    "pctMove": 0.01
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "COTTON CREEK ELEMENTARY SCHOOL",
+    "whitePct": 0.682,
+    "nonwhitePct": 0.318,
+    "whiteDiff": 0.208,
+    "nonwhiteDiff": -0.208,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "COYOTE RIDGE ELEMENTARY SCHOOL",
+    "whitePct": 0.777,
+    "nonwhitePct": 0.223,
+    "whiteDiff": 0.303,
+    "nonwhiteDiff": -0.303,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "EAGLEVIEW ELEMENTARY SCHOOL",
+    "whitePct": 0.593,
+    "nonwhitePct": 0.407,
+    "whiteDiff": 0.119,
+    "nonwhiteDiff": -0.119,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "TARVER ELEMENTARY SCHOOL",
+    "whitePct": 0.635,
+    "nonwhitePct": 0.365,
+    "whiteDiff": 0.161,
+    "nonwhiteDiff": -0.161,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "CHERRY DRIVE ELEMENTARY SCHOOL",
+    "whitePct": 0.501,
+    "nonwhitePct": 0.499,
+    "whiteDiff": 0.027,
+    "nonwhiteDiff": -0.027,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "SKYVIEW ELEMENTARY SCHOOL",
+    "whitePct": 0.508,
+    "nonwhitePct": 0.492,
+    "whiteDiff": 0.034,
+    "nonwhiteDiff": -0.034,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "HUNTERS GLEN ELEMENTARY SCHOOL",
+    "whitePct": 0.568,
+    "nonwhitePct": 0.432,
+    "whiteDiff": 0.094,
+    "nonwhiteDiff": -0.094,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "ROCKY MOUNTAIN ELEMENTARY SCHOOL",
+    "whitePct": 0.208,
+    "nonwhitePct": 0.792,
+    "whiteDiff": -0.266,
+    "nonwhiteDiff": 0.266,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "RIVERDALE ELEMENTARY SCHOOL",
+    "whitePct": 0.444,
+    "nonwhitePct": 0.556,
+    "whiteDiff": -0.03,
+    "nonwhiteDiff": 0.03,
+    "pctMove": 0.001
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "FEDERAL HEIGHTS ELEMENTARY SCHOOL",
+    "whitePct": 0.054,
+    "nonwhitePct": 0.946,
+    "whiteDiff": -0.42,
+    "nonwhiteDiff": 0.42,
+    "pctMove": 0.013
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "HILLCREST ELEMENTARY SCHOOL",
+    "whitePct": 0.17,
+    "nonwhitePct": 0.83,
+    "whiteDiff": -0.304,
+    "nonwhiteDiff": 0.304,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "HORIZON HIGH SCHOOL",
+    "whitePct": 0.628,
+    "nonwhitePct": 0.372,
+    "whiteDiff": 0.154,
+    "nonwhiteDiff": -0.154,
+    "pctMove": 0.016
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "HULSTROM OPTIONS K-8 SCHOOL",
+    "whitePct": 0.621,
+    "nonwhitePct": 0.379,
+    "whiteDiff": 0.147,
+    "nonwhiteDiff": -0.147,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "SILVER HILLS MIDDLE SCHOOL",
+    "whitePct": 0.364,
+    "nonwhitePct": 0.636,
+    "whiteDiff": -0.11,
+    "nonwhiteDiff": 0.11,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "NEW AMERICA SCHOOL - THORNTON",
+    "whitePct": 0.078,
+    "nonwhitePct": 0.922,
+    "whiteDiff": -0.396,
+    "nonwhiteDiff": 0.396,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "LEGACY HIGH SCHOOL",
+    "whitePct": 0.671,
+    "nonwhitePct": 0.329,
+    "whiteDiff": 0.197,
+    "nonwhiteDiff": -0.197,
+    "pctMove": 0.024
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "LEROY DRIVE ELEMENTARY SCHOOL",
+    "whitePct": 0.307,
+    "nonwhitePct": 0.693,
+    "whiteDiff": -0.167,
+    "nonwhiteDiff": 0.167,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "MALLEY DRIVE ELEMENTARY SCHOOL",
+    "whitePct": 0.301,
+    "nonwhitePct": 0.699,
+    "whiteDiff": -0.173,
+    "nonwhiteDiff": 0.173,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "MC ELWAIN ELEMENTARY SCHOOL",
+    "whitePct": 0.165,
+    "nonwhitePct": 0.835,
+    "whiteDiff": -0.309,
+    "nonwhiteDiff": 0.309,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "THE INTERNATIONAL SCHOOL AT THORNTON MIDDLE",
+    "whitePct": 0.114,
+    "nonwhitePct": 0.886,
+    "whiteDiff": -0.36,
+    "nonwhiteDiff": 0.36,
+    "pctMove": 0.017
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "THORNTON HIGH SCHOOL",
+    "whitePct": 0.204,
+    "nonwhitePct": 0.796,
+    "whiteDiff": -0.27,
+    "nonwhiteDiff": 0.27,
+    "pctMove": 0.023
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "MOUNTAIN RANGE HIGH SCHOOL",
+    "whitePct": 0.543,
+    "nonwhitePct": 0.457,
+    "whiteDiff": 0.069,
+    "nonwhiteDiff": -0.069,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "MOUNTAIN VIEW ELEMENTARY SCHOOL",
+    "whitePct": 0.667,
+    "nonwhitePct": 0.333,
+    "whiteDiff": 0.193,
+    "nonwhiteDiff": -0.193,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "SHADOW RIDGE MIDDLE SCHOOL",
+    "whitePct": 0.471,
+    "nonwhitePct": 0.529,
+    "whiteDiff": -0.003,
+    "nonwhiteDiff": 0.003,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "NORTH MOR ELEMENTARY SCHOOL",
+    "whitePct": 0.242,
+    "nonwhitePct": 0.758,
+    "whiteDiff": -0.232,
+    "nonwhiteDiff": 0.232,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "NORTH STAR ELEMENTARY SCHOOL",
+    "whitePct": 0.082,
+    "nonwhitePct": 0.918,
+    "whiteDiff": -0.392,
+    "nonwhiteDiff": 0.392,
+    "pctMove": 0.009
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "NORTHGLENN MIDDLE SCHOOL",
+    "whitePct": 0.221,
+    "nonwhitePct": 0.779,
+    "whiteDiff": -0.253,
+    "nonwhiteDiff": 0.253,
+    "pctMove": 0.011
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "NORTHGLENN HIGH SCHOOL",
+    "whitePct": 0.265,
+    "nonwhitePct": 0.735,
+    "whiteDiff": -0.209,
+    "nonwhiteDiff": 0.209,
+    "pctMove": 0.022
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "PROSPECT RIDGE ACADEMY",
+    "whitePct": 0.77,
+    "nonwhitePct": 0.23,
+    "whiteDiff": 0.296,
+    "nonwhiteDiff": -0.296,
+    "pctMove": 0.021
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "PATHWAYS FUTURE CENTER",
+    "whitePct": 0.348,
+    "nonwhitePct": 0.652,
+    "whiteDiff": -0.126,
+    "nonwhiteDiff": 0.126,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "PRAIRIE HILLS ELEMENTARY SCHOOL",
+    "whitePct": 0.722,
+    "nonwhitePct": 0.278,
+    "whiteDiff": 0.248,
+    "nonwhiteDiff": -0.248,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "SILVER CREEK ELEMENTARY",
+    "whitePct": 0.69,
+    "nonwhitePct": 0.31,
+    "whiteDiff": 0.216,
+    "nonwhiteDiff": -0.216,
+    "pctMove": 0.007
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "THE STUDIO SCHOOL",
+    "whitePct": 0.603,
+    "nonwhitePct": 0.397,
+    "whiteDiff": 0.129,
+    "nonwhiteDiff": -0.129,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "STELLAR ELEMENTARY SCHOOL",
+    "whitePct": 0.419,
+    "nonwhitePct": 0.581,
+    "whiteDiff": -0.055,
+    "nonwhiteDiff": 0.055,
+    "pctMove": 0.002
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "STEM LAB",
+    "whitePct": 0.704,
+    "nonwhitePct": 0.296,
+    "whiteDiff": 0.23,
+    "nonwhiteDiff": -0.23,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "STEM LAUNCH",
+    "whitePct": 0.2,
+    "nonwhitePct": 0.8,
+    "whiteDiff": -0.274,
+    "nonwhiteDiff": 0.274,
+    "pctMove": 0.011
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "STUKEY ELEMENTARY SCHOOL",
+    "whitePct": 0.29,
+    "nonwhitePct": 0.71,
+    "whiteDiff": -0.184,
+    "nonwhiteDiff": 0.184,
+    "pctMove": 0.004
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "THUNDER VISTA P-8",
+    "whitePct": 0.787,
+    "nonwhitePct": 0.213,
+    "whiteDiff": 0.313,
+    "nonwhiteDiff": -0.313,
+    "pctMove": 0.01
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "THORNTON ELEMENTARY SCHOOL",
+    "whitePct": 0.188,
+    "nonwhitePct": 0.812,
+    "whiteDiff": -0.286,
+    "nonwhiteDiff": 0.286,
+    "pctMove": 0.006
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "WESTGATE CHARTER",
+    "whitePct": 0.679,
+    "nonwhitePct": 0.321,
+    "whiteDiff": 0.205,
+    "nonwhiteDiff": -0.205,
+    "pctMove": 0.005
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "WESTLAKE MIDDLE SCHOOL",
+    "whitePct": 0.665,
+    "nonwhitePct": 0.335,
+    "whiteDiff": 0.191,
+    "nonwhiteDiff": -0.191,
+    "pctMove": 0.011
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "WESTVIEW ELEMENTARY SCHOOL",
+    "whitePct": 0.372,
+    "nonwhitePct": 0.628,
+    "whiteDiff": -0.102,
+    "nonwhiteDiff": 0.102,
+    "pctMove": 0.003
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "WOODGLEN ELEMENTARY SCHOOL",
+    "whitePct": 0.464,
+    "nonwhitePct": 0.536,
+    "whiteDiff": -0.01,
+    "nonwhiteDiff": 0.01,
+    "pctMove": 0
+  },
+  {
+    "button": "",
+    "district": "ADAMS 12 FIVE STAR SCHOOLS",
+    "schoolName": "DISTRICT TOTAL",
+    "whitePct": 0.474,
+    "nonwhitePct": 0.526,
     "whiteDiff": 0,
     "nonwhiteDiff": 0,
     "pctMove": 0
