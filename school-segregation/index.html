@@ -22,7 +22,6 @@
     <script src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
     <script src="https://cdn.datatables.net/responsive/2.2.1/js/responsive.foundation.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
-    <!-- <script src="jquery.dataTables.yadcf.js"></script> -->
     <style>
     body {
         background-color: #fafafa;
@@ -71,12 +70,22 @@
         margin-bottom: .5em;
     }
 
-    .cell-color {
-        background-color: purple !important;
+    .row-color {
+        background-color: #e4e4e4 !important;
     }
 
-    .cell-data {
-        color: #000;
+    tr {
+        background-color: #fafafa !important;
+        border-bottom: 1px solid silver;
+    }
+
+    table, thead, tbody {
+        border: none !important;
+    }
+
+    button.yadcf-filter-reset-button {
+        color: #990012;
+        font-weight: normal;
     }
     </style>
 </head>
@@ -86,7 +95,8 @@
         <div class="row">
             <div class="large-12 columns">
                 <h2 class="table-title">Segregation in metro area school districts</h2>
-                <p>The Denver Post compiled data on the racial demographics of students in metro-area schools in the 2018-19 school year, and how they compare to their home districts. Data for the current school year isn't yet available. <em>Click column headers to sort data; use dropdown menu to filter by school district. <strong>Source: Colorado Department of Education</strong></em></p>
+                <p>The Denver Post compiled data on the racial demographics of students in metro-area schools in the 2018-19 school year, and how they compare to their home districts. Data for the current school year isn't yet available. <strong>Source: Colorado Department of Education</strong></em></p>
+                <p style="color:#990012;font-style:italic;text-align:center">Click column headers to sort data; use dropdown menu to filter by school district.</p>
             </div>
         </div>
         <div id="filters">
@@ -151,12 +161,19 @@
                 }],
                 order: [
                     [1, 'asc'],
-                    [7, 'desc']
+                    [2, 'asc']
                 ],
                 columns: [
                     { data: 'button' },
                     { data: 'district' },
-                    { data: 'schoolName' },
+                    {
+                        data: 'schoolName',
+                        // render: function(data, type row) {
+                        //     if (data == 'DISTRICT TOTAL') {
+                        //         return '<tr style="background-color:#000"></tr>';
+                        //     }
+                        // }
+                    },
                     {
                         data: 'whitePct',
                         //render: $.fn.dataTable.render.number(',', '.', 1, '', '%'),
@@ -185,25 +202,25 @@
                         render: function(data, type, row) {
                             if (data > 0) {
                                 // return '<span style="color:green">' + (data * 100).toLocaleString() + '%</span>'
-                                return (data * 100).toLocaleString() + '%</span>'
+                                return (data * 100).toLocaleString() + '%'
                             } else if (data < 0) {
-                                return '<span style="color:red">' + (data * 100).toLocaleString() + '%</span>'
+                                return '<span style="color:#990012">' + (data * 100).toLocaleString() + '%</span>'
+                                //return (data * 100).toLocaleString() + '%'
                             } else return (data * 100).toLocaleString() + '%'
                         }
                     },
                     {
                         data: 'pctMove',
                         render: function(data, type, row) {
-                            console.log(data);
                             return '<td class="cell-color" style="opacity:' + data + '">' + (data * 100).toLocaleString() + '%</td>';
                         },
                         visible: false
                     },
                 ],
                 "rowCallback": function(row, data) {
-                    if (data.pctMove < .1) {
+                    if (data.schoolName == 'DISTRICT TOTAL') {
                         //$('td:eq(7)', row).html('<b>A</b>');
-                        //$(row).addClass( 'cell-color' );
+                        $(row).addClass( 'row-color' );
                         //$('td:eq(7)',row).addClass( 'cell-color' );
                         //$('td:eq(7)',row).html('<td style="background-color:purple;opacity:' + (data.pctMove*100) + '"><span style="color:#000;opacity:1">' + data.pctMove + '</span></td>');
                     }
