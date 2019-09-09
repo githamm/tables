@@ -39,9 +39,12 @@
         font-weight: 700;
     }
 
-    /*table {
-        width: 1100px;
-    }*/
+    table,
+    thead,
+    tbody,
+    tfoot {
+        font-family: 'Roboto', sans-serif;
+    }
 
     table tr:nth-of-type(even) {
         background-color: transparent !important;
@@ -53,7 +56,7 @@
     }
 
     th {
-        font-size: 1em;
+        font-size: .9em;
     }
 
     tr {
@@ -65,6 +68,10 @@
         border: 1px solid rgba(0, 0, 0, .1);
         /*padding-top: 12px !important;*/
         line-height: 102%;
+    }
+
+    #prez-vote-table {
+    	width: 1350px !important;
     }
 
     .cell-contents {
@@ -215,22 +222,42 @@
         margin-top: 7px;
         letter-spacing: 1px;
     }
+
+    .header-prez-result {
+        font-size: .7rem;
+        font-weight: 100;
+        color: #aaa;
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    .header-dem {
+        color: rgba(53, 121, 168, .8);
+    }
+
+    .header-rep {
+        color: rgba(220, 81, 71, .8);
+    }
     </style>
 </head>
 
 <body>
-<<<<<<< HEAD
-    <h2 class="table-title">Colorado presidential voting 1980-2016</h2>
-    <p class="body-text">The <a href="https://www.rga.org/" target="_top">Republican Governors Association</a> and the <a href="https://democraticgovernors.org/" target="_top">Democratic Governors Association</a> &mdash; advocacy groups called <a href="https://www.opensecrets.org/527s/" target="_top">527 organizations</a> that can raise unlimited money from donors and report their contributions and expenditures to the IRS &mdash; are putting money into the Colorado governor's race. This database shows the companies and individuals from Colorado who have donated from Jan. 1, 2017, through June 30, 2018. <em>Note: Individuals who donated less than $300 are listed with the name "Individual." <strong>Source: <a href="https://www.irs.gov/charities-non-profits/political-organizations/political-organization-filing-and-disclosure" target="_top">Internal Revenue Service</a></strong></em></p>
-    <div style="width:45%;float:left">
+    <div class="row">
+        <div class="large-12 columns">
+            <h2 class="table-title">Colorado presidential voting 1980-2016</h2>
+            <p class="body-text">Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter. <em>Note: Note and note and note and note and note. <strong>Source: Source</strong></em></p>
+        </div>
+    </div>
+    <!-- MAPS -->
+    <!-- <div style="width:45%;float:left">
         <iframe id="datawrapper-chart-yTV9r" src="//datawrapper.dwcdn.net/yTV9r/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important;" height="500"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["yTV9r"]={},window.datawrapper["yTV9r"].embedDeltas={"100":787,"200":618,"300":559,"400":517,"500":500,"700":500,"800":500,"900":500,"1000":483},window.datawrapper["yTV9r"].iframe=document.getElementById("datawrapper-chart-yTV9r"),window.datawrapper["yTV9r"].iframe.style.height=window.datawrapper["yTV9r"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["yTV9r"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("yTV9r"==b)window.datawrapper["yTV9r"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
     </div>
     <div style="width:45%;float:right">
         <iframe id="datawrapper-chart-2Gaea" src="//datawrapper.dwcdn.net/2Gaea/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important;" height="500"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["2Gaea"]={},window.datawrapper["2Gaea"].embedDeltas={"100":787,"200":618,"300":559,"400":517,"500":517,"700":500,"800":500,"900":500,"1000":500},window.datawrapper["2Gaea"].iframe=document.getElementById("datawrapper-chart-2Gaea"),window.datawrapper["2Gaea"].iframe.style.height=window.datawrapper["2Gaea"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["2Gaea"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("2Gaea"==b)window.datawrapper["2Gaea"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
-    </div>
+    </div> -->
     <!-- <p class="instructions-text">Use dropdown menus to filter table; click column headers to sort</p> -->
-    <div id="filters">
-        <!-- <div class="row">
+    <!-- <div id="filters"> -->
+    <!-- <div class="row">
 =======
     <div id="prez-vote-table-container">
         <div class="row">
@@ -241,7 +268,7 @@
             </div>
         </div>
         <div id="filters">
-            <!-- <div class="row">
+             <div class="row">
 >>>>>>> 8fd308f942af850067a2844382dca67deadf2919
                 <div class="large-6 medium-6 small-6 columns">
                     <span id="urban-filter" style="font-weight: bold;"></span>
@@ -264,79 +291,54 @@
                     <span id="amount-filter" style="font-weight: bold;"></span>
                 </div>
             </div> -->
-<<<<<<< HEAD
-    </div>
-    <div id="prez-vote-table-container">
-        <table id="prez-vote-table" cellspacing="0" class="display nowrap">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>Pop.<span class="super-script" style="font-weight:normal">(rank)</span></th>
-                    <th>Income</th>
-                    <th data-priority="1">County</th>
-                    <th data-priority="2" title="Donald Trump (R) def Hillary Clinton (D)">2016</th>
-                    <th data-priortiy="3" title="Barack Obama (D) def Mitt Romney (R)">2012</th>
-                    <th data-priority="4" title="Barack Obama (D) def John McCain (R)">2008</th>
-                    <th data-priority="5" title="George W. Bush (R) def John Kerrey (D)">2004</th>
-                    <th data-priority="6" title="George W. Bush (R) def Al Gore (D)">2000</th>
-                    <th data-priority="7" title="Bill Clinton (D) def Bob Dole (R)">1996</th>
-                    <th data-priority="8" title="Bill Clinton (D) def George H.W. Bush (R)">1992</th>
-                    <th data-priority="9" title="George H.W. Bush (R) def Michael Dukakis (D)">1988</th>
-                    <th data-priority="10" title="Ronald Reagan (R) def Walter Mondale (D)">1984</th>
-                    <th data-priority="11" title="Ronald Reagan (R) def Jimmy Carter (D)">1980</th>
-                </tr>
-            </thead>
-            <tfoot>
-            </tfoot>
-            <tbody>
-            </tbody>
-        </table>
-=======
-        </div>
-        <div class="row">
-            <div style="margin: 10px 0 10px 0;overflow:hidden;float:right;" id="legend">
-                <div class="legend" style="background-color:rgba(53,121,168,.8);">
-                    <p class="legend-text" style="color:#000;">D+20</p>
+    <!--  </div> -->
+    <div class="row">
+        <div class="large-12 columns">
+            <div id="prez-vote-table-container">
+                <div class="row">
+                    <div class="large-12 columns">
+                        <div style="margin: 10px 0 10px 0;overflow:hidden;float:right;" id="legend">
+                            <div class="legend" style="background-color:rgba(53,121,168,.8);">
+                                <p class="legend-text" style="color:#000;">D+20</p>
+                            </div>
+                            <!-- <div class="legend" style="background-color:rgba(53,121,168,.5);">
+                            <p class="legend-text" style="color:#000;"></p>
+                        </div> -->
+                            <div class="legend" style="background-color:rgba(53,121,168,.2);">
+                                <p class="legend-text" style="color:#000;"></p>
+                            </div>
+                            <div class="legend" style="background-color:rgba(128,0,128,.3);">
+                                <p class="legend-text" style="color:#000;">+/-3.5</p>
+                            </div>
+                            <div class="legend" style="background-color:rgba(220, 81, 71,.2);">
+                                <p class="legend-text" style="color:#000;"></p>
+                            </div>
+                            <!-- <div class="legend" style="background-color:rgba(220, 81, 71,.5);">
+                            <p class="legend-text" style="color:#000;"></p>
+                        </div> -->
+                            <div class="legend" style="background-color:rgba(220, 81, 71,.8);">
+                                <p class="legend-text" style="color:#000;">R+20</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="legend" style="background-color:rgba(53,121,168,.5);">
-                    <p class="legend-text" style="color:#000;"></p>
-                </div>
-                <div class="legend" style="background-color:rgba(53,121,168,.2);">
-                    <p class="legend-text" style="color:#000;"></p>
-                </div>
-                <div class="legend" style="background-color:rgba(128,0,128,.3);">
-                    <p class="legend-text" style="color:#000;">+/-3.5</p>
-                </div>
-                <div class="legend" style="background-color:rgba(220, 81, 71,.2);">
-                    <p class="legend-text" style="color:#000;"></p>
-                </div>
-                <div class="legend" style="background-color:rgba(220, 81, 71,.5);">
-                    <p class="legend-text" style="color:#000;"></p>
-                </div>
-                <div class="legend" style="background-color:rgba(220, 81, 71,.8);">
-                    <p class="legend-text" style="color:#000;">R+20</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="large-12 columns">
-                <table id="prez-vote-table" cellspacing="0" class="display nowrap" style="width:100%">
+                <table id="prez-vote-table" cellspacing="0" class="display nowrap">
                     <thead>
                         <tr>
                             <th></th>
-                            <th>Pop.</th>
+                            <th>Pop.<span class="super-script" style="font-weight:normal">(rank)</span></th>
                             <th>Income</th>
                             <th data-priority="1">County</th>
-                            <th data-priority="2">2016</th>
-                            <th data-priortiy="3">2012</th>
-                            <th data-priority="4">2008</th>
-                            <th data-priority="5">2004</th>
-                            <th data-priority="6">2000</th>
-                            <th data-priority="7">1996</th>
-                            <th data-priority="8">1992</th>
-                            <th data-priority="9">1988</th>
-                            <th data-priority="10">1984</th>
-                            <th data-priority="11">1980</th>
+                            <th data-priority="2" title="Donald Trump (R) def Hillary Clinton (D)">2016<br><span class="header-prez-result"><span class="header-dem">DEM</span> 48-43</span></th>
+                            <th data-priortiy="3" title="Barack Obama (D) def Mitt Romney (R)">2012<br><span class="header-prez-result"><span class="header-dem">DEM</span> 52-46</span></th>
+                            <th data-priority="4" title="Barack Obama (D) def John McCain (R)">2008<br><span class="header-prez-result"><span class="header-dem">DEM</span> 54-45</span></th>
+                            <th data-priority="5" title="George W. Bush (R) def John Kerrey (D)">2004<br><span class="header-prez-result"><span class="header-rep">REP</span> 52-47</span></th>
+                            <th data-priority="6" title="George W. Bush (R) def Al Gore (D)">2000<br><span class="header-prez-result"><span class="header-rep">REP</span> 51-42</span></th>
+                            <th data-priority="7" title="Bill Clinton (D) def Bob Dole (R)">1996<br><span class="header-prez-result"><span class="header-rep">REP</span> 46-44</span></th>
+                            <th data-priority="8" title="Bill Clinton (D) def George H.W. Bush (R)">1992<br><span class="header-prez-result"><span class="header-dem">DEM</span> 40-36</span></th>
+                            <th data-priority="9" title="George H.W. Bush (R) def Michael Dukakis (D)">1988<br><span class="header-prez-result"><span class="header-rep">REP</span> 53-45</span></th>
+                            <th data-priority="10" title="Ronald Reagan (R) def Walter Mondale (D)">1984<br><span class="header-prez-result"><span class="header-rep">REP</span> 63-35</span></th>
+                            <th data-priority="11" title="Ronald Reagan (R) def Jimmy Carter (D)">1980<br><span class="header-prez-result"><span class="header-rep">REP</span> 55-31</span></th>
                         </tr>
                     </thead>
                     <tfoot>
@@ -346,7 +348,6 @@
                 </table>
             </div>
         </div>
->>>>>>> 8fd308f942af850067a2844382dca67deadf2919
     </div>
     <script>
     var dataFile = 'colorado-prez-results.json'
@@ -367,18 +368,17 @@
                 'url': dataFile,
                 'dataSrc': ''
             },
-<<<<<<< HEAD
-            pageLength: 64,
-=======
-            pageLength: 100,
->>>>>>> 8fd308f942af850067a2844382dca67deadf2919
+            //pageLength: 64,
             // responsive: {
             //     details: {
             //         type: 'column'
             //     }
             // },
-            //scrollX: true,
-            //fixedHeader: true,
+            scrollY: "500px",
+            scrollCollapse: true,
+            paging: false,
+            scrollX: true,
+            fixedHeader: true,
             dom: 'frti',
             rowCallback: function(row, data, index) {
                 function colorCells(demPct, repPct, colNum) {
