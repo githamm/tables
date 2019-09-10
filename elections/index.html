@@ -35,8 +35,11 @@
     }*/
 
     .table-title {
-        line-height: 125%;
+        font-size: 2.6rem;
+        line-height: 115%;
         font-weight: 700;
+        text-align: center;
+        margin-bottom: 30px;
     }
 
     table,
@@ -71,7 +74,7 @@
     }
 
     #prez-vote-table {
-    	width: 1350px !important;
+        width: 1350px !important;
     }
 
     .cell-contents {
@@ -238,14 +241,29 @@
     .header-rep {
         color: rgba(220, 81, 71, .8);
     }
+
+    #table-instructions {
+        width: 400px;
+        height: 300px;
+        border: 1px solid silver;
+        padding: 0 0 0 10px;
+        margin: 5px 0 15px 15px;
+    }
     </style>
 </head>
 
 <body>
     <div class="row">
-        <div class="large-12 columns">
-            <h2 class="table-title">Colorado presidential voting 1980-2016</h2>
-            <p class="body-text">Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter. <em>Note: Note and note and note and note and note. <strong>Source: Source</strong></em></p>
+        <div class="large-12 medium-8 medium-centered columns">
+            <h1 class="table-title">Colorado presidential voting 1980-2016</h1>
+        </div>
+        <div class="row">
+            <div class="large-10 large-centered medium-12 columns">
+                <div class="large-12 columns">
+                <img align="right" id="table-instructions" src="prez-table-instructions.svg">
+                    <p class="body-text">Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter. Chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter and chatter. <em>Note: Note and note and note and note and note. <strong>Source: Source</strong></em></p>
+                </div>
+            </div>
         </div>
     </div>
     <!-- MAPS -->
@@ -297,8 +315,7 @@
             <div id="prez-vote-table-container">
                 <div class="row">
                     <div class="large-12 columns">
-                    	<img src="prez-table-instructions.svg" style="width: 500px; height: 500px;">
-                        <div style="margin: 10px 0 10px 0;overflow:hidden;float:right;" id="legend">
+                        <div style="margin: 10px 0 10px 0;overflow:hidden;float:left;" id="legend">
                             <div class="legend" style="background-color:rgba(53,121,168,.8);">
                                 <p class="legend-text" style="color:#000;">D+20</p>
                             </div>
