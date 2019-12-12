@@ -44,7 +44,7 @@
   {
     "district_name": "4-Way Ranch Metropolitan District No. 1",
     "county": "El Paso",
-    "2019_total_levy": 48.69,
+    "2019_total_levy": 48.694,
     "2019_assessed_value": 1804580,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65451"
   },
@@ -93,7 +93,7 @@
   {
     "district_name": "9th Avenue Metropolitan District No. 3",
     "county": "Denver",
-    "2019_total_levy": 11.06,
+    "2019_total_levy": 11.056,
     "2019_assessed_value": 0,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66730"
   },
@@ -198,7 +198,7 @@
   {
     "district_name": "Adonea Metropolitan District No. 2",
     "county": "Arapahoe",
-    "2019_total_levy": 79.23,
+    "2019_total_levy": 79.232,
     "2019_assessed_value": 12999530,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65214"
   },
@@ -247,7 +247,7 @@
   {
     "district_name": "Allison Valley Metropolitan District No. 2",
     "county": "El Paso",
-    "2019_total_levy": 42.86,
+    "2019_total_levy": 42.855,
     "2019_assessed_value": 6102770,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65704"
   },
@@ -345,21 +345,21 @@
   {
     "district_name": "Amber Creek Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 72.01,
+    "2019_total_levy": 72.007,
     "2019_assessed_value": 7312240,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65433"
   },
   {
     "district_name": "Andrews Farm Metropolitan District No. 1",
     "county": "Weld",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.332,
     "2019_assessed_value": 1450,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66967"
   },
   {
     "district_name": "Andrews Farm Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.332,
     "2019_assessed_value": 10,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66968"
   },
@@ -380,35 +380,35 @@
   {
     "district_name": "Anthology West Metropolitan District No. 2",
     "county": "Douglas",
-    "2019_total_levy": 47.35,
+    "2019_total_levy": 47.347,
     "2019_assessed_value": 2467750,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18054"
   },
   {
     "district_name": "Anthology West Metropolitan District No. 2 - Debt Service",
     "county": "Douglas",
-    "2019_total_levy": 24.88,
+    "2019_total_levy": 24.875,
     "2019_assessed_value": 3439100,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18054"
   },
   {
     "district_name": "Anthology West Metropolitan District No. 3",
     "county": "Douglas",
-    "2019_total_levy": 47.35,
+    "2019_total_levy": 47.347,
     "2019_assessed_value": 200,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65336"
   },
   {
     "district_name": "Anthology West Metropolitan District No. 4",
     "county": "Douglas",
-    "2019_total_levy": 22.47,
+    "2019_total_levy": 22.472,
     "2019_assessed_value": 3457700,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66681"
   },
   {
     "district_name": "Anthology West Metropolitan District No. 5",
     "county": "Douglas",
-    "2019_total_levy": 47.35,
+    "2019_total_levy": 47.347,
     "2019_assessed_value": 1690,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66682"
   },
@@ -436,7 +436,7 @@
   {
     "district_name": "Arista Metropolitan District",
     "county": "Broomfield",
-    "2019_total_levy": 80.5,
+    "2019_total_levy": 80.498,
     "2019_assessed_value": 3722560,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65119"
   },
@@ -450,28 +450,28 @@
   {
     "district_name": "Arrowhead Metropolitan District - Debt Service",
     "county": "Eagle",
-    "2019_total_levy": 8.43,
+    "2019_total_levy": 8.426,
     "2019_assessed_value": 59440,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=19001"
   },
   {
     "district_name": "Ash Meadows Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 93.97,
+    "2019_total_levy": 93.972,
     "2019_assessed_value": 1238850,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66487"
   },
   {
     "district_name": "Aspen Highlands Commercial Metropolitan District",
     "county": "Pitkin",
-    "2019_total_levy": 34.19,
+    "2019_total_levy": 34.193,
     "2019_assessed_value": 6727270,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=49032"
   },
   {
     "district_name": "Aspen Highlands Residential Metropolitan District",
     "county": "Pitkin",
-    "2019_total_levy": 40.46,
+    "2019_total_levy": 40.464,
     "2019_assessed_value": 42040880,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=49033"
   },
@@ -499,14 +499,14 @@
   {
     "district_name": "Aspen Reserve Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.277,
     "2019_assessed_value": 3648570,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66678"
   },
   {
     "district_name": "Aspen Springs Metropolitan District",
     "county": "Archuleta",
-    "2019_total_levy": 14.65,
+    "2019_total_levy": 14.647,
     "2019_assessed_value": 13786710,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=04002"
   },
@@ -520,21 +520,21 @@
   {
     "district_name": "Aspen Trails Metropolitan District",
     "county": "La Plata",
-    "2019_total_levy": 11.14,
+    "2019_total_levy": 11.141,
     "2019_assessed_value": 2628980,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65199"
   },
   {
     "district_name": "Aspen Village Metropolitan District",
     "county": "Pitkin",
-    "2019_total_levy": 136.61,
+    "2019_total_levy": 136.612,
     "2019_assessed_value": 3140260,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65198"
   },
   {
     "district_name": "Aurora Centretech Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 42.4,
+    "2019_total_levy": 42.395,
     "2019_assessed_value": 38731516,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03095"
   },
@@ -590,7 +590,7 @@
   {
     "district_name": "Aurora Single Tree Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 45.87,
+    "2019_total_levy": 45.868,
     "2019_assessed_value": 11580010,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=01074"
   },
@@ -674,7 +674,7 @@
   {
     "district_name": "Avon Station Metropolitan District",
     "county": "Eagle",
-    "2019_total_levy": 65.6,
+    "2019_total_levy": 65.596,
     "2019_assessed_value": 12695090,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=19062"
   },
@@ -695,28 +695,28 @@
   {
     "district_name": "Banning Lewis Ranch Metro. District #2",
     "county": "El Paso",
-    "2019_total_levy": 49.75,
+    "2019_total_levy": 49.749,
     "2019_assessed_value": 19976320,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65487"
   },
   {
     "district_name": "Banning Lewis Ranch Metro. District #3",
     "county": "El Paso",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 17423110,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65488"
   },
   {
     "district_name": "Banning Lewis Ranch Metro. District #4",
     "county": "El Paso",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 499530,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65489"
   },
   {
     "district_name": "Banning Lewis Ranch Metro. District #5",
     "county": "El Paso",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 52650,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65490"
   },
@@ -751,7 +751,7 @@
   {
     "district_name": "Banning Lewis Ranch Regional Metropolitan District No. 1",
     "county": "El Paso",
-    "2019_total_levy": 11.06,
+    "2019_total_levy": 11.055,
     "2019_assessed_value": 46540920,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65491"
   },
@@ -779,7 +779,7 @@
   {
     "district_name": "Base Village Metropolitan District No. 2",
     "county": "Pitkin",
-    "2019_total_levy": 45.61,
+    "2019_total_levy": 45.606,
     "2019_assessed_value": 36423750,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65346"
   },
@@ -835,14 +835,14 @@
   {
     "district_name": "Beacon Point Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 52.1,
+    "2019_total_levy": 52.103,
     "2019_assessed_value": 32374133,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65138"
   },
   {
     "district_name": "Beaver Creek Metro",
     "county": "Eagle",
-    "2019_total_levy": 24.87,
+    "2019_total_levy": 24.874,
     "2019_assessed_value": 347137660,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=19004"
   },
@@ -877,14 +877,14 @@
   {
     "district_name": "Beebe Draw Farms Metropolitan District No. 2 - Cap Pledge 2051",
     "county": "Weld",
-    "2019_total_levy": 11.06,
+    "2019_total_levy": 11.056,
     "2019_assessed_value": 788150,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=62113"
   },
   {
     "district_name": "Beebe Draw Farms Metropolitan District No. 2 - Cap Pledge 2055",
     "county": "Weld",
-    "2019_total_levy": 11.06,
+    "2019_total_levy": 11.056,
     "2019_assessed_value": 424500,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=62113"
   },
@@ -898,7 +898,7 @@
   {
     "district_name": "Belford South Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 47.3,
+    "2019_total_levy": 47.295,
     "2019_assessed_value": 94100,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66709"
   },
@@ -919,7 +919,7 @@
   {
     "district_name": "Belleview Place Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 100.28,
+    "2019_total_levy": 100.277,
     "2019_assessed_value": 319020,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66920"
   },
@@ -933,7 +933,7 @@
   {
     "district_name": "Belleview Station Metropolitan District No. 2",
     "county": "Denver",
-    "2019_total_levy": 50.56,
+    "2019_total_levy": 50.559,
     "2019_assessed_value": 42825460,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65522"
   },
@@ -947,7 +947,7 @@
   {
     "district_name": "Belleview Village Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 66619,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66731"
   },
@@ -961,35 +961,35 @@
   {
     "district_name": "Bennett Crossing Metropolitan District No. 1",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 1115420,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66713"
   },
   {
     "district_name": "Bennett Crossing Metropolitan District No. 2",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 20,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66714"
   },
   {
     "district_name": "Bennett Crossing Metropolitan District No. 3",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 20,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66715"
   },
   {
     "district_name": "Bent Grass Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 36.15,
+    "2019_total_levy": 36.149,
     "2019_assessed_value": 4043690,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65928"
   },
   {
     "district_name": "Berry Creek Metropolitan District",
     "county": "Eagle",
-    "2019_total_levy": 14.06,
+    "2019_total_levy": 14.062,
     "2019_assessed_value": 68697050,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=19006"
   },
@@ -1171,7 +1171,7 @@
   {
     "district_name": "Blanca/Fort Garland Metropolitan District",
     "county": "Costilla",
-    "2019_total_levy": 8.56,
+    "2019_total_levy": 8.559,
     "2019_assessed_value": 68986750,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=12002"
   },
@@ -1199,14 +1199,14 @@
   {
     "district_name": "Blue Lake Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 3502190,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65236"
   },
   {
     "district_name": "Blue Lake Metropolitan District No. 3",
     "county": "Weld",
-    "2019_total_levy": 60.28,
+    "2019_total_levy": 60.277,
     "2019_assessed_value": 3970840,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65237"
   },
@@ -1248,28 +1248,28 @@
   {
     "district_name": "BNC Metropolitan District No. 1",
     "county": "Adams",
-    "2019_total_levy": 69.65,
+    "2019_total_levy": 69.649,
     "2019_assessed_value": 11735880,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=01093"
   },
   {
     "district_name": "BNC Metropolitan District No. 2",
     "county": "Adams",
-    "2019_total_levy": 69.65,
+    "2019_total_levy": 69.649,
     "2019_assessed_value": 1799750,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65208"
   },
   {
     "district_name": "BNC Metropolitan District No. 3",
     "county": "Adams",
-    "2019_total_levy": 69.65,
+    "2019_total_levy": 69.649,
     "2019_assessed_value": 33010,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65209"
   },
   {
     "district_name": "Bobcat Meadows Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 12.64,
+    "2019_total_levy": 12.636,
     "2019_assessed_value": 2788680,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=21102"
   },
@@ -1311,7 +1311,7 @@
   {
     "district_name": "Bradburn Metropolitan District No. 3",
     "county": "Adams",
-    "2019_total_levy": 39.83,
+    "2019_total_levy": 39.832,
     "2019_assessed_value": 16923840,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=01100"
   },
@@ -1346,7 +1346,7 @@
   {
     "district_name": "Bramming Farm Metropolitan District No. 1",
     "county": "Adams",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.277,
     "2019_assessed_value": 4303420,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66241"
   },
@@ -1367,7 +1367,7 @@
   {
     "district_name": "Brands East Metropolitan District No. 3",
     "county": "Larimer",
-    "2019_total_levy": 43.12,
+    "2019_total_levy": 43.116,
     "2019_assessed_value": 1059,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66576"
   },
@@ -1479,14 +1479,14 @@
   {
     "district_name": "Brennan Metropolitan District",
     "county": "Boulder",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 2970788,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66685"
   },
   {
     "district_name": "Brighton Crossing Metropolitan District No. 4",
     "county": "Adams",
-    "2019_total_levy": 62.28,
+    "2019_total_levy": 62.277,
     "2019_assessed_value": 24264070,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=01041"
   },
@@ -1521,7 +1521,7 @@
   {
     "district_name": "Bristol Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.332,
     "2019_assessed_value": 451142,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66760"
   },
@@ -1570,7 +1570,7 @@
   {
     "district_name": "Broadway Park North Metropolitan District No. 3",
     "county": "Denver",
-    "2019_total_levy": 16.58,
+    "2019_total_levy": 16.583,
     "2019_assessed_value": 4501410,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66285"
   },
@@ -1619,21 +1619,21 @@
   {
     "district_name": "Bromley Park Metropolitan District No. 2",
     "county": "Adams",
-    "2019_total_levy": 86.03,
+    "2019_total_levy": 86.025,
     "2019_assessed_value": 25962040,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=01039"
   },
   {
     "district_name": "Bromley Park Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 86.03,
+    "2019_total_levy": 86.025,
     "2019_assessed_value": 650930,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=01039"
   },
   {
     "district_name": "Bromley Park Metropolitan District No. 3",
     "county": "Adams",
-    "2019_total_levy": 60.62,
+    "2019_total_levy": 60.622,
     "2019_assessed_value": 26394580,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=01040"
   },
@@ -1668,7 +1668,7 @@
   {
     "district_name": "Brush Creek Metropolitan District",
     "county": "Pitkin",
-    "2019_total_levy": 17.86,
+    "2019_total_levy": 17.864,
     "2019_assessed_value": 18520630,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=49025"
   },
@@ -1689,7 +1689,7 @@
   {
     "district_name": "Buckhorn Valley Metropolitan District No. 2",
     "county": "Eagle",
-    "2019_total_levy": 60.88,
+    "2019_total_levy": 60.875,
     "2019_assessed_value": 9629890,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=19070"
   },
@@ -1703,14 +1703,14 @@
   {
     "district_name": "Buckley Ranch Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 57.03,
+    "2019_total_levy": 57.032,
     "2019_assessed_value": 7013570,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65186"
   },
   {
     "district_name": "Buffalo Highlands Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 70.28,
+    "2019_total_levy": 70.277,
     "2019_assessed_value": 3774710,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65101"
   },
@@ -1731,7 +1731,7 @@
   {
     "district_name": "Buffalo Run Mesa Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 46.46,
+    "2019_total_levy": 46.459,
     "2019_assessed_value": 11050630,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65057"
   },
@@ -1745,7 +1745,7 @@
   {
     "district_name": "Buttermilk Metropolitan District",
     "county": "Pitkin",
-    "2019_total_levy": 7.31,
+    "2019_total_levy": 7.305,
     "2019_assessed_value": 34648120,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=49034"
   },
@@ -1766,7 +1766,7 @@
   {
     "district_name": "Canterberry Crossing Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 27.15,
+    "2019_total_levy": 27.145,
     "2019_assessed_value": 31952620,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18103"
   },
@@ -1787,7 +1787,7 @@
   {
     "district_name": "Canyon Creek Metropolitan District No. 2",
     "county": "El Paso",
-    "2019_total_levy": 42.53,
+    "2019_total_levy": 42.527,
     "2019_assessed_value": 394290,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66091"
   },
@@ -1850,14 +1850,14 @@
   {
     "district_name": "Canyons Metropolitan District No. 5",
     "county": "Douglas",
-    "2019_total_levy": 45.22,
+    "2019_total_levy": 45.222,
     "2019_assessed_value": 13330,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66225"
   },
   {
     "district_name": "Canyons Metropolitan District No. 6",
     "county": "Douglas",
-    "2019_total_levy": 12.06,
+    "2019_total_levy": 12.055,
     "2019_assessed_value": 13320,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66226"
   },
@@ -1885,14 +1885,14 @@
   {
     "district_name": "Carousel Farms Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 47.35,
+    "2019_total_levy": 47.347,
     "2019_assessed_value": 1310440,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66592"
   },
   {
     "district_name": "Carriage Hills Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 5926980,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65641"
   },
@@ -1920,7 +1920,7 @@
   {
     "district_name": "Cascade Village Metropolitan District",
     "county": "Eagle",
-    "2019_total_levy": 8.07,
+    "2019_total_levy": 8.074,
     "2019_assessed_value": 71343000,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=19044"
   },
@@ -1934,7 +1934,7 @@
   {
     "district_name": "Castle Oaks Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 50.42,
+    "2019_total_levy": 50.422,
     "2019_assessed_value": 27354180,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18124"
   },
@@ -1948,7 +1948,7 @@
   {
     "district_name": "Castle Oaks Metropolitan District No. 3",
     "county": "Douglas",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 11727880,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65592"
   },
@@ -1969,7 +1969,7 @@
   {
     "district_name": "Castle Pines Commercial Metropolitan District No. 3",
     "county": "Douglas",
-    "2019_total_levy": 56.88,
+    "2019_total_levy": 56.882,
     "2019_assessed_value": 5946090,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18086"
   },
@@ -1990,7 +1990,7 @@
   {
     "district_name": "Castle Pines Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 33.83,
+    "2019_total_levy": 33.834,
     "2019_assessed_value": 156197430,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18001"
   },
@@ -2053,7 +2053,7 @@
   {
     "district_name": "Cathedral Pines Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 40.33,
+    "2019_total_levy": 40.332,
     "2019_assessed_value": 11288430,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65307"
   },
@@ -2130,7 +2130,7 @@
   {
     "district_name": "Centennial Downs Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 19.06,
+    "2019_total_levy": 19.064,
     "2019_assessed_value": 47957579,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03091"
   },
@@ -2151,21 +2151,21 @@
   {
     "district_name": "Centerra Metropolitan District No. 2 - Bond",
     "county": "Larimer",
-    "2019_total_levy": 6.24,
+    "2019_total_levy": 6.235,
     "2019_assessed_value": 1999548,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65283"
   },
   {
     "district_name": "Centerra Metropolitan District No. 2 - Centerra 2 Flats",
     "county": "Larimer",
-    "2019_total_levy": 15.44,
+    "2019_total_levy": 15.441,
     "2019_assessed_value": 3135,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65283"
   },
   {
     "district_name": "Centerra Metropolitan District No. 2 - Res Debt",
     "county": "Larimer",
-    "2019_total_levy": 10.74,
+    "2019_total_levy": 10.744,
     "2019_assessed_value": 45043,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65283"
   },
@@ -2193,7 +2193,7 @@
   {
     "district_name": "Central Marksheffel Metro. District",
     "county": "El Paso",
-    "2019_total_levy": 33.16,
+    "2019_total_levy": 33.164,
     "2019_assessed_value": 34289830,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65212"
   },
@@ -2221,7 +2221,7 @@
   {
     "district_name": "Chaparral Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 14.65,
+    "2019_total_levy": 14.647,
     "2019_assessed_value": 14400161,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03012"
   },
@@ -2326,7 +2326,7 @@
   {
     "district_name": "Cherry Creek South Metropolitan District No. 1",
     "county": "Douglas",
-    "2019_total_levy": 17.78,
+    "2019_total_levy": 17.775,
     "2019_assessed_value": 47903230,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18053"
   },
@@ -2340,14 +2340,14 @@
   {
     "district_name": "Cherry Hills North Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 8.28,
+    "2019_total_levy": 8.281,
     "2019_assessed_value": 11769322,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03019"
   },
   {
     "district_name": "Cherrylane Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 69.15,
+    "2019_total_levy": 69.152,
     "2019_assessed_value": 2368090,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66409"
   },
@@ -2375,7 +2375,7 @@
   {
     "district_name": "Cielo Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.333,
     "2019_assessed_value": 3580,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66710"
   },
@@ -2396,7 +2396,7 @@
   {
     "district_name": "City Center West Commercial Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 54.39,
+    "2019_total_levy": 54.391,
     "2019_assessed_value": 4018360,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66049"
   },
@@ -2529,28 +2529,28 @@
   {
     "district_name": "College Creek Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 44.22,
+    "2019_total_levy": 44.221,
     "2019_assessed_value": 68310,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65720"
   },
   {
     "district_name": "Colliers Hill Metropolitan District No. 1",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 1875961,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66015"
   },
   {
     "district_name": "Colliers Hill Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 2071270,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66016"
   },
   {
     "district_name": "Colliers Hill Metropolitan District No. 3",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 359670,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66017"
   },
@@ -2564,7 +2564,7 @@
   {
     "district_name": "Colorado City Metropolitan District",
     "county": "Pueblo",
-    "2019_total_levy": 17.97,
+    "2019_total_levy": 17.967,
     "2019_assessed_value": 20724934,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=51007"
   },
@@ -2613,7 +2613,7 @@
   {
     "district_name": "Colorado Inter. Center Metro. Dist. #3",
     "county": "Adams",
-    "2019_total_levy": 67.44,
+    "2019_total_levy": 67.439,
     "2019_assessed_value": 12799860,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65439"
   },
@@ -2662,7 +2662,7 @@
   {
     "district_name": "Colorado International Center Metropolitan District No. 13",
     "county": "Denver",
-    "2019_total_levy": 81.33,
+    "2019_total_levy": 81.334,
     "2019_assessed_value": 2980,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65664"
   },
@@ -2697,7 +2697,7 @@
   {
     "district_name": "Colorado Tech Center Metropolitan District",
     "county": "Boulder",
-    "2019_total_levy": 12.04,
+    "2019_total_levy": 12.042,
     "2019_assessed_value": 128476471,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=07047"
   },
@@ -2725,7 +2725,7 @@
   {
     "district_name": "Comanche Crossing Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 38.32,
+    "2019_total_levy": 38.318,
     "2019_assessed_value": 345916,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66097"
   },
@@ -2739,21 +2739,21 @@
   {
     "district_name": "Compark Business Campus Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 42.28,
+    "2019_total_levy": 42.275,
     "2019_assessed_value": 47630150,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18109"
   },
   {
     "district_name": "Compark Business Campus Metropolitan District - Debt Service (Exclusion)vc",
     "county": "Douglas",
-    "2019_total_levy": 20.78,
+    "2019_total_levy": 20.778,
     "2019_assessed_value": 4112510,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18109"
   },
   {
     "district_name": "Compark Business Campus Metropolitan District - Debt Service 2 (Exclusion)",
     "county": "Douglas",
-    "2019_total_levy": 17.89,
+    "2019_total_levy": 17.891,
     "2019_assessed_value": 1246380,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18109"
   },
@@ -2816,7 +2816,7 @@
   {
     "district_name": "Conservatory Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 52.11,
+    "2019_total_levy": 52.106,
     "2019_assessed_value": 40314011,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65045"
   },
@@ -2830,14 +2830,14 @@
   {
     "district_name": "Constitution Heights Metro. District",
     "county": "El Paso",
-    "2019_total_levy": 27.64,
+    "2019_total_levy": 27.637,
     "2019_assessed_value": 11456430,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65312"
   },
   {
     "district_name": "Copper Mountain Consolidated Metropolitan District",
     "county": "Summit",
-    "2019_total_levy": 39.74,
+    "2019_total_levy": 39.735,
     "2019_assessed_value": 73288940,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=59039"
   },
@@ -2858,14 +2858,14 @@
   {
     "district_name": "Copperleaf Metropolitan District No. 2",
     "county": "Arapahoe",
-    "2019_total_levy": 57.17,
+    "2019_total_levy": 57.165,
     "2019_assessed_value": 44287813,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65394"
   },
   {
     "district_name": "Copperleaf Metropolitan District No. 3",
     "county": "Arapahoe",
-    "2019_total_levy": 62.28,
+    "2019_total_levy": 62.277,
     "2019_assessed_value": 4480812,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65395"
   },
@@ -2886,7 +2886,7 @@
   {
     "district_name": "Copperleaf Metropolitan District No. 6",
     "county": "Arapahoe",
-    "2019_total_levy": 62.28,
+    "2019_total_levy": 62.277,
     "2019_assessed_value": 145,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65398"
   },
@@ -2914,21 +2914,21 @@
   {
     "district_name": "Cordillera Metropolitan District",
     "county": "Eagle",
-    "2019_total_levy": 24.73,
+    "2019_total_levy": 24.733,
     "2019_assessed_value": 76496570,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=19049"
   },
   {
     "district_name": "Cordillera Metropolitan District",
     "county": "Eagle",
-    "2019_total_levy": 44.28,
+    "2019_total_levy": 44.284,
     "2019_assessed_value": 94611250,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65210"
   },
   {
     "district_name": "Cordillera Mountain Metropolitan District",
     "county": "Eagle",
-    "2019_total_levy": 45.2,
+    "2019_total_levy": 45.195,
     "2019_assessed_value": 19913790,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=19058"
   },
@@ -2942,21 +2942,21 @@
   {
     "district_name": "Corinthian Hill Metropolitan District",
     "county": "Summit",
-    "2019_total_levy": 11.07,
+    "2019_total_levy": 11.073,
     "2019_assessed_value": 7007930,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=59008"
   },
   {
     "district_name": "Cornerstar Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 51.25,
+    "2019_total_levy": 51.253,
     "2019_assessed_value": 35946079,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65795"
   },
   {
     "district_name": "Cornerstar Metropolitan District - Bonds",
     "county": "Arapahoe",
-    "2019_total_levy": 37.25,
+    "2019_total_levy": 37.253,
     "2019_assessed_value": 5585480,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65795"
   },
@@ -2984,7 +2984,7 @@
   {
     "district_name": "Cotton Ranch Metropolitan District",
     "county": "Eagle",
-    "2019_total_levy": 44.53,
+    "2019_total_levy": 44.533,
     "2019_assessed_value": 13215680,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=19051"
   },
@@ -3061,7 +3061,7 @@
   {
     "district_name": "Cottonwood Highlands Metropolitan District No. 1",
     "county": "Douglas",
-    "2019_total_levy": 57.35,
+    "2019_total_levy": 57.347,
     "2019_assessed_value": 8428500,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66590"
   },
@@ -3082,7 +3082,7 @@
   {
     "district_name": "Cottonwood Hollow Residential Metro. Dis",
     "county": "Weld",
-    "2019_total_levy": 61.91,
+    "2019_total_levy": 61.911,
     "2019_assessed_value": 11680873,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65348"
   },
@@ -3096,7 +3096,7 @@
   {
     "district_name": "Country Club Highlands Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 27.64,
+    "2019_total_levy": 27.638,
     "2019_assessed_value": 5313660,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65630"
   },
@@ -3117,28 +3117,28 @@
   {
     "district_name": "Country Homes Metro Parcel B",
     "county": "Arapahoe",
-    "2019_total_levy": 8.62,
+    "2019_total_levy": 8.622,
     "2019_assessed_value": 1979616,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03031"
   },
   {
     "district_name": "Countrydale Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 23.38,
+    "2019_total_levy": 23.377,
     "2019_assessed_value": 8882135,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30137"
   },
   {
     "district_name": "Countrydale Metropolitan District - Ex 06",
     "county": "Jefferson",
-    "2019_total_levy": 20.78,
+    "2019_total_levy": 20.777,
     "2019_assessed_value": 56549232,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30137"
   },
   {
     "district_name": "Countryside South Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 33.17,
+    "2019_total_levy": 33.166,
     "2019_assessed_value": 28140,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65717"
   },
@@ -3166,28 +3166,28 @@
   {
     "district_name": "Crescent Canyon Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 35.05,
+    "2019_total_levy": 35.052,
     "2019_assessed_value": 67220,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65718"
   },
   {
     "district_name": "Crested Butte South Metropolitan District",
     "county": "Gunnison",
-    "2019_total_levy": 12.88,
+    "2019_total_levy": 12.876,
     "2019_assessed_value": 24064770,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=26002"
   },
   {
     "district_name": "Cross Creek Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 11.86,
+    "2019_total_levy": 11.859,
     "2019_assessed_value": 34486480,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65200"
   },
   {
     "district_name": "Cross Creek Metropolitan District No. 2",
     "county": "Arapahoe",
-    "2019_total_levy": 60.1,
+    "2019_total_levy": 60.097,
     "2019_assessed_value": 13423508,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65143"
   },
@@ -3208,28 +3208,28 @@
   {
     "district_name": "Crystal Crossing Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 74.12,
+    "2019_total_levy": 74.122,
     "2019_assessed_value": 9898520,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65141"
   },
   {
     "district_name": "Crystal Park Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 4.19,
+    "2019_total_levy": 4.192,
     "2019_assessed_value": 7225820,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=21093"
   },
   {
     "district_name": "Crystal Valley Metropolitan District No. 1",
     "county": "Douglas",
-    "2019_total_levy": 60.28,
+    "2019_total_levy": 60.284,
     "2019_assessed_value": 69520,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18081"
   },
   {
     "district_name": "Crystal Valley Metropolitan District No. 2",
     "county": "Douglas",
-    "2019_total_levy": 60.28,
+    "2019_total_levy": 60.284,
     "2019_assessed_value": 40260310,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18082"
   },
@@ -3250,7 +3250,7 @@
   {
     "district_name": "Cundall Farms Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.332,
     "2019_assessed_value": 10766290,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66186"
   },
@@ -3334,7 +3334,7 @@
   {
     "district_name": "Deer Trails Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 25.01,
+    "2019_total_levy": 25.013,
     "2019_assessed_value": 3381040,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65075"
   },
@@ -3362,7 +3362,7 @@
   {
     "district_name": "Denver Connection West Metropolitan District",
     "county": "Denver",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 4230150,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66743"
   },
@@ -3390,7 +3390,7 @@
   {
     "district_name": "Denver International Business Center Metropolitan District No. 1",
     "county": "Denver",
-    "2019_total_levy": 44.18,
+    "2019_total_levy": 44.175,
     "2019_assessed_value": 31795040,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=16025"
   },
@@ -3411,21 +3411,21 @@
   {
     "district_name": "Denver West Metropolitan District - Ex 04",
     "county": "Jefferson",
-    "2019_total_levy": 23.56,
+    "2019_total_levy": 23.556,
     "2019_assessed_value": 4137710,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30101"
   },
   {
     "district_name": "Denver West Metropolitan District - Ex 14",
     "county": "Jefferson",
-    "2019_total_levy": 27.68,
+    "2019_total_levy": 27.682,
     "2019_assessed_value": 4528753,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30101"
   },
   {
     "district_name": "Denver West Metropolitan District - Ex 98",
     "county": "Jefferson",
-    "2019_total_levy": 0.96,
+    "2019_total_levy": 0.957,
     "2019_assessed_value": 4405848,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30101"
   },
@@ -3488,7 +3488,7 @@
   {
     "district_name": "Divide MPC Metropolitan District No. 2",
     "county": "Teller",
-    "2019_total_levy": 44.26,
+    "2019_total_levy": 44.257,
     "2019_assessed_value": 1288750,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65031"
   },
@@ -3558,7 +3558,7 @@
   {
     "district_name": "Dublin North Metropolitan District No. 3",
     "county": "El Paso",
-    "2019_total_levy": 43.64,
+    "2019_total_levy": 43.637,
     "2019_assessed_value": 1686330,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66023"
   },
@@ -3593,7 +3593,7 @@
   {
     "district_name": "DUS Metropolitan District No. 3",
     "county": "Denver",
-    "2019_total_levy": 27.64,
+    "2019_total_levy": 27.639,
     "2019_assessed_value": 1629821,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66140"
   },
@@ -3719,7 +3719,7 @@
   {
     "district_name": "Eagle-Vail Metropolitan District",
     "county": "Eagle",
-    "2019_total_levy": 20.02,
+    "2019_total_levy": 20.023,
     "2019_assessed_value": 84535390,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=19015"
   },
@@ -3733,14 +3733,14 @@
   {
     "district_name": "Eagles Nest Metropolitan District",
     "county": "Summit",
-    "2019_total_levy": 3.76,
+    "2019_total_levy": 3.757,
     "2019_assessed_value": 66990700,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=59011"
   },
   {
     "district_name": "East Arapahoe Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 9.79,
+    "2019_total_levy": 9.792,
     "2019_assessed_value": 4494680,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03036"
   },
@@ -3754,7 +3754,7 @@
   {
     "district_name": "East Creek Metropolitan District No. 1",
     "county": "Arapahoe",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.277,
     "2019_assessed_value": 480625,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66906"
   },
@@ -3803,7 +3803,7 @@
   {
     "district_name": "East Valley Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 17.72,
+    "2019_total_levy": 17.721,
     "2019_assessed_value": 4520974,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03039"
   },
@@ -3992,14 +3992,14 @@
   {
     "district_name": "Edgemont Ranch Metropolitan District",
     "county": "La Plata",
-    "2019_total_levy": 10.36,
+    "2019_total_levy": 10.356,
     "2019_assessed_value": 25160730,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=34013"
   },
   {
     "district_name": "Edwards Metropolitan District",
     "county": "Eagle",
-    "2019_total_levy": 1.69,
+    "2019_total_levy": 1.691,
     "2019_assessed_value": 170290810,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=19016"
   },
@@ -4013,7 +4013,7 @@
   {
     "district_name": "El Rancho Florida Metropolitan District",
     "county": "La Plata",
-    "2019_total_levy": 23.84,
+    "2019_total_levy": 23.841,
     "2019_assessed_value": 3429370,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=34035"
   },
@@ -4034,14 +4034,14 @@
   {
     "district_name": "Eldorado Village Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 38.7,
+    "2019_total_levy": 38.697,
     "2019_assessed_value": 831890,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65576"
   },
   {
     "district_name": "Elkhorn Ranch Metropolitan District No. 1",
     "county": "Elbert",
-    "2019_total_levy": 62.67,
+    "2019_total_levy": 62.665,
     "2019_assessed_value": 10820700,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65073"
   },
@@ -4076,14 +4076,14 @@
   {
     "district_name": "Erie Commons Metropolitan District No. 1",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 10,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65196"
   },
   {
     "district_name": "Erie Commons Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 24965080,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65197"
   },
@@ -4097,70 +4097,70 @@
   {
     "district_name": "Erie Corporate Center Metro. Dist. #1",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 10,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65286"
   },
   {
     "district_name": "Erie Corporate Center Metro. Dist. #2",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 159190,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65287"
   },
   {
     "district_name": "Erie Corporate Center Metro. Dist. #3",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 394000,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65288"
   },
   {
     "district_name": "Erie Farm Metropolitan District",
     "county": "Boulder",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 9182501,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65691"
   },
   {
     "district_name": "Erie Highlands Metropolitan District No. 1",
     "county": "Weld",
-    "2019_total_levy": 77.39,
+    "2019_total_levy": 77.388,
     "2019_assessed_value": 9410490,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66446"
   },
   {
     "district_name": "Erie Highlands Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 77.39,
+    "2019_total_levy": 77.388,
     "2019_assessed_value": 1948370,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66447"
   },
   {
     "district_name": "Erie Highlands Metropolitan District No. 3",
     "county": "Weld",
-    "2019_total_levy": 22.11,
+    "2019_total_levy": 22.111,
     "2019_assessed_value": 1948370,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66448"
   },
   {
     "district_name": "Erie Highlands Metropolitan District No. 4",
     "county": "Weld",
-    "2019_total_levy": 77.39,
+    "2019_total_levy": 77.388,
     "2019_assessed_value": 1948370,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66449"
   },
   {
     "district_name": "Erie Highlands Metropolitan District No. 5",
     "county": "Weld",
-    "2019_total_levy": 22.11,
+    "2019_total_levy": 22.111,
     "2019_assessed_value": 1948370,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66450"
   },
   {
     "district_name": "Estancia Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 3349178,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65325"
   },
@@ -4188,7 +4188,7 @@
   {
     "district_name": "Fairlake Metropolitan",
     "county": "Denver",
-    "2019_total_levy": 8.31,
+    "2019_total_levy": 8.314,
     "2019_assessed_value": 28708440,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=16014"
   },
@@ -4202,7 +4202,7 @@
   {
     "district_name": "Falcon Highlands Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 39.8,
+    "2019_total_levy": 39.799,
     "2019_assessed_value": 19341810,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65117"
   },
@@ -4216,28 +4216,28 @@
   {
     "district_name": "Fallbrook Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 42.33,
+    "2019_total_levy": 42.333,
     "2019_assessed_value": 21423420,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65450"
   },
   {
     "district_name": "Fallbrook Villas Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.333,
     "2019_assessed_value": 970670,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66676"
   },
   {
     "district_name": "First Creek Ranch Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 75.28,
+    "2019_total_levy": 75.277,
     "2019_assessed_value": 816420,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=01042"
   },
   {
     "district_name": "First Creek Village Metropolitan District",
     "county": "Denver",
-    "2019_total_levy": 82.92,
+    "2019_total_levy": 82.917,
     "2019_assessed_value": 4040700,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66724"
   },
@@ -4272,7 +4272,7 @@
   {
     "district_name": "Five Trees Metropolitan District",
     "county": "Pitkin",
-    "2019_total_levy": 16.01,
+    "2019_total_levy": 16.014,
     "2019_assessed_value": 27821580,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=49036"
   },
@@ -4300,7 +4300,7 @@
   {
     "district_name": "Flat Rock Metropolitan District No. 4",
     "county": "Arapahoe",
-    "2019_total_levy": 57.56,
+    "2019_total_levy": 57.556,
     "2019_assessed_value": 11793,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65973"
   },
@@ -4328,14 +4328,14 @@
   {
     "district_name": "Flying Horse Metropolitan District No. 2",
     "county": "El Paso",
-    "2019_total_levy": 43.24,
+    "2019_total_levy": 43.237,
     "2019_assessed_value": 52796370,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65385"
   },
   {
     "district_name": "Flying Horse Metropolitan District No. 3",
     "county": "El Paso",
-    "2019_total_levy": 41.58,
+    "2019_total_levy": 41.581,
     "2019_assessed_value": 16686320,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65386"
   },
@@ -4349,14 +4349,14 @@
   {
     "district_name": "Foothills Metropolitan District",
     "county": "Larimer",
-    "2019_total_levy": 60.35,
+    "2019_total_levy": 60.351,
     "2019_assessed_value": 14986570,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66392"
   },
   {
     "district_name": "Forest Hills Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 59.79,
+    "2019_total_levy": 59.785,
     "2019_assessed_value": 8963176,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30029"
   },
@@ -4370,7 +4370,7 @@
   {
     "district_name": "Forest Lakes Metropolitan District",
     "county": "La Plata",
-    "2019_total_levy": 35.52,
+    "2019_total_levy": 35.524,
     "2019_assessed_value": 17500540,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=34011"
   },
@@ -4391,7 +4391,7 @@
   {
     "district_name": "Forest Trace Metropolitan District No. 3",
     "county": "Arapahoe",
-    "2019_total_levy": 56.08,
+    "2019_total_levy": 56.078,
     "2019_assessed_value": 10815898,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65779"
   },
@@ -4405,21 +4405,21 @@
   {
     "district_name": "Fossil Ridge Metropolitan District No. 2",
     "county": "Jefferson",
-    "2019_total_levy": 37.67,
+    "2019_total_levy": 37.668,
     "2019_assessed_value": 21813016,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65882"
   },
   {
     "district_name": "Fossil Ridge Metropolitan District No. 3",
     "county": "Jefferson",
-    "2019_total_levy": 37.67,
+    "2019_total_levy": 37.668,
     "2019_assessed_value": 36179503,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65883"
   },
   {
     "district_name": "Founders Village Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 87.25,
+    "2019_total_levy": 87.253,
     "2019_assessed_value": 50829650,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18045"
   },
@@ -4433,7 +4433,7 @@
   {
     "district_name": "Fountain Mutual Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 12.55,
+    "2019_total_levy": 12.554,
     "2019_assessed_value": 13530490,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=21103"
   },
@@ -4447,7 +4447,7 @@
   {
     "district_name": "Four Mile Ranch Metro. Dist. No. 1",
     "county": "Fremont",
-    "2019_total_levy": 63.07,
+    "2019_total_levy": 63.068,
     "2019_assessed_value": 3847544,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65182"
   },
@@ -4489,7 +4489,7 @@
   {
     "district_name": "Foxhill Metropolitan District No. 2",
     "county": "Douglas",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.278,
     "2019_assessed_value": 95260,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65578"
   },
@@ -4517,7 +4517,7 @@
   {
     "district_name": "Fronterra Village Metropolitan District No. 2",
     "county": "Adams",
-    "2019_total_levy": 63.33,
+    "2019_total_levy": 63.334,
     "2019_assessed_value": 11862650,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65104"
   },
@@ -4573,7 +4573,7 @@
   {
     "district_name": "Gardens on Havana Metropolitan District No. 3",
     "county": "Arapahoe",
-    "2019_total_levy": 38.69,
+    "2019_total_levy": 38.694,
     "2019_assessed_value": 595025,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66026"
   },
@@ -4629,7 +4629,7 @@
   {
     "district_name": "Gateway Metropolitan District",
     "county": "Pitkin",
-    "2019_total_levy": 34.58,
+    "2019_total_levy": 34.577,
     "2019_assessed_value": 4984060,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65151"
   },
@@ -4692,14 +4692,14 @@
   {
     "district_name": "Glen Metropolitan District No. 1",
     "county": "El Paso",
-    "2019_total_levy": 54.22,
+    "2019_total_levy": 54.222,
     "2019_assessed_value": 8348290,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65249"
   },
   {
     "district_name": "Glen Metropolitan District No. 2",
     "county": "El Paso",
-    "2019_total_levy": 54.22,
+    "2019_total_levy": 54.222,
     "2019_assessed_value": 7877390,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65250"
   },
@@ -4755,7 +4755,7 @@
   {
     "district_name": "Gold Hill Mesa Metropolitan District #2",
     "county": "El Paso",
-    "2019_total_levy": 38.15,
+    "2019_total_levy": 38.146,
     "2019_assessed_value": 234810,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65383"
   },
@@ -4825,7 +4825,7 @@
   {
     "district_name": "Goldsmith Metropolitan District Block K Subarea",
     "county": "Arapahoe",
-    "2019_total_levy": 98.92,
+    "2019_total_levy": 98.921,
     "2019_assessed_value": 8635482,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=64067"
   },
@@ -4839,7 +4839,7 @@
   {
     "district_name": "Granby Ranch Metropolitan District",
     "county": "Grand",
-    "2019_total_levy": 24.53,
+    "2019_total_levy": 24.534,
     "2019_assessed_value": 12910250,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65194"
   },
@@ -4944,7 +4944,7 @@
   {
     "district_name": "Grand Mesa Metropolitan District #2",
     "county": "Mesa",
-    "2019_total_levy": 50.37,
+    "2019_total_levy": 50.367,
     "2019_assessed_value": 3763380,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=39048"
   },
@@ -5007,28 +5007,28 @@
   {
     "district_name": "Great Western Park Metropolitan District No. 2",
     "county": "Broomfield",
-    "2019_total_levy": 52.76,
+    "2019_total_levy": 52.758,
     "2019_assessed_value": 13180820,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66089"
   },
   {
     "district_name": "Great Western Park Metropolitan District No. 3",
     "county": "Broomfield",
-    "2019_total_levy": 57.48,
+    "2019_total_levy": 57.475,
     "2019_assessed_value": 1165150,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65008"
   },
   {
     "district_name": "Green Gables Metropolitan District No. 1",
     "county": "Jefferson",
-    "2019_total_levy": 66.54,
+    "2019_total_levy": 66.536,
     "2019_assessed_value": 8389079,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66393"
   },
   {
     "district_name": "Green Gables Metropolitan District No. 2",
     "county": "Jefferson",
-    "2019_total_levy": 64.27,
+    "2019_total_levy": 64.267,
     "2019_assessed_value": 3205552,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66394"
   },
@@ -5056,7 +5056,7 @@
   {
     "district_name": "Green Valley Ranch E. Metro. Dist. #6",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 10,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65321"
   },
@@ -5070,35 +5070,35 @@
   {
     "district_name": "Green Valley Ranch E. Metro. Dist. #8",
     "county": "Adams",
-    "2019_total_levy": 22.11,
+    "2019_total_levy": 22.111,
     "2019_assessed_value": 10,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65323"
   },
   {
     "district_name": "Greens Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 55.46,
+    "2019_total_levy": 55.456,
     "2019_assessed_value": 1785860,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65129"
   },
   {
     "district_name": "Greenspire Metropolitan District No. 1",
     "county": "Weld",
-    "2019_total_levy": 42.12,
+    "2019_total_levy": 42.124,
     "2019_assessed_value": 3700,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65126"
   },
   {
     "district_name": "Greenspire Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 42.12,
+    "2019_total_levy": 42.124,
     "2019_assessed_value": 2273900,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65127"
   },
   {
     "district_name": "Greenspire Metropolitan District No. 3",
     "county": "Weld",
-    "2019_total_levy": 42.12,
+    "2019_total_levy": 42.124,
     "2019_assessed_value": 145750,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65128"
   },
@@ -5196,7 +5196,7 @@
   {
     "district_name": "GVR Metropolitan District",
     "county": "Denver",
-    "2019_total_levy": 20.09,
+    "2019_total_levy": 20.094,
     "2019_assessed_value": 133104590,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=16011"
   },
@@ -5217,14 +5217,14 @@
   {
     "district_name": "Hammond Farm Metropolitan District No. 2",
     "county": "Larimer",
-    "2019_total_levy": 70.23,
+    "2019_total_levy": 70.225,
     "2019_assessed_value": 3558773,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66699"
   },
   {
     "district_name": "Hammond Farm Metropolitan District No. 3",
     "county": "Larimer",
-    "2019_total_levy": 65.16,
+    "2019_total_levy": 65.157,
     "2019_assessed_value": 145,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66700"
   },
@@ -5266,7 +5266,7 @@
   {
     "district_name": "Harris Park Metropolitan District",
     "county": "Park",
-    "2019_total_levy": 11.82,
+    "2019_total_levy": 11.819,
     "2019_assessed_value": 6351610,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=47006"
   },
@@ -5315,7 +5315,7 @@
   {
     "district_name": "Hawthorn Metropolitan District No. 2",
     "county": "Jefferson",
-    "2019_total_levy": 75.52,
+    "2019_total_levy": 75.518,
     "2019_assessed_value": 7856472,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66382"
   },
@@ -5371,7 +5371,7 @@
   {
     "district_name": "Heather Gardens Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 14.31,
+    "2019_total_levy": 14.308,
     "2019_assessed_value": 38951350,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03024"
   },
@@ -5413,14 +5413,14 @@
   {
     "district_name": "Heritage Ridge Metropolitan District",
     "county": "Larimer",
-    "2019_total_levy": 70.28,
+    "2019_total_levy": 70.278,
     "2019_assessed_value": 4408888,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66623"
   },
   {
     "district_name": "Heritage Todd Creek Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 64.3,
+    "2019_total_levy": 64.302,
     "2019_assessed_value": 34119230,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65092"
   },
@@ -5441,7 +5441,7 @@
   {
     "district_name": "Hidden Valley Farm Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 65.83,
+    "2019_total_levy": 65.831,
     "2019_assessed_value": 5774690,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66459"
   },
@@ -5455,35 +5455,35 @@
   {
     "district_name": "High Plains Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 66.11,
+    "2019_total_levy": 66.105,
     "2019_assessed_value": 34918090,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65140"
   },
   {
     "district_name": "High Plains Metropolitan District No. 1",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.278,
     "2019_assessed_value": 498990,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66029"
   },
   {
     "district_name": "High Plains Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.278,
     "2019_assessed_value": 498990,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66030"
   },
   {
     "district_name": "High Plains Metropolitan District No. 3",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.278,
     "2019_assessed_value": 498990,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66031"
   },
   {
     "district_name": "High Plains Metropolitan District No. 4",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.278,
     "2019_assessed_value": 498990,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66032"
   },
@@ -5504,7 +5504,7 @@
   {
     "district_name": "High Point Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 71.61,
+    "2019_total_levy": 71.614,
     "2019_assessed_value": 3732480,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65297"
   },
@@ -5553,7 +5553,7 @@
   {
     "district_name": "Highlands Metropolitan District No. 2",
     "county": "Broomfield",
-    "2019_total_levy": 58.67,
+    "2019_total_levy": 58.671,
     "2019_assessed_value": 102570,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66034"
   },
@@ -5574,7 +5574,7 @@
   {
     "district_name": "Highlands Metropolitan District No. 3",
     "county": "Broomfield",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 30,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66786"
   },
@@ -5595,7 +5595,7 @@
   {
     "district_name": "Highlands Ranch Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 11.21,
+    "2019_total_levy": 11.205,
     "2019_assessed_value": 1559885700,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65783"
   },
@@ -5609,7 +5609,7 @@
   {
     "district_name": "Highline Crossing Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 70.38,
+    "2019_total_levy": 70.383,
     "2019_assessed_value": 1578497,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66696"
   },
@@ -5630,7 +5630,7 @@
   {
     "district_name": "Highpointe Vista Metropolitan District No. 2",
     "county": "Larimer",
-    "2019_total_levy": 38.69,
+    "2019_total_levy": 38.694,
     "2019_assessed_value": 15014172,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65483"
   },
@@ -5651,7 +5651,7 @@
   {
     "district_name": "Highway 119 Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.333,
     "2019_assessed_value": 14429729,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66181"
   },
@@ -5707,7 +5707,7 @@
   {
     "district_name": "Hills at Cherry Creek Metro. District",
     "county": "Arapahoe",
-    "2019_total_levy": 9.09,
+    "2019_total_levy": 9.094,
     "2019_assessed_value": 19587503,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65242"
   },
@@ -5721,21 +5721,21 @@
   {
     "district_name": "Hilltop at DIA Metropolitan District No. 1",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 56720,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66843"
   },
   {
     "district_name": "Hilltop at DIA Metropolitan District No. 2",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 2910,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66844"
   },
   {
     "district_name": "Hilltop at DIA Metropolitan District No. 3",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 2530,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66845"
   },
@@ -5826,14 +5826,14 @@
   {
     "district_name": "Holland Hills Metropolitan District",
     "county": "Pitkin",
-    "2019_total_levy": 16.32,
+    "2019_total_levy": 16.324,
     "2019_assessed_value": 2987040,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=49035"
   },
   {
     "district_name": "Holland Hills Metropolitan District - Bond Subdistrict",
     "county": "Pitkin",
-    "2019_total_levy": 38.91,
+    "2019_total_levy": 38.913,
     "2019_assessed_value": 3112560,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=49035"
   },
@@ -5854,7 +5854,7 @@
   {
     "district_name": "Homestead Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 50.3,
+    "2019_total_levy": 50.297,
     "2019_assessed_value": 410970,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65800"
   },
@@ -5910,7 +5910,7 @@
   {
     "district_name": "Horizon Metropolitan District No. 2",
     "county": "Arapahoe",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.277,
     "2019_assessed_value": 4136,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65596"
   },
@@ -5987,7 +5987,7 @@
   {
     "district_name": "Horse Mountain Ranch Metropolitan District",
     "county": "Eagle",
-    "2019_total_levy": 16.58,
+    "2019_total_levy": 16.583,
     "2019_assessed_value": 2069390,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=19056"
   },
@@ -6008,7 +6008,7 @@
   {
     "district_name": "Hudson Hills Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.332,
     "2019_assessed_value": 642040,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65238"
   },
@@ -6071,14 +6071,14 @@
   {
     "district_name": "Hunting Hill Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 5828030,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65901"
   },
   {
     "district_name": "Huntington Trails Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 31.26,
+    "2019_total_levy": 31.255,
     "2019_assessed_value": 14513920,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=01085"
   },
@@ -6099,7 +6099,7 @@
   {
     "district_name": "Hyland Village Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 27.64,
+    "2019_total_levy": 27.638,
     "2019_assessed_value": 4841377,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65801"
   },
@@ -6120,21 +6120,21 @@
   {
     "district_name": "Iliff Commons Metropolitan District No. 2",
     "county": "Arapahoe",
-    "2019_total_levy": 55.7,
+    "2019_total_levy": 55.696,
     "2019_assessed_value": 3940904,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65668"
   },
   {
     "district_name": "Iliff Commons Metropolitan District No. 3",
     "county": "Arapahoe",
-    "2019_total_levy": 67.38,
+    "2019_total_levy": 67.379,
     "2019_assessed_value": 1746616,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65669"
   },
   {
     "district_name": "Independence Metropolitan District No. 1",
     "county": "Elbert",
-    "2019_total_levy": 71.86,
+    "2019_total_levy": 71.857,
     "2019_assessed_value": 20,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66870"
   },
@@ -6169,7 +6169,7 @@
   {
     "district_name": "Indian Mountain Metropolitan District",
     "county": "Park",
-    "2019_total_levy": 6.94,
+    "2019_total_levy": 6.943,
     "2019_assessed_value": 19190690,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=47008"
   },
@@ -6183,14 +6183,14 @@
   {
     "district_name": "Indy Oak TOD Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 111.28,
+    "2019_total_levy": 111.277,
     "2019_assessed_value": 754730,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66794"
   },
   {
     "district_name": "Inspiration Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 67.44,
+    "2019_total_levy": 67.437,
     "2019_assessed_value": 31183840,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65064"
   },
@@ -6204,7 +6204,7 @@
   {
     "district_name": "Interlocken Metro District Bonds",
     "county": "Broomfield",
-    "2019_total_levy": 27.31,
+    "2019_total_levy": 27.312,
     "2019_assessed_value": 4802250,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=07060"
   },
@@ -6295,7 +6295,7 @@
   {
     "district_name": "Jay Grove Metropolitan District",
     "county": "Boulder",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 162041,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66990"
   },
@@ -6323,7 +6323,7 @@
   {
     "district_name": "Jefferson Center Metropolitan District No. 1",
     "county": "Jefferson",
-    "2019_total_levy": 55.06,
+    "2019_total_levy": 55.064,
     "2019_assessed_value": 14928999,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30119"
   },
@@ -6358,7 +6358,7 @@
   {
     "district_name": "Johnstown Plaza Metropolitan District",
     "county": "Larimer",
-    "2019_total_levy": 26.6,
+    "2019_total_levy": 26.598,
     "2019_assessed_value": 11651640,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66655"
   },
@@ -6400,7 +6400,7 @@
   {
     "district_name": "Jordan Crossing Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 47.28,
+    "2019_total_levy": 47.275,
     "2019_assessed_value": 2950140,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65556"
   },
@@ -6428,7 +6428,7 @@
   {
     "district_name": "Ken-Caryl Ranch Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 19.68,
+    "2019_total_levy": 19.678,
     "2019_assessed_value": 193370882,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30116"
   },
@@ -6498,7 +6498,7 @@
   {
     "district_name": "Knollwood Metropolitan District",
     "county": "Boulder",
-    "2019_total_levy": 29.76,
+    "2019_total_levy": 29.757,
     "2019_assessed_value": 7130002,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=07019"
   },
@@ -6526,21 +6526,21 @@
   {
     "district_name": "Lake Creek Metropolitan District",
     "county": "Eagle",
-    "2019_total_levy": 10.46,
+    "2019_total_levy": 10.458,
     "2019_assessed_value": 15748150,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=19021"
   },
   {
     "district_name": "Lake of the Rockies Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 54.01,
+    "2019_total_levy": 54.006,
     "2019_assessed_value": 2738140,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66256"
   },
   {
     "district_name": "Lakes at Centerra Metropolitan District No. 2",
     "county": "Larimer",
-    "2019_total_levy": 75.79,
+    "2019_total_levy": 75.785,
     "2019_assessed_value": 12295103,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65874"
   },
@@ -6561,7 +6561,7 @@
   {
     "district_name": "Lakes Metropolitan District No. 2",
     "county": "Adams",
-    "2019_total_levy": 53.07,
+    "2019_total_levy": 53.067,
     "2019_assessed_value": 1853260,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65759"
   },
@@ -6617,7 +6617,7 @@
   {
     "district_name": "Lambertson Farms Metropolitan District No. 2",
     "county": "Broomfield",
-    "2019_total_levy": 38.41,
+    "2019_total_levy": 38.413,
     "2019_assessed_value": 15232600,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65109"
   },
@@ -6687,7 +6687,7 @@
   {
     "district_name": "Lanterns Rock Creek Metropolitan District",
     "county": "Boulder",
-    "2019_total_levy": 37.64,
+    "2019_total_levy": 37.638,
     "2019_assessed_value": 426010,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66991"
   },
@@ -6778,49 +6778,49 @@
   {
     "district_name": "Lewis Pointe Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 75.18,
+    "2019_total_levy": 75.177,
     "2019_assessed_value": 11958610,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66116"
   },
   {
     "district_name": "Leyden Ranch Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 49.75,
+    "2019_total_levy": 49.749,
     "2019_assessed_value": 6988422,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66379"
   },
   {
     "district_name": "Leyden Rock Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 60.04,
+    "2019_total_levy": 60.041,
     "2019_assessed_value": 52054407,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66354"
   },
   {
     "district_name": "Liberty Hill Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 7.34,
+    "2019_total_levy": 7.341,
     "2019_assessed_value": 11291607,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03056"
   },
   {
     "district_name": "Liberty Mead Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 51.96,
+    "2019_total_levy": 51.961,
     "2019_assessed_value": 2660230,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66489"
   },
   {
     "district_name": "Liberty Ranch Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 63.28,
+    "2019_total_levy": 63.277,
     "2019_assessed_value": 8954995,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65496"
   },
   {
     "district_name": "Lincoln Creek Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 62.66,
+    "2019_total_levy": 62.662,
     "2019_assessed_value": 2879950,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65406"
   },
@@ -6876,7 +6876,7 @@
   {
     "district_name": "Littleton Village Metropolitan District No. 2",
     "county": "Arapahoe",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 12456259,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66469"
   },
@@ -6890,7 +6890,7 @@
   {
     "district_name": "Liverpool Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 28.28,
+    "2019_total_levy": 28.279,
     "2019_assessed_value": 26425012,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03132"
   },
@@ -6939,14 +6939,14 @@
   {
     "district_name": "Lorson Ranch Metropolitan District No. 2",
     "county": "El Paso",
-    "2019_total_levy": 64.03,
+    "2019_total_levy": 64.028,
     "2019_assessed_value": 15866730,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65350"
   },
   {
     "district_name": "Lorson Ranch Metropolitan District No. 3",
     "county": "El Paso",
-    "2019_total_levy": 63.02,
+    "2019_total_levy": 63.019,
     "2019_assessed_value": 13933210,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65351"
   },
@@ -6988,7 +6988,7 @@
   {
     "district_name": "Loveland Midtown Metropolitan District",
     "county": "Larimer",
-    "2019_total_levy": 44.22,
+    "2019_total_levy": 44.222,
     "2019_assessed_value": 4543302,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65376"
   },
@@ -7016,7 +7016,7 @@
   {
     "district_name": "Lyons Ridge Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 65.83,
+    "2019_total_levy": 65.826,
     "2019_assessed_value": 9162777,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66257"
   },
@@ -7072,7 +7072,7 @@
   {
     "district_name": "Marvella Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 99.4,
+    "2019_total_levy": 99.404,
     "2019_assessed_value": 3642179,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65789"
   },
@@ -7086,7 +7086,7 @@
   {
     "district_name": "Mayfield Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 90.28,
+    "2019_total_levy": 90.277,
     "2019_assessed_value": 1953110,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65626"
   },
@@ -7184,7 +7184,7 @@
   {
     "district_name": "Meadowbrook-Fairview Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 8.49,
+    "2019_total_levy": 8.489,
     "2019_assessed_value": 48110762,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30062"
   },
@@ -7198,7 +7198,7 @@
   {
     "district_name": "Meadowood Metropolitan District",
     "county": "Pitkin",
-    "2019_total_levy": 19.53,
+    "2019_total_levy": 19.527,
     "2019_assessed_value": 23649200,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65985"
   },
@@ -7282,7 +7282,7 @@
   {
     "district_name": "Meridian Ranch Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 27.5,
+    "2019_total_levy": 27.498,
     "2019_assessed_value": 60871200,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=21106"
   },
@@ -7303,14 +7303,14 @@
   {
     "district_name": "Meridian Village Metro. District #1",
     "county": "Douglas",
-    "2019_total_levy": 56.06,
+    "2019_total_levy": 56.055,
     "2019_assessed_value": 4302950,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65278"
   },
   {
     "district_name": "Meridian Village Metro. District #2",
     "county": "Douglas",
-    "2019_total_levy": 56.06,
+    "2019_total_levy": 56.055,
     "2019_assessed_value": 65687560,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65279"
   },
@@ -7359,35 +7359,35 @@
   {
     "district_name": "Mesa Ridge Metropolitan District No. 2",
     "county": "El Paso",
-    "2019_total_levy": 55.17,
+    "2019_total_levy": 55.167,
     "2019_assessed_value": 7031850,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65388"
   },
   {
     "district_name": "Mid Valley Metropolitan District",
     "county": "Eagle",
-    "2019_total_levy": 0.29,
+    "2019_total_levy": 0.289,
     "2019_assessed_value": 116522450,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=64211"
   },
   {
     "district_name": "Mid Valley Metropolitan District",
     "county": "Garfield",
-    "2019_total_levy": 0.29,
+    "2019_total_levy": 0.289,
     "2019_assessed_value": 6730300,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=64211"
   },
   {
     "district_name": "MidCities Metropolitan District No. 2",
     "county": "Broomfield",
-    "2019_total_levy": 42.32,
+    "2019_total_levy": 42.318,
     "2019_assessed_value": 42144400,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=07066"
   },
   {
     "district_name": "MidCities Metropolitan District No. 2 - Bond Exclusion",
     "county": "Broomfield",
-    "2019_total_levy": 30.88,
+    "2019_total_levy": 30.875,
     "2019_assessed_value": 7615880,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=07066"
   },
@@ -7415,7 +7415,7 @@
   {
     "district_name": "Midtown at Clear Creek Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 54.75,
+    "2019_total_levy": 54.747,
     "2019_assessed_value": 21235190,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=67018"
   },
@@ -7450,14 +7450,14 @@
   {
     "district_name": "Mirabelle Metropolitan District No. 1",
     "county": "Douglas",
-    "2019_total_levy": 27.64,
+    "2019_total_levy": 27.638,
     "2019_assessed_value": 11220,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18018"
   },
   {
     "district_name": "Mirabelle Metropolitan District No. 2",
     "county": "Douglas",
-    "2019_total_levy": 27.64,
+    "2019_total_levy": 27.638,
     "2019_assessed_value": 20,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66756"
   },
@@ -7492,77 +7492,77 @@
   {
     "district_name": "Morgan Hill Metropolitan District No. 1",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 3559220,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66093"
   },
   {
     "district_name": "Morgan Hill Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 22068810,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66094"
   },
   {
     "district_name": "Morgan Hill Metropolitan District No. 3",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 36651620,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66095"
   },
   {
     "district_name": "Morningview Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 44.22,
+    "2019_total_levy": 44.223,
     "2019_assessed_value": 1882080,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66457"
   },
   {
     "district_name": "Morrison Creek Metropolitan Water & Sanitation District",
     "county": "Routt",
-    "2019_total_levy": 18.64,
+    "2019_total_levy": 18.638,
     "2019_assessed_value": 18310530,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=54006"
   },
   {
     "district_name": "Mount Carbon Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 40.57,
+    "2019_total_levy": 40.569,
     "2019_assessed_value": 976424,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30068"
   },
   {
     "district_name": "Mount Carbon Metropolitan District - Ex 00",
     "county": "Jefferson",
-    "2019_total_levy": 21.93,
+    "2019_total_levy": 21.929,
     "2019_assessed_value": 635151,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30068"
   },
   {
     "district_name": "Mount Carbon Metropolitan District - Ex 07",
     "county": "Jefferson",
-    "2019_total_levy": 21.93,
+    "2019_total_levy": 21.929,
     "2019_assessed_value": 57125711,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30068"
   },
   {
     "district_name": "Mount Carbon Metropolitan District - Ex 08",
     "county": "Jefferson",
-    "2019_total_levy": 21.93,
+    "2019_total_levy": 21.929,
     "2019_assessed_value": 1108555,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30068"
   },
   {
     "district_name": "Mount Carbon Metropolitan District - Ex 16",
     "county": "Jefferson",
-    "2019_total_levy": 21.93,
+    "2019_total_levy": 21.929,
     "2019_assessed_value": 6029,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30068"
   },
   {
     "district_name": "Mount Carbon Metropolitan District - Ex 87",
     "county": "Jefferson",
-    "2019_total_levy": 21.93,
+    "2019_total_levy": 21.929,
     "2019_assessed_value": 15572,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30068"
   },
@@ -7576,7 +7576,7 @@
   {
     "district_name": "Mountain Shadows Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 68.54,
+    "2019_total_levy": 68.543,
     "2019_assessed_value": 17217508,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65268"
   },
@@ -7597,7 +7597,7 @@
   {
     "district_name": "Mountain Valley Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 38.35,
+    "2019_total_levy": 38.347,
     "2019_assessed_value": 1860450,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66739"
   },
@@ -7611,7 +7611,7 @@
   {
     "district_name": "Mountain Vista Metropolitan District",
     "county": "Eagle",
-    "2019_total_levy": 26.15,
+    "2019_total_levy": 26.153,
     "2019_assessed_value": 2991070,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=19072"
   },
@@ -7632,14 +7632,14 @@
   {
     "district_name": "Mountain's Edge Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 90.28,
+    "2019_total_levy": 90.277,
     "2019_assessed_value": 2829822,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66429"
   },
   {
     "district_name": "Muegge Farms Metropolitan District No. 1",
     "county": "Adams",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.333,
     "2019_assessed_value": 5530,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=67001"
   },
@@ -7688,21 +7688,21 @@
   {
     "district_name": "Murphy Creek Metropolitan District No. 3",
     "county": "Arapahoe",
-    "2019_total_levy": 53.11,
+    "2019_total_levy": 53.107,
     "2019_assessed_value": 31570230,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03151"
   },
   {
     "district_name": "Murphy Creek Metropolitan District No. 4",
     "county": "Arapahoe",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 6079,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65732"
   },
   {
     "district_name": "Murphy Creek Metropolitan District No. 5",
     "county": "Arapahoe",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 1880,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66837"
   },
@@ -7723,7 +7723,7 @@
   {
     "district_name": "Neu Towne Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 51.36,
+    "2019_total_levy": 51.364,
     "2019_assessed_value": 7220090,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65362"
   },
@@ -7758,35 +7758,35 @@
   {
     "district_name": "North End Metropolitan District No. 1",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 311560,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66117"
   },
   {
     "district_name": "North End Metropolitan District No. 2",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 311560,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66118"
   },
   {
     "district_name": "North End Metropolitan District No. 3",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 311560,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66119"
   },
   {
     "district_name": "North End Metropolitan District No. 4",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 311560,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66120"
   },
   {
     "district_name": "North Holly Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.332,
     "2019_assessed_value": 94640,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65499"
   },
@@ -7842,7 +7842,7 @@
   {
     "district_name": "North Pine Vistas Metropolitan District No. 3",
     "county": "Douglas",
-    "2019_total_levy": 66.29,
+    "2019_total_levy": 66.288,
     "2019_assessed_value": 5210010,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66361"
   },
@@ -7856,7 +7856,7 @@
   {
     "district_name": "North Range Metropolitan District No. 1",
     "county": "Adams",
-    "2019_total_levy": 88.31,
+    "2019_total_levy": 88.305,
     "2019_assessed_value": 58292260,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=01096"
   },
@@ -7877,7 +7877,7 @@
   {
     "district_name": "North Range Metropolitan District No. 2",
     "county": "Adams",
-    "2019_total_levy": 88.31,
+    "2019_total_levy": 88.305,
     "2019_assessed_value": 16346370,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=01097"
   },
@@ -7891,28 +7891,28 @@
   {
     "district_name": "North Range Metropolitan District No. 3",
     "county": "Adams",
-    "2019_total_levy": 88.31,
+    "2019_total_levy": 88.305,
     "2019_assessed_value": 19870,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65026"
   },
   {
     "district_name": "North Range Metropolitan District No. 4",
     "county": "Adams",
-    "2019_total_levy": 88.31,
+    "2019_total_levy": 88.305,
     "2019_assessed_value": 230,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65027"
   },
   {
     "district_name": "North Range Metropolitan District No. 5",
     "county": "Adams",
-    "2019_total_levy": 88.31,
+    "2019_total_levy": 88.305,
     "2019_assessed_value": 395610,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65028"
   },
   {
     "district_name": "North Range Village Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 74.06,
+    "2019_total_levy": 74.064,
     "2019_assessed_value": 10241090,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=01077"
   },
@@ -8052,14 +8052,14 @@
   {
     "district_name": "NP125 Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 55.46,
+    "2019_total_levy": 55.456,
     "2019_assessed_value": 3690283,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66479"
   },
   {
     "district_name": "Oak Park Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 38.08,
+    "2019_total_levy": 38.076,
     "2019_assessed_value": 1310437,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65195"
   },
@@ -8101,7 +8101,7 @@
   {
     "district_name": "Orchard Farms Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 73.28,
+    "2019_total_levy": 73.277,
     "2019_assessed_value": 5264340,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66035"
   },
@@ -8129,21 +8129,21 @@
   {
     "district_name": "Orchard Valley Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 19.69,
+    "2019_total_levy": 19.686,
     "2019_assessed_value": 44528061,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03085"
   },
   {
     "district_name": "Overlook Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 47.35,
+    "2019_total_levy": 47.347,
     "2019_assessed_value": 3896330,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66600"
   },
   {
     "district_name": "Paint Brush Hills Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 19.9,
+    "2019_total_levy": 19.902,
     "2019_assessed_value": 21257170,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=21074"
   },
@@ -8157,42 +8157,42 @@
   {
     "district_name": "Painted Prairie Metro. District #1",
     "county": "Adams",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.277,
     "2019_assessed_value": 20,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65545"
   },
   {
     "district_name": "Painted Prairie Metro. District #2",
     "county": "Adams",
-    "2019_total_levy": 66.38,
+    "2019_total_levy": 66.382,
     "2019_assessed_value": 7140,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65546"
   },
   {
     "district_name": "Painted Prairie Metro. District #3",
     "county": "Adams",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.277,
     "2019_assessed_value": 10,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65547"
   },
   {
     "district_name": "Painted Prairie Metro. District #4",
     "county": "Adams",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.277,
     "2019_assessed_value": 10,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65548"
   },
   {
     "district_name": "Painted Prairie Metro. District #5",
     "county": "Adams",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.277,
     "2019_assessed_value": 10,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65549"
   },
   {
     "district_name": "Painted Prairie Metro. District #6",
     "county": "Adams",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.277,
     "2019_assessed_value": 10,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65550"
   },
@@ -8220,21 +8220,21 @@
   {
     "district_name": "Painted Prairie Metropolitan District No. 7",
     "county": "Adams",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.277,
     "2019_assessed_value": 10,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66921"
   },
   {
     "district_name": "Painted Prairie Metropolitan District No. 8",
     "county": "Adams",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.277,
     "2019_assessed_value": 10,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66922"
   },
   {
     "district_name": "Painted Prairie Metropolitan District No. 9",
     "county": "Adams",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.277,
     "2019_assessed_value": 10,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66923"
   },
@@ -8248,21 +8248,21 @@
   {
     "district_name": "Palisade Metropolitan District No. 2",
     "county": "Broomfield",
-    "2019_total_levy": 52.02,
+    "2019_total_levy": 52.018,
     "2019_assessed_value": 209070,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65836"
   },
   {
     "district_name": "Palisade Park North Metropolitan District No. 1",
     "county": "Broomfield",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.332,
     "2019_assessed_value": 37910,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65840"
   },
   {
     "district_name": "Palisade Park North Metropolitan District No. 2",
     "county": "Broomfield",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.332,
     "2019_assessed_value": 40,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66711"
   },
@@ -8318,21 +8318,21 @@
   {
     "district_name": "Park Meadows Metro",
     "county": "Douglas",
-    "2019_total_levy": 6.39,
+    "2019_total_levy": 6.387,
     "2019_assessed_value": 355349910,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18039"
   },
   {
     "district_name": "Parkdale Metropolitan District No. 1",
     "county": "Boulder",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 38581,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66896"
   },
   {
     "district_name": "Parkdale Metropolitan District No. 2",
     "county": "Boulder",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 72078,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66897"
   },
@@ -8353,21 +8353,21 @@
   {
     "district_name": "Parker Homestead Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 47.19,
+    "2019_total_levy": 47.185,
     "2019_assessed_value": 12485830,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66298"
   },
   {
     "district_name": "Parker Jordan Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 19.63,
+    "2019_total_levy": 19.633,
     "2019_assessed_value": 82190299,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03103"
   },
   {
     "district_name": "Parker Jordan Metropolitan District-Bonds",
     "county": "Arapahoe",
-    "2019_total_levy": 15.63,
+    "2019_total_levy": 15.633,
     "2019_assessed_value": 43063344,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03103"
   },
@@ -8416,7 +8416,7 @@
   {
     "district_name": "Parkway Circle Metropolitan District",
     "county": "Broomfield",
-    "2019_total_levy": 33.17,
+    "2019_total_levy": 33.167,
     "2019_assessed_value": 25137860,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65076"
   },
@@ -8430,14 +8430,14 @@
   {
     "district_name": "Parterre Metropolitan District No. 1",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 40,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66098"
   },
   {
     "district_name": "Parterre Metropolitan District No. 2",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 40,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66099"
   },
@@ -8563,14 +8563,14 @@
   {
     "district_name": "Penrith Park Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.333,
     "2019_assessed_value": 1330,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66868"
   },
   {
     "district_name": "Perry Park Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 4.73,
+    "2019_total_levy": 4.733,
     "2019_assessed_value": 34625490,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18029"
   },
@@ -8584,7 +8584,7 @@
   {
     "district_name": "Piedra Park Metropolitan Improvement District",
     "county": "Archuleta",
-    "2019_total_levy": 7.38,
+    "2019_total_levy": 7.384,
     "2019_assessed_value": 3636510,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=04007"
   },
@@ -8633,7 +8633,7 @@
   {
     "district_name": "Piney Creek Village Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 40.86,
+    "2019_total_levy": 40.863,
     "2019_assessed_value": 9693469,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03165"
   },
@@ -8647,7 +8647,7 @@
   {
     "district_name": "Pinon Pines Metropolitan District No. 1",
     "county": "El Paso",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.278,
     "2019_assessed_value": 6898210,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65226"
   },
@@ -8738,7 +8738,7 @@
   {
     "district_name": "Platte River Ranch South Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 19.44,
+    "2019_total_levy": 19.441,
     "2019_assessed_value": 8795890,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66694"
   },
@@ -8759,7 +8759,7 @@
   {
     "district_name": "Plaza Metropolitan District No. 3",
     "county": "Jefferson",
-    "2019_total_levy": 25.42,
+    "2019_total_levy": 25.416,
     "2019_assessed_value": 4437801,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65046"
   },
@@ -8780,7 +8780,7 @@
   {
     "district_name": "Polo Reserve Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 33.44,
+    "2019_total_levy": 33.439,
     "2019_assessed_value": 6459333,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65146"
   },
@@ -8906,7 +8906,7 @@
   {
     "district_name": "Prairie Center Metropolitan District No. 5",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 1995140,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65682"
   },
@@ -8920,7 +8920,7 @@
   {
     "district_name": "Prairie Center Metropolitan District No. 7",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 6820,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65684"
   },
@@ -8941,21 +8941,21 @@
   {
     "district_name": "Prairie Farm Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 66.28,
+    "2019_total_levy": 66.277,
     "2019_assessed_value": 57150,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65540"
   },
   {
     "district_name": "PrairieStar Metropolitan District No. 1",
     "county": "Larimer",
-    "2019_total_levy": 49.75,
+    "2019_total_levy": 49.749,
     "2019_assessed_value": 10,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66258"
   },
   {
     "district_name": "PrairieStar Metropolitan District No. 2",
     "county": "Larimer",
-    "2019_total_levy": 49.75,
+    "2019_total_levy": 49.749,
     "2019_assessed_value": 4868126,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66259"
   },
@@ -8997,7 +8997,7 @@
   {
     "district_name": "Promenade at Castle Rock Metropolitan District No. 1",
     "county": "Douglas",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 2869300,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66525"
   },
@@ -9137,7 +9137,7 @@
   {
     "district_name": "Purgatory Metropolitan District",
     "county": "La Plata",
-    "2019_total_levy": 27.31,
+    "2019_total_levy": 27.313,
     "2019_assessed_value": 23766050,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=34024"
   },
@@ -9172,7 +9172,7 @@
   {
     "district_name": "RainDance Metropolitan District No. 3",
     "county": "Weld",
-    "2019_total_levy": 43.12,
+    "2019_total_levy": 43.116,
     "2019_assessed_value": 207300,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66497"
   },
@@ -9256,7 +9256,7 @@
   {
     "district_name": "Range View Estates Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.278,
     "2019_assessed_value": 4458280,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66486"
   },
@@ -9270,7 +9270,7 @@
   {
     "district_name": "Ravenna Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 77.21,
+    "2019_total_levy": 77.207,
     "2019_assessed_value": 19489560,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65239"
   },
@@ -9284,7 +9284,7 @@
   {
     "district_name": "Reata Ridge Village Metropolitan District No. 1",
     "county": "Douglas",
-    "2019_total_levy": 47.35,
+    "2019_total_levy": 47.347,
     "2019_assessed_value": 1489230,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66658"
   },
@@ -9305,7 +9305,7 @@
   {
     "district_name": "Reata South Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 58.21,
+    "2019_total_levy": 58.207,
     "2019_assessed_value": 14312600,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65515"
   },
@@ -9340,7 +9340,7 @@
   {
     "district_name": "Regency Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 47.29,
+    "2019_total_levy": 47.287,
     "2019_assessed_value": 6446390,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65557"
   },
@@ -9431,21 +9431,21 @@
   {
     "district_name": "Reserve Metropolitan District No. 2 - Bond 2016A",
     "county": "Gunnison",
-    "2019_total_levy": 39.75,
+    "2019_total_levy": 39.753,
     "2019_assessed_value": 13783440,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=26021"
   },
   {
     "district_name": "Reserve Metropolitan District No. 2 - Bond 2016B",
     "county": "Gunnison",
-    "2019_total_levy": 6.03,
+    "2019_total_levy": 6.034,
     "2019_assessed_value": 11601140,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=26021"
   },
   {
     "district_name": "Reserve Metropolitan District No. 2 - Bond 2016C",
     "county": "Gunnison",
-    "2019_total_levy": 4.75,
+    "2019_total_levy": 4.748,
     "2019_assessed_value": 11601140,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=26021"
   },
@@ -9473,14 +9473,14 @@
   {
     "district_name": "Rex Ranch Metropolitan District",
     "county": "Boulder",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 27850,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66262"
   },
   {
     "district_name": "Richards Farm Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 76.53,
+    "2019_total_levy": 76.527,
     "2019_assessed_value": 5491671,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66613"
   },
@@ -9501,7 +9501,7 @@
   {
     "district_name": "Ridge at Harmony Road Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 41.71,
+    "2019_total_levy": 41.711,
     "2019_assessed_value": 5248250,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66572"
   },
@@ -9536,7 +9536,7 @@
   {
     "district_name": "Ritoro Metropolitan District",
     "county": "Elbert",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.333,
     "2019_assessed_value": 632830,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66045"
   },
@@ -9592,7 +9592,7 @@
   {
     "district_name": "River Park Metropolitan District",
     "county": "Garfield",
-    "2019_total_levy": 49.59,
+    "2019_total_levy": 49.585,
     "2019_assessed_value": 1931150,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65254"
   },
@@ -9613,21 +9613,21 @@
   {
     "district_name": "Riverdale Dunes Metropolitan District No. 1",
     "county": "Adams",
-    "2019_total_levy": 57.76,
+    "2019_total_levy": 57.763,
     "2019_assessed_value": 7295370,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=01066"
   },
   {
     "district_name": "Riverdale Peaks II Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 106.36,
+    "2019_total_levy": 106.363,
     "2019_assessed_value": 2073250,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65081"
   },
   {
     "district_name": "Riverdale Ranch Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.277,
     "2019_assessed_value": 71590,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66882"
   },
@@ -9858,7 +9858,7 @@
   {
     "district_name": "Roxborough Village Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 46.09,
+    "2019_total_levy": 46.087,
     "2019_assessed_value": 69677340,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18055"
   },
@@ -9991,7 +9991,7 @@
   {
     "district_name": "Saddler Ridge Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.276,
     "2019_assessed_value": 1242580,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65190"
   },
@@ -10012,14 +10012,14 @@
   {
     "district_name": "Salisbury Heights Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 47.35,
+    "2019_total_levy": 47.347,
     "2019_assessed_value": 3319210,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66490"
   },
   {
     "district_name": "San Juan River Village Metropolitan District",
     "county": "Archuleta",
-    "2019_total_levy": 8.95,
+    "2019_total_levy": 8.953,
     "2019_assessed_value": 5184620,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=04014"
   },
@@ -10103,7 +10103,7 @@
   {
     "district_name": "Second Creek Farm Metropolitan District No. 2",
     "county": "Adams",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 3510,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65106"
   },
@@ -10131,21 +10131,21 @@
   {
     "district_name": "Section 14 Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 23.8,
+    "2019_total_levy": 23.803,
     "2019_assessed_value": 41154972,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=64181"
   },
   {
     "district_name": "Section 14 Metropolitan District",
     "county": "Denver",
-    "2019_total_levy": 23.67,
+    "2019_total_levy": 23.669,
     "2019_assessed_value": 9315930,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=64181"
   },
   {
     "district_name": "Section 14 Metropolitan District - Debt Only Fairmark (Denver County)",
     "county": "Denver",
-    "2019_total_levy": 5.82,
+    "2019_total_levy": 5.819,
     "2019_assessed_value": 4598240,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=64181"
   },
@@ -10166,14 +10166,14 @@
   {
     "district_name": "Section 14 Metropolitan District - Jefferson Excl 94",
     "county": "Jefferson",
-    "2019_total_levy": 5.82,
+    "2019_total_levy": 5.819,
     "2019_assessed_value": 4915422,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=64181"
   },
   {
     "district_name": "Section 27 Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.333,
     "2019_assessed_value": 1040,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=67000"
   },
@@ -10355,7 +10355,7 @@
   {
     "district_name": "Sheridan Station West Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 66.22,
+    "2019_total_levy": 66.222,
     "2019_assessed_value": 938862,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66735"
   },
@@ -10439,7 +10439,7 @@
   {
     "district_name": "Sierra Ridge Metropolitan District No. 2",
     "county": "Douglas",
-    "2019_total_levy": 65.05,
+    "2019_total_levy": 65.054,
     "2019_assessed_value": 27240360,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65461"
   },
@@ -10453,14 +10453,14 @@
   {
     "district_name": "Silver Dollar Metropolitan District",
     "county": "Gilpin",
-    "2019_total_levy": 5.94,
+    "2019_total_levy": 5.935,
     "2019_assessed_value": 237683092,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=24016"
   },
   {
     "district_name": "Silver Hawk Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 38.7,
+    "2019_total_levy": 38.695,
     "2019_assessed_value": 1445640,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66744"
   },
@@ -10474,84 +10474,84 @@
   {
     "district_name": "Silver Peaks East Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.333,
     "2019_assessed_value": 2390,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66720"
   },
   {
     "district_name": "Silver Peaks Metropolitan District No. 1",
     "county": "Weld",
-    "2019_total_levy": 61.18,
+    "2019_total_levy": 61.181,
     "2019_assessed_value": 6810,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=62118"
   },
   {
     "district_name": "Silver Peaks Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 67.5,
+    "2019_total_levy": 67.503,
     "2019_assessed_value": 8919820,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=62119"
   },
   {
     "district_name": "Silver Peaks Metropolitan District No. 3",
     "county": "Weld",
-    "2019_total_levy": 61.18,
+    "2019_total_levy": 61.181,
     "2019_assessed_value": 4490,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=62120"
   },
   {
     "district_name": "Silver Peaks Metropolitan District No. 4",
     "county": "Weld",
-    "2019_total_levy": 61.18,
+    "2019_total_levy": 61.181,
     "2019_assessed_value": 4490,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=62121"
   },
   {
     "district_name": "Silver Peaks Metropolitan District No. 5",
     "county": "Weld",
-    "2019_total_levy": 61.18,
+    "2019_total_levy": 61.181,
     "2019_assessed_value": 23050,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=62122"
   },
   {
     "district_name": "Silver Peaks Metropolitan District No. 6",
     "county": "Weld",
-    "2019_total_levy": 61.18,
+    "2019_total_levy": 61.181,
     "2019_assessed_value": 10,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66908"
   },
   {
     "district_name": "Silver Peaks Metropolitan District No. 7",
     "county": "Weld",
-    "2019_total_levy": 61.18,
+    "2019_total_levy": 61.181,
     "2019_assessed_value": 10,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66909"
   },
   {
     "district_name": "SilverStone Metropolitan District No. 1",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 5610,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66040"
   },
   {
     "district_name": "SilverStone Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 571670,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66041"
   },
   {
     "district_name": "SilverStone Metropolitan District No. 3",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 124570,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66042"
   },
   {
     "district_name": "Sky Ranch Metropolitan District No. 1",
     "county": "Arapahoe",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.277,
     "2019_assessed_value": 7087,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65416"
   },
@@ -10579,7 +10579,7 @@
   {
     "district_name": "Skyland Metropolitan District",
     "county": "Gunnison",
-    "2019_total_levy": 28.69,
+    "2019_total_levy": 28.694,
     "2019_assessed_value": 23435700,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=26013"
   },
@@ -10600,7 +10600,7 @@
   {
     "district_name": "Smoky Hill Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 21.06,
+    "2019_total_levy": 21.058,
     "2019_assessed_value": 31544882,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03067"
   },
@@ -10649,14 +10649,14 @@
   {
     "district_name": "SoLa Metropolitan District--Commercial",
     "county": "Boulder",
-    "2019_total_levy": 60.05,
+    "2019_total_levy": 60.053,
     "2019_assessed_value": 8149117,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65988"
   },
   {
     "district_name": "SoLa Metropolitan District--Institutional",
     "county": "Boulder",
-    "2019_total_levy": 61.06,
+    "2019_total_levy": 61.056,
     "2019_assessed_value": 273924,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65989"
   },
@@ -10670,7 +10670,7 @@
   {
     "district_name": "Solaris Metropolitan District No. 2",
     "county": "Eagle",
-    "2019_total_levy": 64.94,
+    "2019_total_levy": 64.938,
     "2019_assessed_value": 31544280,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65740"
   },
@@ -10698,7 +10698,7 @@
   {
     "district_name": "Sorrel Ranch Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 62.38,
+    "2019_total_levy": 62.382,
     "2019_assessed_value": 15502230,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65100"
   },
@@ -10726,21 +10726,21 @@
   {
     "district_name": "South Maryland Creek Ranch Metropolitan District",
     "county": "Summit",
-    "2019_total_levy": 63.02,
+    "2019_total_levy": 63.016,
     "2019_assessed_value": 8717520,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66702"
   },
   {
     "district_name": "South Meridian Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 20.27,
+    "2019_total_levy": 20.267,
     "2019_assessed_value": 16962040,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18116"
   },
   {
     "district_name": "South Meridian Metropolitan District - Debt Service",
     "county": "Douglas",
-    "2019_total_levy": 10.67,
+    "2019_total_levy": 10.667,
     "2019_assessed_value": 16127820,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18116"
   },
@@ -10754,7 +10754,7 @@
   {
     "district_name": "South Meridian Metropolitan District - Debt Service 3",
     "county": "Douglas",
-    "2019_total_levy": 10.67,
+    "2019_total_levy": 10.667,
     "2019_assessed_value": 5737290,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18116"
   },
@@ -10782,7 +10782,7 @@
   {
     "district_name": "South Sloan's Lake Metropolitan District No. 2",
     "county": "Denver",
-    "2019_total_levy": 41.38,
+    "2019_total_levy": 41.378,
     "2019_assessed_value": 977461,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66453"
   },
@@ -10852,7 +10852,7 @@
   {
     "district_name": "Southlands Metropolitan District No. 2",
     "county": "Arapahoe",
-    "2019_total_levy": 89.55,
+    "2019_total_levy": 89.548,
     "2019_assessed_value": 11536632,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65087"
   },
@@ -10866,7 +10866,7 @@
   {
     "district_name": "Southshore Metropolitan District No. 2",
     "county": "Arapahoe",
-    "2019_total_levy": 57.55,
+    "2019_total_levy": 57.554,
     "2019_assessed_value": 28049450,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65148"
   },
@@ -10922,14 +10922,14 @@
   {
     "district_name": "Spring Valley Metropolitan District No. 2",
     "county": "Elbert",
-    "2019_total_levy": 65.55,
+    "2019_total_levy": 65.551,
     "2019_assessed_value": 11501260,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65005"
   },
   {
     "district_name": "Spring Valley Metropolitan District No. 3",
     "county": "Elbert",
-    "2019_total_levy": 61.38,
+    "2019_total_levy": 61.379,
     "2019_assessed_value": 133380,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65272"
   },
@@ -10957,28 +10957,28 @@
   {
     "district_name": "Spruce Meadows Metropolitan District",
     "county": "Broomfield",
-    "2019_total_levy": 35.94,
+    "2019_total_levy": 35.938,
     "2019_assessed_value": 8376210,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65240"
   },
   {
     "district_name": "St. Mary's Glacier Metropolitan District",
     "county": "Clear Creek",
-    "2019_total_levy": 20.98,
+    "2019_total_levy": 20.981,
     "2019_assessed_value": 5955700,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=10010"
   },
   {
     "district_name": "St. Vrain Lakes Metropolitan District No. 1",
     "county": "Weld",
-    "2019_total_levy": 71.86,
+    "2019_total_levy": 71.861,
     "2019_assessed_value": 6542487,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65843"
   },
   {
     "district_name": "St. Vrain Lakes Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 71.86,
+    "2019_total_levy": 71.861,
     "2019_assessed_value": 3583683,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65844"
   },
@@ -10992,28 +10992,28 @@
   {
     "district_name": "St. Vrain Lakes Metropolitan District No. 3",
     "county": "Weld",
-    "2019_total_levy": 71.86,
+    "2019_total_levy": 71.861,
     "2019_assessed_value": 2311947,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65845"
   },
   {
     "district_name": "St. Vrain Lakes Metropolitan District No. 4",
     "county": "Weld",
-    "2019_total_levy": 71.86,
+    "2019_total_levy": 71.861,
     "2019_assessed_value": 1341322,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65846"
   },
   {
     "district_name": "Starwood Metropolitan District",
     "county": "Pitkin",
-    "2019_total_levy": 28.55,
+    "2019_total_levy": 28.545,
     "2019_assessed_value": 58544630,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=49020"
   },
   {
     "district_name": "STC Metropolitan District No. 1",
     "county": "Boulder",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.332,
     "2019_assessed_value": 177429,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66441"
   },
@@ -11076,21 +11076,21 @@
   {
     "district_name": "Sterling Ranch Colorado Metropolitan District No. 2",
     "county": "Douglas",
-    "2019_total_levy": 88.44,
+    "2019_total_levy": 88.444,
     "2019_assessed_value": 11401050,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66463"
   },
   {
     "district_name": "Sterling Ranch Colorado Metropolitan District No. 3",
     "county": "Douglas",
-    "2019_total_levy": 88.44,
+    "2019_total_levy": 88.444,
     "2019_assessed_value": 926610,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66464"
   },
   {
     "district_name": "Sterling Ranch Colorado Metropolitan District No. 4",
     "county": "Douglas",
-    "2019_total_levy": 88.44,
+    "2019_total_levy": 88.444,
     "2019_assessed_value": 7900,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66465"
   },
@@ -11118,14 +11118,14 @@
   {
     "district_name": "Sterling Ranch Metropolitan District No. 1",
     "county": "El Paso",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 8710,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66324"
   },
   {
     "district_name": "Sterling Ranch Metropolitan District No. 2",
     "county": "El Paso",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 125380,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66325"
   },
@@ -11146,28 +11146,28 @@
   {
     "district_name": "Stetson Ridge Metropolitan District No. 2",
     "county": "El Paso",
-    "2019_total_levy": 26.99,
+    "2019_total_levy": 26.987,
     "2019_assessed_value": 33394690,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=21109"
   },
   {
     "district_name": "Stetson Ridge Metropolitan District No. 3",
     "county": "El Paso",
-    "2019_total_levy": 38.19,
+    "2019_total_levy": 38.188,
     "2019_assessed_value": 10940130,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65736"
   },
   {
     "district_name": "Stone Canon Ranch Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 60,
+    "2019_total_levy": 59.995,
     "2019_assessed_value": 1641980,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65188"
   },
   {
     "district_name": "Stone Creek Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 66.33,
+    "2019_total_levy": 66.332,
     "2019_assessed_value": 58150,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66542"
   },
@@ -11188,7 +11188,7 @@
   {
     "district_name": "Stonegate Village Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 25.74,
+    "2019_total_levy": 25.738,
     "2019_assessed_value": 86548440,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18043"
   },
@@ -11209,21 +11209,21 @@
   {
     "district_name": "Summerfield Metropolitan District No. 1",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 26250,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66416"
   },
   {
     "district_name": "Summerfield Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 482260,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66417"
   },
   {
     "district_name": "Summerfield Metropolitan District No. 3",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 71060,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66418"
   },
@@ -11272,7 +11272,7 @@
   {
     "district_name": "Sundance Hills Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 9.68,
+    "2019_total_levy": 9.679,
     "2019_assessed_value": 17472082,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03076"
   },
@@ -11405,14 +11405,14 @@
   {
     "district_name": "Sweetgrass Metropolitan District No. 1",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 5250,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65034"
   },
   {
     "district_name": "Sweetgrass Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 9441350,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65035"
   },
@@ -11426,14 +11426,14 @@
   {
     "district_name": "Sylvan Lakes Metropolitan District",
     "county": "Lake",
-    "2019_total_levy": 31.44,
+    "2019_total_levy": 31.437,
     "2019_assessed_value": 1304204,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=33007"
   },
   {
     "district_name": "Table Mountain Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 66.03,
+    "2019_total_levy": 66.033,
     "2019_assessed_value": 8333861,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66431"
   },
@@ -11503,7 +11503,7 @@
   {
     "district_name": "Takoda Metropolitan District",
     "county": "Boulder",
-    "2019_total_levy": 44.22,
+    "2019_total_levy": 44.222,
     "2019_assessed_value": 14346134,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66076"
   },
@@ -11524,7 +11524,7 @@
   {
     "district_name": "Tallman Gulch Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 58.74,
+    "2019_total_levy": 58.741,
     "2019_assessed_value": 4346780,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65645"
   },
@@ -11538,14 +11538,14 @@
   {
     "district_name": "Tallyn's Reach Metropolitan District No. 2",
     "county": "Arapahoe",
-    "2019_total_levy": 54.13,
+    "2019_total_levy": 54.128,
     "2019_assessed_value": 17330720,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03155"
   },
   {
     "district_name": "Tallyn's Reach Metropolitan District No. 3",
     "county": "Arapahoe",
-    "2019_total_levy": 54.13,
+    "2019_total_levy": 54.128,
     "2019_assessed_value": 59856167,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=03156"
   },
@@ -11559,7 +11559,7 @@
   {
     "district_name": "Talon Pointe Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 75.28,
+    "2019_total_levy": 75.277,
     "2019_assessed_value": 902840,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65738"
   },
@@ -11594,42 +11594,42 @@
   {
     "district_name": "Thompson Crossing Metropolitan District No. 2 - Bond",
     "county": "Larimer",
-    "2019_total_levy": 4.16,
+    "2019_total_levy": 4.157,
     "2019_assessed_value": 11551640,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65011"
   },
   {
     "district_name": "Thompson Crossing Metropolitan District No. 3",
     "county": "Larimer",
-    "2019_total_levy": 90.07,
+    "2019_total_levy": 90.074,
     "2019_assessed_value": 1351,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65012"
   },
   {
     "district_name": "Thompson Crossing Metropolitan District No. 4",
     "county": "Larimer",
-    "2019_total_levy": 90.07,
+    "2019_total_levy": 90.074,
     "2019_assessed_value": 15850529,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65588"
   },
   {
     "district_name": "Thompson Crossing Metropolitan District No. 5",
     "county": "Larimer",
-    "2019_total_levy": 90.07,
+    "2019_total_levy": 90.074,
     "2019_assessed_value": 158367,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65589"
   },
   {
     "district_name": "Thompson Crossing Metropolitan District No. 6",
     "county": "Larimer",
-    "2019_total_levy": 90.07,
+    "2019_total_levy": 90.074,
     "2019_assessed_value": 3792246,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65590"
   },
   {
     "district_name": "Three Springs Metropolitan District #1",
     "county": "La Plata",
-    "2019_total_levy": 52.37,
+    "2019_total_levy": 52.374,
     "2019_assessed_value": 17105440,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65565"
   },
@@ -11678,7 +11678,7 @@
   {
     "district_name": "Timbers Estates Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 43.65,
+    "2019_total_levy": 43.652,
     "2019_assessed_value": 2061749,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30107"
   },
@@ -11762,7 +11762,7 @@
   {
     "district_name": "Tollgate Crossing Metropolitan District No. 2",
     "county": "Arapahoe",
-    "2019_total_levy": 57.56,
+    "2019_total_levy": 57.556,
     "2019_assessed_value": 36055639,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65070"
   },
@@ -11790,14 +11790,14 @@
   {
     "district_name": "Town Center Metropolitan District Subdistrict No. 1",
     "county": "Denver",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.278,
     "2019_assessed_value": 7116600,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=16012"
   },
   {
     "district_name": "Town Center Metropolitan District Subdistrict No. 2",
     "county": "Denver",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.278,
     "2019_assessed_value": 8613230,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=16012"
   },
@@ -11811,7 +11811,7 @@
   {
     "district_name": "Traditions Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 40.73,
+    "2019_total_levy": 40.725,
     "2019_assessed_value": 23163034,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65234"
   },
@@ -11937,7 +11937,7 @@
   {
     "district_name": "TransPort Metropolitan District No. 2",
     "county": "Adams",
-    "2019_total_levy": 70.13,
+    "2019_total_levy": 70.132,
     "2019_assessed_value": 556050,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65885"
   },
@@ -12000,7 +12000,7 @@
   {
     "district_name": "Tree Haus Metropolitan District",
     "county": "Routt",
-    "2019_total_levy": 24.8,
+    "2019_total_levy": 24.797,
     "2019_assessed_value": 7571380,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=54025"
   },
@@ -12014,7 +12014,7 @@
   {
     "district_name": "Tri-Pointe Residential Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 48.48,
+    "2019_total_levy": 48.479,
     "2019_assessed_value": 3590270,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=62115"
   },
@@ -12042,7 +12042,7 @@
   {
     "district_name": "Triview Metropolitan District No. 2",
     "county": "El Paso",
-    "2019_total_levy": 15.33,
+    "2019_total_levy": 15.325,
     "2019_assessed_value": 9053500,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65730"
   },
@@ -12084,14 +12084,14 @@
   {
     "district_name": "Twin Buttes Metropolitan District No. 2",
     "county": "La Plata",
-    "2019_total_levy": 70.52,
+    "2019_total_levy": 70.517,
     "2019_assessed_value": 2291280,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66424"
   },
   {
     "district_name": "Twin Buttes Metropolitan District No. 3",
     "county": "La Plata",
-    "2019_total_levy": 71.27,
+    "2019_total_levy": 71.271,
     "2019_assessed_value": 119500,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66425"
   },
@@ -12126,28 +12126,28 @@
   {
     "district_name": "Upper Cottonwood Creek Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 25.42,
+    "2019_total_levy": 25.416,
     "2019_assessed_value": 19084050,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65083"
   },
   {
     "district_name": "Upper Cottonwood Creek Metropolitan District No. 2",
     "county": "El Paso",
-    "2019_total_levy": 44.22,
+    "2019_total_levy": 44.221,
     "2019_assessed_value": 22351970,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65551"
   },
   {
     "district_name": "Upper Cottonwood Creek Metropolitan District No. 3",
     "county": "El Paso",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 7898080,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65552"
   },
   {
     "district_name": "Upper Cottonwood Creek Metropolitan District No. 4",
     "county": "El Paso",
-    "2019_total_levy": 55.29,
+    "2019_total_levy": 55.289,
     "2019_assessed_value": 2735270,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65553"
   },
@@ -12175,7 +12175,7 @@
   {
     "district_name": "Vail Square Metropolitan District No. 3",
     "county": "Eagle",
-    "2019_total_levy": 21.88,
+    "2019_total_levy": 21.875,
     "2019_assessed_value": 7442030,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65510"
   },
@@ -12189,7 +12189,7 @@
   {
     "district_name": "Valentia Court Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 55.15,
+    "2019_total_levy": 55.148,
     "2019_assessed_value": 4067778,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65917"
   },
@@ -12224,7 +12224,7 @@
   {
     "district_name": "Vauxmont Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 77.39,
+    "2019_total_levy": 77.389,
     "2019_assessed_value": 4777228,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65265"
   },
@@ -12238,7 +12238,7 @@
   {
     "district_name": "VDW Metropolitan District No. 2",
     "county": "Larimer",
-    "2019_total_levy": 50.63,
+    "2019_total_levy": 50.633,
     "2019_assessed_value": 20338923,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65133"
   },
@@ -12315,7 +12315,7 @@
   {
     "district_name": "Ventana Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 51.33,
+    "2019_total_levy": 51.332,
     "2019_assessed_value": 3080770,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65555"
   },
@@ -12364,7 +12364,7 @@
   {
     "district_name": "Village at SouthGate Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 51.06,
+    "2019_total_levy": 51.056,
     "2019_assessed_value": 2138960,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66579"
   },
@@ -12406,7 +12406,7 @@
   {
     "district_name": "Village East Community Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 111890,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66684"
   },
@@ -12427,7 +12427,7 @@
   {
     "district_name": "Village East Metropolitan District No. 3",
     "county": "Weld",
-    "2019_total_levy": 38.62,
+    "2019_total_levy": 38.622,
     "2019_assessed_value": 3995180,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66125"
   },
@@ -12448,21 +12448,21 @@
   {
     "district_name": "Villages At Castle Rock Metropolitan District No. 6",
     "county": "Douglas",
-    "2019_total_levy": 76.33,
+    "2019_total_levy": 76.332,
     "2019_assessed_value": 27160180,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18050"
   },
   {
     "district_name": "Villages At Castle Rock Metropolitan District No. 7",
     "county": "Douglas",
-    "2019_total_levy": 15.7,
+    "2019_total_levy": 15.695,
     "2019_assessed_value": 24023330,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18051"
   },
   {
     "district_name": "Villages At Castle Rock Metropolitan District No. 9",
     "county": "Douglas",
-    "2019_total_levy": 87.25,
+    "2019_total_levy": 87.253,
     "2019_assessed_value": 85990,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=18079"
   },
@@ -12539,14 +12539,14 @@
   {
     "district_name": "Villas at Eastlake Reservoir Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.277,
     "2019_assessed_value": 2479520,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66137"
   },
   {
     "district_name": "Villas Metropolitan District",
     "county": "Douglas",
-    "2019_total_levy": 70.59,
+    "2019_total_levy": 70.585,
     "2019_assessed_value": 1492790,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66721"
   },
@@ -12574,7 +12574,7 @@
   {
     "district_name": "Vista Ridge Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 48.08,
+    "2019_total_levy": 48.076,
     "2019_assessed_value": 71924910,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=62123"
   },
@@ -12693,14 +12693,14 @@
   {
     "district_name": "Water Valley Metropolitan District No. 1",
     "county": "Weld",
-    "2019_total_levy": 41.14,
+    "2019_total_levy": 41.139,
     "2019_assessed_value": 34982840,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=62102"
   },
   {
     "district_name": "Water Valley Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 41.14,
+    "2019_total_levy": 41.139,
     "2019_assessed_value": 65477360,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=62103"
   },
@@ -12805,7 +12805,7 @@
   {
     "district_name": "Waterstone Metropolitan District No. 1",
     "county": "Arapahoe",
-    "2019_total_levy": 74.06,
+    "2019_total_levy": 74.062,
     "2019_assessed_value": 145,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65733"
   },
@@ -13050,7 +13050,7 @@
   {
     "district_name": "Westcreek Metropolitan District No. 1",
     "county": "Douglas",
-    "2019_total_levy": 44.48,
+    "2019_total_levy": 44.479,
     "2019_assessed_value": 555090,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65722"
   },
@@ -13064,14 +13064,14 @@
   {
     "district_name": "Westerly Creek Metropolitan District",
     "county": "Denver",
-    "2019_total_levy": 60.19,
+    "2019_total_levy": 60.194,
     "2019_assessed_value": 37598059,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=16033"
   },
   {
     "district_name": "Westerly Creek Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 60.19,
+    "2019_total_levy": 60.194,
     "2019_assessed_value": 2130290,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=16033"
   },
@@ -13127,14 +13127,14 @@
   {
     "district_name": "Westglenn Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 31.37,
+    "2019_total_levy": 31.371,
     "2019_assessed_value": 28665801,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=30103"
   },
   {
     "district_name": "Westown Metropolitan District",
     "county": "Jefferson",
-    "2019_total_levy": 97.86,
+    "2019_total_levy": 97.864,
     "2019_assessed_value": 5042010,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65981"
   },
@@ -13176,7 +13176,7 @@
   {
     "district_name": "Westview Metropolitan District",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.277,
     "2019_assessed_value": 128000,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66599"
   },
@@ -13190,14 +13190,14 @@
   {
     "district_name": "Wheatlands Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 78.29,
+    "2019_total_levy": 78.293,
     "2019_assessed_value": 36669112,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65033"
   },
   {
     "district_name": "Whispering Pines Metro. District #1",
     "county": "Arapahoe",
-    "2019_total_levy": 72.97,
+    "2019_total_levy": 72.965,
     "2019_assessed_value": 10554263,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65463"
   },
@@ -13225,7 +13225,7 @@
   {
     "district_name": "Wild Plum Metropolitan District",
     "county": "Arapahoe",
-    "2019_total_levy": 60.81,
+    "2019_total_levy": 60.805,
     "2019_assessed_value": 2740771,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66876"
   },
@@ -13253,7 +13253,7 @@
   {
     "district_name": "Wildgrass at Rockrimmon Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 44.22,
+    "2019_total_levy": 44.221,
     "2019_assessed_value": 484540,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65915"
   },
@@ -13274,7 +13274,7 @@
   {
     "district_name": "Wildwing Metropolitan District No. 2",
     "county": "Larimer",
-    "2019_total_levy": 54.91,
+    "2019_total_levy": 54.912,
     "2019_assessed_value": 6229064,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65960"
   },
@@ -13288,7 +13288,7 @@
   {
     "district_name": "Wildwing Metropolitan District No. 4",
     "county": "Larimer",
-    "2019_total_levy": 50.47,
+    "2019_total_levy": 50.473,
     "2019_assessed_value": 1344892,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66653"
   },
@@ -13302,7 +13302,7 @@
   {
     "district_name": "Wildwood Ridge Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 48.64,
+    "2019_total_levy": 48.644,
     "2019_assessed_value": 1215350,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66133"
   },
@@ -13316,7 +13316,7 @@
   {
     "district_name": "Willow Bend Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 65.28,
+    "2019_total_levy": 65.278,
     "2019_assessed_value": 2126170,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66477"
   },
@@ -13330,7 +13330,7 @@
   {
     "district_name": "Willow Brook Metropolitan District-Bond Only",
     "county": "Summit",
-    "2019_total_levy": 36.78,
+    "2019_total_levy": 36.783,
     "2019_assessed_value": 5425330,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=59023"
   },
@@ -13351,7 +13351,7 @@
   {
     "district_name": "Wilson Mesa At Telluride Metropolitan District",
     "county": "San Miguel",
-    "2019_total_levy": 22.14,
+    "2019_total_levy": 22.135,
     "2019_assessed_value": 6013570,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=57015"
   },
@@ -13519,7 +13519,7 @@
   {
     "district_name": "Woodmen Road Metropolitan District",
     "county": "El Paso",
-    "2019_total_levy": 11.6,
+    "2019_total_levy": 11.599,
     "2019_assessed_value": 179168730,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65017"
   },
@@ -13540,21 +13540,21 @@
   {
     "district_name": "Wyndham Hill Metropolitan District No. 1",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 11860,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65246"
   },
   {
     "district_name": "Wyndham Hill Metropolitan District No. 2",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 24195650,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65247"
   },
   {
     "district_name": "Wyndham Hill Metropolitan District No. 3",
     "county": "Weld",
-    "2019_total_levy": 55.28,
+    "2019_total_levy": 55.275,
     "2019_assessed_value": 855210,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=65248"
   },
@@ -13575,7 +13575,7 @@
   {
     "district_name": "York Street Metropolitan District",
     "county": "Adams",
-    "2019_total_levy": 76.33,
+    "2019_total_levy": 76.332,
     "2019_assessed_value": 1950450,
     "dola_link": "https://dola.colorado.gov/dlg_portal/filings.jsf?id=66716"
   }

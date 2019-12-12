@@ -27,90 +27,120 @@
     <script src="https://extras.denverpost.com/app/homicide-report/js/d3.v3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js"></script>
-    <!-- <script src="../js/moment.js"></script> -->
+    <style>
+    	@import url('https://fonts.googleapis.com/css?family=Roboto');
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        background-color: #fafafa;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 1%;
+    }
+    .table-title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 120%;
+        padding-top: 5px;
+    }
+
+    #filters {
+        font-size: .85rem;
+    }
+
+    .table-instructions {
+        color: #990012;
+        font-style: italic;
+        text-align: center;
+        font-size: .9rem;
+    }
+
+    #contributions-table-container {
+        margin-top: 10px;
+        padding: 3px;
+    }
+
+    #contributions-table {
+        font-size: .85rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    button.yadcf-filter-reset-button {
+        color: red;
+        margin-left: 10px;
+    }
+
+    select {
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-size: .95rem;
+    }
+
+    .yadcf-filter-range {
+        height: 2.9em;
+        border: 1px solid silver;
+    }
+
+    .filter-text {
+        font-weight: bold;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+
+    /*.row-color {
+        background-color: #e4e4e4 !important;
+    }
+
+    tr {
+        background-color: #fafafa !important;
+        border-bottom: 1px solid silver;
+    }*/
+
+    table,
+    thead,
+    tbody {
+        /*border: 0px solid silver !important;*/
+        font-family: 'Roboto', Helvetica, sans-serif;
+        font-size: .95rem;
+    }
+
+    /*thead {
+        border-bottom: 2px solid #0a0a0a !important;
+    }*/
+
+    button.yadcf-filter-reset-button {
+        color: #990012;
+        font-weight: normal;
+    }
+    </style>
 </head>
 
 <body>
     <div class="row">
-        <div class="large-8 large-centered medium-10 medium-centered columns">
-            <h1 class="title">Colorado<br>U.S. Senate Race</h1>
-            <hr>
-            <h2 class="title"><span id="title-year">2020</span></h2>
+        <div class="large-12 columns">
+            <h1 class="table-title">Search Colorado metropolitan districts</h1>
+            <p>The table shows metropolitan districts in Colorado, the assessed value of the properties in the district and its mill levy, and links to their budgets, directors and election information, and their service plans at the Department of Local Affairs. <em>Note: Some districts are in multiple counties and have multiple records. Source: <a href="https://dola.colorado.gov/lgis/" target="_blank">Colorado Department of Local Affairs</a></em></p>
+            <p class="table-instructions">Click column headers to sort &bull; use dropdown menu to filter by county &bull; scroll right to see full table</p>
         </div>
     </div>
-    <div class="row page-top">
-        <div class="large-11 large-centered columns">
-            <hr>
-            <nav aria-label="You are here:" role="navigation">
-                <ul class="breadcrumbs">
-                    <li><a href="../index.html">Home</a></li>
-                    <li>
-                        <span class="show-for-sr">Current: </span> Lorena Garcia
-                    </li>
-                </ul>
-            </nav>
-            <h3 class="blurb-title">Lorena Garcia <div class="tag-dem"></div>
-            </h3>
-            <img class="blurb-headshot" src="../images/lorena-garcia-cropped.jpg">
-            <p class="blurb-bio">Nonprofit leader, 36</p>
-            <p class="blurb">Garcia, 36, was the first candidate to officially announce on Nov. 27, 2018, less than a month after the election. Garcia has spent her professional career working for different charities and is currently the executive director of the Colorado Statewide Parent Coalition. “Throughout my career, I have had direct experience working in the field with people who are impacted by federal policies,” Garcia told The Denver Post. “I’ve sat with them while they cried when things didn’t pass or didn’t work out right. … I believe we can do much better as a country, starting with Colorado.” &bull; <em><a href="https://www.denverpost.com/tag/lorena-garcia/" target="_blank">Read Lorena Garcia coverage &rarr;</a></em></p>
-        </div>
-    </div>
-    <div class="row" id="fundraising-charts">
-        <div class="large-11 large-centered columns">
-            <div class="callout secondary">
-                <p class="chart-container-title">Fundraising as of <span id="last-quarter-end-date"></span></p>
-                <p>Garcia began the quarter with <span class="highlight">$<span id="candidate-cash-beginning"></span></span> cash on hand and ended it with <span class="highlight">$<span id="candidate-cash"></span></span> cash on hand. She raised <span class="highlight">$<span id="candidate-receipts-last-quarter"></span></span> during the quarter and has raised <span class="highlight">$<span id="candidate-receipts-ytd"></span></span> in the election cycle*.</p>
-                <p class="table-instructions">Hover over or click chart for details</p>
-                <div class="large-4 medium-4 columns">
-                    <p class="chart-title">Quarterly<br>contributions</p>
-                    <div id="donations-quarterly"></div>
-                    <p class="source">Source: <a href="https://www.fec.gov/data/reports/house-senate/?is_amended=false&data_type=processed&committee_id=C00691089&cycle=2020" target="_blank">FEC quarterly report </a>
-                </div>
-                <div class="large-4 medium-4 columns">
-                    <p class="chart-title">Total<br>contributions</p>
-                    <div id="donations-breakdown"></div>
-                    <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00691089/?tab=raising&cycle=2020#total-receipts" target="_blank">FEC total receipts</a>
-                </div>
-                <div class="large-4 medium-4 columns">
-                    <p class="chart-title">Individual<br>contributions</p>
-                    <div id="individual-donations-breakdown"></div>
-                    <p class="source">Source: <a href="https://www.fec.gov/data/committee/C00691089/?tab=raising&cycle=2020" target="_blank">FEC individual contributions</a>
-                </div>
-                <p class="note">*Quarterly and total data may differ due to delayed reporting of some information, such as contribution refunds</p>
-                <p>&nbsp;</p>
-            </div>
-        </div>
-    </div>
-    <div id="contributions-table-container">
-        <div class="row">
-            <div class="large-11 large-centered columns" style="border-top:5px solid #252525;">
-                <h2 class="table-title">Search Lorena Garcia&rsquo;s campaign contributions</h2>
-                <p>Use the dropdown filters to isolate contributions by donor type (PAC, individual, etc.), name, state or employer, or search by a specific term. <em>Source: <a href="https://www.fec.gov/data/receipts/?two_year_transaction_period=2020&committee_id=C00492454&data_type=processed" target="_blank">FEC 2019-20 receipts</a></em></p>
-                <p class="table-instructions">Click column headers to sort &bull; scroll right to see full table</p>
-            </div>
-        </div>
         <div id="filters">
             <div class="row">
-                <div class="large-11 large-centered columns">
-                    <div class="row">
-                        <div class="large-3 medium-3 small-6 columns">
-                            <p id="filter-1"></p>
-                        </div>
-                    </div>
+                <div class="large-3 medium-3 small-12 columns">
+                    <p id="filter-1"></p>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="large-11 large-centered columns">
-                <table id="contributions-table" cellspacing="0" width="100%">
+            <div class="large-12 columns">
+                <table id="metro-districts-table" cellspacing="0" width="100%">
                     <thead>
                         <tr>
                             <th>Name</th>
-                            <th data-priority="4">County</th>
-                            <th data-priority="1">Mill levy</th>
-                            <th data-priority="2">Assessed value</th>
-                            <th data-priority="3">Link</th>
+                            <th>County</th>
+                            <th>Assessed value</th>
+                            <th>Mill levy</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -126,14 +156,14 @@
         function disableDependentFilter(level, inuse) {
             if (level < 4) {
                 filter = $('#yadcf-filter--example-' + level);
-                yadcf.exResetFilters(contributionsTable, [level]);
+                yadcf.exResetFilters(metroDistrictsTable, [level]);
                 filter.prop('disabled', !inuse);
 
                 disableDependentFilter(level + 1, false);
             }
         }
 
-        var contributionsTable = $('#contributions-table').DataTable({
+        var metroDistrictsTable = $('#metro-districts-table').DataTable({
             ajax: {
                 'url': dataFile,
                 'dataSrc': ''
@@ -152,24 +182,18 @@
             // },
             dom: '<if<t>lp>',
             order: [
-                [1, 'desc']
+                [2, 'desc']
             ],
             columns: [
                 //{ data: 'button' },
                 {
-                    data: 'district_name'
+                    data: 'district_name',
+                    render: function(data,type,row) {
+                    	return '<a href="' + row.dola_link + '" target="_blank">' + data + '</a>'
+                    }
                 }, {
                     data: 'county'
                 },
-                {
-                    data: '2019_total_levy'
-                },
-                // {
-                //     data: 'contribution_receipt_amount',
-                //     render: function(data, type, row) {
-                //         return '$' + Math.round(data).toLocaleString()
-                //     }
-                // },
                 {
                     data: '2019_assessed_value',
                     render: function(data, type, row) {
@@ -177,18 +201,21 @@
                     }
                 },
                 {
-                    data: 'dola_link'
+                    data: '2019_total_levy'
+                },
+                {
+                    data: 'dola_link',
+                    visible: false
                 }
             ],
 
             initComplete: function() {
-                yadcf.init(contributionsTable, [{
-                        column_number: 1,
-                        filter_container_id: 'filter-1',
-                        filter_default_label: 'Filter by county',
-                        //data: donorTypes
-                    },
-                ], {
+                yadcf.init(metroDistrictsTable, [{
+                    column_number: 1,
+                    filter_container_id: 'filter-1',
+                    filter_default_label: 'Filter by county',
+                    //data: donorTypes
+                }, ], {
                     cumulative_filtering: true,
                     filter_reset_button_text: 'Reset filter'
                 });
@@ -209,7 +236,6 @@
             }
         });
     });
-    window.addEventListener('DOMContentLoaded', init)
     </script>
 </body>
 
