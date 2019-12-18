@@ -56,26 +56,26 @@ $primaryKey = 'id';
 $columns = array(
     array( 'db' => 'button', 'dt' => 0 ),
     array( 'db' => 'id', 'dt' => 1 ),
-    array( 'db' => 'lobbyistLastName', 'dt' => 2 ),
-    array( 'db' => 'lobbyistCity', 'dt' => 3 ),
-    array( 'db' => 'lobbyistState', 'dt' => 4 ),
-    array( 'db' => 'clientName', 'dt' => 5 ),
-    array( 'db' => 'clientCity', 'dt' => 6 ),
-    array( 'db' => 'clientState', 'dt' => 7 ),
-    array( 'db' => 'billInformationAndPosition', 'dt' => 8 ),
-    array( 'db' => 'reportMonth', 'dt' => 9 ),
-    array( 'db' => 'fiscalYear', 'dt' => 10 ),
-    array( 'db' => 'clientBusinessDescription', 'dt' => 11 ),
-    array( 'db' => 'clientStartDate', 'dt' => 12 ),
-    array( 'db' => 'clientEndDate', 'dt' => 13 ),
-    array( 'db' => 'incomeAmount', 'dt' => 14 )
+    array( 'db' => 'clientName', 'dt' => 2 ),
+    array( 'db' => 'clientCity', 'dt' => 3 ),
+    array( 'db' => 'clientState', 'dt' => 4 ),
+    array( 'db' => 'clientBusinessDescription', 'dt' => 5 ),
+    array( 'db' => 'incomeAmount', 'dt' => 6 ),
+    array( 'db' => 'lobbyistLastName', 'dt' => 7 ),
+    array( 'db' => 'lobbyistCity', 'dt' => 8 ),
+    array( 'db' => 'lobbyistState', 'dt' => 9 ),
+    array( 'db' => 'billInformationAndPosition', 'dt' => 10 ),
+    array( 'db' => 'reportMonth', 'dt' => 11 ),
+    array( 'db' => 'fiscalYear', 'dt' => 12 ),
+    array( 'db' => 'clientStartDate', 'dt' => 13 ),
+    array( 'db' => 'clientEndDate', 'dt' => 14 )
 );
  
 // SQL server connection information - plus server
 // $sql_details = array(
 //     'user' => '',
 //     'pass' => '',
-//     'db'   => 'cmas_2019',
+//     'db'   => 'lobbyists',
 //     'host' => 'localhost'
 // );
 
