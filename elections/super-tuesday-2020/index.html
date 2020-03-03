@@ -96,7 +96,7 @@
 
         th.rotate > div {
           transform: 
-            translate(29px, 41px)
+            translate(29px, 42px)
             rotate(315deg);
           width: 40px;
         }
@@ -109,6 +109,11 @@
           display: inline-block;
           width: 20px;
           line-height: 17px;
+        }
+
+        .credit {
+            font-size: .9rem;
+            font-style: italic;
         }
 
     </style>
@@ -339,10 +344,26 @@
             json.feed.entry[12].gsx$klobucharpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[12].gsx$steyercolor.$t + '">' +
             json.feed.entry[12].gsx$steyerpct.$t + '</td><th class="state-end">' + json.feed.entry[12].gsx$statename.$t + 
-            '</th></tr></tbody></table>'
+            '</th></tr><tr><th class="state">' +
+            json.feed.entry[13].gsx$statename.$t +
+            '<span class="delegates"> &bull; ' + json.feed.entry[13].gsx$delegates.$t + '</span></th><td class="winner-color ' + json.feed.entry[13].gsx$bidencolor.$t + '">' +
+            json.feed.entry[13].gsx$bidenpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[13].gsx$bloombergcolor.$t + '">' +
+            json.feed.entry[13].gsx$bloombergpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[13].gsx$sanderscolor.$t + '">' +
+            json.feed.entry[13].gsx$sanderspct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[13].gsx$warrencolor.$t + '">' +
+            json.feed.entry[13].gsx$warrenpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[13].gsx$buttigiegcolor.$t + '">' +
+            json.feed.entry[13].gsx$buttigiegpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[13].gsx$klobucharcolor.$t + '">' +
+            json.feed.entry[13].gsx$klobucharpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[13].gsx$steyercolor.$t + '">' +
+            json.feed.entry[13].gsx$steyerpct.$t + '</td><th class="state-end">' + json.feed.entry[13].gsx$statename.$t + 
+            '</th></tr></tbody></table><p class="credit">*Withdrawn from race</p>'
         ];
 
-        document.getElementById('vote-table').innerHTML = '<p style="margin-bottom:5px;font-style:italic">Updated at ' + json.feed.entry[0].gsx$updated.$t + '</p><p><span class="legend-color first">&nbsp;</span> First place<br><span class="legend-color second">&nbsp;</span> Second place</p>' + container_html
+        document.getElementById('vote-table').innerHTML = '<p style="margin-bottom:5px;font-style:italic">Updated at ' + json.feed.entry[0].gsx$updated.$t + '</p><p>States are ordered by the number of Democratic delegates available.</p><p><span class="legend-color first">&nbsp;</span> First place<br><span class="legend-color second">&nbsp;</span> Second place</p>' + container_html
     }
     </script>
 </head>
