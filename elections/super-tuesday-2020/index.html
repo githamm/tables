@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Denver 2019 Runoff Election Results</title>
+    <link rel="canonical" href="https://extras.denverpost.com/weather-closures/denver-election-results.html" />
+    <link rel="shortcut icon" href="https://extras.mnginteractive.com/live/media/favIcon/dpo/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Mono" rel="stylesheet">
+    <meta name="distribution" content="global" />
+    <meta name="robots" content="index, nofollow" />
+    <!-- Style sheets -->
+    <link rel="stylesheet" type="text/css" href="https://extras.denverpost.com/foundation/css/foundation.css" />
+    <!-- Scripts -->
+    <script src="https://extras.denverpost.com/foundation/js/vendor/jquery.js "></script>
+    <script src="https://extras.denverpost.com/foundation/js/vendor/modernizr.js"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #fafafa;
+        }
+        table {
+            /*width: 100;*/
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            border-collapse: collapse;
+        }
+
+        table tr:nth-of-type(even) {
+    background-color: transparent !important;
+}
+
+        th td {
+            padding: 0 !important;
+            text-align: center !important;
+        }
+
+        th[colspan="5"], th[colspan="3"] {
+            text-align: center;
+        }
+
+        th, td {
+            text-align: center !important;
+            border: 1px solid #ddd;
+        }
+
+        .winner-color {
+            padding: 5px 15px 5px 15px;
+        }
+
+        .first {
+            background-color: #31a354;
+        }
+
+        .second {
+            background-color: #e5f5e0;
+        }
+
+        .race-title {
+            font-size: 1.5rem;
+            font-family: 'Roboto Condensed', sans-serif;
+            line-height: 25px;
+        }
+
+        .delegates {
+            font-size: .7rem;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        .button {
+            width: 100;
+        }
+    </style>
+    <script type='text/javascript'>
+    //Write a function that allows us to add commas to raw numbers in spreadsheet for display.  2413 becomes 2,413.
+    function addCommas(nStr) {
+        nStr += '';
+        x = nStr.split('.');
+        x1 = x[0];
+        x2 = x.length > 1 ? '.' + x[1] : '';
+        var rgx = /(\d+)(\d{3})/;
+        while (rgx.test(x1)) {
+            x1 = x1.replace(rgx, '$1' + ',' + '$2');
+        }
+        return x1 + x2;
+    }
+
+    // SCHOOLS
+    //this will be executed after we "fetch" the contents of a spreadsheet. The json parameter will hold our spreadsheet's data
+    function displayContent(json) {
+        //start an html table and write out our headers.  Using <td width="20"> tags so it isn't bold and centered, which is the <th> default.
+        //var pre_html = '<table id = "denver-election-results"><tr><td width="20">School district</td><td width="20">Status</td></thead><tbody>';
+        //same as above but gets rid of column headers
+        // var pre_html = '<table id = "denver-election-results"><tbody><tr><td width="20"><em>Updated at ' + json.feed.entry[0].gsx$updated.$t + '</em></td></tr>';
+        //Create an empty string to hold the HTML. We will put table data here.
+        var alabama_html;
+        //After we grab the table, close the HTML table.
+        // var post_html = '</tbody></table>'
+        //figure out how many rows our spreadsheet has
+        var len = json.feed.entry.length
+
+        //loop through the spreadsheet, gathering data
+        //for (var i = 0; i < 7; i++) {
+        //for each row, add the following to actual HTML, grabbing it as a list, and then joining the list together as one long string.
+        //Uses HTML for table cells, and then grabs attributes from the spreadsheet, using appropriate syntax. Enter your table header in the Google spreadsheet between            
+        //the gsx$ and .$t.
+        alabama_html = [
+            '<h2 class="race-title">Alabama <span class="delegates"> &bull; 52 delegates</h2><table id="denver-election-results"><thead><tr><th colspan="1"></th><th colspan="4">Candidates</th><th colspan="3">Withdrawn</th></tr><tr><th></th><th>Biden</th><th>Bloomberg</th><th>Sanders</th><th>Warren</th><th>Buttigieg</th><th>Klobuchar</th><th>Steyer</th></tr></thead><tbody><tr><th>' +
+            json.feed.entry[0].gsx$statename.$t +
+            '<br><span class="delegates">' + json.feed.entry[0].gsx$delegates.$t + '</span></th><td><span class="winner-color ' + json.feed.entry[0].gsx$bidencolor.$t + '">' +
+            json.feed.entry[0].gsx$bidenpct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[0].gsx$bloombergcolor.$t + '">' +
+            json.feed.entry[0].gsx$bloombergpct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[0].gsx$sanderscolor.$t + '">' +
+            json.feed.entry[0].gsx$sanderspct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[0].gsx$warrencolor.$t + '">' +
+            json.feed.entry[0].gsx$warrenpct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[0].gsx$buttigiegcolor.$t + '">' +
+            json.feed.entry[0].gsx$buttigiegpct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[0].gsx$klobucharcolor.$t + '">' +
+            json.feed.entry[0].gsx$klobucharpct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[0].gsx$steyercolor.$t + '">' +
+            json.feed.entry[0].gsx$steyerpct.$t +
+            '</span></td></tr><tr><th>' +
+            json.feed.entry[1].gsx$statename.$t +
+            '<br><span class="delegates">' + json.feed.entry[1].gsx$delegates.$t + '</span></th><td><span class="winner-color ' + json.feed.entry[1].gsx$bidencolor.$t + '">' +
+            json.feed.entry[1].gsx$bidenpct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[1].gsx$bloombergcolor.$t + '">' +
+            json.feed.entry[1].gsx$bloombergpct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[1].gsx$sanderscolor.$t + '">' +
+            json.feed.entry[1].gsx$sanderspct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[1].gsx$warrencolor.$t + '">' +
+            json.feed.entry[1].gsx$warrenpct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[1].gsx$buttigiegcolor.$t + '">' +
+            json.feed.entry[1].gsx$buttigiegpct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[1].gsx$klobucharcolor.$t + '">' +
+            json.feed.entry[1].gsx$klobucharpct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[1].gsx$steyercolor.$t + '">' +
+            json.feed.entry[1].gsx$steyerpct.$t +
+            '</span></td></tr><tr><th>' +
+            json.feed.entry[2].gsx$statename.$t +
+            '<br><span class="delegates">' + json.feed.entry[2].gsx$delegates.$t + '</span></th><td><span class="winner-color ' + json.feed.entry[2].gsx$bidencolor.$t + '">' +
+            json.feed.entry[2].gsx$bidenpct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[2].gsx$bloombergcolor.$t + '">' +
+            json.feed.entry[2].gsx$bloombergpct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[2].gsx$sanderscolor.$t + '">' +
+            json.feed.entry[2].gsx$sanderspct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[2].gsx$warrencolor.$t + '">' +
+            json.feed.entry[2].gsx$warrenpct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[2].gsx$buttigiegcolor.$t + '">' +
+            json.feed.entry[2].gsx$buttigiegpct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[2].gsx$klobucharcolor.$t + '">' +
+            json.feed.entry[2].gsx$klobucharpct.$t +
+            '</span></td><td><span class="winner-color ' + json.feed.entry[2].gsx$steyercolor.$t + '">' +
+            json.feed.entry[2].gsx$steyerpct.$t +
+            '</span></td></tr></tbody></table>'
+        ];
+
+        //put all three of our HTML strings into our div we made at the top of the page
+        document.getElementById('alabama-table').innerHTML = '<p style="margin-bottom:5px;font-style:italic">Updated at ' + json.feed.entry[0].gsx$updated.$t + '</p><p style="font-style:italic;font-weight:bold;margin-bottom:-5px">&#x2713; denotes winner </p><hr>' + alabama_html
+    }
+    </script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="large-4 large-centered medium-6 medium-centered columns">
+            <input type="button" class="button" value="Tap to refresh results" onClick="window.location.reload()">
+            <div id="alabama-table">
+                <script src="https://spreadsheets.google.com/feeds/list/1FonjVCp2EmNITbZ2woldKXk_nPYkILSyziozGJ6_X3Y/od6/public/values?alt=json-in-script&amp;callback=displayContent" type="text/javascript "></script>
+            </div>
+        </div>
+    </div>
+    <script src="https://extras.denverpost.com/foundation/js/foundation.min.js "></script>
+    <script>
+    $(document).foundation();
+    </script>
+    <footer>
+    </footer>
+</body>
+
+</html>
