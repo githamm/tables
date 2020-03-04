@@ -96,7 +96,7 @@
 
         th.rotate > div {
           transform: 
-            translate(29px, 42px)
+            translate(37px, 42px)
             rotate(315deg);
           width: 40px;
         }
@@ -136,12 +136,14 @@
         var len = json.feed.entry.length
 
         container_html = [
-            '<table id="super-tuesday"><thead><tr><th></th><th class="rotate"><div><span>Biden &nbsp; &nbsp; &nbsp; &nbsp;</span></div></th><th class="rotate"><div><span>Bloomberg</span></div></th><th class="rotate"><div><span>Sanders &nbsp; &nbsp; &nbsp;</span></div></th><th class="rotate"><div><span>Warren &nbsp; &nbsp; &nbsp;</span></div></th><th class="rotate"><div><span>Buttigieg*</span></div></th><th class="rotate"><div><span>Klobuchar*</span></div></th><th class="rotate"><div><span>Steyer* &nbsp; &nbsp; &nbsp;</span></div></th></tr></thead><tbody><tr><th class="state">' +
+            '<table id="super-tuesday"><thead><tr><th></th><th class="rotate"><div><span>Biden &nbsp; &nbsp; &nbsp; &nbsp;</span></div></th><th class="rotate"><div><span>Bloomberg</span></div></th><th class="rotate"><div><span>Gabbard &nbsp; &nbsp; &nbsp;</span></div></th><th class="rotate"><div><span>Sanders &nbsp; &nbsp; &nbsp;</span></div></th><th class="rotate"><div><span>Warren &nbsp; &nbsp; &nbsp;</span></div></th><th class="rotate"><div><span>Buttigieg*</span></div></th><th class="rotate"><div><span>Klobuchar*</span></div></th><th class="rotate"><div><span>Steyer* &nbsp; &nbsp; &nbsp;</span></div></th></tr></thead><tbody><tr><th class="state">' +
             json.feed.entry[0].gsx$statename.$t +
             '<span class="delegates"> &bull; ' + json.feed.entry[0].gsx$delegates.$t + '</span></th><td class="winner-color ' + json.feed.entry[0].gsx$bidencolor.$t + '">' +
             json.feed.entry[0].gsx$bidenpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[0].gsx$bloombergcolor.$t + '">' +
             json.feed.entry[0].gsx$bloombergpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[0].gsx$gabbardcolor.$t + '">' +
+            json.feed.entry[0].gsx$gabbardpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[0].gsx$sanderscolor.$t + '">' +
             json.feed.entry[0].gsx$sanderspct.$t +
             '</td><td class="winner-color ' + json.feed.entry[0].gsx$warrencolor.$t + '">' +
@@ -158,6 +160,8 @@
             json.feed.entry[1].gsx$bidenpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[1].gsx$bloombergcolor.$t + '">' +
             json.feed.entry[1].gsx$bloombergpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[1].gsx$gabbardcolor.$t + '">' +
+            json.feed.entry[1].gsx$gabbardpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[1].gsx$sanderscolor.$t + '">' +
             json.feed.entry[1].gsx$sanderspct.$t +
             '</td><td class="winner-color ' + json.feed.entry[1].gsx$warrencolor.$t + '">' +
@@ -174,6 +178,8 @@
             json.feed.entry[2].gsx$bidenpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[2].gsx$bloombergcolor.$t + '">' +
             json.feed.entry[2].gsx$bloombergpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[2].gsx$gabbardcolor.$t + '">' +
+            json.feed.entry[2].gsx$gabbardpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[2].gsx$sanderscolor.$t + '">' +
             json.feed.entry[2].gsx$sanderspct.$t +
             '</td><td class="winner-color ' + json.feed.entry[2].gsx$warrencolor.$t + '">' +
@@ -190,6 +196,8 @@
             json.feed.entry[3].gsx$bidenpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[3].gsx$bloombergcolor.$t + '">' +
             json.feed.entry[3].gsx$bloombergpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[3].gsx$gabbardcolor.$t + '">' +
+            json.feed.entry[3].gsx$gabbardpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[3].gsx$sanderscolor.$t + '">' +
             json.feed.entry[3].gsx$sanderspct.$t +
             '</td><td class="winner-color ' + json.feed.entry[3].gsx$warrencolor.$t + '">' +
@@ -206,6 +214,8 @@
             json.feed.entry[4].gsx$bidenpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[4].gsx$bloombergcolor.$t + '">' +
             json.feed.entry[4].gsx$bloombergpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[4].gsx$gabbardcolor.$t + '">' +
+            json.feed.entry[4].gsx$gabbardpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[4].gsx$sanderscolor.$t + '">' +
             json.feed.entry[4].gsx$sanderspct.$t +
             '</td><td class="winner-color ' + json.feed.entry[4].gsx$warrencolor.$t + '">' +
@@ -222,6 +232,8 @@
             json.feed.entry[5].gsx$bidenpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[5].gsx$bloombergcolor.$t + '">' +
             json.feed.entry[5].gsx$bloombergpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[5].gsx$gabbardcolor.$t + '">' +
+            json.feed.entry[5].gsx$gabbardpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[5].gsx$sanderscolor.$t + '">' +
             json.feed.entry[5].gsx$sanderspct.$t +
             '</td><td class="winner-color ' + json.feed.entry[5].gsx$warrencolor.$t + '">' +
@@ -238,6 +250,8 @@
             json.feed.entry[6].gsx$bidenpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[6].gsx$bloombergcolor.$t + '">' +
             json.feed.entry[6].gsx$bloombergpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[6].gsx$gabbardcolor.$t + '">' +
+            json.feed.entry[6].gsx$gabbardpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[6].gsx$sanderscolor.$t + '">' +
             json.feed.entry[6].gsx$sanderspct.$t +
             '</td><td class="winner-color ' + json.feed.entry[6].gsx$warrencolor.$t + '">' +
@@ -254,6 +268,8 @@
             json.feed.entry[7].gsx$bidenpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[7].gsx$bloombergcolor.$t + '">' +
             json.feed.entry[7].gsx$bloombergpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[7].gsx$gabbardcolor.$t + '">' +
+            json.feed.entry[7].gsx$gabbardpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[7].gsx$sanderscolor.$t + '">' +
             json.feed.entry[7].gsx$sanderspct.$t +
             '</td><td class="winner-color ' + json.feed.entry[7].gsx$warrencolor.$t + '">' +
@@ -270,6 +286,8 @@
             json.feed.entry[8].gsx$bidenpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[8].gsx$bloombergcolor.$t + '">' +
             json.feed.entry[8].gsx$bloombergpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[8].gsx$gabbardcolor.$t + '">' +
+            json.feed.entry[8].gsx$gabbardpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[8].gsx$sanderscolor.$t + '">' +
             json.feed.entry[8].gsx$sanderspct.$t +
             '</td><td class="winner-color ' + json.feed.entry[8].gsx$warrencolor.$t + '">' +
@@ -286,6 +304,8 @@
             json.feed.entry[9].gsx$bidenpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[9].gsx$bloombergcolor.$t + '">' +
             json.feed.entry[9].gsx$bloombergpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[9].gsx$gabbardcolor.$t + '">' +
+            json.feed.entry[9].gsx$gabbardpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[9].gsx$sanderscolor.$t + '">' +
             json.feed.entry[9].gsx$sanderspct.$t +
             '</td><td class="winner-color ' + json.feed.entry[9].gsx$warrencolor.$t + '">' +
@@ -302,6 +322,8 @@
             json.feed.entry[10].gsx$bidenpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[10].gsx$bloombergcolor.$t + '">' +
             json.feed.entry[10].gsx$bloombergpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[10].gsx$gabbardcolor.$t + '">' +
+            json.feed.entry[10].gsx$gabbardpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[10].gsx$sanderscolor.$t + '">' +
             json.feed.entry[10].gsx$sanderspct.$t +
             '</td><td class="winner-color ' + json.feed.entry[10].gsx$warrencolor.$t + '">' +
@@ -318,6 +340,8 @@
             json.feed.entry[11].gsx$bidenpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[11].gsx$bloombergcolor.$t + '">' +
             json.feed.entry[11].gsx$bloombergpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[11].gsx$gabbardcolor.$t + '">' +
+            json.feed.entry[11].gsx$gabbardpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[11].gsx$sanderscolor.$t + '">' +
             json.feed.entry[11].gsx$sanderspct.$t +
             '</td><td class="winner-color ' + json.feed.entry[11].gsx$warrencolor.$t + '">' +
@@ -334,6 +358,8 @@
             json.feed.entry[12].gsx$bidenpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[12].gsx$bloombergcolor.$t + '">' +
             json.feed.entry[12].gsx$bloombergpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[12].gsx$gabbardcolor.$t + '">' +
+            json.feed.entry[12].gsx$gabbardpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[12].gsx$sanderscolor.$t + '">' +
             json.feed.entry[12].gsx$sanderspct.$t +
             '</td><td class="winner-color ' + json.feed.entry[12].gsx$warrencolor.$t + '">' +
@@ -350,6 +376,8 @@
             json.feed.entry[13].gsx$bidenpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[13].gsx$bloombergcolor.$t + '">' +
             json.feed.entry[13].gsx$bloombergpct.$t +
+            '</td><td class="winner-color ' + json.feed.entry[13].gsx$gabbardcolor.$t + '">' +
+            json.feed.entry[13].gsx$gabbardpct.$t +
             '</td><td class="winner-color ' + json.feed.entry[13].gsx$sanderscolor.$t + '">' +
             json.feed.entry[13].gsx$sanderspct.$t +
             '</td><td class="winner-color ' + json.feed.entry[13].gsx$warrencolor.$t + '">' +
@@ -363,7 +391,7 @@
             '</th></tr></tbody></table><p class="credit">*Withdrawn from race</p>'
         ];
 
-        document.getElementById('vote-table').innerHTML = '<p style="margin-bottom:5px;font-style:italic">Updated at ' + json.feed.entry[0].gsx$updated.$t + '</p><p>States are ordered by the number of Democratic delegates available.</p><p><span class="legend-color first">&nbsp;</span> First place<br><span class="legend-color second">&nbsp;</span> Second place</p>' + container_html
+        document.getElementById('vote-table').innerHTML = '<p style="margin-bottom:5px;font-style:italic">Updated at ' + json.feed.entry[0].gsx$updated.$t + '</p><p><strong>&#x2713;</strong> denotes race has been called; states are ordered by the number of Democratic delegates available.</p><p><span class="legend-color first">&nbsp;</span> First place<br><span class="legend-color second">&nbsp;</span> Second place</p>' + container_html
     }
     </script>
 </head>
