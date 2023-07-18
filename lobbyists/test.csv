@@ -1,0 +1,4 @@
+rowId,lobbyistLastName,lobbyistFirstName,lobbyistCity,lobbyistState,clientName,clientCity,clientState,billInformationAndPosition,reportMonth,fiscalYear,clientBusinessDescription,incomeAmount
+,SOARDS,WILLIAM,Englewood,CO,AT&T,DENVER,CO,,April,2012,Business Entity,3063.00
+,Kunkle Consulting LLC,JOHN,DENVER,CO,COLORADO HEALTH CARE ASSOCIATION,DENVER,CO,,February,2014,Professional Association,2500.00
+,POLICY MATTERS,,WESTMINSTER,CO,DENVER PUBLIC SCHOOLS,DENVER,CO,,May,2012,Government,3500.00

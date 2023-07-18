@@ -1,0 +1,781 @@
+[
+{
+    "Facility name": "Alamosa County Public Health Department",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 600
+},
+{
+    "Facility name": "Animas Surgical Hospital*",
+    "Pfizer initial allocation": 115,
+    "Moderna initial allocation": null
+},
+{
+    "Facility name": "Arkansas Valley Regional Medical Center",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 400
+},
+{
+    "Facility name": "Aspen Valley Hospital",
+    "Pfizer initial allocation": 100,
+    "Moderna initial allocation": 500
+},
+{
+    "Facility name": "Baca County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Banner Fort Collins Medical Center",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "Bent County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Boulder County Public Health - Boulder Site",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 600
+},
+{
+    "Facility name": "Boulder County Public Health - Longmont Site",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Castle Rock Adventist Hospital",
+    "Pfizer initial allocation": 415,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "Chaffee County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Cheyenne County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Children's Hospital Colorado*",
+    "Pfizer initial allocation": 4875,
+    "Moderna initial allocation": 6300
+},
+{
+    "Facility name": "Clear Creek County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Clinica Family Health - Boulder",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "Clinica Family Health - Pecos",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "Clinica Family Health - Thornton",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Clinica Family Health - Westminster Federal Heights",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Colorado Canyons Hospital and Medical Center*",
+    "Pfizer initial allocation": 300,
+    "Moderna initial allocation": null
+},
+{
+    "Facility name": "Colorado Department of Corrections Pharmacy",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 500
+},
+{
+    "Facility name": "Colorado Mental Health Institute at Pueblo",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 2300
+},
+{
+    "Facility name": "Colorado Plains Medical Center",
+    "Pfizer initial allocation": 150,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "Colorado West Health Care - Community Hospital",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 1200
+},
+{
+    "Facility name": "Community Health Services",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Conejos County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Costilla County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Custer County Public Health Agency",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Delta County Memorial Hospital",
+    "Pfizer initial allocation": 330,
+    "Moderna initial allocation": 300
+},
+{
+    "Facility name": "Delta County Public Health Department",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Denver Health Medical Center",
+    "Pfizer initial allocation": 2925,
+    "Moderna initial allocation": 5600
+},
+{
+    "Facility name": "Denver Public Health Immunization Clinic",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 400
+},
+{
+    "Facility name": "Dolores County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Eagle County Public Health Avon",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 1100
+},
+{
+    "Facility name": "East Morgan County Hospital",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "El Paso County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 300
+},
+{
+    "Facility name": "Foothills Hospital (Boulder Community)",
+    "Pfizer initial allocation": 975,
+    "Moderna initial allocation": 2000
+},
+{
+    "Facility name": "Fremont County Department of Public Health and Environment",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Gilpin County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Good Samaritan Medical Center",
+    "Pfizer initial allocation": 975,
+    "Moderna initial allocation": 900
+},
+{
+    "Facility name": "Grand County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Grand River Medical Center",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 600
+},
+{
+    "Facility name": "Gunnison County Public Health*",
+    "Pfizer initial allocation": 300,
+    "Moderna initial allocation": 600
+},
+{
+    "Facility name": "Haxtun Hospital District",
+    "Pfizer initial allocation": 50,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Heart of the Rockies Regional Medical Center",
+    "Pfizer initial allocation": 345,
+    "Moderna initial allocation": 300
+},
+{
+    "Facility name": "Hinsdale County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Jefferson County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "Kaiser Permanente Arapahoe Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "Kaiser Permanente Aurora Centrepoint Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 300
+},
+{
+    "Facility name": "Kaiser Permanente Baseline Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Kaiser Permanente Briargate Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Kaiser Permanente Brighton Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Kaiser Permanente East Denver Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Kaiser Permanente Hidden Lake Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "Kaiser Permanente Highlands Ranch Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Kaiser Permanente Lakewood Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 300
+},
+{
+    "Facility name": "Kaiser Permanente Lone Tree Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 500
+},
+{
+    "Facility name": "Kaiser Permanente Longmont Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Kaiser Permanente Rock Creek Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 700
+},
+{
+    "Facility name": "Kaiser Permanente Skyline Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "Kaiser Permanente Smoky Hill Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Kaiser Permanente Southwest Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Kaiser Permanente Westminster Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 300
+},
+{
+    "Facility name": "Kaiser Permanente Wheat Ridge Medical Office",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Kaiser Permanente Franklin Street",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 600
+},
+{
+    "Facility name": "Kiowa County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Kit Carson County Dept. of Public Health and Environment",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Lake County Public Health Agency",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Larimer County Department of Health and Environment",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 300
+},
+{
+    "Facility name": "Las Animas - Huerfano Health - Walsenburg",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Las Animas - Huerfano Health Dept. - Trinidad",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Lincoln County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "Littleton Adventist Hospital",
+    "Pfizer initial allocation": 600,
+    "Moderna initial allocation": null
+},
+{
+    "Facility name": "Longmont United Hospital",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 700
+},
+{
+    "Facility name": "Longs Peak Hospital",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 700
+},
+{
+    "Facility name": "Lutheran Medical Center",
+    "Pfizer initial allocation": 975,
+    "Moderna initial allocation": 1500
+},
+{
+    "Facility name": "Matthews - VU",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "McKee Medical Center",
+    "Pfizer initial allocation": 230,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "Medical Center of Aurora",
+    "Pfizer initial allocation": 375,
+    "Moderna initial allocation": 2100
+},
+{
+    "Facility name": "Memorial Hospital",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 400
+},
+{
+    "Facility name": "Mercy Regional Medical Center",
+    "Pfizer initial allocation": 360,
+    "Moderna initial allocation": 800
+},
+{
+    "Facility name": "Mesa County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "Middle Park Medical Center",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 300
+},
+{
+    "Facility name": "Mineral (Silver Thread) County Public Health Agency",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Moffat County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Montezuma County Public Health Dept.",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Montrose County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Montrose Memorial Hospital",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 800
+},
+{
+    "Facility name": "Mt. San Rafael Hospital",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 300
+},
+{
+    "Facility name": "National Jewish Health",
+    "Pfizer initial allocation": 975,
+    "Moderna initial allocation": null
+},
+{
+    "Facility name": "North Colorado Medical Center",
+    "Pfizer initial allocation": 580,
+    "Moderna initial allocation": 900
+},
+{
+    "Facility name": "North Suburban Medical Center",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 1300
+},
+{
+    "Facility name": "Northeast Colorado Health Dept",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "Northeast Colorado Health Dept- Akron",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Northeast Colorado Health Dept- Fort Morgan",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Northeast Colorado Health Dept- Holyoke",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Northeast Colorado Health Dept- Julesburg",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Northeast Colorado Health Dept- Yuma",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Northwest Colorado Health - Craig",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Optum Medical Center Point Specialty Clinic",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 700
+},
+{
+    "Facility name": "Otero County Health Department - La Junta",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Ouray County Public Health Agency",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Pagosa Springs Medical Center",
+    "Pfizer initial allocation": 200,
+    "Moderna initial allocation": null
+},
+{
+    "Facility name": "Park County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Parker Adventist Hospital",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 1200
+},
+{
+    "Facility name": "Parkview Medical Center, Inc.",
+    "Pfizer initial allocation": 1000,
+    "Moderna initial allocation": 2500
+},
+{
+    "Facility name": "Penrose-St. Francis Health Services",
+    "Pfizer initial allocation": 1950,
+    "Moderna initial allocation": 1100
+},
+{
+    "Facility name": "Platte Valley Medical Center",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 2600
+},
+{
+    "Facility name": "Porter Adventist Hospital",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 1400
+},
+{
+    "Facility name": "Presbyterian St. Luke’s Medical Center",
+    "Pfizer initial allocation": 975,
+    "Moderna initial allocation": 2900
+},
+{
+    "Facility name": "Prowers County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Prowers Medical Center",
+    "Pfizer initial allocation": 175,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Pueblo Department of Public Health and Environment*",
+    "Pfizer initial allocation": 10,
+    "Moderna initial allocation": 300
+},
+{
+    "Facility name": "Rio Blanco County Department of Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "Rio Grande County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Rio Grande Hospital",
+    "Pfizer initial allocation": 50,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Rose Medical Center",
+    "Pfizer initial allocation": 300,
+    "Moderna initial allocation": 1500
+},
+{
+    "Facility name": "Routt County Public Health Department",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Saguache County Public Health - Center",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Saguache County Public Health - Saguache",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Saint Joseph Hospital",
+    "Pfizer initial allocation": 1650,
+    "Moderna initial allocation": 3000
+},
+{
+    "Facility name": "Salud Family Health Center Brighton",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Salud Family Health Center Commerce City",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Salud Family Health Center Longmont",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Salud Family Health Centers - Fort Collins",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "San Juan Basin Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "San Juan County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "San Miguel County Dept. of Health and Env",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Sedgwick County Memorial Hospital",
+    "Pfizer initial allocation": 115,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Sky Ridge Medical Center",
+    "Pfizer initial allocation": 975,
+    "Moderna initial allocation": 2600
+},
+{
+    "Facility name": "Southwest Memorial Hospital",
+    "Pfizer initial allocation": 300,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "St. Anthony Hospital",
+    "Pfizer initial allocation": 975,
+    "Moderna initial allocation": 1500
+},
+{
+    "Facility name": "St. Anthony North Health Campus",
+    "Pfizer initial allocation": 975,
+    "Moderna initial allocation": 400
+},
+{
+    "Facility name": "St. Anthony Summit Medical Center",
+    "Pfizer initial allocation": 180,
+    "Moderna initial allocation": 800
+},
+{
+    "Facility name": "St. Mary’s Medical Center",
+    "Pfizer initial allocation": 675,
+    "Moderna initial allocation": 2300
+},
+{
+    "Facility name": "St. Thomas More Hospital",
+    "Pfizer initial allocation": 300,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Sterling Regional Medical Center",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 300
+},
+{
+    "Facility name": "Summit County Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Swedish Medical Center",
+    "Pfizer initial allocation": 1950,
+    "Moderna initial allocation": 2400
+},
+{
+    "Facility name": "Teller County Public Health and Environment",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Telluride Regional Medical Center",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "Tri-County Health Department - Greenwood Village*",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 500
+},
+{
+    "Facility name": "UCHealth Broomfield Hospital",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "UCHealth Grandview Hospital",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+},
+{
+    "Facility name": "UCHealth Greeley Hospital*",
+    "Pfizer initial allocation": 325,
+    "Moderna initial allocation": 500
+},
+{
+    "Facility name": "UCHealth Highlands Ranch Hospital",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 700
+},
+{
+    "Facility name": "UCHealth Medical Center of the Rockies",
+    "Pfizer initial allocation": 500,
+    "Moderna initial allocation": 1100
+},
+{
+    "Facility name": "UCHealth Poudre Valley Hospital",
+    "Pfizer initial allocation": 3900,
+    "Moderna initial allocation": 4100
+},
+{
+    "Facility name": "UCHealth Yampa Valley Medical Center*",
+    "Pfizer initial allocation": 580,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "University of Colorado Health Memorial Hospital Central",
+    "Pfizer initial allocation": 3900,
+    "Moderna initial allocation": 4100
+},
+{
+    "Facility name": "University of Colorado Health Memorial Hospital North",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 800
+},
+{
+    "Facility name": "University of Colorado Hospital Authority",
+    "Pfizer initial allocation": 7800,
+    "Moderna initial allocation": 6000
+},
+{
+    "Facility name": "Vail Health Hospital*",
+    "Pfizer initial allocation": 875,
+    "Moderna initial allocation": 800
+},
+{
+    "Facility name": "Valley View Hospital Association",
+    "Pfizer initial allocation": 215,
+    "Moderna initial allocation": 1000
+},
+{
+    "Facility name": "Valley Wide Alamosa Pharmacy",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 500
+},
+{
+    "Facility name": "Weld County Department of Public Health",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 200
+},
+{
+    "Facility name": "Wray Community District Hospital",
+    "Pfizer initial allocation": null,
+    "Moderna initial allocation": 100
+}]

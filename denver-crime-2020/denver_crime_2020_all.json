@@ -1,0 +1,686 @@
+[
+  {
+    "population": 9233,
+    "neighborhood": "Athmar Park",
+    "property_crime_rate_2020": 38.3,
+    "property_crime_2020": 354,
+    "change_avg_2020": 11,
+    "property_crime_rank": 53,
+    "change_avg_rank": 61
+  },
+  {
+    "population": 6568,
+    "neighborhood": "Baker",
+    "property_crime_rate_2020": 104.3,
+    "property_crime_2020": 685,
+    "change_avg_2020": 17,
+    "property_crime_rank": 5,
+    "change_avg_rank": 53
+  },
+  {
+    "population": 6021,
+    "neighborhood": "Barnum",
+    "property_crime_rate_2020": 34.2,
+    "property_crime_2020": 206,
+    "change_avg_2020": 15,
+    "property_crime_rank": 58,
+    "change_avg_rank": 58
+  },
+  {
+    "population": 6145,
+    "neighborhood": "Barnum West",
+    "property_crime_rate_2020": 19.4,
+    "property_crime_2020": 119,
+    "change_avg_2020": -23,
+    "property_crime_rank": 75,
+    "change_avg_rank": 77
+  },
+  {
+    "population": 8725,
+    "neighborhood": "Bear Valley",
+    "property_crime_rate_2020": 31.2,
+    "property_crime_2020": 272,
+    "change_avg_2020": 15,
+    "property_crime_rank": 60,
+    "change_avg_rank": 57
+  },
+  {
+    "population": 4204,
+    "neighborhood": "Belcaro",
+    "property_crime_rate_2020": 54.7,
+    "property_crime_2020": 230,
+    "change_avg_2020": 67,
+    "property_crime_rank": 29,
+    "change_avg_rank": 4
+  },
+  {
+    "population": 9360,
+    "neighborhood": "Berkeley",
+    "property_crime_rate_2020": 44.9,
+    "property_crime_2020": 420,
+    "change_avg_2020": 47,
+    "property_crime_rank": 40,
+    "change_avg_rank": 31
+  },
+  {
+    "population": 16304,
+    "neighborhood": "Capitol Hill",
+    "property_crime_rate_2020": 73.2,
+    "property_crime_2020": 1193,
+    "change_avg_2020": 47,
+    "property_crime_rank": 16,
+    "change_avg_rank": 32
+  },
+  {
+    "population": 4491,
+    "neighborhood": "Central Business District",
+    "property_crime_rate_2020": 212.4,
+    "property_crime_2020": 954,
+    "change_avg_2020": 3,
+    "property_crime_rank": 1,
+    "change_avg_rank": 71
+  },
+  {
+    "population": 26922,
+    "neighborhood": "Central Park",
+    "property_crime_rate_2020": 65.3,
+    "property_crime_2020": 1759,
+    "change_avg_2020": 20,
+    "property_crime_rank": 21,
+    "change_avg_rank": 51
+  },
+  {
+    "population": 3820,
+    "neighborhood": "Chaffee Park",
+    "property_crime_rate_2020": 54.7,
+    "property_crime_2020": 209,
+    "change_avg_2020": 57,
+    "property_crime_rank": 28,
+    "change_avg_rank": 16
+  },
+  {
+    "population": 9309,
+    "neighborhood": "Cheesman Park",
+    "property_crime_rate_2020": 54.4,
+    "property_crime_2020": 506,
+    "change_avg_2020": 53,
+    "property_crime_rank": 30,
+    "change_avg_rank": 21
+  },
+  {
+    "population": 6850,
+    "neighborhood": "Cherry Creek",
+    "property_crime_rate_2020": 77.2,
+    "property_crime_2020": 529,
+    "change_avg_2020": 8,
+    "property_crime_rank": 14,
+    "change_avg_rank": 65
+  },
+  {
+    "population": 3677,
+    "neighborhood": "City Park",
+    "property_crime_rate_2020": 56.6,
+    "property_crime_2020": 208,
+    "change_avg_2020": 42,
+    "property_crime_rank": 26,
+    "change_avg_rank": 36
+  },
+  {
+    "population": 5339,
+    "neighborhood": "City Park West",
+    "property_crime_rate_2020": 80.9,
+    "property_crime_2020": 432,
+    "change_avg_2020": 52,
+    "property_crime_rank": 11,
+    "change_avg_rank": 23
+  },
+  {
+    "population": 2256,
+    "neighborhood": "Civic Center",
+    "property_crime_rate_2020": 166.2,
+    "property_crime_2020": 375,
+    "change_avg_2020": 57,
+    "property_crime_rank": 2,
+    "change_avg_rank": 17
+  },
+  {
+    "population": 4862,
+    "neighborhood": "Clayton",
+    "property_crime_rate_2020": 40.5,
+    "property_crime_2020": 197,
+    "change_avg_2020": 7,
+    "property_crime_rank": 47,
+    "change_avg_rank": 66
+  },
+  {
+    "population": 4552,
+    "neighborhood": "Cole",
+    "property_crime_rate_2020": 45.3,
+    "property_crime_2020": 206,
+    "change_avg_2020": 26,
+    "property_crime_rank": 39,
+    "change_avg_rank": 47
+  },
+  {
+    "population": 8879,
+    "neighborhood": "College View - South Platte",
+    "property_crime_rate_2020": 43.9,
+    "property_crime_2020": 390,
+    "change_avg_2020": -18,
+    "property_crime_rank": 44,
+    "change_avg_rank": 75
+  },
+  {
+    "population": 11475,
+    "neighborhood": "Congress Park",
+    "property_crime_rate_2020": 39.5,
+    "property_crime_2020": 453,
+    "change_avg_2020": 38,
+    "property_crime_rank": 51,
+    "change_avg_rank": 39
+  },
+  {
+    "population": 4502,
+    "neighborhood": "Cory - Merrill",
+    "property_crime_rate_2020": 52.9,
+    "property_crime_2020": 238,
+    "change_avg_2020": 48,
+    "property_crime_rank": 31,
+    "change_avg_rank": 28
+  },
+  {
+    "population": 3032,
+    "neighborhood": "Country Club",
+    "property_crime_rate_2020": 42.2,
+    "property_crime_2020": 128,
+    "change_avg_2020": 45,
+    "property_crime_rank": 46,
+    "change_avg_rank": 34
+  },
+  {
+    "population": 11040,
+    "neighborhood": "East Colfax",
+    "property_crime_rate_2020": 56.6,
+    "property_crime_2020": 625,
+    "change_avg_2020": 50,
+    "property_crime_rank": 25,
+    "change_avg_rank": 25
+  },
+  {
+    "population": 6636,
+    "neighborhood": "Elyria Swansea",
+    "property_crime_rate_2020": 65.4,
+    "property_crime_2020": 434,
+    "change_avg_2020": 22,
+    "property_crime_rank": 20,
+    "change_avg_rank": 50
+  },
+  {
+    "population": 18924,
+    "neighborhood": "Five Points",
+    "property_crime_rate_2020": 97.3,
+    "property_crime_2020": 1841,
+    "change_avg_2020": 33,
+    "property_crime_rank": 8,
+    "change_avg_rank": 45
+  },
+  {
+    "population": 9225,
+    "neighborhood": "Fort Logan",
+    "property_crime_rate_2020": 18.8,
+    "property_crime_2020": 173,
+    "change_avg_2020": -10,
+    "property_crime_rank": 76,
+    "change_avg_rank": 74
+  },
+  {
+    "population": 39431,
+    "neighborhood": "Gateway - Green Valley Ranch",
+    "property_crime_rate_2020": 24.2,
+    "property_crime_2020": 953,
+    "change_avg_2020": 48,
+    "property_crime_rank": 71,
+    "change_avg_rank": 29
+  },
+  {
+    "population": 4377,
+    "neighborhood": "Globeville",
+    "property_crime_rate_2020": 76.3,
+    "property_crime_2020": 334,
+    "change_avg_2020": 39,
+    "property_crime_rank": 15,
+    "change_avg_rank": 37
+  },
+  {
+    "population": 5827,
+    "neighborhood": "Goldsmith",
+    "property_crime_rate_2020": 56.6,
+    "property_crime_2020": 330,
+    "change_avg_2020": 64,
+    "property_crime_rank": 24,
+    "change_avg_rank": 7
+  },
+  {
+    "population": 7748,
+    "neighborhood": "Hale",
+    "property_crime_rate_2020": 48.1,
+    "property_crime_2020": 373,
+    "change_avg_2020": 67,
+    "property_crime_rank": 36,
+    "change_avg_rank": 3
+  },
+  {
+    "population": 20182,
+    "neighborhood": "Hampden",
+    "property_crime_rate_2020": 44,
+    "property_crime_2020": 889,
+    "change_avg_2020": 55,
+    "property_crime_rank": 43,
+    "change_avg_rank": 19
+  },
+  {
+    "population": 16804,
+    "neighborhood": "Hampden South",
+    "property_crime_rate_2020": 40.1,
+    "property_crime_2020": 674,
+    "change_avg_2020": 47,
+    "property_crime_rank": 49,
+    "change_avg_rank": 30
+  },
+  {
+    "population": 13338,
+    "neighborhood": "Harvey Park",
+    "property_crime_rate_2020": 24.4,
+    "property_crime_2020": 325,
+    "change_avg_2020": 8,
+    "property_crime_rank": 70,
+    "change_avg_rank": 64
+  },
+  {
+    "population": 9638,
+    "neighborhood": "Harvey Park South",
+    "property_crime_rate_2020": 29.5,
+    "property_crime_2020": 284,
+    "change_avg_2020": 4,
+    "property_crime_rank": 63,
+    "change_avg_rank": 68
+  },
+  {
+    "population": 10549,
+    "neighborhood": "Highland",
+    "property_crime_rate_2020": 77.7,
+    "property_crime_2020": 820,
+    "change_avg_2020": 49,
+    "property_crime_rank": 13,
+    "change_avg_rank": 27
+  },
+  {
+    "population": 9524,
+    "neighborhood": "Hilltop",
+    "property_crime_rate_2020": 30.2,
+    "property_crime_2020": 288,
+    "change_avg_2020": 59,
+    "property_crime_rank": 62,
+    "change_avg_rank": 14
+  },
+  {
+    "population": 3927,
+    "neighborhood": "Indian Creek",
+    "property_crime_rate_2020": 21.1,
+    "property_crime_2020": 83,
+    "change_avg_2020": 61,
+    "property_crime_rank": 73,
+    "change_avg_rank": 9
+  },
+  {
+    "population": 3490,
+    "neighborhood": "Jefferson Park",
+    "property_crime_rate_2020": 87.4,
+    "property_crime_2020": 305,
+    "change_avg_2020": 37,
+    "property_crime_rank": 10,
+    "change_avg_rank": 41
+  },
+  {
+    "population": 5228,
+    "neighborhood": "Kennedy",
+    "property_crime_rate_2020": 46.9,
+    "property_crime_2020": 245,
+    "change_avg_2020": 49,
+    "property_crime_rank": 37,
+    "change_avg_rank": 26
+  },
+  {
+    "population": 6916,
+    "neighborhood": "Lincoln Park",
+    "property_crime_rate_2020": 96.6,
+    "property_crime_2020": 668,
+    "change_avg_2020": 46,
+    "property_crime_rank": 9,
+    "change_avg_rank": 33
+  },
+  {
+    "population": 8976,
+    "neighborhood": "Lowry Field",
+    "property_crime_rate_2020": 43.6,
+    "property_crime_2020": 391,
+    "change_avg_2020": 69,
+    "property_crime_rank": 45,
+    "change_avg_rank": 2
+  },
+  {
+    "population": 14179,
+    "neighborhood": "Mar Lee",
+    "property_crime_rate_2020": 24.4,
+    "property_crime_2020": 346,
+    "change_avg_2020": 3,
+    "property_crime_rank": 69,
+    "change_avg_rank": 70
+  },
+  {
+    "population": 12141,
+    "neighborhood": "Marston",
+    "property_crime_rate_2020": 25.4,
+    "property_crime_2020": 308,
+    "change_avg_2020": 12,
+    "property_crime_rank": 68,
+    "change_avg_rank": 60
+  },
+  {
+    "population": 37060,
+    "neighborhood": "Montbello",
+    "property_crime_rate_2020": 20.2,
+    "property_crime_2020": 750,
+    "change_avg_2020": 14,
+    "property_crime_rank": 74,
+    "change_avg_rank": 59
+  },
+  {
+    "population": 5739,
+    "neighborhood": "Montclair",
+    "property_crime_rate_2020": 58.9,
+    "property_crime_2020": 338,
+    "change_avg_2020": 51,
+    "property_crime_rank": 23,
+    "change_avg_rank": 24
+  },
+  {
+    "population": 6754,
+    "neighborhood": "North Capitol Hill",
+    "property_crime_rate_2020": 97.4,
+    "property_crime_2020": 658,
+    "change_avg_2020": 53,
+    "property_crime_rank": 6,
+    "change_avg_rank": 22
+  },
+  {
+    "population": 10351,
+    "neighborhood": "North Park Hill",
+    "property_crime_rate_2020": 21.5,
+    "property_crime_2020": 223,
+    "change_avg_2020": 3,
+    "property_crime_rank": 72,
+    "change_avg_rank": 72
+  },
+  {
+    "population": 9643,
+    "neighborhood": "Northeast Park Hill",
+    "property_crime_rate_2020": 63.7,
+    "property_crime_2020": 614,
+    "change_avg_2020": 45,
+    "property_crime_rank": 22,
+    "change_avg_rank": 35
+  },
+  {
+    "population": 3032,
+    "neighborhood": "Overland",
+    "property_crime_rate_2020": 127,
+    "property_crime_2020": 385,
+    "change_avg_2020": 60,
+    "property_crime_rank": 3,
+    "change_avg_rank": 12
+  },
+  {
+    "population": 5874,
+    "neighborhood": "Platt Park",
+    "property_crime_rate_2020": 65.5,
+    "property_crime_2020": 385,
+    "change_avg_2020": 60,
+    "property_crime_rank": 19,
+    "change_avg_rank": 11
+  },
+  {
+    "population": 4868,
+    "neighborhood": "Regis",
+    "property_crime_rate_2020": 44.4,
+    "property_crime_2020": 216,
+    "change_avg_2020": 34,
+    "property_crime_rank": 42,
+    "change_avg_rank": 44
+  },
+  {
+    "population": 2780,
+    "neighborhood": "Rosedale",
+    "property_crime_rate_2020": 48.6,
+    "property_crime_2020": 135,
+    "change_avg_2020": 36,
+    "property_crime_rank": 35,
+    "change_avg_rank": 42
+  },
+  {
+    "population": 11144,
+    "neighborhood": "Ruby Hill",
+    "property_crime_rate_2020": 28.4,
+    "property_crime_2020": 317,
+    "change_avg_2020": 3,
+    "property_crime_rank": 66,
+    "change_avg_rank": 69
+  },
+  {
+    "population": 3530,
+    "neighborhood": "Skyland",
+    "property_crime_rate_2020": 34.6,
+    "property_crime_2020": 122,
+    "change_avg_2020": 61,
+    "property_crime_rank": 57,
+    "change_avg_rank": 10
+  },
+  {
+    "population": 8189,
+    "neighborhood": "Sloan Lake",
+    "property_crime_rate_2020": 40.2,
+    "property_crime_2020": 329,
+    "change_avg_2020": 17,
+    "property_crime_rank": 48,
+    "change_avg_rank": 54
+  },
+  {
+    "population": 9546,
+    "neighborhood": "South Park Hill",
+    "property_crime_rate_2020": 30.6,
+    "property_crime_2020": 292,
+    "change_avg_2020": 54,
+    "property_crime_rank": 61,
+    "change_avg_rank": 20
+  },
+  {
+    "population": 6045,
+    "neighborhood": "Southmoor Park",
+    "property_crime_rate_2020": 50,
+    "property_crime_2020": 302,
+    "change_avg_2020": 82,
+    "property_crime_rank": 34,
+    "change_avg_rank": 1
+  },
+  {
+    "population": 12061,
+    "neighborhood": "Speer",
+    "property_crime_rate_2020": 66.9,
+    "property_crime_2020": 807,
+    "change_avg_2020": 58,
+    "property_crime_rank": 18,
+    "change_avg_rank": 15
+  },
+  {
+    "population": 1437,
+    "neighborhood": "Sun Valley",
+    "property_crime_rate_2020": 80,
+    "property_crime_2020": 115,
+    "change_avg_2020": -22,
+    "property_crime_rank": 12,
+    "change_avg_rank": 76
+  },
+  {
+    "population": 10091,
+    "neighborhood": "Sunnyside",
+    "property_crime_rate_2020": 39.7,
+    "property_crime_2020": 401,
+    "change_avg_2020": 23,
+    "property_crime_rank": 50,
+    "change_avg_rank": 49
+  },
+  {
+    "population": 7500,
+    "neighborhood": "Union Station",
+    "property_crime_rate_2020": 119.5,
+    "property_crime_2020": 896,
+    "change_avg_2020": 19,
+    "property_crime_rank": 4,
+    "change_avg_rank": 52
+  },
+  {
+    "population": 9905,
+    "neighborhood": "University",
+    "property_crime_rate_2020": 29.1,
+    "property_crime_2020": 288,
+    "change_avg_2020": 16,
+    "property_crime_rank": 65,
+    "change_avg_rank": 56
+  },
+  {
+    "population": 5764,
+    "neighborhood": "University Hills",
+    "property_crime_rate_2020": 50.8,
+    "property_crime_2020": 293,
+    "change_avg_2020": 2,
+    "property_crime_rank": 33,
+    "change_avg_rank": 73
+  },
+  {
+    "population": 8156,
+    "neighborhood": "University Park",
+    "property_crime_rate_2020": 45.6,
+    "property_crime_2020": 372,
+    "change_avg_2020": 63,
+    "property_crime_rank": 38,
+    "change_avg_rank": 8
+  },
+  {
+    "population": 4803,
+    "neighborhood": "Valverde",
+    "property_crime_rate_2020": 44.8,
+    "property_crime_2020": 215,
+    "change_avg_2020": 11,
+    "property_crime_rank": 41,
+    "change_avg_rank": 62
+  },
+  {
+    "population": 9846,
+    "neighborhood": "Villa Park",
+    "property_crime_rate_2020": 36.6,
+    "property_crime_2020": 360,
+    "change_avg_2020": 16,
+    "property_crime_rank": 55,
+    "change_avg_rank": 55
+  },
+  {
+    "population": 14437,
+    "neighborhood": "Virginia Village",
+    "property_crime_rate_2020": 38.9,
+    "property_crime_2020": 562,
+    "change_avg_2020": 66,
+    "property_crime_rank": 52,
+    "change_avg_rank": 5
+  },
+  {
+    "population": 7514,
+    "neighborhood": "Washington Park",
+    "property_crime_rate_2020": 32.5,
+    "property_crime_2020": 244,
+    "change_avg_2020": 35,
+    "property_crime_rank": 59,
+    "change_avg_rank": 43
+  },
+  {
+    "population": 7798,
+    "neighborhood": "Washington Park West",
+    "property_crime_rate_2020": 52.1,
+    "property_crime_2020": 406,
+    "change_avg_2020": 66,
+    "property_crime_rank": 32,
+    "change_avg_rank": 6
+  },
+  {
+    "population": 14793,
+    "neighborhood": "Washington Virginia Vale",
+    "property_crime_rate_2020": 37.9,
+    "property_crime_2020": 561,
+    "change_avg_2020": 37,
+    "property_crime_rank": 54,
+    "change_avg_rank": 40
+  },
+  {
+    "population": 3525,
+    "neighborhood": "Wellshire",
+    "property_crime_rate_2020": 13.9,
+    "property_crime_2020": 49,
+    "change_avg_2020": 7,
+    "property_crime_rank": 77,
+    "change_avg_rank": 67
+  },
+  {
+    "population": 9315,
+    "neighborhood": "West Colfax",
+    "property_crime_rate_2020": 68.8,
+    "property_crime_2020": 641,
+    "change_avg_2020": 38,
+    "property_crime_rank": 17,
+    "change_avg_rank": 38
+  },
+  {
+    "population": 9252,
+    "neighborhood": "West Highland",
+    "property_crime_rate_2020": 56.2,
+    "property_crime_2020": 520,
+    "change_avg_2020": 60,
+    "property_crime_rank": 27,
+    "change_avg_rank": 13
+  },
+  {
+    "population": 17707,
+    "neighborhood": "Westwood",
+    "property_crime_rate_2020": 26.3,
+    "property_crime_2020": 466,
+    "change_avg_2020": 8,
+    "property_crime_rank": 67,
+    "change_avg_rank": 63
+  },
+  {
+    "population": 5528,
+    "neighborhood": "Whittier",
+    "property_crime_rate_2020": 35.6,
+    "property_crime_2020": 197,
+    "change_avg_2020": 31,
+    "property_crime_rank": 56,
+    "change_avg_rank": 46
+  },
+  {
+    "population": 14477,
+    "neighborhood": "Windsor",
+    "property_crime_rate_2020": 29.4,
+    "property_crime_2020": 426,
+    "change_avg_2020": 56,
+    "property_crime_rank": 64,
+    "change_avg_rank": 18
+  }
+]

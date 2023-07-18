@@ -44,31 +44,30 @@
  */
  
 // DB table to use
-$table = 'lobbyist_data';
+// $table = 'lobbyist_data';
+$table = 'mytable';
  
 // Table's primary key
-$primaryKey = 'id';
+$primaryKey = 'rowId';
  
 // Array of database columns which should be read and sent back to DataTables.
 // The `db` parameter represents the column name in the database, while the `dt`
 // parameter represents the DataTables column identifier. In this case simple
 // indexes
 $columns = array(
-    array( 'db' => 'button', 'dt' => 0 ),
-    array( 'db' => 'id', 'dt' => 1 ),
-    array( 'db' => 'clientName', 'dt' => 2 ),
-    array( 'db' => 'clientCity', 'dt' => 3 ),
-    array( 'db' => 'clientState', 'dt' => 4 ),
-    array( 'db' => 'clientBusinessDescription', 'dt' => 5 ),
-    array( 'db' => 'incomeAmount', 'dt' => 6 ),
-    array( 'db' => 'lobbyistLastName', 'dt' => 7 ),
-    array( 'db' => 'lobbyistCity', 'dt' => 8 ),
+    array( 'db' => 'rowId', 'dt' => 0 ),
+    array( 'db' => 'clientName', 'dt' => 1 ),
+    array( 'db' => 'clientCity', 'dt' => 2 ),
+    array( 'db' => 'clientState', 'dt' => 3 ),
+    array( 'db' => 'clientBusinessDescription', 'dt' => 4),
+    array( 'db' => 'incomeAmount', 'dt' => 5) ,
+    array( 'db' => 'lobbyistLastName', 'dt' => 6 ),
+    array( 'db' => 'lobbyistFirstName', 'dt' => 7),
+    array( 'db' => 'billInformationAndPosition', 'dt' => 8 ),
     array( 'db' => 'lobbyistState', 'dt' => 9 ),
-    array( 'db' => 'billInformationAndPosition', 'dt' => 10 ),
-    array( 'db' => 'reportMonth', 'dt' => 11 ),
-    array( 'db' => 'fiscalYear', 'dt' => 12 ),
-    array( 'db' => 'clientStartDate', 'dt' => 13 ),
-    array( 'db' => 'clientEndDate', 'dt' => 14 )
+    array( 'db' => 'reportMonth', 'dt' => 10 ),
+    array( 'db' => 'fiscalYear', 'dt' => 11 ),
+    array( 'db' => 'lobbyistCity', 'dt' => 12)
 );
  
 // SQL server connection information - plus server
@@ -82,7 +81,7 @@ $columns = array(
 $sql_details = array(
     'user' => 'root',
     'pass' => 'root',
-    'db'   => 'lobbyists',
+    'db'   => 'lobbyist_test',
     'host' => 'localhost'
 );
  

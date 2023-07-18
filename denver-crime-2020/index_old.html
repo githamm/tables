@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Denver Crime Rankings 2020 | The Denver Post</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.foundation.min.css" />
+    <!-- <link rel="stylesheet" href="jquery.dataTables.yadcf.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.foundation.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.16/dataRender/datetime.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.1/js/responsive.foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
+    <script src="https://extras.denverpost.com/app/homicide-report/js/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.19/sorting/natural.js"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        /*background-color: #fafafa;*/
+        font-family: 'Roboto', sans-serif;
+        margin-top: 1%;
+    }
+
+    .table-title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 120%;
+        padding-top: 5px;
+    }
+
+    #filters {
+        font-size: .85rem;
+    }
+
+    .table-instructions {
+        color: #990012;
+        font-style: italic;
+        text-align: center;
+        font-size: .9rem;
+    }
+
+    #contributions-table-container {
+        margin-top: 10px;
+        padding: 3px;
+    }
+
+    #contributions-table {
+        font-size: .85rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    button.yadcf-filter-reset-button {
+        color: red;
+        margin-left: 10px;
+    }
+
+    select {
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-size: .95rem;
+    }
+
+    .yadcf-filter-range {
+        height: 2.9em;
+        border: 1px solid silver;
+    }
+
+    .filter-text {
+        font-weight: bold;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+
+    /*.row-color {
+        background-color: #e4e4e4 !important;
+    }
+
+    tr {
+        background-color: #fafafa !important;
+        border-bottom: 1px solid silver;
+    }*/
+
+    table,
+    thead,
+    tbody {
+        /*border: 0px solid silver !important;*/
+        font-family: 'Roboto', Helvetica, sans-serif;
+        font-size: .95rem;
+    }
+
+    /*thead {
+        border-bottom: 2px solid #0a0a0a !important;
+    }*/
+
+    table tr:nth-of-type(even) {
+        background-color: transparent !important;
+    }
+
+    table tr {
+        border-bottom: 1px solid #0a0a0a;
+    }
+
+    button.yadcf-filter-reset-button {
+        color: #990012;
+        font-weight: normal;
+    }
+
+    .incidents {
+        font-size: .8rem;
+        font-style: italic;
+        line-height: 14px;
+        display: inline-block;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="large-12 columns">
+            <h1 class="table-title">Initial COVID-19 vaccination shipments</h1>
+            <p></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <p class="table-instructions">Click column headers to sort &bull; use dropdown menu to filter by facility &bull; scroll right to see full table</p>
+        </div>
+    </div>
+    <div id="filters">
+        <div class="row">
+            <div class="large-3 medium-3 small-12 columns">
+                <p id="filter-1"></p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <table id="metro-districts-table" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Neighborhood</th>
+                        <th>Population</th>
+                        <th>Aggravated assault</th>
+                        <th>Sexual assault</th>
+                        <th>Robbery</th>
+                        <th>Burglary</th>
+                        <th>Auto theft</th>
+                        <th>Theft from a motor vehicle</th>
+                        <th>Murder</th>
+                        <th>Larceny</th>
+                        <th>White collar crime</th>
+                        <th>Arson</th>
+                        <th>Drug or alcohol crime</th>
+                        <th>Public disorder</th>
+                        <th>Other crimes against persons</th>
+                        <th>All other crimes</th>
+                        <th>Traffic accidents</th>
+                        <th>Neighborhood</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script>
+    var dataFile = 'denver_crime_2020.json';
+
+    $(document).ready(function() {
+        function disableDependentFilter(level, inuse) {
+            if (level < 4) {
+                filter = $('#yadcf-filter--example-' + level);
+                yadcf.exResetFilters(metroDistrictsTable, [level]);
+                filter.prop('disabled', !inuse);
+
+                disableDependentFilter(level + 1, false);
+            }
+        }
+
+        var metroDistrictsTable = $('#metro-districts-table').DataTable({
+            ajax: {
+                'url': dataFile,
+                'dataSrc': ''
+            },
+            // pageLength: 15,
+            scrollY: '1000px',
+            //scrollCollapse: true,
+            scrollX: true,
+            paging: false,
+            pageLength: null,
+            fixedHeader: true,
+            // responsive: {
+            //     details: {
+            //         type: 'column'
+            //     }
+            // },
+            //dom: '<if<t>lp>',
+            order: [
+                [0, 'asc']
+            ],
+            rowCallback: function(row, data, index) {
+                if (data.aggravated_assault_rank <= 26) {
+                    $(row).find('td:eq(2)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.aggravated_assault_rank <= 52) {
+                    $(row).find('td:eq(2)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.aggravated_assault_rank <= 78) {
+                    $(row).find('td:eq(2)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+                if (data.sexual_assault_rank <= 26) {
+                    $(row).find('td:eq(3)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.sexual_assault_rank <= 52) {
+                    $(row).find('td:eq(3)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.sexual_assault_rank <= 78) {
+                    $(row).find('td:eq(3)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+                if (data.robbery_rank <= 26) {
+                    $(row).find('td:eq(4)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.robbery_rank <= 52) {
+                    $(row).find('td:eq(4)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.robbery_rank <= 78) {
+                    $(row).find('td:eq(4)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+                if (data.burglary_rank <= 26) {
+                    $(row).find('td:eq(5)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.burglary_rank <= 52) {
+                    $(row).find('td:eq(5)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.burglary_rank <= 78) {
+                    $(row).find('td:eq(5)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+                if (data.auto_theft_rank <= 26) {
+                    $(row).find('td:eq(6)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.auto_theft_rank <= 52) {
+                    $(row).find('td:eq(6)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.auto_theft_rank <= 78) {
+                    $(row).find('td:eq(6)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+                if (data.theft_from_motor_vehicle_rank <= 26) {
+                    $(row).find('td:eq(7)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.theft_from_motor_vehicle_rank <= 52) {
+                    $(row).find('td:eq(7)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.theft_from_motor_vehicle_rank <= 78) {
+                    $(row).find('td:eq(7)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+                if (data.murder_rank <= 26) {
+                    $(row).find('td:eq(8)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.murder_rank <= 52) {
+                    $(row).find('td:eq(8)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.murder_rank <= 78) {
+                    $(row).find('td:eq(8)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+                if (data.larceny_rank <= 26) {
+                    $(row).find('td:eq(9)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.larceny_rank <= 52) {
+                    $(row).find('td:eq(9)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.larceny_rank <= 78) {
+                    $(row).find('td:eq(9)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+                if (data.white_collar_crime_rank <= 26) {
+                    $(row).find('td:eq(10)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.white_collar_crime_rank <= 52) {
+                    $(row).find('td:eq(10)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.white_collar_crime_rank <= 78) {
+                    $(row).find('td:eq(10)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+                if (data.arson_rank <= 26) {
+                    $(row).find('td:eq(11)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.arson_rank <= 52) {
+                    $(row).find('td:eq(11)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.arson_rank <= 78) {
+                    $(row).find('td:eq(11)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+                if (data.drug_alcohol_rank <= 26) {
+                    $(row).find('td:eq(12)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.drug_alcohol_rank <= 52) {
+                    $(row).find('td:eq(12)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.drug_alcohol_rank <= 78) {
+                    $(row).find('td:eq(12)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+                if (data.public_disorder_rank <= 26) {
+                    $(row).find('td:eq(13)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.public_disorder_rank <= 52) {
+                    $(row).find('td:eq(13)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.public_disorder_rank <= 78) {
+                    $(row).find('td:eq(13)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+                if (data.other_crimes_against_persons_rank <= 26) {
+                    $(row).find('td:eq(14)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.other_crimes_against_persons_rank <= 52) {
+                    $(row).find('td:eq(14)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.other_crimes_against_persons_rank <= 78) {
+                    $(row).find('td:eq(14)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+                if (data.all_other_crimes_rank <= 26) {
+                    $(row).find('td:eq(15)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.all_other_crimes_rank <= 52) {
+                    $(row).find('td:eq(15)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.all_other_crimes_rank <= 78) {
+                    $(row).find('td:eq(15)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+                if (data.traffic_accident_rank <= 26) {
+                    $(row).find('td:eq(16)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.traffic_accident_rank <= 52) {
+                    $(row).find('td:eq(16)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.traffic_accident_rank <= 78) {
+                    $(row).find('td:eq(16)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+            },
+            // columnDefs: [{
+            //     type: 'natural',
+            //     targets: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+            // }],
+            columns: [{
+                    data: 'neighborhood',
+                    // render: function(data,type,row) {
+                    //  return '<a href="' + row.dola_link + '" target="_blank">' + data + '</a>'
+                    // }
+                },
+                {
+                    data: 'population',
+                    render: $.fn.dataTable.render.number(',')
+                },
+                {
+                    data: 'aggravated_assault_rate',
+                    // type: 'natural',
+                    // render: function(data, type, row) {
+                    //     return data + '<br><span class="incidents">' + row.aggravated_assault + ' incidents</span>'
+                    // }
+                },
+                {
+                    data: 'sexual_assault_rate',
+                    // type: 'natural',
+                    // render: function(data, type, row) {
+                    //     return data + '<br><span class="incidents">' + row.sexual_assault + ' incidents</span>'
+                    // }
+                },
+                {
+                    data: 'robbery_rate',
+                    render: function(data, type, row) {
+                        return data + '<br><span class="incidents">' + row.robbery + ' incidents</span>'
+                    }
+                },
+                { data: 'burglary_rate' },
+                { data: 'auto_theft_rate' },
+                { data: 'theft_from_motor_vehicle_rate' },
+                { data: 'murder_rate' },
+                { data: 'larceny_rate' },
+                { data: 'white_collar_crime_rate' },
+                { data: 'arson_rate' },
+                { data: 'drug_alcohol_rate' },
+                { data: 'public_disorder_rate' },
+                { data: 'other_crimes_against_persons_rate' },
+                { data: 'all_other_crimes_rate' },
+                { data: 'traffic_accident_rate' },
+                { data: 'neighborhood' }
+            ],
+
+            initComplete: function() {
+                yadcf.init(metroDistrictsTable, [{
+                    column_number: 0,
+                    filter_container_id: 'filter-1',
+                    filter_default_label: 'Filter by neighborhood',
+                    //data: donorTypes
+                }, ], {
+                    //cumulative_filtering: true,
+                    filter_reset_button_text: 'Reset filter'
+                });
+
+                disableDependentFilter(1, true);
+
+                $('.yadcf-filter-reset-button').on('click', function() {
+                    level = parseInt(this.id.split('-')[1]);
+                    disableDependentFilter(level, true);
+                });
+
+                $('.yadcf-filter').on('change', function() {
+                    level = parseInt(this.id.slice(-1));
+                    inuse = $(this).hasClass('inuse');
+
+                    disableDependentFilter(level + 1, inuse);
+                });
+            }
+        });
+    });
+    </script>
+</body>
+
+</html>

@@ -115,9 +115,7 @@
         <div id="table-container">
             <div class="row">
                 <div class="large-12 columns">
-                    <h2 class="table-title">Colorado Lobbyist Database 2007-2020</h2>
-                    <p class="body-text">
-                        <p>The Colorado Secretary of State requires lobbyists to file monthly reports detailing their clients, positions on legislation and the income they're receiving, among other things. <em>Each row of the database represents a monthly report. Click the <span style="background-color:#008CBA;border-radius:50%;display:inline-table;width:20px;height:20px;color:white;padding-left:6px;font-size:.8rem;font-style:normal;margin-left:2px;">+</span> icon to see bill and position details. Use the dropdown menus to filter the database by year and client type, or search by keyword or phrase, such as National Rifle Association or HB 1234. Click the column headers to sort the data.</em></p>
+                    <p class="body-text"><em>Each row of the database represents a monthly report. Click the <span style="background-color:#008CBA;border-radius:50%;display:inline-table;width:20px;height:20px;color:white;padding-left:6px;font-size:.8rem;font-style:normal;margin-left:2px;">+</span> icon to see bill and position details. Use the dropdown menus to filter the database by year and client type, or search by keyword or phrase, such as National Rifle Association or HB 1234. Click the column headers to sort the data.</em></p>
                 </div>
             </div>
             <div id="filters">
@@ -137,7 +135,6 @@
                     <thead>
                         <tr>
                             <th></th>
-                            <th></th>
                             <th data-priority="1">Client</th>
                             <th>Client city</th>
                             <th>Client state</th>
@@ -145,36 +142,19 @@
                             <th data-priority="2">Amount</th>
                             <th data-priority="3">Lobbyist</th>
                             <th></th>
+                            <th class="none">Bill and position</th>
                             <th>Lobbyist state</th>
-                            <th class="none">Report details</th>
                             <th>Report month</th>
                             <th>Report year</th>
-                            <th></th>
-                            <th></th>
+                            <th>Lobbyist city</th>
                         </tr>
                     </thead>
                 </table>
             </div>
-            <p class="source">Source: <a href="https://www.sos.state.co.us/pubs/lobby/lobby_home.html" target="_blank">Colorado Secretary of State</a></p>
+            <p class="source">By Kevin Hamm, The Denver Post &bull; Source: <a href="https://www.sos.state.co.us/pubs/lobby/lobby_home.html" target="_blank">Colorado Secretary of State</a></p>
         </div>
     </div>
     <script>
-    $.ajax({
-        url: 'https://plus.denverpost.com/databases/colorado-lobbyists/getData.php?draw=1&columns%5B0%5D%5Bdata%5D=0&columns%5B0%5D%5Bname%5D=&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=false&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=1&columns%5B1%5D%5Bname%5D=&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=2&columns%5B2%5D%5Bname%5D=&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=3&columns%5B3%5D%5Bname%5D=&columns%5B3%5D%5Bsearchable%5D=true&columns%5B3%5D%5Borderable%5D=true&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B4%5D%5Bdata%5D=4&columns%5B4%5D%5Bname%5D=&columns%5B4%5D%5Bsearchable%5D=true&columns%5B4%5D%5Borderable%5D=true&columns%5B4%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B4%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B5%5D%5Bdata%5D=5&columns%5B5%5D%5Bname%5D=&columns%5B5%5D%5Bsearchable%5D=true&columns%5B5%5D%5Borderable%5D=true&columns%5B5%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B5%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B6%5D%5Bdata%5D=6&columns%5B6%5D%5Bname%5D=&columns%5B6%5D%5Bsearchable%5D=true&columns%5B6%5D%5Borderable%5D=true&columns%5B6%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B6%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B7%5D%5Bdata%5D=7&columns%5B7%5D%5Bname%5D=&columns%5B7%5D%5Bsearchable%5D=true&columns%5B7%5D%5Borderable%5D=true&columns%5B7%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B7%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B8%5D%5Bdata%5D=8&columns%5B8%5D%5Bname%5D=&columns%5B8%5D%5Bsearchable%5D=true&columns%5B8%5D%5Borderable%5D=true&columns%5B8%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B8%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B9%5D%5Bdata%5D=9&columns%5B9%5D%5Bname%5D=&columns%5B9%5D%5Bsearchable%5D=true&columns%5B9%5D%5Borderable%5D=true&columns%5B9%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B9%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B10%5D%5Bdata%5D=10&columns%5B10%5D%5Bname%5D=&columns%5B10%5D%5Bsearchable%5D=true&columns%5B10%5D%5Borderable%5D=true&columns%5B10%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B10%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B11%5D%5Bdata%5D=11&columns%5B11%5D%5Bname%5D=&columns%5B11%5D%5Bsearchable%5D=true&columns%5B11%5D%5Borderable%5D=true&columns%5B11%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B11%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B12%5D%5Bdata%5D=12&columns%5B12%5D%5Bname%5D=&columns%5B12%5D%5Bsearchable%5D=true&columns%5B12%5D%5Borderable%5D=true&columns%5B12%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B12%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B13%5D%5Bdata%5D=13&columns%5B13%5D%5Bname%5D=&columns%5B13%5D%5Bsearchable%5D=true&columns%5B13%5D%5Borderable%5D=true&columns%5B13%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B13%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B14%5D%5Bdata%5D=14&columns%5B14%5D%5Bname%5D=&columns%5B14%5D%5Bsearchable%5D=true&columns%5B14%5D%5Borderable%5D=true&columns%5B14%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B14%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=12&order%5B0%5D%5Bdir%5D=desc&order%5B1%5D%5Bcolumn%5D=6&order%5B1%5D%5Bdir%5D=desc&start=0&length=25&search%5Bvalue%5D=&search%5Bregex%5D=false&_=1576786569349',
-        method: 'GET',
-        success: function(data) {
-            const obj = JSON.parse(data);
-            var arrayFromData = obj.data;
-            console.log(arrayFromData);
-            arrayFromData.forEach(function(item, index) {
-                //var lobbyistRevenue = item[6];
-                var testArray = [];
-                testArray.push(item[6]);
-                //console.log(testArray);
-            })
-        }
-    });
-
     $(document).ready(function() {
 
         var reportYear = [{ value: '2020', label: '2020' }, { value: '2019', label: '2019' }, { value: '2018', label: '2018' }, { value: '2017', label: '2017' }, { value: '2016', label: '2016' }, { value: '2015', label: '2015' }, { value: '2014', label: '2014' }, { value: '2013', label: '2013' }, { value: '2012', label: '2012' }, { value: '2011', label: '2011' }, { value: '2010', label: '2010' }, { value: '2009', label: '2009' }, { value: '2008', label: '2008' }, { value: '2007', label: '2007' }];
@@ -183,8 +163,8 @@
 
         var lobbyistTable = $("#lobbyist-table").DataTable({
             language: {
-                searchPlaceholder: "Press enter to search",
-                search: "Search",
+                //searchPlaceholder: "Press enter to search",
+                search: "Press enter to search",
             },
             processing: true,
             serverSide: true,
@@ -212,27 +192,36 @@
                     targets: 0
                 },
                 {
-                    targets: [1, 8, 13, 14],
-                    visible: false
+                    targets: [6],
+                    render: function(data, type, row) {
+                        if (row[7] === '' || data.indexOf(' ') >= 0) {
+                            return data
+                        } else return data + ', ' + row[7]
+                    }
                 },
                 {
-                    targets: 6,
+                    targets: 5,
                     render: $.fn.dataTable.render.number(',', '.', 0, '$')
-                }
+                },
+                {
+                    targets: [7],
+                    visible: false
+                },
+
             ],
             order: [
-                [12, 'desc'],
-                [6, 'desc']
+                [11, 'desc'],
+                [5, 'desc']
             ],
             initComplete: function() {
                 yadcf.init(lobbyistTable, [{
-                        column_number: 12,
+                        column_number: 11,
                         filter_container_id: 'filter-1',
                         filter_default_label: 'Show all',
                         data: reportYear
                     },
                     {
-                        column_number: 5,
+                        column_number: 4,
                         filter_container_id: 'filter-2',
                         filter_default_label: 'Show all',
                         data: clientType

@@ -1,0 +1,414 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8">
+		<title>Dollars per point</title>
+		<style type="text/css">
+
+		body { 
+				background-color: #eee;
+				font-family: 'PT Serif', serif;
+			}
+
+		#container {
+				width: 1100px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 20px;
+				padding: 1px 10px 10px 10px;
+				background-color: white;
+				box-shadow: 1px 1px 1px 1px #fff;
+			}
+
+		h1 {
+				font-weight: 300;
+				color: darkslategray;
+				font-family: 'Roboto', sans-serif;
+				font-size: 50px;
+				margin-bottom: 0px;
+				margin-top: 30px;
+				padding-left: 60px;
+			}
+
+		h2 {
+				font-weight: 300;
+				color: darkslategray;
+				font-family: 'Roboto', sans-serif;
+				font-size: 32px;
+				margin-bottom: 20px;
+				margin-top: 0px;
+				padding-left: 60px;
+			}
+
+		p {
+				font-size: 18px;
+				width: 800px;
+				margin-top: 5px;
+				padding-left: 60px;
+				margin-bottom: 5px;
+		}
+
+		.button {
+			-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+			-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+			box-shadow:inset 0px 1px 0px 0px #ffffff;
+			background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+			background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+			background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+			background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+			background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+			background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+			background-color:#ffffff;
+			-moz-border-radius:6px;
+			-webkit-border-radius:6px;
+			border-radius:6px;
+			border:1px solid #dcdcdc;
+			display:inline-block;
+			cursor:pointer;
+			color: darkslategray;
+			font-family: "Roboto";
+			font-size:15px;
+			font-weight:bold;
+			padding:6px 24px;
+			margin-right: 14px;
+			text-decoration:none;
+			text-shadow:0px 1px 0px #ffffff;
+		}
+		.button:hover {
+			background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+			background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+			background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+			background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+			background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+			background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+			background-color:#f6f6f6;
+		}
+		.button:active {
+			position:relative;
+			top:1px;
+		}
+
+		.button:focus {
+			outline: 0;
+		}
+
+		.btn-group {
+			padding-left: 190px;
+		}
+
+		a {
+			color: darkslategray;
+		}
+
+		a:hover {
+			color: royalblue;
+		}
+
+		.footer {
+				font-size: 14px;
+				margin-top: 0px;
+			}
+
+
+		svg {
+				background-color: white;
+				padding-left: 60px;
+			}
+
+		.axis path {
+			opacity: 0;
+		}
+		.axis line {
+			fill: none;
+			stroke: #eee;
+			shape-rendering: crispEdges;
+		}
+		
+
+		.y.axis text {
+			font-family: "Roboto";
+			font-size: 14px;
+			fill: darkslategray;
+		}
+
+		.y.axis path,
+		.y.axis line {
+			stroke: #bbb;
+			opacity: 1;
+		}
+
+		div.tooltip {	
+		    position: absolute;			
+		    text-align: center;			
+			white-space: normal;					
+		    padding: 2px;				
+		    font-size: 14px;		
+		    background: whitesmoke;	
+		    border: 1px solid gray;	
+		    border-radius: 4px;			
+		    pointer-events: none;
+		    cursor: none;			
+		}
+
+
+		</style>
+		<script type="text/javascript" src="http://d3js.org/d3.v3.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="container">
+		<h1>Dollars per point</h1>
+		<h2>A lollipop chart</h2>
+		<p>Formula One has become extremely expensive, with drivers earning tens of millions of dollars per year. But what’s the return of all this costs? One way to measure it is calculating how many dollars is worth one point, dividing the driver’s salary by the number of points he was able to score. In this chart, you can see <em>salary</em> and <em>dollars per point</em> (less is better) regarding 2015 Formula One lineup.</p>
+		<br>
+		<div class="btn-group" data-toggle="buttons-radio">
+			<button type="button" id="salary" class="button">Salary</button>
+			<button type="button" id="dollarsperpoint" class="button">Dollars per point</button>
+			<button type="button" id="dollarswm" class="button">Dollars per point (without McLaren)</button>
+		</div>
+		<div id="svganchor"></div>
+		<p>Additional explanations:</p>
+		<p>Only drivers that scored points are shown (that’s why Manor’s drivers are absent). McLaren’s poor performance is absolutely ruining the scale of <em>dollars per point</em> option, turning all the other values too small to compare. Thus, I created a third button, <em>dollars per point (without McLaren)</em>, for better visualizing the data regarding the other drivers.</p>
+		<p>It’s always complicated to estimate a Formula One driver’s salary. First, it is private information. Besides that, there are bonuses for performance and sponsor’s money. Therefore, the salaries depicted here are just estimates.</p>
+		<p>Source of the data: <a href="http://www.grandprixtimes.com">www.grandprixtimes.com</a>.</p>
+		<br>
+		<p class="footer">Created by Gerardo Furtado.</p>
+		</div>
+		<script type="text/javascript">
+
+			var w = 800;
+			var h = 500;
+			var padding = [ 10, 0, 10, 130 ];  //Top, right, bottom, left
+
+			var xScale = d3.scale.linear()
+						.range([ padding[3], w - padding[1] ]);
+
+			var yScale = d3.scale.ordinal()
+						.rangeRoundBands([ padding[0], h - padding[2] ], 0.9);
+
+			var xAxis = d3.svg.axis()
+							.scale(xScale)
+							.tickFormat("")
+							.innerTickSize(-( h - padding[0] - padding[2] ))
+							.outerTickSize(0)
+							.orient("bottom");
+
+			var yAxis = d3.svg.axis()
+							.scale(yScale)
+							.outerTickSize(0)
+							.orient("left");
+
+			var svg = d3.select("#svganchor")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h);
+
+			var colors = ['#d8b365','#5ab4ac'];
+
+			var tt = d3.select("#svganchor").append("div")	
+				    .attr("class", "tooltip")				
+				    .style("opacity", 0);
+
+			var crit = "salary";
+
+			var label = "Salary";
+
+			var formatnum = d3.format("0,000");
+
+			var order = "descending";
+
+			var ci = 0;
+
+			var slice = 18;
+
+			//d3.csv("dollarsperpoint.csv", function(data) {
+			d3.csv("data.csv", function(data) {
+
+				data.sort(function(a, b) {
+					return d3[order](+a[crit], +b[crit]);
+				});
+
+				xScale.domain([0, d3.max(data, function(d) {
+					return +d[crit] ;
+				}) * 1.025 ]);
+
+				yScale.domain(data.map(function(d) { 
+					return d.driver; 
+				}));
+
+				svg.append("g")
+					.attr("class", "y axis")
+					.attr("transform", "translate(" + padding[3] + ",0)")
+					.call(yAxis);
+
+				svg.append("g")
+					.attr("class", "x axis")
+					.attr("transform", "translate(0," + (h - padding[2]) +")")
+					.call(xAxis);
+
+				d3.selectAll(".tick")
+						    .filter(function (d) { return d === 0;  })
+						    .remove();
+
+				d3.select("#salary")
+					.on("click", function(){
+						crit = "salary";
+						order = "descending";
+						ci = 0;
+						label = "Salary";
+						slice = 18;
+						redraw();
+					});
+
+				d3.select("#dollarsperpoint")
+					.on("click", function(){
+						crit = "dollarsperpoint";
+						order = "ascending";
+						ci = 1;
+						label = "Dollars per point";
+						slice = 18;
+						redraw();
+					});
+
+				d3.select("#dollarswm")
+					.on("click", function(){
+						crit = "dollarsperpoint";
+						order = "ascending";
+						ci = 1;
+						label = "Dollars per point";
+						slice = 16;
+						redraw();
+					});
+
+				redraw();
+
+				function redraw() {
+
+					var top = data.sort(function(a, b) {
+						return d3[order](+a[crit], +b[crit]);
+					}).slice(0, slice);
+
+					xScale.domain([0, d3.max(top, function(d) {
+						return +d[crit] ;
+					}) * 1.025 ]);
+
+					yScale.domain(top.map(function(d) { 
+						return d.driver; 
+					}));
+
+					var recsenter = svg.selectAll("rect")
+							.data(top, function(d) { return d.driver})
+							.enter()
+							.append("rect")
+							.attr("class", function(d) { return "bar bar--" + (d.salary < 0 ? "negative" : "positive"); })
+    						.attr("x", function(d) { return xAxis(Math.min(0, d.salary)); })
+							.attr("y", function(d) { return yAxis(d.driver); })
+							.attr("width", function(d) { return Math.abs(x(d.salary) - x(0)); })
+							.attr("height", y.rangeBand());
+
+				// 	svg.selectAll(".bar")
+    //   .data(data)
+    // .enter().append("rect")
+    //   .attr("class", function(d) { return "bar bar--" + (d.value < 0 ? "negative" : "positive"); })
+    //   .attr("x", function(d) { return x(Math.min(0, d.value)); })
+    //   .attr("y", function(d) { return y(d.name); })
+    //   .attr("width", function(d) { return Math.abs(x(d.value) - x(0)); })
+    //   .attr("height", y.rangeBand());
+
+					recsenter.attr("class", function(d){ 
+									return (d.driver).replace(/\s/g, "")})
+								.attr("fill", colors[ci])
+								.attr("x", padding[3])
+								.attr("y", function(d) {
+									return yScale(d.driver)
+								})
+								.attr("width", 0)
+								.attr("height", yScale.rangeBand());
+
+					var circsenter = svg.selectAll("circle")
+							.data(top, function(d) { return d.driver})
+							.enter()
+							.append("circle");
+
+					circsenter.attr("class", function(d){ 
+									return (d.driver).replace(/\s/g, "")})
+								.attr("fill", colors[ci])
+								.attr("r", 0)
+								.attr("cx", padding[3])
+								.attr("cy", function(d) {
+									return yScale(d.driver) + 1
+								});
+
+					var recsupdate = svg.selectAll("rect")
+							.data(top, function(d) { return d.driver});
+
+					recsupdate.transition()
+								.duration(2000)
+								.attr("fill", colors[ci])
+								.attr("width", function(d) {
+									return xScale(d[crit]) - padding[3]
+								})
+								.attr("y", function(d) {
+											return yScale(d.driver)
+										});
+
+					var circsupdate = svg.selectAll("circle")
+							.data(top, function(d) { return d.driver});
+
+					circsupdate.transition()
+							.duration(2000)
+							.attr("fill", colors[ci])
+							.attr("cx", function(d) {
+								return xScale(d[crit])
+							})
+							.attr("cy", function(d) {
+									return yScale(d.driver) + 1
+								})
+							.attr("r", 5);
+
+					var recsexit = svg.selectAll("rect")
+					.data(top, function(d) { return d.driver})
+					.exit();
+
+					recsexit.transition()
+			        .duration(1400)
+			        .attr("width", 0)
+					.remove();
+
+					var circsexit = svg.selectAll("circle")
+					.data(top, function(d) { return d.driver})
+					.exit();
+
+					circsexit.transition()
+			        .duration(1400)
+			        .attr("cx", padding[3])
+			        .attr("r", 0)
+					.remove();
+
+					d3.transition(svg).select(".y.axis").transition().duration(2000)
+      					.call(yAxis);
+
+      				d3.selectAll("circle, rect").on("mousemove", function(d){
+						d3.selectAll("." + (d.driver).replace(/\s/g, "") + "").attr("fill", "maroon");
+						tt.html("&nbsp" + d.driver + " (Team: " + d.team + ")&nbsp<br>" + label + ": $" + formatnum(d[crit]))
+								.style('top', d3.event.pageY - 12 + 'px')
+			                  	.style('left', d3.event.pageX + 25 + 'px')
+			                  	.style("opacity", 0.9);
+					});
+
+					d3.selectAll("circle, rect").on("mouseout", function(){
+						d3.selectAll("circle, rect").attr("fill", colors[ci]);
+						tt.style("opacity", 0)
+					});
+
+				}
+
+			});
+
+		</script>
+	</body>
+</html>

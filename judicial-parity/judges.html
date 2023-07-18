@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Colorado District Judges Demographics | The Denver Post</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.foundation.min.css" />
+    <!-- <link rel="stylesheet" href="jquery.dataTables.yadcf.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.foundation.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.16/dataRender/datetime.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.1/js/responsive.foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
+    <script src="https://extras.denverpost.com/app/homicide-report/js/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        background-color: #fafafa;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 1%;
+    }
+
+    .table-title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 120%;
+        padding-top: 5px;
+    }
+
+    #filters {
+        font-size: .85rem;
+    }
+
+    .table-instructions {
+        color: #990012;
+        font-style: italic;
+        text-align: center;
+        font-size: .9rem;
+    }
+
+    #contributions-table-container {
+        margin-top: 10px;
+        padding: 3px;
+    }
+
+    #contributions-table {
+        font-size: .85rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    button.yadcf-filter-reset-button {
+        color: red;
+        margin-left: 10px;
+    }
+
+    select {
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-size: .95rem;
+    }
+
+    .yadcf-filter-range {
+        height: 2.9em;
+        border: 1px solid silver;
+    }
+
+    .filter-text {
+        font-weight: bold;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+
+    /*.row-color {
+        background-color: #e4e4e4 !important;
+    }
+
+    tr {
+        background-color: #fafafa !important;
+        border-bottom: 1px solid silver;
+    }*/
+
+    table,
+    thead,
+    tbody {
+        /*border: 0px solid silver !important;*/
+        font-family: 'Roboto', Helvetica, sans-serif;
+        font-size: .9rem;
+    }
+
+    tr {
+        background-color: #fafafa !important;
+    }
+
+    td {
+        border: 1px solid silver;
+    }
+
+    /*thead {
+        border-bottom: 2px solid #0a0a0a !important;
+    }*/
+
+    button.yadcf-filter-reset-button {
+        color: #990012;
+        font-weight: normal;
+    }
+
+    .over,
+    .under,
+    .other {
+        height: 24px;
+        width: 24px;
+        display: inline-block;
+        border: 1px solid #fafafa;
+    }
+
+    .over {
+        background-color: #998ec3;
+    }
+
+    .under {
+        background-color: #f1a340;
+    }
+
+    .other {
+        background-color: #ddd;
+    }
+
+    .counties {
+        font-size: .8rem;
+        font-style: italic;
+        display: inline-block;
+        line-height: 1.4;
+    }
+
+    .subtext {
+        font-size: .5rem;
+        color: #ccc;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="large-12 columns">
+            <h1 class="table-title">Search Paycheck Protection Program recipients</h1>
+            <p>More than 104,000 businesses and nonprofits in Colorado received approval for loans under the Paycheck Protection Program. Below is a searchable database of the 13,385 borrowers in Colorado who received $150,000 or more. Loan ranges rather than specific loan amounts were provided, and the data may contain errors. <strong>Filters are cumulative; when an option is selected in one filter the other filters will show only available options.</strong> <em>Source: <a href="https://home.treasury.gov/policy-issues/cares-act/assistance-for-small-businesses/sba-paycheck-protection-program-loan-level-data" target="_blank">U.S. Small Business Administration</a></em></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <p class="table-instructions">Click column headers to sort &bull; use dropdown menus to filter &bull; scroll right to see full table</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12">
+            <p><span class="over"></span> Over-represented, number of judges</p>
+            <p><span class="under"></span> Under-represented, number of judges</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <div>Judicial District 1<br>
+                <span class="counties">Gilpin, Jefferson counties</span>
+                <hr>
+                <p>Current</p>
+                <div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="under"></div><br>
+                <div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="over"></div><div class="under"></div><div class="under"></div><div class="other"></div><br>
+                <p>With parity</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <table id="ppp-table" cellspacing="0" width="100%">
+                <thead>
+<!--                     <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th colspan="4">White</th>
+                        <th colspan="4">Hispanic</th>
+                        <th colspan="4">Black</th>
+                        <th colspan="4">Asian</th>
+                        <th colspan="4">Other</th>
+                    </tr> -->
+                    <tr>
+                        <th style="width:22%"></th>
+                        <th></th>
+                        <th style="width:8%">Total judges</th>
+                        <th></th>
+                        <th>Parity</th>
+                        <th style="width:14%">White</th>
+                        <th></th>
+                        <th></th>
+                        <th>Parity</th>
+                        <th style="width:14%">Hispanic</th>
+                        <th></th>
+                        <th></th>
+                        <th>Parity</th>
+                        <th style="width:14%">Black</th>
+                        <th></th>
+                        <th></th>
+                        <th>Parity</th>
+                        <th style="width:14%">Asian</th>
+                        <th></th>
+                        <th></th>
+                        <th>Parity</th>
+                        <th style="width:14%">Other</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+    <script>
+    var dataFile = 'judges.json';
+
+    $(document).ready(function() {
+        // function disableDependentFilter(level, inuse) {
+        //     if (level < 4) {
+        //         filter = $('#yadcf-filter--example-' + level);
+        //         yadcf.exResetFilters(pppTable, [level]);
+        //         filter.prop('disabled', !inuse);
+
+        //         disableDependentFilter(level + 1, false);
+        //     }
+        // }
+
+        var over = '<div class="over"></div>';
+        var under = '<div class="under"></div>';
+        var text;
+
+        var pppTable = $('#ppp-table').DataTable({
+            ajax: {
+                'url': dataFile,
+                'dataSrc': ''
+            },
+            // pageLength: 15,
+            scrollY: '1000px',
+            //scrollCollapse: true,
+            scrollX: true,
+            paging: true,
+            pageLength: 50,
+            fixedHeader: true,
+            // responsive: {
+            //     details: {
+            //         type: 'column'
+            //     }
+            // },
+            //dom: '<if<t>lp>',
+            dom: '<t>',
+            order: [
+                [0, 'desc']
+            ],
+            columns: [
+                //{ data: 'button' },
+                {
+                    data: 'judicial_district',
+                    type: 'num',
+                    render: function(data, type, row, meta) {
+                        return 'Judicial District ' + data + '<br><span class="counties">' + row.counties + '</span>'
+                    }
+                },
+                {
+                    data: 'counties',
+                    visible: false
+                },
+                { data: 'total_judges' },
+                { data: 'white_pop', visible: false },
+                {
+                    data: 'white_parity',
+                    render: function(data, type, row, meta) {
+                        return Math.round(data)
+                    },
+                    visible: false
+                },
+                {
+                    data: 'white_judges',
+                    // createdCell: function(td, cellData, rowData, row, col) {
+                    //     console.log(rowData)
+                    //     if (cellData > rowData.white_parity) {
+                    //         $(td).addClass('over');
+                    //     } else if (cellData < rowData.white_parity) {
+                    //         $(td).addClass('under');
+                    //     } else $(td).addClass('');
+                    // }
+                    render: function(data, type, row, meta) {
+                        var numberOfSquares = data - row.white_parity;
+
+                        if (numberOfSquares < 0) {
+                            text = under
+                        } else text = over;
+
+                        const squares = function() {
+                            return '' + text.repeat(Math.abs(numberOfSquares)) + ''
+                        };
+                        return '<span class="subtext">Number of judges</span><br>' + data + '<hr><span class="subtext">Under/over represented</span><br>' + squares();
+                    }
+                },
+                { data: 'white_diff', visible: false },
+                { data: 'hispanic_pop', visible: false },
+                {
+                    data: 'hispanic_parity',
+                    render: function(data, type, row, meta) {
+                        return Math.round(data)
+                    },
+                    visible: false
+                },
+                {
+                    data: 'hispanic_judges',
+                    render: function(data, type, row, meta) {
+                        var numberOfSquares = data - row.hispanic_parity;
+
+                        if (numberOfSquares < 0) {
+                            text = under
+                        } else text = over;
+
+                        const squares = function() {
+                            return '' + text.repeat(Math.abs(numberOfSquares)) + ''
+                        };
+                        return data + '<br>' + squares();
+                    }
+                },
+                { data: 'hispanic_diff', visible: false },
+                { data: 'black_pop', visible: false },
+                {
+                    data: 'black_parity',
+                    render: function(data, type, row, meta) {
+                        return Math.round(data)
+                    },
+                    visible: false
+                },
+                {
+                    data: 'black_judges',
+                    render: function(data, type, row, meta) {
+                        var numberOfSquares = data - row.black_parity;
+
+                        if (numberOfSquares < 0) {
+                            text = under
+                        } else text = over;
+
+                        const squares = function() {
+                            return '' + text.repeat(Math.abs(numberOfSquares)) + ''
+                        };
+                        return data + '<br>' + squares();
+                    }
+                },
+                { data: 'black_diff', visible: false },
+                { data: 'asian_pop', visible: false },
+                {
+                    data: 'asian_parity',
+                    render: function(data, type, row, meta) {
+                        return Math.round(data)
+                    },
+                    visible: false
+                },
+                {
+                    data: 'asian_judges',
+                    render: function(data, type, row, meta) {
+                        var numberOfSquares = data - row.asian_parity;
+
+                        if (numberOfSquares < 0) {
+                            text = under
+                        } else text = over;
+
+                        const squares = function() {
+                            return '' + text.repeat(Math.abs(numberOfSquares)) + ''
+                        };
+                        return data + '<br>' + squares();
+                    }
+                },
+                { data: 'asian_diff', visible: false },
+                { data: 'other_pop', visible: false },
+                {
+                    data: 'other_parity',
+                    render: function(data, type, row, meta) {
+                        return Math.round(data)
+                    },
+                    visible: false
+                },
+                {
+                    data: 'other_judges',
+                    render: function(data, type, row, meta) {
+                        var numberOfSquares = data - row.other_parity;
+
+                        if (numberOfSquares < 0) {
+                            text = under
+                        } else text = over;
+
+                        const squares = function() {
+                            return '' + text.repeat(Math.abs(numberOfSquares)) + ''
+                        };
+                        return data + '<br>' + squares();
+                    }
+                },
+                { data: 'other_diff', visible: false }
+            ]
+        });
+    });
+    </script>
+</body>
+
+</html>

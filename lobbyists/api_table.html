@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Colorado Lobbyist Database | The Denver Post</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.foundation.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.foundation.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.4/plugins/foundation.reveal.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.16/dataRender/datetime.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.1/js/responsive.foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.19/sorting/datetime-moment.js"></script>
+
+    <head>
+        <style>
+        body {
+            background-color: #fafafa;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .table-title {
+            font-size: 2.3rem;
+            line-height: 35px;
+            font-weight: 700;
+        }
+
+        .instructions-text {
+            color: #cb181d;
+            font-size: .8em;
+            font-style: italic;
+            text-align: center;
+        }
+
+        #filters {
+            font-size: .85rem;
+        }
+
+        #table-container {
+            margin-top: 10px;
+            padding: 10px;
+        }
+
+        #lobbyist-table {
+            font-size: .85rem;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        button.yadcf-filter-reset-button {
+            color: #cb181d;
+            margin-left: 10px;
+        }
+
+        select {
+            margin-top: 7px;
+            margin-bottom: 0;
+            font-size: .85rem;
+        }
+
+        .yadcf-filter-range {
+            height: 2.9em;
+            border: 1px solid silver;
+        }
+
+        .filter-text {
+            font-weight: bold;
+            margin-top: .5em;
+            margin-bottom: .5em;
+        }
+
+        p.source {
+            font-size: .9rem;
+            text-align: right;
+            font-style: italic;
+        }
+
+        .filter-description {
+            font-style: italic;
+            display: inline-block;
+            line-height: 16px;
+        }
+
+        table {
+            border-collapse: separate;
+        }
+
+        thead {
+            line-height: 18px;
+            font-size: .85rem;
+        }
+
+        table.dataTable.dtr-column>tbody>tr>td.control:before,
+        table.dataTable.dtr-column>tbody>tr>th.control:before {
+            line-height: 17px;
+        }
+        </style>
+    </head>
+
+<body>
+    <div id="main-container">
+        <div id="table-container">
+            <div class="row">
+                <div class="large-12 columns">
+                    <p class="body-text"><em>Each row of the database represents a monthly report. Click the <span style="background-color:#008CBA;border-radius:50%;display:inline-table;width:20px;height:20px;color:white;padding-left:6px;font-size:.8rem;font-style:normal;margin-left:2px;">+</span> icon to see bill and position details. Use the dropdown menus to filter the database by year and client type, or search by keyword or phrase, such as National Rifle Association or HB 1234. Click the column headers to sort the data.</em></p>
+                </div>
+            </div>
+            <div id="filters">
+                <div class="row">
+                    <div class="large-2 medium-2 small-6 columns">
+                        <p id="filter-1"><span class="filter-description">Choose year</span></p>
+                    </div>
+                    <div class="large-2 medium-2 small-6 columns end">
+                        <p id="filter-2"><span class="filter-description">Choose client type</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <table id="lobbyist-table" class="display compact no-wrap" width="100%">
+                    <thead>
+                        <tr>
+                            <!-- <th></th>
+                            <th data-priority="1">Client</th>
+                            <th>Client city</th>
+                            <th>Client state</th>
+                            <th>Client type</th>
+                            <th data-priority="2">Amount</th>
+                            <th data-priority="3">Lobbyist</th>
+                            <th></th>
+                            <th class="none">Bill and position</th>
+                            <th>Lobbyist state</th>
+                            <th>Report month</th>
+                            <th>Report year</th>
+                            <th>Lobbyist city</th> -->
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <p class="source">By Kevin Hamm, The Denver Post &bull; Source: <a href="https://www.sos.state.co.us/pubs/lobby/lobby_home.html" target="_blank">Colorado Secretary of State</a></p>
+        </div>
+    </div>
+    <script>
+    $(document).ready(function() {
+
+        var reportYear = [{ value: '2020', label: '2020' }, { value: '2019', label: '2019' }, { value: '2018', label: '2018' }, { value: '2017', label: '2017' }, { value: '2016', label: '2016' }, { value: '2015', label: '2015' }, { value: '2014', label: '2014' }, { value: '2013', label: '2013' }, { value: '2012', label: '2012' }, { value: '2011', label: '2011' }, { value: '2010', label: '2010' }, { value: '2009', label: '2009' }, { value: '2008', label: '2008' }, { value: '2007', label: '2007' }];
+
+        var clientType = [{ value: 'Business Entity', label: 'Business entity' }, { value: 'Government', label: 'Government' }, { value: 'Group of Persons', label: 'Group' }, { value: 'Industry', label: 'Industry' }, { value: 'Organization', label: 'Organization' }, { value: 'Professional Association', label: 'Professional association' }, { value: 'Trade', label: 'Trade' }];
+
+        var lobbyistTable = $("#lobbyist-table").DataTable({
+            language: {
+                //searchPlaceholder: "Press enter to search",
+                search: "Press enter to search",
+            },
+            ajax: {
+                url: "https://data.colorado.gov/resource/gxnn-wthy.json?$$app_token=iBHgKDLMHrPuqf0MRJxqfICo5",
+                //dataSrc: ''
+            },
+            scrollCollapse: true,
+            paging: true,
+            pageLength: 25,
+            responsive: {
+                details: {
+                    type: 'column'
+                }
+            },
+            dom: '<if<t>lp>',
+            columnDefs: [{
+                    //defaultContent: '*',
+                    //targets: '_all'
+                },
+                {
+                    //className: 'control',
+                    //orderable: false,
+                    //targets: 0
+                },
+                // {
+                //     targets: [6],
+                //     render: function(data, type, row) {
+                //         if (row[7] === '' || data.indexOf(' ') >= 0) {
+                //             return data
+                //         } else return data + ', ' + row[7]
+                //     }
+                // },
+                // {
+                //     targets: 5,
+                //     render: $.fn.dataTable.render.number(',', '.', 0, '$')
+                // },
+                // {
+                //     targets: [7],
+                //     visible: false
+                // },
+
+            ],
+        //     order: [
+        //         [11, 'desc'],
+        //         [5, 'desc']
+        //     ],
+        //     initComplete: function() {
+        //         yadcf.init(lobbyistTable, [{
+        //                 column_number: 11,
+        //                 filter_container_id: 'filter-1',
+        //                 filter_default_label: 'Show all',
+        //                 data: reportYear
+        //             },
+        //             {
+        //                 column_number: 4,
+        //                 filter_container_id: 'filter-2',
+        //                 filter_default_label: 'Show all',
+        //                 data: clientType
+        //             }
+        //         ], {
+        //             cumulative_filtering: true,
+        //             filter_reset_button_text: 'Reset filter'
+        //         });
+        //     }
+        // });
+        // $('#lobbyist-table_filter input').unbind();
+        // $('#lobbyist-table_filter input').bind('keyup', function(e) {
+        //     if (e.keyCode == 13) {
+        //         lobbyistTable.search(this.value).draw();
+        //     }
+        });
+    });
+    </script>
+    <script>
+    $(document).foundation()
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Colorado SAT and PSAT Scores 2019 | The Denver Post</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.foundation.min.css" />
+    <!-- <link rel="stylesheet" href="jquery.dataTables.yadcf.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.foundation.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.4/plugins/foundation.reveal.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.16/dataRender/datetime.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.1/js/responsive.foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.19/sorting/datetime-moment.js"></script>
+
+    <head>
+        <style>
+        body {
+            background-color: #fafafa;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /*#main-container {
+            width: 900px;
+            margin: 0 auto;
+        }*/
+
+        .table-title {
+            font-size: 2.3rem;
+            line-height: 35px;
+            font-weight: 700;
+        }
+
+        .instructions-text {
+            color: #cb181d;
+            font-size: .8em;
+            font-style: italic;
+            text-align: center;
+        }
+
+        #filters {
+            font-size: .85rem;
+        }
+
+        #table-container {
+            margin-top: 10px;
+            padding: 10px;
+        }
+
+        #sat-table {
+            font-size: .85rem;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        button.yadcf-filter-reset-button {
+            color: #cb181d;
+            margin-left: 10px;
+        }
+
+        select {
+            margin-top: 7px;
+            margin-bottom: 0;
+            font-size: .85rem;
+        }
+
+        .dem {
+            background-color: lightblue;
+            width: 15px;
+            height: 15px;
+            margin-left: .5em;
+        }
+
+        .rep {
+            background-color: red;
+            width: 15px;
+            height: 15px;
+            margin-left: .5em;
+        }
+
+        .yadcf-filter-range {
+            height: 2.9em;
+            border: 1px solid silver;
+        }
+
+        .filter-text {
+            font-weight: bold;
+            margin-top: .5em;
+            margin-bottom: .5em;
+        }
+
+        p.source {
+            font-size: .9rem;
+            text-align: right;
+            font-style: italic;
+        }
+
+        .herd {
+            color: red;
+        }
+
+        .filter-description {
+            font-style: italic;
+            display: inline-block;
+            line-height: 16px;
+        }
+
+        thead {
+            line-height: 18px;
+            font-size: .85rem;
+        }
+
+        .topcorner {
+            /*position: relative;
+            top: 10px;
+            right: 10px;*/
+            float: right;
+            padding-right: 10px;
+        }
+
+        img {
+            height: 32px;
+            width: 32px;
+        }
+
+        .reveal {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .modal-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .modal-subtitle {
+            text-transform: uppercase;
+            color: rgba(0, 0, 0, .8);
+            margin-bottom: 4px;
+        }
+
+        .info-button {
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 4px;
+            line-height: 17px;
+        }
+        </style>
+    </head>
+
+<body>
+    <div id="main-container">
+        <!-- <div class="topcorner"><a data-open="info-modal"><button type="button" class="alert button info-button">Click for<br>information</button></a></div> -->
+        <div id="table-container">
+            <div class="row">
+                <div class="large-12 columns">
+                    <h2 class="table-title">SAT and PSAT Scores Database</h2>
+                    <p class="body-text">
+                        <p>The Colorado Department of Education released SAT and PSAT scores for reading and writing, and mathematics for the 2018-19 school year. Use the database to search district and school results. <em>A * indicates scores were not released to protect student privacy or scores were not available.</em></p>
+                        <p class="instructions-text">Use dropdown menus or keyword search to filter table &bull; click column headers to sort</p>
+                </div>
+            </div>
+            <div id="filters">
+                <div class="row">
+                    <div class="large-2 medium-2 small-6 columns">
+                        <p id="filter-1"><span class="filter-description">Choose district</span></p>
+                    </div>
+                    <div class="large-2 medium-2 small-6 columns">
+                        <p id="filter-2"><span class="filter-description">Choose school</span></p>
+                    </div>
+                    <div class="large-2 medium-2 small-6 columns end">
+                        <p id="filter-3"><span class="filter-description">Choose test and grade</span></p>
+                    </div>
+                    <!-- <div class="large-2 medium-2 small-6 columns end">
+                        <p id="filter-4"><span class="filter-description">Choose grade</span></p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- <div class="reveal" id="info-modal" data-reveal>
+            <h3 class="modal-title">About the loan debt data</h3>
+            <p>From the U.S. Department of Education's documentation: <em>Given these data are preliminary, the U.S. Department of Education does not recommend using these data for informing enrollment decisions. College Scorecard will provide a final version appropriate for a wider audience in the fall of 2019 after institutions have had a chance to revise the underlying data from which these metrics are derived.</em></p>
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div> -->
+        <div class="row">
+            <div class="large-12 columns">
+                <table id="sat-table" class="display compact no-wrap" width="100%">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th>District</th>
+                            <th data-priority="1">School</th>
+                            <th data-priority="2">Test</th>
+                            <th>Grade</th>
+                            <th data-priority="3">Total average score</th>
+                            <th data-priority="4">Change from 2018</th>
+                            <th>Reading and writing average score</th>
+                            <th>Change from 2018</th>
+                            <th>Mathematics average score</th>
+                            <th>Change from 2018</th>
+                            <th>Participation</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <p class="source">Source: Colorado Department of Education</a></p>
+        </div>
+    </div>
+    <script>
+    $(document).ready(function() {
+        // function disableDependentFilter(level, inuse) {
+        //     if (level < 4) {
+        //         filter = $('#yadcf-filter-debt' + level);
+        //         yadcf.exResetFilters(satTable , [level]);
+        //         filter.prop('disabled', !inuse);
+
+        //         disableDependentFilter(level + 1, false);
+        //     }
+        // }
+
+        var schoolDistrict = [{ value: 'ALL DISTRICTS', label: 'COLORADO' }, { value: 'ACADEMY 20', label: 'ACADEMY 20' }, { value: 'ADAMS 12 FIVE STAR SCHOOLS', label: 'ADAMS 12 FIVE STAR SCHOOLS' }, { value: 'ADAMS COUNTY 14', label: 'ADAMS COUNTY 14' }, { value: 'AGATE 300', label: 'AGATE 300' }, { value: 'AGUILAR REORGANIZED 6', label: 'AGUILAR REORGANIZED 6' }, { value: 'AKRON R-1', label: 'AKRON R-1' }, { value: 'ALAMOSA RE-11J', label: 'ALAMOSA RE-11J' }, { value: 'ARCHULETA COUNTY 50 JT', label: 'ARCHULETA COUNTY 50 JT' }, { value: 'ARICKAREE R-2', label: 'ARICKAREE R-2' }, { value: 'ARRIBA-FLAGLER C-20', label: 'ARRIBA-FLAGLER C-20' }, { value: 'ASPEN 1', label: 'ASPEN 1' }, { value: 'AULT-HIGHLAND RE-9', label: 'AULT-HIGHLAND RE-9' }, { value: 'AURORA PUBLIC SCHOOLS', label: 'AURORA PUBLIC SCHOOLS' }, { value: 'BAYFIELD 10 JT-R', label: 'BAYFIELD 10 JT-R' }, { value: 'BENNETT 29J', label: 'BENNETT 29J' }, { value: 'BETHUNE R-5', label: 'BETHUNE R-5' }, { value: 'BIG SANDY 100J', label: 'BIG SANDY 100J' }, { value: 'BOULDER VALLEY RE 2', label: 'BOULDER VALLEY RE 2' }, { value: 'BRANSON REORGANIZED 82', label: 'BRANSON REORGANIZED 82' }, { value: 'BRIGGSDALE RE-10', label: 'BRIGGSDALE RE-10' }, { value: 'BRUSH RE-2(J)', label: 'BRUSH RE-2(J)' }, { value: 'BUENA VISTA R-31', label: 'BUENA VISTA R-31' }, { value: 'BUFFALO RE-4J', label: 'BUFFALO RE-4J' }, { value: 'BURLINGTON RE-6J', label: 'BURLINGTON RE-6J' }, { value: 'BYERS 32J', label: 'BYERS 32J' }, { value: 'CALHAN RJ-1', label: 'CALHAN RJ-1' }, { value: 'CAMPO RE-6', label: 'CAMPO RE-6' }, { value: 'CANON CITY RE-1', label: 'CANON CITY RE-1' }, { value: 'CENTENNIAL BOCES', label: 'CENTENNIAL BOCES' }, { value: 'CENTENNIAL R-1', label: 'CENTENNIAL R-1' }, { value: 'CENTER 26 JT', label: 'CENTER 26 JT' }, { value: 'CHARTER SCHOOL INSTITUTE', label: 'CHARTER SCHOOL INSTITUTE' }, { value: 'CHERAW 31', label: 'CHERAW 31' }, { value: 'CHERRY CREEK 5', label: 'CHERRY CREEK 5' }, { value: 'CHEYENNE COUNTY RE-5', label: 'CHEYENNE COUNTY RE-5' }, { value: 'CHEYENNE MOUNTAIN 12', label: 'CHEYENNE MOUNTAIN 12' }, { value: 'CLEAR CREEK RE-1', label: 'CLEAR CREEK RE-1' }, { value: 'COLORADO RIVER BOCES', label: 'COLORADO RIVER BOCES' }, { value: 'COLORADO SCHOOL FOR THE DEAF AND BLIND', label: 'COLORADO SCHOOL FOR THE DEAF AND BLIND' }, { value: 'COLORADO SPRINGS 11', label: 'COLORADO SPRINGS 11' }, { value: 'COTOPAXI RE-3', label: 'COTOPAXI RE-3' }, { value: 'CREEDE SCHOOL DISTRICT', label: 'CREEDE SCHOOL DISTRICT' }, { value: 'CRIPPLE CREEK-VICTOR RE-1', label: 'CRIPPLE CREEK-VICTOR RE-1' }, { value: 'CROWLEY COUNTY RE-1-J', label: 'CROWLEY COUNTY RE-1-J' }, { value: 'CUSTER COUNTY SCHOOL DISTRICT C-1', label: 'CUSTER COUNTY SCHOOL DISTRICT C-1' }, { value: 'DE BEQUE 49JT', label: 'DE BEQUE 49JT' }, { value: 'DEER TRAIL 26J', label: 'DEER TRAIL 26J' }, { value: 'DEL NORTE C-7', label: 'DEL NORTE C-7' }, { value: 'DELTA COUNTY 50(J)', label: 'DELTA COUNTY 50(J)' }, { value: 'DENVER COUNTY 1', label: 'DENVER COUNTY 1' }, { value: 'DISTRICT 49', label: 'DISTRICT 49' }, { value: 'DOLORES COUNTY RE NO.2', label: 'DOLORES COUNTY RE NO.2' }, { value: 'DOLORES RE-4A', label: 'DOLORES RE-4A' }, { value: 'DOUGLAS COUNTY RE 1', label: 'DOUGLAS COUNTY RE 1' }, { value: 'DURANGO 9-R', label: 'DURANGO 9-R' }, { value: 'EADS RE-1', label: 'EADS RE-1' }, { value: 'EAGLE COUNTY RE 50', label: 'EAGLE COUNTY RE 50' }, { value: 'EAST GRAND 2', label: 'EAST GRAND 2' }, { value: 'EAST OTERO R-1', label: 'EAST OTERO R-1' }, { value: 'EATON RE-2', label: 'EATON RE-2' }, { value: 'EDISON 54 JT', label: 'EDISON 54 JT' }, { value: 'EDUCATION REENVISIONED BOCES', label: 'EDUCATION REENVISIONED BOCES' }, { value: 'ELBERT 200', label: 'ELBERT 200' }, { value: 'ELIZABETH SCHOOL DISTRICT', label: 'ELIZABETH SCHOOL DISTRICT' }, { value: 'ELLICOTT 22', label: 'ELLICOTT 22' }, { value: 'ENGLEWOOD 1', label: 'ENGLEWOOD 1' }, { value: 'ESTES PARK R-3', label: 'ESTES PARK R-3' }, { value: 'EXPEDITIONARY BOCES', label: 'EXPEDITIONARY BOCES' }, { value: 'FORT MORGAN RE-3', label: 'FORT MORGAN RE-3' }, { value: 'FOUNTAIN 8', label: 'FOUNTAIN 8' }, { value: 'FOWLER R-4J', label: 'FOWLER R-4J' }, { value: 'FREMONT RE-2', label: 'FREMONT RE-2' }, { value: 'FRENCHMAN RE-3', label: 'FRENCHMAN RE-3' }, { value: 'GARFIELD 16', label: 'GARFIELD 16' }, { value: 'GARFIELD RE-2', label: 'GARFIELD RE-2' }, { value: 'GENOA-HUGO C113', label: 'GENOA-HUGO C113' }, { value: 'GILPIN COUNTY RE-1', label: 'GILPIN COUNTY RE-1' }, { value: 'GRANADA RE-1', label: 'GRANADA RE-1' }, { value: 'GREELEY 6', label: 'GREELEY 6' }, { value: 'GUNNISON WATERSHED RE1J', label: 'GUNNISON WATERSHED RE1J' }, { value: 'HANOVER 28', label: 'HANOVER 28' }, { value: 'HARRISON 2', label: 'HARRISON 2' }, { value: 'HAXTUN RE-2J', label: 'HAXTUN RE-2J' }, { value: 'HAYDEN RE-1', label: 'HAYDEN RE-1' }, { value: 'HI-PLAINS R-23', label: 'HI-PLAINS R-23' }, { value: 'HINSDALE COUNTY RE 1', label: 'HINSDALE COUNTY RE 1' }, { value: 'HOEHNE REORGANIZED 3', label: 'HOEHNE REORGANIZED 3' }, { value: 'HOLLY RE-3', label: 'HOLLY RE-3' }, { value: 'HOLYOKE RE-1J', label: 'HOLYOKE RE-1J' }, { value: 'HUERFANO RE-1', label: 'HUERFANO RE-1' }, { value: 'IDALIA RJ-3', label: 'IDALIA RJ-3' }, { value: 'IGNACIO 11 JT', label: 'IGNACIO 11 JT' }, { value: 'JEFFERSON COUNTY R-1', label: 'JEFFERSON COUNTY R-1' }, { value: 'JOHNSTOWN-MILLIKEN RE-5J', label: 'JOHNSTOWN-MILLIKEN RE-5J' }, { value: 'JULESBURG RE-1', label: 'JULESBURG RE-1' }, { value: 'KARVAL RE-23', label: 'KARVAL RE-23' }, { value: 'KIM REORGANIZED 88', label: 'KIM REORGANIZED 88' }, { value: 'KIOWA C-2', label: 'KIOWA C-2' }, { value: 'KIT CARSON R-1', label: 'KIT CARSON R-1' }, { value: 'LA VETA RE-2', label: 'LA VETA RE-2' }, { value: 'LAKE COUNTY R-1', label: 'LAKE COUNTY R-1' }, { value: 'LAMAR RE-2', label: 'LAMAR RE-2' }, { value: 'LAS ANIMAS RE-1', label: 'LAS ANIMAS RE-1' }, { value: 'LEWIS-PALMER 38', label: 'LEWIS-PALMER 38' }, { value: 'LIBERTY J-4', label: 'LIBERTY J-4' }, { value: 'LIMON RE-4J', label: 'LIMON RE-4J' }, { value: 'LITTLETON 6', label: 'LITTLETON 6' }, { value: 'LONE STAR 101', label: 'LONE STAR 101' }, { value: 'MANCOS RE-6', label: 'MANCOS RE-6' }, { value: 'MANITOU SPRINGS 14', label: 'MANITOU SPRINGS 14' }, { value: 'MANZANOLA 3J', label: 'MANZANOLA 3J' }, { value: 'MAPLETON 1', label: 'MAPLETON 1' }, { value: 'MC CLAVE RE-2', label: 'MC CLAVE RE-2' }, { value: 'MEEKER RE1', label: 'MEEKER RE1' }, { value: 'MESA COUNTY VALLEY 51', label: 'MESA COUNTY VALLEY 51' }, { value: 'MIAMI/YODER 60 JT', label: 'MIAMI/YODER 60 JT' }, { value: 'MOFFAT 2', label: 'MOFFAT 2' }, { value: 'MOFFAT COUNTY RE:NO 1', label: 'MOFFAT COUNTY RE:NO 1' }, { value: 'MONTE VISTA C-8', label: 'MONTE VISTA C-8' }, { value: 'MONTEZUMA-CORTEZ RE-1', label: 'MONTEZUMA-CORTEZ RE-1' }, { value: 'MONTROSE COUNTY RE-1J', label: 'MONTROSE COUNTY RE-1J' }, { value: 'MOUNTAIN VALLEY RE 1', label: 'MOUNTAIN VALLEY RE 1' }, { value: 'NORTH CONEJOS RE-1J', label: 'NORTH CONEJOS RE-1J' }, { value: 'NORTH PARK R-1', label: 'NORTH PARK R-1' }, { value: 'NORWOOD R-2J', label: 'NORWOOD R-2J' }, { value: 'OTIS R-3', label: 'OTIS R-3' }, { value: 'OURAY R-1', label: 'OURAY R-1' }, { value: 'PARK COUNTY RE-2', label: 'PARK COUNTY RE-2' }, { value: 'PAWNEE RE-12', label: 'PAWNEE RE-12' }, { value: 'PEYTON 23 JT', label: 'PEYTON 23 JT' }, { value: 'PLAINVIEW RE-2', label: 'PLAINVIEW RE-2' }, { value: 'PLATEAU RE-5', label: 'PLATEAU RE-5' }, { value: 'PLATEAU VALLEY 50', label: 'PLATEAU VALLEY 50' }, { value: 'PLATTE CANYON 1', label: 'PLATTE CANYON 1' }, { value: 'PLATTE VALLEY RE-7', label: 'PLATTE VALLEY RE-7' }, { value: 'POUDRE R-1', label: 'POUDRE R-1' }, { value: 'PRAIRIE RE-11', label: 'PRAIRIE RE-11' }, { value: 'PRIMERO REORGANIZED 2', label: 'PRIMERO REORGANIZED 2' }, { value: 'PRITCHETT RE-3', label: 'PRITCHETT RE-3' }, { value: 'PUEBLO CITY 60', label: 'PUEBLO CITY 60' }, { value: 'PUEBLO COUNTY 70', label: 'PUEBLO COUNTY 70' }, { value: 'RANGELY RE-4', label: 'RANGELY RE-4' }, { value: 'REVERE SCHOOL DISTRICT', label: 'REVERE SCHOOL DISTRICT' }, { value: 'RIDGWAY R-2', label: 'RIDGWAY R-2' }, { value: 'ROARING FORK RE-1', label: 'ROARING FORK RE-1' }, { value: 'ROCKY FORD R-2', label: 'ROCKY FORD R-2' }, { value: 'SALIDA R-32', label: 'SALIDA R-32' }, { value: 'SAN JUAN BOCES', label: 'SAN JUAN BOCES' }, { value: 'SANFORD 6J', label: 'SANFORD 6J' }, { value: 'SANGRE DE CRISTO RE-22J', label: 'SANGRE DE CRISTO RE-22J' }, { value: 'SARGENT RE-33J', label: 'SARGENT RE-33J' }, { value: 'SCHOOL DISTRICT 27J', label: 'SCHOOL DISTRICT 27J' }, { value: 'SHERIDAN 2', label: 'SHERIDAN 2' }, { value: 'SIERRA GRANDE R-30', label: 'SIERRA GRANDE R-30' }, { value: 'SILVERTON 1', label: 'SILVERTON 1' }, { value: 'SOUTH CONEJOS RE-10', label: 'SOUTH CONEJOS RE-10' }, { value: 'SOUTH ROUTT RE 3', label: 'SOUTH ROUTT RE 3' }, { value: 'SPRINGFIELD RE-4', label: 'SPRINGFIELD RE-4' }, { value: 'ST VRAIN VALLEY RE 1J', label: 'ST VRAIN VALLEY RE 1J' }, { value: 'STEAMBOAT SPRINGS RE-2', label: 'STEAMBOAT SPRINGS RE-2' }, { value: 'STRASBURG 31J', label: 'STRASBURG 31J' }, { value: 'STRATTON R-4', label: 'STRATTON R-4' }, { value: 'SUMMIT RE-1', label: 'SUMMIT RE-1' }, { value: 'SWINK 33', label: 'SWINK 33' }, { value: 'TELLURIDE R-1', label: 'TELLURIDE R-1' }, { value: 'THOMPSON R2-J', label: 'THOMPSON R2-J' }, { value: 'TRINIDAD 1', label: 'TRINIDAD 1' }, { value: 'VALLEY RE-1', label: 'VALLEY RE-1' }, { value: 'VILAS RE-5', label: 'VILAS RE-5' }, { value: 'WALSH RE-1', label: 'WALSH RE-1' }, { value: 'WELD COUNTY RE-1', label: 'WELD COUNTY RE-1' }, { value: 'WELD COUNTY S/D RE-8', label: 'WELD COUNTY S/D RE-8' }, { value: 'WELD COUNTY SCHOOL DISTRICT RE-3J', label: 'WELD COUNTY SCHOOL DISTRICT RE-3J' }, { value: 'WELDON VALLEY RE-20(J)', label: 'WELDON VALLEY RE-20(J)' }, { value: 'WEST END RE-2', label: 'WEST END RE-2' }, { value: 'WEST GRAND 1-JT', label: 'WEST GRAND 1-JT' }, { value: 'WESTMINSTER PUBLIC SCHOOLS', label: 'WESTMINSTER PUBLIC SCHOOLS' }, { value: 'WIDEFIELD 3', label: 'WIDEFIELD 3' }, { value: 'WIGGINS RE-50(J)', label: 'WIGGINS RE-50(J)' }, { value: 'WILEY RE-13 JT', label: 'WILEY RE-13 JT' }, { value: 'WINDSOR RE-4', label: 'WINDSOR RE-4' }, { value: 'WOODLAND PARK RE-2', label: 'WOODLAND PARK RE-2' }, { value: 'WOODLIN R-104', label: 'WOODLIN R-104' }, { value: 'WRAY RD-2', label: 'WRAY RD-2' }, { value: 'YUMA 1', label: 'YUMA 1' }];
+
+        var schoolName = [{ value: "All Schools", label: "ALL SCHOOLS" }, {value: "5280 HIGH SCHOOL", label: "5280 HIGH SCHOOL" }, { value: "70 ONLINE", label: "70 ONLINE" }, { value: "ABRAHAM LINCOLN HIGH SCHOOL", label: "ABRAHAM LINCOLN HIGH SCHOOL" }, { value: "ACADEMY HIGH SCHOOL", label: "ACADEMY HIGH SCHOOL" }, { value: "ACADEMY OF CHARTER SCHOOLS", label: "ACADEMY OF CHARTER SCHOOLS" }, { value: "ACADEMY OF URBAN LEARNING", label: "ACADEMY OF URBAN LEARNING" }, { value: "ACADEMY ONLINE", label: "ACADEMY ONLINE" }, { value: "ACHIEVE BLENDED LEARNING ACADEMY", label: "ACHIEVE BLENDED LEARNING ACADEMY" }, { value: "ACHIEVE ONLINE", label: "ACHIEVE ONLINE" }, { value: "ADAMS CITY HIGH SCHOOL", label: "ADAMS CITY HIGH SCHOOL" }, { value: "ADAMS YOUTH SERVICE CENTER", label: "ADAMS YOUTH SERVICE CENTER" }, { value: "ADDENBROOKE CLASSICAL ACADEMY", label: "ADDENBROOKE CLASSICAL ACADEMY" }, { value: "AGATE JUNIOR SENIOR HIGH SCHOOL", label: "AGATE JUNIOR SENIOR HIGH SCHOOL" }, { value: "AGUILAR JUNIOR-SENIOR HIGH SCHOOL", label: "AGUILAR JUNIOR-SENIOR HIGH SCHOOL" }, { value: "AIM GLOBAL", label: "AIM GLOBAL" }, { value: "AIR ACADEMY HIGH SCHOOL", label: "AIR ACADEMY HIGH SCHOOL" }, { value: "AKRON HIGH SCHOOL", label: "AKRON HIGH SCHOOL" }, { value: "ALAMEDA INTERNATIONAL JUNIOR/SENIOR HIGH SCHOOL", label: "ALAMEDA INTERNATIONAL JUNIOR/SENIOR HIGH SCHOOL" }, { value: "ALAMOSA HIGH SCHOOL", label: "ALAMOSA HIGH SCHOOL" }, { value: "ALAMOSA OMBUDSMAN SCHOOL OF EXCELLENCE", label: "ALAMOSA OMBUDSMAN SCHOOL OF EXCELLENCE" }, { value: "ANIMAS HIGH SCHOOL", label: "ANIMAS HIGH SCHOOL" }, { value: "ANTONITO HIGH SCHOOL", label: "ANTONITO HIGH SCHOOL" }, { value: "ARAPAHOE HIGH SCHOOL", label: "ARAPAHOE HIGH SCHOOL" }, { value: "ARAPAHOE RIDGE HIGH SCHOOL", label: "ARAPAHOE RIDGE HIGH SCHOOL" }, { value: "ARICKAREE UNDIVIDED HIGH SCHOOL", label: "ARICKAREE UNDIVIDED HIGH SCHOOL" }, { value: "ARVADA HIGH SCHOOL", label: "ARVADA HIGH SCHOOL" }, { value: "ARVADA WEST HIGH SCHOOL", label: "ARVADA WEST HIGH SCHOOL" }, { value: "ASCENT CLASSICAL ACADEMY", label: "ASCENT CLASSICAL ACADEMY" }, { value: "ASPEN HIGH SCHOOL", label: "ASPEN HIGH SCHOOL" }, { value: "ASPEN VALLEY CAMPUS", label: "ASPEN VALLEY CAMPUS" }, { value: "ATLAS PREPARATORY HIGH SCHOOL", label: "ATLAS PREPARATORY HIGH SCHOOL" }, { value: "AURORA CENTRAL HIGH SCHOOL", label: "AURORA CENTRAL HIGH SCHOOL" }, { value: "AURORA WEST COLLEGE PREPARATORY ACADEMY", label: "AURORA WEST COLLEGE PREPARATORY ACADEMY" }, { value: "BANNING LEWIS RANCH ACADEMY", label: "BANNING LEWIS RANCH ACADEMY" }, { value: "BASALT HIGH SCHOOL", label: "BASALT HIGH SCHOOL" }, { value: "BATTLE MOUNTAIN HIGH SCHOOL", label: "BATTLE MOUNTAIN HIGH SCHOOL" }, { value: "BAYFIELD HIGH SCHOOL", label: "BAYFIELD HIGH SCHOOL" }, { value: "BEAR CREEK HIGH SCHOOL", label: "BEAR CREEK HIGH SCHOOL" }, { value: "BENNETT HIGH SCHOOL", label: "BENNETT HIGH SCHOOL" }, { value: "BERTHOUD HIGH SCHOOL", label: "BERTHOUD HIGH SCHOOL" }, { value: "BETHUNE PUBLIC SCHOOLS", label: "BETHUNE PUBLIC SCHOOLS" }, { value: "BIG PICTURE COLLEGE AND CAREER ACADEMY", label: "BIG PICTURE COLLEGE AND CAREER ACADEMY" }, { value: "BOLT ACADEMY", label: "BOLT ACADEMY" }, { value: "BOULDER HIGH SCHOOL", label: "BOULDER HIGH SCHOOL" }, { value: "BOULDER PREP CHARTER HIGH SCHOOL", label: "BOULDER PREP CHARTER HIGH SCHOOL" }, { value: "BOULDER UNIVERSAL", label: "BOULDER UNIVERSAL" }, { value: "BRADY EXPLORATION SCHOOL", label: "BRADY EXPLORATION SCHOOL" }, { value: "BRANSON SCHOOL", label: "BRANSON SCHOOL" }, { value: "BRANSON SCHOOL ONLINE", label: "BRANSON SCHOOL ONLINE" }, { value: "BRIDGES", label: "BRIDGES" }, { value: "BRIGGSDALE UNDIVIDED HIGH SCHOOL", label: "BRIGGSDALE UNDIVIDED HIGH SCHOOL" }, { value: "BRIGHTON HERITAGE ACADEMY", label: "BRIGHTON HERITAGE ACADEMY" }, { value: "BRIGHTON HIGH SCHOOL", label: "BRIGHTON HIGH SCHOOL" }, { value: "BROOMFIELD HIGH SCHOOL", label: "BROOMFIELD HIGH SCHOOL" }, { value: "BRUCE RANDOLPH SCHOOL", label: "BRUCE RANDOLPH SCHOOL" }, { value: "BRUSH HIGH SCHOOL", label: "BRUSH HIGH SCHOOL" }, { value: "BUENA VISTA HIGH SCHOOL", label: "BUENA VISTA HIGH SCHOOL" }, { value: "BURLINGTON HIGH SCHOOL", label: "BURLINGTON HIGH SCHOOL" }, { value: "BYERS JUNIOR-SENIOR HIGH SCHOOL", label: "BYERS JUNIOR-SENIOR HIGH SCHOOL" }, { value: "BYRON SYRING DELTA CENTER", label: "BYRON SYRING DELTA CENTER" }, { value: "CALHAN HIGH SCHOOL", label: "CALHAN HIGH SCHOOL" }, { value: "CALICHE JUNIOR-SENIOR HIGH SCHOOL", label: "CALICHE JUNIOR-SENIOR HIGH SCHOOL" }, { value: "CAMPO UNDIVIDED HIGH SCHOOL", label: "CAMPO UNDIVIDED HIGH SCHOOL" }, { value: "CANON CITY HIGH SCHOOL", label: "CANON CITY HIGH SCHOOL" }, { value: "CAPROCK ACADEMY", label: "CAPROCK ACADEMY" }, { value: "CAREER EDUCATION CENTER EARLY COLLEGE", label: "CAREER EDUCATION CENTER EARLY COLLEGE" }, { value: "CAREER READINESS ACADEMY", label: "CAREER READINESS ACADEMY" }, { value: "CASTLE VIEW HIGH SCHOOL", label: "CASTLE VIEW HIGH SCHOOL" }, { value: "CEDAREDGE HIGH SCHOOL", label: "CEDAREDGE HIGH SCHOOL" }, { value: "CENTAURI HIGH SCHOOL", label: "CENTAURI HIGH SCHOOL" }, { value: "CENTAURUS HIGH SCHOOL", label: "CENTAURUS HIGH SCHOOL" }, { value: "CENTENNIAL HIGH SCHOOL", label: "CENTENNIAL HIGH SCHOOL" }, { value: "CENTENNIAL SCHOOL", label: "CENTENNIAL SCHOOL" }, { value: "CENTER HIGH SCHOOL", label: "CENTER HIGH SCHOOL" }, { value: "CENTER VIRTUAL ACADEMY", label: "CENTER VIRTUAL ACADEMY" }, { value: "CENTRAL HIGH SCHOOL", label: "CENTRAL HIGH SCHOOL" }, { value: "CHAFFEE COUNTY HIGH SCHOOL", label: "CHAFFEE COUNTY HIGH SCHOOL" }, { value: "CHAPARRAL HIGH SCHOOL", label: "CHAPARRAL HIGH SCHOOL" }, { value: "CHATFIELD HIGH SCHOOL", label: "CHATFIELD HIGH SCHOOL" }, { value: "CHAVEZ/HUERTA K-12 PREPARATORY ACADEMY", label: "CHAVEZ/HUERTA K-12 PREPARATORY ACADEMY" }, { value: "CHERAW SCHOOL", label: "CHERAW SCHOOL" }, { value: "CHEROKEE TRAIL HIGH SCHOOL", label: "CHEROKEE TRAIL HIGH SCHOOL" }, { value: "CHERRY CREEK HIGH SCHOOL", label: "CHERRY CREEK HIGH SCHOOL" }, { value: "CHEYENNE MOUNTAIN HIGH SCHOOL", label: "CHEYENNE MOUNTAIN HIGH SCHOOL" }, { value: "CHEYENNE WELLS JUNIOR/HIGH SCHOOL", label: "CHEYENNE WELLS JUNIOR/HIGH SCHOOL" }, { value: "CIVA CHARTER ACADEMY", label: "CIVA CHARTER ACADEMY" }, { value: "CLEAR CREEK HIGH SCHOOL", label: "CLEAR CREEK HIGH SCHOOL" }, { value: "COAL RIDGE HIGH SCHOOL", label: "COAL RIDGE HIGH SCHOOL" }, { value: "COLLEGIATE ACADEMY OF COLORADO", label: "COLLEGIATE ACADEMY OF COLORADO" }, { value: "COLLEGIATE PREPARATORY ACADEMY", label: "COLLEGIATE PREPARATORY ACADEMY" }, { value: "COLORADO CONNECTIONS ACADEMY", label: "COLORADO CONNECTIONS ACADEMY" }, { value: "COLORADO CONNECTIONS ACADEMY @ DURANGO", label: "COLORADO CONNECTIONS ACADEMY @ DURANGO" }, { value: "COLORADO EARLY COLLEGE FORT COLLINS", label: "COLORADO EARLY COLLEGE FORT COLLINS" }, { value: "COLORADO EARLY COLLEGES - PARKER", label: "COLORADO EARLY COLLEGES - PARKER" }, { value: "COLORADO EARLY COLLEGES AURORA", label: "COLORADO EARLY COLLEGES AURORA" }, { value: "COLORADO HIGH SCHOOL CHARTER", label: "COLORADO HIGH SCHOOL CHARTER" }, { value: "COLORADO HIGH SCHOOL CHARTER - GES", label: "COLORADO HIGH SCHOOL CHARTER - GES" }, { value: "COLORADO MILITARY ACADEMY", label: "COLORADO MILITARY ACADEMY" }, { value: "COLORADO PREPARATORY ACADEMY HIGH SCHOOL", label: "COLORADO PREPARATORY ACADEMY HIGH SCHOOL" }, { value: "COLORADO SCHOOL FOR THE DEAF AND BLIND", label: "COLORADO SCHOOL FOR THE DEAF AND BLIND" }, { value: "COLORADO SPRINGS EARLY COLLEGES", label: "COLORADO SPRINGS EARLY COLLEGES" }, { value: "COLORADO VIRTUAL ACADEMY (COVA)", label: "COLORADO VIRTUAL ACADEMY (COVA)" }, { value: "COLORADO'S FINEST HIGH SCHOOL OF CHOICE", label: "COLORADO'S FINEST HIGH SCHOOL OF CHOICE" }, { value: "COLUMBINE HIGH SCHOOL", label: "COLUMBINE HIGH SCHOOL" }, { value: "COMMUNITY PREP CHARTER SCHOOL", label: "COMMUNITY PREP CHARTER SCHOOL" }, { value: "COMPASS COMMUNITY COLLABORATIVE SCHOOL", label: "COMPASS COMMUNITY COLLABORATIVE SCHOOL" }, { value: "COMPASS MONTESSORI - GOLDEN CHARTER SCHOOL", label: "COMPASS MONTESSORI - GOLDEN CHARTER SCHOOL" }, { value: "COMPASSION ROAD ACADEMY", label: "COMPASSION ROAD ACADEMY" }, { value: "CONIFER SENIOR HIGH SCHOOL", label: "CONIFER SENIOR HIGH SCHOOL" }, { value: "CONTEMPORARY LEARNING ACADEMY", label: "CONTEMPORARY LEARNING ACADEMY" }, { value: "CORONADO HIGH SCHOOL", label: "CORONADO HIGH SCHOOL" }, { value: "COTOPAXI JUNIOR-SENIOR HIGH SCHOOL", label: "COTOPAXI JUNIOR-SENIOR HIGH SCHOOL" }, { value: "CREEDE SCHOOL", label: "CREEDE SCHOOL" }, { value: "CRESTED BUTTE SECONDARY SCHOOL", label: "CRESTED BUTTE SECONDARY SCHOOL" }, { value: "CRESTONE CHARTER SCHOOL", label: "CRESTONE CHARTER SCHOOL" }, { value: "CRIPPLE CREEK-VICTOR JUNIOR-SENIOR HIGH SCHOOL", label: "CRIPPLE CREEK-VICTOR JUNIOR-SENIOR HIGH SCHOOL" }, { value: "CROWLEY COUNTY JUNIOR AND SENIOR HIGH SCHOOL", label: "CROWLEY COUNTY JUNIOR AND SENIOR HIGH SCHOOL" }, { value: "CUSTER COUNTY HIGH SCHOOL", label: "CUSTER COUNTY HIGH SCHOOL" }, { value: "D'EVELYN JUNIOR/SENIOR HIGH SCHOOL", label: "D'EVELYN JUNIOR/SENIOR HIGH SCHOOL" }, { value: "DAKOTA RIDGE SENIOR HIGH SCHOOL", label: "DAKOTA RIDGE SENIOR HIGH SCHOOL" }, { value: "DANIEL C OAKES HIGH SCHOOL--CASTLE ROCK", label: "DANIEL C OAKES HIGH SCHOOL--CASTLE ROCK" }, { value: "DCIS AT MONTBELLO", label: "DCIS AT MONTBELLO" }, { value: "DE BEQUE PK-12 SCHOOL DISTRICT 49JT", label: "DE BEQUE PK-12 SCHOOL DISTRICT 49JT" }, { value: "DEER TRAIL JUNIOR-SENIOR HIGH SCHOOL", label: "DEER TRAIL JUNIOR-SENIOR HIGH SCHOOL" }, { value: "DEL NORTE HIGH JR./SR. HIGH SCHOOL", label: "DEL NORTE HIGH JR./SR. HIGH SCHOOL" }, { value: "DELTA HIGH SCHOOL", label: "DELTA HIGH SCHOOL" }, { value: "DENVER CENTER FOR 21ST-CENTURY LEARNING AT WYMAN", label: "DENVER CENTER FOR 21ST-CENTURY LEARNING AT WYMAN" }, { value: "DENVER CENTER FOR INTERNATIONAL STUDIES", label: "DENVER CENTER FOR INTERNATIONAL STUDIES" }, { value: "DENVER JUSTICE HIGH SCHOOL", label: "DENVER JUSTICE HIGH SCHOOL" }, { value: "DENVER MONTESSORI JUNIOR/SENIOR HIGH SCHOOL", label: "DENVER MONTESSORI JUNIOR/SENIOR HIGH SCHOOL" }, { value: "DENVER ONLINE HIGH SCHOOL", label: "DENVER ONLINE HIGH SCHOOL" }, { value: "DENVER SCHOOL OF INNOVATION AND SUSTAINABLE DESIGN", label: "DENVER SCHOOL OF INNOVATION AND SUSTAINABLE DESIGN" }, { value: "DENVER SCHOOL OF THE ARTS", label: "DENVER SCHOOL OF THE ARTS" }, { value: "DESTINATIONS CAREER ACADEMY OF COLORADO", label: "DESTINATIONS CAREER ACADEMY OF COLORADO" }, { value: "DISCOVERY CANYON CAMPUS HIGH SCHOOL", label: "DISCOVERY CANYON CAMPUS HIGH SCHOOL" }, { value: "DISCOVERY HIGH SCHOOL", label: "DISCOVERY HIGH SCHOOL" }, { value: "DOHERTY HIGH SCHOOL", label: "DOHERTY HIGH SCHOOL" }, { value: "DOLORES SECONDARY SCHOOL", label: "DOLORES SECONDARY SCHOOL" }, { value: "DOUGLAS COUNTY HIGH SCHOOL", label: "DOUGLAS COUNTY HIGH SCHOOL" }, { value: "DOVE CREEK HIGH SCHOOL", label: "DOVE CREEK HIGH SCHOOL" }, { value: "DR. MARTIN LUTHER KING JR. EARLY COLLEGE", label: "DR. MARTIN LUTHER KING JR. EARLY COLLEGE" }, { value: "DSST: BYERS HIGH SCHOOL", label: "DSST: BYERS HIGH SCHOOL" }, { value: "DSST: COLE HIGH SCHOOL", label: "DSST: COLE HIGH SCHOOL" }, { value: "DSST: COLLEGE VIEW HIGH SCHOOL", label: "DSST: COLLEGE VIEW HIGH SCHOOL" }, { value: "DSST: CONSERVATORY GREEN HIGH SCHOOL", label: "DSST: CONSERVATORY GREEN HIGH SCHOOL" }, { value: "DSST: GREEN VALLEY RANCH HIGH SCHOOL", label: "DSST: GREEN VALLEY RANCH HIGH SCHOOL" }, { value: "DSST: STAPLETON HIGH SCHOOL", label: "DSST: STAPLETON HIGH SCHOOL" }, { value: "DURANGO BIG PICTURE HIGH SCHOOL", label: "DURANGO BIG PICTURE HIGH SCHOOL" }, { value: "DURANGO HIGH SCHOOL", label: "DURANGO HIGH SCHOOL" }, { value: "EADS HIGH SCHOOL", label: "EADS HIGH SCHOOL" }, { value: "EAGLE ACADEMY", label: "EAGLE ACADEMY" }, { value: "EAGLE RIDGE ACADEMY", label: "EAGLE RIDGE ACADEMY" }, { value: "EAGLE VALLEY HIGH SCHOOL", label: "EAGLE VALLEY HIGH SCHOOL" }, { value: "EAGLECREST HIGH SCHOOL", label: "EAGLECREST HIGH SCHOOL" }, { value: "EARLY COLLEGE ACADEMY", label: "EARLY COLLEGE ACADEMY" }, { value: "EARLY COLLEGE OF ARVADA", label: "EARLY COLLEGE OF ARVADA" }, { value: "EARLY COLLEGE OF DENVER", label: "EARLY COLLEGE OF DENVER" }, { value: "EAST HIGH SCHOOL", label: "EAST HIGH SCHOOL" }, { value: "EASTLAKE HIGH SCHOOL OF COLORADO SPRINGS", label: "EASTLAKE HIGH SCHOOL OF COLORADO SPRINGS" }, { value: "EATON HIGH SCHOOL", label: "EATON HIGH SCHOOL" }, { value: "EDCSD", label: "EDCSD" }, { value: "EDISON JUNIOR-SENIOR HIGH SCHOOL", label: "EDISON JUNIOR-SENIOR HIGH SCHOOL" }, { value: "EDISON PREP", label: "EDISON PREP" }, { value: "ELBERT JUNIOR-SENIOR HIGH SCHOOL", label: "ELBERT JUNIOR-SENIOR HIGH SCHOOL" }, { value: "ELEVATE ACADEMY HIGH SCHOOL", label: "ELEVATE ACADEMY HIGH SCHOOL" }, { value: "ELIZABETH HIGH SCHOOL", label: "ELIZABETH HIGH SCHOOL" }, { value: "ELLICOTT SENIOR HIGH SCHOOL", label: "ELLICOTT SENIOR HIGH SCHOOL" }, { value: "EMILY GRIFFITH HIGH SCHOOL", label: "EMILY GRIFFITH HIGH SCHOOL" }, { value: "ENDEAVOR ACADEMY", label: "ENDEAVOR ACADEMY" }, { value: "ENGLEWOOD HIGH SCHOOL", label: "ENGLEWOOD HIGH SCHOOL" }, { value: "ERIE HIGH SCHOOL", label: "ERIE HIGH SCHOOL" }, { value: "ESTES PARK HIGH SCHOOL", label: "ESTES PARK HIGH SCHOOL" }, { value: "EVERGREEN HIGH SCHOOL", label: "EVERGREEN HIGH SCHOOL" }, { value: "EXCEL ACADEMY", label: "EXCEL ACADEMY" }, { value: "FAIRVIEW HIGH SCHOOL", label: "FAIRVIEW HIGH SCHOOL" }, { value: "FALCON HIGH SCHOOL", label: "FALCON HIGH SCHOOL" }, { value: "FLAGLER PUBLIC SCHOOL", label: "FLAGLER PUBLIC SCHOOL" }, { value: "FLEMING HIGH SCHOOL", label: "FLEMING HIGH SCHOOL" }, { value: "FLORENCE CRITTENTON HIGH SCHOOL", label: "FLORENCE CRITTENTON HIGH SCHOOL" }, { value: "FLORENCE HIGH SCHOOL", label: "FLORENCE HIGH SCHOOL" }, { value: "FORT COLLINS HIGH SCHOOL", label: "FORT COLLINS HIGH SCHOOL" }, { value: "FORT LUPTON HIGH SCHOOL", label: "FORT LUPTON HIGH SCHOOL" }, { value: "FORT MORGAN HIGH SCHOOL", label: "FORT MORGAN HIGH SCHOOL" }, { value: "FOSSIL RIDGE HIGH SCHOOL", label: "FOSSIL RIDGE HIGH SCHOOL" }, { value: "FOUNTAIN-FORT CARSON HIGH SCHOOL", label: "FOUNTAIN-FORT CARSON HIGH SCHOOL" }, { value: "FOWLER HIGH SCHOOL", label: "FOWLER HIGH SCHOOL" }, { value: "FREDERICK SENIOR HIGH SCHOOL", label: "FREDERICK SENIOR HIGH SCHOOL" }, { value: "FRONTIER CHARTER ACADEMY", label: "FRONTIER CHARTER ACADEMY" }, { value: "FRONTIER HIGH SCHOOL", label: "FRONTIER HIGH SCHOOL" }, { value: "FRUITA 8/9 SCHOOL", label: "FRUITA 8/9 SCHOOL" }, { value: "FRUITA MONUMENT HIGH SCHOOL", label: "FRUITA MONUMENT HIGH SCHOOL" }, { value: "GATEWAY HIGH SCHOOL", label: "GATEWAY HIGH SCHOOL" }, { value: "GATEWAY SCHOOL", label: "GATEWAY SCHOOL" }, { value: "GENOA-HUGO SCHOOL", label: "GENOA-HUGO SCHOOL" }, { value: "GEORGE WASHINGTON HIGH SCHOOL", label: "GEORGE WASHINGTON HIGH SCHOOL" }, { value: "GILLIAM SCHOOL", label: "GILLIAM SCHOOL" }, { value: "GILPIN COUNTY UNDIVIDED HIGH SCHOOL", label: "GILPIN COUNTY UNDIVIDED HIGH SCHOOL" }, { value: "GIRLS ATHLETIC LEADERSHIP SCHOOL HIGH SCHOOL", label: "GIRLS ATHLETIC LEADERSHIP SCHOOL HIGH SCHOOL" }, { value: "GLENWOOD SPRINGS HIGH SCHOOL", label: "GLENWOOD SPRINGS HIGH SCHOOL" }, { value: "GLOBAL LEADERSHIP ACADEMY", label: "GLOBAL LEADERSHIP ACADEMY" }, { value: "GOAL ACADEMY", label: "GOAL ACADEMY" }, { value: "GOLDEN HIGH SCHOOL", label: "GOLDEN HIGH SCHOOL" }, { value: "GOLDEN VIEW CLASSICAL ACADEMY", label: "GOLDEN VIEW CLASSICAL ACADEMY" }, { value: "GRANADA UNDIVIDED HIGH SCHOOL", label: "GRANADA UNDIVIDED HIGH SCHOOL" }, { value: "GRAND JUNCTION HIGH SCHOOL", label: "GRAND JUNCTION HIGH SCHOOL" }, { value: "GRAND MESA CHOICE ACADEMY", label: "GRAND MESA CHOICE ACADEMY" }, { value: "GRAND MESA HIGH SCHOOL", label: "GRAND MESA HIGH SCHOOL" }, { value: "GRAND RIVER ACADEMY", label: "GRAND RIVER ACADEMY" }, { value: "GRAND VALLEY HIGH SCHOOL", label: "GRAND VALLEY HIGH SCHOOL" }, { value: "GRANDVIEW HIGH SCHOOL", label: "GRANDVIEW HIGH SCHOOL" }, { value: "GREELEY CENTRAL HIGH SCHOOL", label: "GREELEY CENTRAL HIGH SCHOOL" }, { value: "GREELEY WEST HIGH SCHOOL", label: "GREELEY WEST HIGH SCHOOL" }, { value: "GREEN MOUNTAIN HIGH SCHOOL", label: "GREEN MOUNTAIN HIGH SCHOOL" }, { value: "GUNNISON HIGH SCHOOL", label: "GUNNISON HIGH SCHOOL" }, { value: "HANOVER JUNIOR-SENIOR HIGH SCHOOL", label: "HANOVER JUNIOR-SENIOR HIGH SCHOOL" }, { value: "HAROLD FERGUSON HIGH SCHOOL", label: "HAROLD FERGUSON HIGH SCHOOL" }, { value: "HARRISON HIGH SCHOOL", label: "HARRISON HIGH SCHOOL" }, { value: "HAXTUN HIGH SCHOOL", label: "HAXTUN HIGH SCHOOL" }, { value: "HAYDEN HIGH SCHOOL", label: "HAYDEN HIGH SCHOOL" }, { value: "HERITAGE HIGH SCHOOL", label: "HERITAGE HIGH SCHOOL" }, { value: "HI-PLAINS SCHOOL DISTRICT R-23", label: "HI-PLAINS SCHOOL DISTRICT R-23" }, { value: "HIDDEN LAKE HIGH SCHOOL", label: "HIDDEN LAKE HIGH SCHOOL" }, { value: "HIGH TECH EARLY COLLEGE", label: "HIGH TECH EARLY COLLEGE" }, { value: "HIGHLAND HIGH SCHOOL", label: "HIGHLAND HIGH SCHOOL" }, { value: "HIGHLANDS RANCH HIGH SCHOOL", label: "HIGHLANDS RANCH HIGH SCHOOL" }, { value: "HINKLEY HIGH SCHOOL", label: "HINKLEY HIGH SCHOOL" }, { value: "HOEHNE SCHOOLS", label: "HOEHNE SCHOOLS" }, { value: "HOLLY HIGH SCHOOL", label: "HOLLY HIGH SCHOOL" }, { value: "HOLYOKE ALTERNATIVE SCHOOL", label: "HOLYOKE ALTERNATIVE SCHOOL" }, { value: "HOLYOKE SENIOR HIGH SCHOOL", label: "HOLYOKE SENIOR HIGH SCHOOL" }, { value: "HOPE ONLINE LEARNING ACADEMY HIGH SCHOOL", label: "HOPE ONLINE LEARNING ACADEMY HIGH SCHOOL" }, { value: "HORIZON HIGH SCHOOL", label: "HORIZON HIGH SCHOOL" }, { value: "HORIZONS EXPLORATORY ACADEMY", label: "HORIZONS EXPLORATORY ACADEMY" }, { value: "HOTCHKISS HIGH SCHOOL", label: "HOTCHKISS HIGH SCHOOL" }, { value: "IDALIA JUNIOR-SENIOR HIGH SCHOOL", label: "IDALIA JUNIOR-SENIOR HIGH SCHOOL" }, { value: "IGNACIO HIGH SCHOOL", label: "IGNACIO HIGH SCHOOL" }, { value: "IMMERSION SCHOOLS SCIENCE TECHNOLOGY ARTS", label: "IMMERSION SCHOOLS SCIENCE TECHNOLOGY ARTS" }, { value: "INNOVATIVE CONNECTIONS HIGH SCHOOL", label: "INNOVATIVE CONNECTIONS HIGH SCHOOL" }, { value: "JAMES IRWIN CHARTER HIGH SCHOOL", label: "JAMES IRWIN CHARTER HIGH SCHOOL" }, { value: "JEFFCO VIRTUAL ACADEMY", label: "JEFFCO VIRTUAL ACADEMY" }, { value: "JEFFERSON ACADEMY", label: "JEFFERSON ACADEMY" }, { value: "JEFFERSON ACADEMY HIGH SCHOOL", label: "JEFFERSON ACADEMY HIGH SCHOOL" }, { value: "JEFFERSON COUNTY OPEN SECONDARY", label: "JEFFERSON COUNTY OPEN SECONDARY" }, { value: "JEFFERSON JUNIOR/SENIOR HIGH", label: "JEFFERSON JUNIOR/SENIOR HIGH" }, { value: "JEFFERSON JUNIOR/SENIOR HIGH SCHOOL", label: "JEFFERSON JUNIOR/SENIOR HIGH SCHOOL" }, { value: "JOHN F KENNEDY HIGH SCHOOL", label: "JOHN F KENNEDY HIGH SCHOOL" }, { value: "JOHN MALL HIGH SCHOOL", label: "JOHN MALL HIGH SCHOOL" }, { value: "JULESBURG HIGH SCHOOL", label: "JULESBURG HIGH SCHOOL" }, { value: "JUSTICE HIGH CHARTER SCHOOL", label: "JUSTICE HIGH CHARTER SCHOOL" }, { value: "KARVAL JUNIOR-SENIOR HIGH SCHOOL", label: "KARVAL JUNIOR-SENIOR HIGH SCHOOL" }, { value: "KIM UNDIVIDED HIGH SCHOOL", label: "KIM UNDIVIDED HIGH SCHOOL" }, { value: "KIOWA HIGH SCHOOL", label: "KIOWA HIGH SCHOOL" }, { value: "KIPP DENVER COLLEGIATE HIGH SCHOOL", label: "KIPP DENVER COLLEGIATE HIGH SCHOOL" }, { value: "KIPP NORTHEAST DENVER LEADERSHIP ACADEMY", label: "KIPP NORTHEAST DENVER LEADERSHIP ACADEMY" }, { value: "KIT CARSON JUNIOR-SENIOR HIGH SCHOOL", label: "KIT CARSON JUNIOR-SENIOR HIGH SCHOOL" }, { value: "KUNSMILLER CREATIVE ARTS ACADEMY", label: "KUNSMILLER CREATIVE ARTS ACADEMY" }, { value: "LA JUNTA JR/SR HIGH SCHOOL", label: "LA JUNTA JR/SR HIGH SCHOOL" }, { value: "LA VETA JUNIOR-SENIOR HIGH SCHOOL", label: "LA VETA JUNIOR-SENIOR HIGH SCHOOL" }, { value: "LAKE CITY COMMUNITY SCHOOL", label: "LAKE CITY COMMUNITY SCHOOL" }, { value: "LAKE COUNTY EARLY COLLEGE", label: "LAKE COUNTY EARLY COLLEGE" }, { value: "LAKE COUNTY HIGH SCHOOL", label: "LAKE COUNTY HIGH SCHOOL" }, { value: "LAKEWOOD HIGH SCHOOL", label: "LAKEWOOD HIGH SCHOOL" }, { value: "LAMAR HIGH SCHOOL", label: "LAMAR HIGH SCHOOL" }, { value: "LAS ANIMAS HIGH SCHOOL", label: "LAS ANIMAS HIGH SCHOOL" }, { value: "LAUNCH HIGH SCHOOL", label: "LAUNCH HIGH SCHOOL" }, { value: "LEGACY HIGH SCHOOL", label: "LEGACY HIGH SCHOOL" }, { value: "LEGACY OPTIONS HIGH SCHOOL", label: "LEGACY OPTIONS HIGH SCHOOL" }, { value: "LEGEND HIGH SCHOOL", label: "LEGEND HIGH SCHOOL" }, { value: "LESTER R ARNOLD HIGH SCHOOL", label: "LESTER R ARNOLD HIGH SCHOOL" }, { value: "LEWIS-PALMER HIGH SCHOOL", label: "LEWIS-PALMER HIGH SCHOOL" }, { value: "LIBERTY COMMON CHARTER SCHOOL", label: "LIBERTY COMMON CHARTER SCHOOL" }, { value: "LIBERTY HIGH SCHOOL", label: "LIBERTY HIGH SCHOOL" }, { value: "LIBERTY SCHOOL", label: "LIBERTY SCHOOL" }, { value: "LIMON JUNIOR-SENIOR HIGH SCHOOL", label: "LIMON JUNIOR-SENIOR HIGH SCHOOL" }, { value: "LINCOLN HIGH SCHOOL", label: "LINCOLN HIGH SCHOOL" }, { value: "LITTLETON HIGH SCHOOL", label: "LITTLETON HIGH SCHOOL" }, { value: "LONE STAR UNDIVIDED HIGH SCHOOL", label: "LONE STAR UNDIVIDED HIGH SCHOOL" }, { value: "LONGMONT HIGH SCHOOL", label: "LONGMONT HIGH SCHOOL" }, { value: "LONGVIEW HIGH SCHOOL", label: "LONGVIEW HIGH SCHOOL" }, { value: "LOTUS SCHOOL FOR EXCELLENCE", label: "LOTUS SCHOOL FOR EXCELLENCE" }, { value: "LOVELAND CLASSICAL SCHOOL", label: "LOVELAND CLASSICAL SCHOOL" }, { value: "LOVELAND HIGH SCHOOL", label: "LOVELAND HIGH SCHOOL" }, { value: "LYONS MIDDLE/SENIOR HIGH SCHOOL", label: "LYONS MIDDLE/SENIOR HIGH SCHOOL" }, { value: "MANCOS HIGH SCHOOL", label: "MANCOS HIGH SCHOOL" }, { value: "MANITOU SPRINGS HIGH SCHOOL", label: "MANITOU SPRINGS HIGH SCHOOL" }, { value: "MANUAL HIGH SCHOOL", label: "MANUAL HIGH SCHOOL" }, { value: "MANZANOLA JUNIOR-SENIOR HIGH SCHOOL", label: "MANZANOLA JUNIOR-SENIOR HIGH SCHOOL" }, { value: "MAPLETON EARLY COLLEGE HIGH SCHOOL", label: "MAPLETON EARLY COLLEGE HIGH SCHOOL" }, { value: "MAPLETON EXPEDITIONARY SCHOOL OF THE ARTS", label: "MAPLETON EXPEDITIONARY SCHOOL OF THE ARTS" }, { value: "MARVIN W FOOTE YOUTH SERVICES", label: "MARVIN W FOOTE YOUTH SERVICES" }, { value: "MC CLAVE UNDIVIDED HIGH SCHOOL", label: "MC CLAVE UNDIVIDED HIGH SCHOOL" }, { value: "MCLAIN COMMUNITY HIGH SCHOOL", label: "MCLAIN COMMUNITY HIGH SCHOOL" }, { value: "MEAD HIGH SCHOOL", label: "MEAD HIGH SCHOOL" }, { value: "MEEKER HIGH SCHOOL", label: "MEEKER HIGH SCHOOL" }, { value: "MERINO JUNIOR SENIOR HIGH SCHOOL", label: "MERINO JUNIOR SENIOR HIGH SCHOOL" }, { value: "MESA RIDGE HIGH SCHOOL", label: "MESA RIDGE HIGH SCHOOL" }, { value: "MESA VALLEY COMMUNITY SCHOOL", label: "MESA VALLEY COMMUNITY SCHOOL" }, { value: "MIAMI-YODER MIDDLE/HIGH SCHOOL", label: "MIAMI-YODER MIDDLE/HIGH SCHOOL" }, { value: "MIDDLE PARK HIGH SCHOOL", label: "MIDDLE PARK HIGH SCHOOL" }, { value: "MITCHELL HIGH SCHOOL", label: "MITCHELL HIGH SCHOOL" }, { value: "MOFFAT COUNTY HIGH SCHOOL", label: "MOFFAT COUNTY HIGH SCHOOL" }, { value: "MOFFAT PREK-12 SCHOOL", label: "MOFFAT PREK-12 SCHOOL" }, { value: "MONARCH HIGH SCHOOL", label: "MONARCH HIGH SCHOOL" }, { value: "MONTBELLO CAREER AND TECHNICAL HIGH SCHOOL", label: "MONTBELLO CAREER AND TECHNICAL HIGH SCHOOL" }, { value: "MONTE VISTA ON-LINE ACADEMY", label: "MONTE VISTA ON-LINE ACADEMY" }, { value: "MONTE VISTA SENIOR HIGH SCHOOL", label: "MONTE VISTA SENIOR HIGH SCHOOL" }, { value: "MONTEZUMA-CORTEZ HIGH SCHOOL", label: "MONTEZUMA-CORTEZ HIGH SCHOOL" }, { value: "MONTROSE HIGH SCHOOL", label: "MONTROSE HIGH SCHOOL" }, { value: "MOUNTAIN RANGE HIGH SCHOOL", label: "MOUNTAIN RANGE HIGH SCHOOL" }, { value: "MOUNTAIN VALLEY SCHOOL", label: "MOUNTAIN VALLEY SCHOOL" }, { value: "MOUNTAIN VIEW HIGH SCHOOL", label: "MOUNTAIN VIEW HIGH SCHOOL" }, { value: "MOUNTAIN VISTA HIGH SCHOOL", label: "MOUNTAIN VISTA HIGH SCHOOL" }, { value: "MOUNTVIEW YOUTH SERVICE CENTER", label: "MOUNTVIEW YOUTH SERVICE CENTER" }, { value: "NEDERLAND MIDDLE-SENIOR HIGH SCHOOL", label: "NEDERLAND MIDDLE-SENIOR HIGH SCHOOL" }, { value: "NEW AMERICA SCHOOL", label: "NEW AMERICA SCHOOL" }, { value: "NEW AMERICA SCHOOL - LOWRY", label: "NEW AMERICA SCHOOL - LOWRY" }, { value: "NEW AMERICA SCHOOL - THORNTON", label: "NEW AMERICA SCHOOL - THORNTON" }, { value: "NEW LEGACY CHARTER SCHOOL", label: "NEW LEGACY CHARTER SCHOOL" }, { value: "NEW VISTA HIGH SCHOOL", label: "NEW VISTA HIGH SCHOOL" }, { value: "NIKOLA TESLA EDUCATION OPPORTUNITY CENTER", label: "NIKOLA TESLA EDUCATION OPPORTUNITY CENTER" }, { value: "NIWOT HIGH SCHOOL", label: "NIWOT HIGH SCHOOL" }, { value: "NOEL COMMUNITY ARTS SCHOOL", label: "NOEL COMMUNITY ARTS SCHOOL" }, { value: "NORTH CONEJOS ALTERNATIVE PROGRAM", label: "NORTH CONEJOS ALTERNATIVE PROGRAM" }, { value: "NORTH HIGH SCHOOL", label: "NORTH HIGH SCHOOL" }, { value: "NORTH HIGH SCHOOL ENGAGEMENT CENTER", label: "NORTH HIGH SCHOOL ENGAGEMENT CENTER" }, { value: "NORTH PARK SCHOOL", label: "NORTH PARK SCHOOL" }, { value: "NORTHFIELD HIGH SCHOOL", label: "NORTHFIELD HIGH SCHOOL" }, { value: "NORTHGLENN HIGH SCHOOL", label: "NORTHGLENN HIGH SCHOOL" }, { value: "NORTHRIDGE HIGH SCHOOL", label: "NORTHRIDGE HIGH SCHOOL" }, { value: "NORWOOD PUBLIC SCHOOLS", label: "NORWOOD PUBLIC SCHOOLS" }, { value: "NUCLA HIGH SCHOOL", label: "NUCLA HIGH SCHOOL" }, { value: "ODYSSEY EARLY COLLEGE AND CAREER OPTIONS", label: "ODYSSEY EARLY COLLEGE AND CAREER OPTIONS" }, { value: "OLATHE HIGH SCHOOL", label: "OLATHE HIGH SCHOOL" }, { value: "OLDE COLUMBINE HIGH SCHOOL", label: "OLDE COLUMBINE HIGH SCHOOL" }, { value: "OTIS JUNIOR-SENIOR HIGH SCHOOL", label: "OTIS JUNIOR-SENIOR HIGH SCHOOL" }, { value: "OURAY SENIOR HIGH SCHOOL", label: "OURAY SENIOR HIGH SCHOOL" }, { value: "OVERLAND HIGH SCHOOL", label: "OVERLAND HIGH SCHOOL" }, { value: "PAGOSA SPRINGS HIGH SCHOOL", label: "PAGOSA SPRINGS HIGH SCHOOL" }, { value: "PALISADE HIGH SCHOOL", label: "PALISADE HIGH SCHOOL" }, { value: "PALMER HIGH SCHOOL", label: "PALMER HIGH SCHOOL" }, { value: "PALMER RIDGE HIGH SCHOOL", label: "PALMER RIDGE HIGH SCHOOL" }, { value: "PAONIA HIGH SCHOOL", label: "PAONIA HIGH SCHOOL" }, { value: "PARADOX VALLEY CHARTER SCHOOL", label: "PARADOX VALLEY CHARTER SCHOOL" }, { value: "PARAGON LEARNING CENTER", label: "PARAGON LEARNING CENTER" }, { value: "PATHWAYS FUTURE CENTER", label: "PATHWAYS FUTURE CENTER" }, { value: "PATRIOT HIGH SCHOOL", label: "PATRIOT HIGH SCHOOL" }, { value: "PAWNEE SCHOOL PK-12", label: "PAWNEE SCHOOL PK-12" }, { value: "PEAK TO PEAK CHARTER SCHOOL", label: "PEAK TO PEAK CHARTER SCHOOL" }, { value: "PEAK VIRTUAL ACADEMY", label: "PEAK VIRTUAL ACADEMY" }, { value: "PEETZ JUNIOR-SENIOR HIGH SCHOOL", label: "PEETZ JUNIOR-SENIOR HIGH SCHOOL" }, { value: "PEYTON ONLINE ACADEMY", label: "PEYTON ONLINE ACADEMY" }, { value: "PEYTON SENIOR HIGH SCHOOL", label: "PEYTON SENIOR HIGH SCHOOL" }, { value: "PIKES PEAK EARLY COLLEGE", label: "PIKES PEAK EARLY COLLEGE" }, { value: "PIKES PEAK ONLINE SCHOOL", label: "PIKES PEAK ONLINE SCHOOL" }, { value: "PINE CREEK HIGH SCHOOL", label: "PINE CREEK HIGH SCHOOL" }, { value: "PLAINVIEW JUNIOR-SENIOR HIGH SCHOOL", label: "PLAINVIEW JUNIOR-SENIOR HIGH SCHOOL" }, { value: "PLATEAU VALLEY HIGH SCHOOL", label: "PLATEAU VALLEY HIGH SCHOOL" }, { value: "PLATTE CANYON HIGH SCHOOL", label: "PLATTE CANYON HIGH SCHOOL" }, { value: "PLATTE VALLEY HIGH SCHOOL", label: "PLATTE VALLEY HIGH SCHOOL" }, { value: "POLARIS EXPEDITIONARY LEARNING SCHOOL", label: "POLARIS EXPEDITIONARY LEARNING SCHOOL" }, { value: "POMONA HIGH SCHOOL", label: "POMONA HIGH SCHOOL" }, { value: "PONDEROSA HIGH SCHOOL", label: "PONDEROSA HIGH SCHOOL" }, { value: "POUDRE COMMUNITY ACADEMY", label: "POUDRE COMMUNITY ACADEMY" }, { value: "POUDRE HIGH SCHOOL", label: "POUDRE HIGH SCHOOL" }, { value: "POWER TECHNICAL EARLY COLLEGE", label: "POWER TECHNICAL EARLY COLLEGE" }, { value: "PRAIRIE CREEK HIGH SCHOOL", label: "PRAIRIE CREEK HIGH SCHOOL" }, { value: "PRAIRIE JUNIOR-SENIOR HIGH SCHOOL", label: "PRAIRIE JUNIOR-SENIOR HIGH SCHOOL" }, { value: "PRAIRIE VIEW HIGH SCHOOL", label: "PRAIRIE VIEW HIGH SCHOOL" }, { value: "PREP ACADEMY", label: "PREP ACADEMY" }, { value: "PRIMERO JUNIOR-SENIOR HIGH SCHOOL", label: "PRIMERO JUNIOR-SENIOR HIGH SCHOOL" }, { value: "PRITCHETT HIGH SCHOOL", label: "PRITCHETT HIGH SCHOOL" }, { value: "PROSPECT RIDGE ACADEMY", label: "PROSPECT RIDGE ACADEMY" }, { value: "PSD GLOBAL ACADEMY", label: "PSD GLOBAL ACADEMY" }, { value: "PUEBLO COUNTY HIGH SCHOOL", label: "PUEBLO COUNTY HIGH SCHOOL" }, { value: "PUEBLO WEST HIGH SCHOOL", label: "PUEBLO WEST HIGH SCHOOL" }, { value: "PUEBLO YOUTH SERVICE CENTER", label: "PUEBLO YOUTH SERVICE CENTER" }, { value: "R-5 HIGH SCHOOL", label: "R-5 HIGH SCHOOL" }, { value: "RALSTON VALLEY SENIOR HIGH SCHOOL", label: "RALSTON VALLEY SENIOR HIGH SCHOOL" }, { value: "RAMPART HIGH SCHOOL", label: "RAMPART HIGH SCHOOL" }, { value: "RANGELY JUNIOR/SENIOR HIGH SCHOOL", label: "RANGELY JUNIOR/SENIOR HIGH SCHOOL" }, { value: "RANGEVIEW HIGH SCHOOL", label: "RANGEVIEW HIGH SCHOOL" }, { value: "RED CANYON HIGH SCHOOL", label: "RED CANYON HIGH SCHOOL" }, { value: "RENAISSANCE SECONDARY SCHOOL", label: "RENAISSANCE SECONDARY SCHOOL" }, { value: "RESPECT ACADEMY", label: "RESPECT ACADEMY" }, { value: "REVERE JUNIOR-SENIOR HIGH SCHOOL", label: "REVERE JUNIOR-SENIOR HIGH SCHOOL" }, { value: "RIDGE VIEW ACADEMY CHARTER SCHOOL", label: "RIDGE VIEW ACADEMY CHARTER SCHOOL" }, { value: "RIDGEVIEW CLASSICAL CHARTER SCHOOLS", label: "RIDGEVIEW CLASSICAL CHARTER SCHOOLS" }, { value: "RIDGWAY HIGH SCHOOL", label: "RIDGWAY HIGH SCHOOL" }, { value: "RIFLE HIGH SCHOOL", label: "RIFLE HIGH SCHOOL" }, { value: "RISEUP COMMUNITY SCHOOL", label: "RISEUP COMMUNITY SCHOOL" }, { value: "RIVERDALE RIDGE HIGH SCHOOL", label: "RIVERDALE RIDGE HIGH SCHOOL" }, { value: "ROARING FORK HIGH SCHOOL", label: "ROARING FORK HIGH SCHOOL" }, { value: "ROCK CANYON HIGH SCHOOL", label: "ROCK CANYON HIGH SCHOOL" }, { value: "ROCKY FORD JUNIOR/SENIOR HIGH SCHOOL", label: "ROCKY FORD JUNIOR/SENIOR HIGH SCHOOL" }, { value: "ROCKY MOUNTAIN DEAF SCHOOL", label: "ROCKY MOUNTAIN DEAF SCHOOL" }, { value: "ROCKY MOUNTAIN HIGH SCHOOL", label: "ROCKY MOUNTAIN HIGH SCHOOL" }, { value: "ROCKY MOUNTAIN SCHOOL OF EXPEDITIONARY LEARNING", label: "ROCKY MOUNTAIN SCHOOL OF EXPEDITIONARY LEARNING" }, { value: "ROOSEVELT HIGH SCHOOL", label: "ROOSEVELT HIGH SCHOOL" }, { value: "RYE HIGH SCHOOL", label: "RYE HIGH SCHOOL" }, { value: "SALIDA HIGH SCHOOL", label: "SALIDA HIGH SCHOOL" }, { value: "SAND CREEK HIGH SCHOOL", label: "SAND CREEK HIGH SCHOOL" }, { value: "SANFORD JUNIOR/SENIOR HIGH SCHOOL", label: "SANFORD JUNIOR/SENIOR HIGH SCHOOL" }, { value: "SANGRE DE CRISTO UNDIVIDED HIGH SCHOOL", label: "SANGRE DE CRISTO UNDIVIDED HIGH SCHOOL" }, { value: "SARGENT SENIOR HIGH SCHOOL", label: "SARGENT SENIOR HIGH SCHOOL" }, { value: "SHERIDAN HIGH SCHOOL", label: "SHERIDAN HIGH SCHOOL" }, { value: "SIERRA GRANDE K-12 SCHOOL", label: "SIERRA GRANDE K-12 SCHOOL" }, { value: "SIERRA HIGH SCHOOL", label: "SIERRA HIGH SCHOOL" }, { value: "SILVER CREEK HIGH SCHOOL", label: "SILVER CREEK HIGH SCHOOL" }, { value: "SILVERTON HIGH SCHOOL", label: "SILVERTON HIGH SCHOOL" }, { value: "SIMLA HIGH SCHOOL", label: "SIMLA HIGH SCHOOL" }, { value: "SKYLINE HIGH SCHOOL", label: "SKYLINE HIGH SCHOOL" }, { value: "SKYVIEW ACADEMY", label: "SKYVIEW ACADEMY" }, { value: "SMOKY HILL HIGH SCHOOL", label: "SMOKY HILL HIGH SCHOOL" }, { value: "SNOWY PEAKS JUNIOR/SENIOR HIGH SCHOOL", label: "SNOWY PEAKS JUNIOR/SENIOR HIGH SCHOOL" }, { value: "SOAR ACADEMY", label: "SOAR ACADEMY" }, { value: "SOBESKY ACADEMY", label: "SOBESKY ACADEMY" }, { value: "SOROCO HIGH SCHOOL", label: "SOROCO HIGH SCHOOL" }, { value: "SOUTH HIGH SCHOOL", label: "SOUTH HIGH SCHOOL" }, { value: "SOUTH PARK HIGH SCHOOL", label: "SOUTH PARK HIGH SCHOOL" }, { value: "SOUTHWEST COLORADO E-SCHOOL", label: "SOUTHWEST COLORADO E-SCHOOL" }, { value: "SOUTHWEST OPEN CHARTER SCHOOL", label: "SOUTHWEST OPEN CHARTER SCHOOL" }, { value: "SPRING CREEK YOUTH SERVICES CENTER", label: "SPRING CREEK YOUTH SERVICES CENTER" }, { value: "SPRINGFIELD JUNIOR/SENIOR HIGH SCHOOL", label: "SPRINGFIELD JUNIOR/SENIOR HIGH SCHOOL" }, { value: "SPRINGS STUDIO FOR ACADEMIC EXCELLENCE", label: "SPRINGS STUDIO FOR ACADEMIC EXCELLENCE" }, { value: "ST. VRAIN GLOBAL ONLINE ACADEMY", label: "ST. VRAIN GLOBAL ONLINE ACADEMY" }, { value: "STANDLEY LAKE HIGH SCHOOL", label: "STANDLEY LAKE HIGH SCHOOL" }, { value: "STARGATE CHARTER SCHOOL", label: "STARGATE CHARTER SCHOOL" }, { value: "STEAMBOAT SPRINGS HIGH SCHOOL", label: "STEAMBOAT SPRINGS HIGH SCHOOL" }, { value: "STEM SCHOOL HIGHLANDS RANCH", label: "STEM SCHOOL HIGHLANDS RANCH" }, { value: "STERLING HIGH SCHOOL", label: "STERLING HIGH SCHOOL" }, { value: "STRASBURG HIGH SCHOOL", label: "STRASBURG HIGH SCHOOL" }, { value: "STRATTON SENIOR HIGH SCHOOL", label: "STRATTON SENIOR HIGH SCHOOL" }, { value: "STRIVE PREP - EXCEL", label: "STRIVE PREP - EXCEL" }, { value: "STRIVE PREP - RISE", label: "STRIVE PREP - RISE" }, { value: "STRIVE PREP - SMART ACADEMY", label: "STRIVE PREP - SMART ACADEMY" }, { value: "SUMMIT ACADEMY", label: "SUMMIT ACADEMY" }, { value: "SUMMIT HIGH SCHOOL", label: "SUMMIT HIGH SCHOOL" }, { value: "SWALLOWS CHARTER ACADEMY HIGH SCHOOL", label: "SWALLOWS CHARTER ACADEMY HIGH SCHOOL" }, { value: "SWINK JUNIOR-SENIOR HIGH SCHOOL", label: "SWINK JUNIOR-SENIOR HIGH SCHOOL" }, { value: "TCA COLLEGE PATHWAYS", label: "TCA COLLEGE PATHWAYS" }, { value: "TELLURIDE HIGH SCHOOL", label: "TELLURIDE HIGH SCHOOL" }, { value: "THE ACADEMIC RECOVERY CENTER OF SAN LUIS VALLEY", label: "THE ACADEMIC RECOVERY CENTER OF SAN LUIS VALLEY" }, { value: "THE BIJOU SCHOOL", label: "THE BIJOU SCHOOL" }, { value: "THE CLASSICAL ACADEMY HIGH SCHOOL", label: "THE CLASSICAL ACADEMY HIGH SCHOOL" }, { value: "THE PINNACLE CHARTER SCHOOL", label: "THE PINNACLE CHARTER SCHOOL" }, { value: "THE VANGUARD SCHOOL (HIGH)", label: "THE VANGUARD SCHOOL (HIGH)" }, { value: "THOMAS JEFFERSON HIGH SCHOOL", label: "THOMAS JEFFERSON HIGH SCHOOL" }, { value: "THOMAS MACLAREN STATE CHARTER SCHOOL", label: "THOMAS MACLAREN STATE CHARTER SCHOOL" }, { value: "THOMPSON VALLEY HIGH SCHOOL", label: "THOMPSON VALLEY HIGH SCHOOL" }, { value: "THORNTON HIGH SCHOOL", label: "THORNTON HIGH SCHOOL" }, { value: "THUNDERRIDGE HIGH SCHOOL", label: "THUNDERRIDGE HIGH SCHOOL" }, { value: "TRINIDAD HIGH SCHOOL", label: "TRINIDAD HIGH SCHOOL" }, { value: "TWIN PEAKS CHARTER ACADEMY", label: "TWIN PEAKS CHARTER ACADEMY" }, { value: "TWO ROADS CHARTER SCHOOL", label: "TWO ROADS CHARTER SCHOOL" }, { value: "UNION COLONY PREPARATORY SCHOOL", label: "UNION COLONY PREPARATORY SCHOOL" }, { value: "UNIVERSITY SCHOOLS", label: "UNIVERSITY SCHOOLS" }, { value: "VAIL SKI AND SNOWBOARD ACADEMY (VSSA)", label: "VAIL SKI AND SNOWBOARD ACADEMY (VSSA)" }, { value: "VALIANT ACADEMY HIGH SCHOOL", label: "VALIANT ACADEMY HIGH SCHOOL" }, { value: "VALLEY HIGH SCHOOL", label: "VALLEY HIGH SCHOOL" }, { value: "VANGUARD CLASSICAL SCHOOL - EAST", label: "VANGUARD CLASSICAL SCHOOL - EAST" }, { value: "VANTAGE POINT", label: "VANTAGE POINT" }, { value: "VICTORY PREPARATORY ACADEMY HIGH STATE CHARTER SCH", label: "VICTORY PREPARATORY ACADEMY HIGH STATE CHARTER SCH" }, { value: "VILAS UNDIVIDED HIGH SCHOOL", label: "VILAS UNDIVIDED HIGH SCHOOL" }, { value: "VISION CHARTER ACADEMY", label: "VISION CHARTER ACADEMY" }, { value: "VISTA ACADEMY", label: "VISTA ACADEMY" }, { value: "VISTA CHARTER SCHOOL", label: "VISTA CHARTER SCHOOL" }, { value: "VISTA PEAK 9-12 PREPARATORY", label: "VISTA PEAK 9-12 PREPARATORY" }, { value: "VISTA RIDGE HIGH SCHOOL", label: "VISTA RIDGE HIGH SCHOOL" }, { value: "WALSH HIGH SCHOOL", label: "WALSH HIGH SCHOOL" }, { value: "WARREN TECH CENTRAL", label: "WARREN TECH CENTRAL" }, { value: "WARREN TECH NORTH", label: "WARREN TECH NORTH" }, { value: "WELD CENTRAL SENIOR HIGH SCHOOL", label: "WELD CENTRAL SENIOR HIGH SCHOOL" }, { value: "WELDON VALLEY JR/SR HIGH SCHOOL", label: "WELDON VALLEY JR/SR HIGH SCHOOL" }, { value: "WELTE EDUCATION CENTER", label: "WELTE EDUCATION CENTER" }, { value: "WEST EARLY COLLEGE", label: "WEST EARLY COLLEGE" }, { value: "WEST GRAND HIGH SCHOOL", label: "WEST GRAND HIGH SCHOOL" }, { value: "WEST LEADERSHIP ACADEMY", label: "WEST LEADERSHIP ACADEMY" }, { value: "WESTGATE CHARTER", label: "WESTGATE CHARTER" }, { value: "WESTMINSTER HIGH SCHOOL", label: "WESTMINSTER HIGH SCHOOL" }, { value: "WHEAT RIDGE HIGH SCHOOL", label: "WHEAT RIDGE HIGH SCHOOL" }, { value: "WIDEFIELD HIGH SCHOOL", label: "WIDEFIELD HIGH SCHOOL" }, { value: "WIGGINS HIGH SCHOOL", label: "WIGGINS HIGH SCHOOL" }, { value: "WILEY JUNIOR-SENIOR HIGH SCHOOL", label: "WILEY JUNIOR-SENIOR HIGH SCHOOL" }, { value: "WILLIAM SMITH HIGH SCHOOL", label: "WILLIAM SMITH HIGH SCHOOL" }, { value: "WINDSOR CHARTER ACADEMY MIDDLE AND EARLY COLLEGE H", label: "WINDSOR CHARTER ACADEMY MIDDLE AND EARLY COLLEGE H" }, { value: "WINDSOR HIGH SCHOOL", label: "WINDSOR HIGH SCHOOL" }, { value: "WOODLAND PARK HIGH SCHOOL", label: "WOODLAND PARK HIGH SCHOOL" }, { value: "WOODLIN UNDIVIDED HIGH SCHOOL", label: "WOODLIN UNDIVIDED HIGH SCHOOL" }, { value: "WORLD ACADEMY", label: "WORLD ACADEMY" }, { value: "WRAY HIGH SCHOOL", label: "WRAY HIGH SCHOOL" }, { value: "YAMPA VALLEY HIGH SCHOOL", label: "YAMPA VALLEY HIGH SCHOOL" }, { value: "YAMPAH MOUNTAIN SCHOOL", label: "YAMPAH MOUNTAIN SCHOOL" }, { value: "YORK INTERNATIONAL", label: "YORK INTERNATIONAL" }, { value: "YUMA HIGH SCHOOL", label: "YUMA HIGH SCHOOL" }];
+
+        // var test = [{ value: 'SAT', label: 'SAT' }, { value: 'PSAT', label: 'PSAT' }];
+
+        var grade = [{ value: '11', label: 'SAT - 11' }, { value: '10', label: 'PSAT - 10' }, { value: '9', label: 'PSAT - 9' }];
+
+        var satTable  = $("#sat-table").DataTable({
+            processing: true,
+            serverSide: true,
+            ajax: {
+                url: 'getData.php'
+                // type: 'POST',
+                // dataSrc: 'data'
+            },
+            scrollY: '600px',
+            //deferRender: true,
+            pageLength: 50,
+            responsive: {
+                details: {
+                    type: 'column'
+                }
+            },
+            dom: '<if<t>lp>',
+            columnDefs: [{
+                    defaultContent: '*',
+                    targets: '_all'
+                },
+                {
+                    className: 'control',
+                    orderable: false,
+                    targets: 0
+                },
+                {
+                    targets: 1,
+                    visible: false
+                },
+                // {
+                //     targets: 3,
+                //     render: function(data, type, row, meta) {
+                //         return data.toLowerCase().toTitleCase();
+                //     }
+                // },
+                {
+                    targets: [7, 9, 11],
+                    render: function(data, type, row, meta) {
+                        if (data !== null && data < 0) {
+                            return '<span style="color:#cb181d">' + data + '</span>'
+                        } else if (data !== null) {
+                            return data
+                        } else {
+                            return data;
+                        }
+                    }
+                },
+                {
+                    targets: 12,
+                    render: function(data, type, row, meta) {
+                        if (data !== null) {
+                            return data + '%';
+                        }
+                    }
+                }
+            ],
+            order: [
+                [2, 'asc']
+            ],
+            initComplete: function() {
+                yadcf.init(satTable , [{
+                        column_number: 2,
+                        filter_container_id: 'filter-1',
+                        filter_default_label: 'Show all',
+                        data: schoolDistrict
+                    },
+                    {
+                        column_number: 3,
+                        filter_container_id: 'filter-2',
+                        filter_default_label: 'Show all',
+                        data: schoolName
+                    },
+                    {
+                        column_number: 5,
+                        filter_container_id: 'filter-3',
+                        filter_default_label: 'Show all',
+                        data: grade
+                    }
+                ],{
+                    cumulative_filtering: true,
+                    filter_reset_button_text: 'Reset filter'
+                });
+
+                // get it started
+                // disableDependentFilter(1, true);
+
+                // $('.yadcf-filter-reset-button').on('click', function() {
+                //     level = parseInt(this.id.split('-')[4]);
+                //     disableDependentFilter(level, true);
+                // });
+
+                // $('.yadcf-filter').on('change', function() {
+                //     level = parseInt(this.id.slice(-1));
+                //     inuse = $(this).hasClass('inuse');
+
+                //     disableDependentFilter(level + 1, inuse);
+                // });
+                // yadcf.exFilterColumn(satTable , [
+                //     [17, 'Completed']
+                // ], true);
+            }
+        });
+    });
+    </script>
+    <script>
+    $(document).foundation()
+    </script>
+</body>
+
+</html>

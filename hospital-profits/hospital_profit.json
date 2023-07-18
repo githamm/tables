@@ -1,0 +1,722 @@
+[
+  {
+    "hospital": "Lutheran Medical Center",
+    "type": "General",
+    "system": "SCL Health",
+    "patient_service_net_income": -115182671,
+    "patient_service_profit_margin": -27.6,
+    "net_income": -100997477,
+    "total_margin": -23.3
+  },
+  {
+    "hospital": "Broomfield Hospital",
+    "type": "General",
+    "system": "UCHealth",
+    "patient_service_net_income": -6978420,
+    "patient_service_profit_margin": -13.6,
+    "net_income": -8022851,
+    "total_margin": -16
+  },
+  {
+    "hospital": "Grandview Hospital",
+    "type": "General",
+    "system": "UCHealth",
+    "patient_service_net_income": -5510335,
+    "patient_service_profit_margin": -12.8,
+    "net_income": -5715406,
+    "total_margin": -13.3
+  },
+  {
+    "hospital": "UCHealth Highlands Ranch",
+    "type": "General",
+    "system": "UCHealth",
+    "patient_service_net_income": -40119632,
+    "patient_service_profit_margin": -22.7,
+    "net_income": -20464177,
+    "total_margin": -10.3
+  },
+  {
+    "hospital": "UCHealth Greeley",
+    "type": "General",
+    "system": "UCHealth",
+    "patient_service_net_income": -16067535,
+    "patient_service_profit_margin": -11.4,
+    "net_income": -14194373,
+    "total_margin": -9.8
+  },
+  {
+    "hospital": "North Colorado Medical Center",
+    "type": "General",
+    "system": "Banner Health",
+    "patient_service_net_income": -31368949,
+    "patient_service_profit_margin": -9.5,
+    "net_income": -19616401,
+    "total_margin": -5.6
+  },
+  {
+    "hospital": "Centura Porter Adventist Hospital",
+    "type": "General",
+    "system": "Centura Health Adventist",
+    "patient_service_net_income": -25791323,
+    "patient_service_profit_margin": -8,
+    "net_income": -13817527,
+    "total_margin": -4.1
+  },
+  {
+    "hospital": "Mt. San Rafael Hospital",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": -5296610,
+    "patient_service_profit_margin": -17.8,
+    "net_income": -1007932,
+    "total_margin": -2.6
+  },
+  {
+    "hospital": "McKee Medical Center",
+    "type": "General",
+    "system": "Banner Health",
+    "patient_service_net_income": -5427220,
+    "patient_service_profit_margin": -4.1,
+    "net_income": -3384173,
+    "total_margin": -2.5
+  },
+  {
+    "hospital": "Pikes Peak Regional Hospital",
+    "type": "Critical access",
+    "system": "UCHealth",
+    "patient_service_net_income": -521482,
+    "patient_service_profit_margin": -2,
+    "net_income": -470413,
+    "total_margin": -1.8
+  },
+  {
+    "hospital": "Centura St. Mary-Corwin Hospital",
+    "type": "General",
+    "system": "Centura Health CommonSpirit",
+    "patient_service_net_income": -11964994,
+    "patient_service_profit_margin": -9.2,
+    "net_income": -2370919,
+    "total_margin": -1.7
+  },
+  {
+    "hospital": "Banner Fort Collins Medical Center",
+    "type": "General",
+    "system": "Banner Health",
+    "patient_service_net_income": -944891,
+    "patient_service_profit_margin": -1.9,
+    "net_income": 52544,
+    "total_margin": 0.1
+  },
+  {
+    "hospital": "Longs Peak Hospital",
+    "type": "General",
+    "system": "UCHealth",
+    "patient_service_net_income": -71838,
+    "patient_service_profit_margin": 0,
+    "net_income": 192214,
+    "total_margin": 0.1
+  },
+  {
+    "hospital": "Arkansas Valley Regional Medical Center",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": -5144011,
+    "patient_service_profit_margin": -18.4,
+    "net_income": 61228,
+    "total_margin": 0.2
+  },
+  {
+    "hospital": "Denver Health Medical Center",
+    "type": "General",
+    "system": "None",
+    "patient_service_net_income": "",
+    "patient_service_profit_margin": 0,
+    "net_income": 10275656,
+    "total_margin": 0.8
+  },
+  {
+    "hospital": "Grand River Hospital District",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": -20984077,
+    "patient_service_profit_margin": -25.9,
+    "net_income": 1324142,
+    "total_margin": 1.3
+  },
+  {
+    "hospital": "Southwest Health System",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": -4885968,
+    "patient_service_profit_margin": -7.7,
+    "net_income": 1291912,
+    "total_margin": 1.8
+  },
+  {
+    "hospital": "Centura Longmont United Hospital",
+    "type": "General",
+    "system": "Centura Health CommonSpirit",
+    "patient_service_net_income": -4845833,
+    "patient_service_profit_margin": -3.7,
+    "net_income": 5738460,
+    "total_margin": 4
+  },
+  {
+    "hospital": "Centura Castle Rock Adventist Hospital",
+    "type": "General",
+    "system": "Centura Health Adventist",
+    "patient_service_net_income": 8316836,
+    "patient_service_profit_margin": 5.7,
+    "net_income": 6927946,
+    "total_margin": 4.8
+  },
+  {
+    "hospital": "Children's Hospital Colorado Springs",
+    "type": "Children",
+    "system": "Children's",
+    "patient_service_net_income": 8824604,
+    "patient_service_profit_margin": 4.6,
+    "net_income": 11668636,
+    "total_margin": 6
+  },
+  {
+    "hospital": "San Luis Valley Health Regional Medical Center",
+    "type": "General",
+    "system": "San Luis Valley",
+    "patient_service_net_income": -2020318,
+    "patient_service_profit_margin": -2.2,
+    "net_income": 6699307,
+    "total_margin": 6.3
+  },
+  {
+    "hospital": "Children's Hospital Colorado",
+    "type": "Children",
+    "system": "Children's",
+    "patient_service_net_income": -22844885,
+    "patient_service_profit_margin": -1.9,
+    "net_income": 94081038,
+    "total_margin": 6.7
+  },
+  {
+    "hospital": "Memorial Regional Health",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": -644723,
+    "patient_service_profit_margin": -1,
+    "net_income": 5524637,
+    "total_margin": 7.9
+  },
+  {
+    "hospital": "Platte Valley Medical Center",
+    "type": "General",
+    "system": "SCL Health",
+    "patient_service_net_income": 5397946,
+    "patient_service_profit_margin": 3.5,
+    "net_income": 13086863,
+    "total_margin": 8.1
+  },
+  {
+    "hospital": "Lincoln Community Hospital",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": -1625392,
+    "patient_service_profit_margin": -7.7,
+    "net_income": 2063078,
+    "total_margin": 8.2
+  },
+  {
+    "hospital": "Yuma District Hospital",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": -701118,
+    "patient_service_profit_margin": -3.7,
+    "net_income": 1797180,
+    "total_margin": 8.3
+  },
+  {
+    "hospital": "Centura Littleton Adventist Hospital",
+    "type": "General",
+    "system": "Centura Health Adventist",
+    "patient_service_net_income": 21969196,
+    "patient_service_profit_margin": 6.9,
+    "net_income": 27164121,
+    "total_margin": 8.3
+  },
+  {
+    "hospital": "Pioneers Medical Center",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": -717442,
+    "patient_service_profit_margin": -1.8,
+    "net_income": 4219990,
+    "total_margin": 9
+  },
+  {
+    "hospital": "Parkview Medical Center",
+    "type": "General",
+    "system": "None",
+    "patient_service_net_income": 16187150,
+    "patient_service_profit_margin": 3.2,
+    "net_income": 49408278,
+    "total_margin": 9
+  },
+  {
+    "hospital": "Prowers Medical Center",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": 482520,
+    "patient_service_profit_margin": 1.4,
+    "net_income": 3379420,
+    "total_margin": 9.3
+  },
+  {
+    "hospital": "The Medical Center of Aurora",
+    "type": "General",
+    "system": "HealthONE",
+    "patient_service_net_income": 49212825,
+    "patient_service_profit_margin": 10.3,
+    "net_income": 45450000,
+    "total_margin": 9.4
+  },
+  {
+    "hospital": "Valley View Hospital",
+    "type": "General",
+    "system": "None",
+    "patient_service_net_income": 17745764,
+    "patient_service_profit_margin": 6.3,
+    "net_income": 28503550,
+    "total_margin": 9.5
+  },
+  {
+    "hospital": "Aspen Valley Hospital",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": 4635325,
+    "patient_service_profit_margin": 4.4,
+    "net_income": 11410476,
+    "total_margin": 9.7
+  },
+  {
+    "hospital": "Boulder Community Health",
+    "type": "General",
+    "system": "None",
+    "patient_service_net_income": -36076043,
+    "patient_service_profit_margin": -10.2,
+    "net_income": 43394741,
+    "total_margin": 9.8
+  },
+  {
+    "hospital": "North Suburban Medical Center",
+    "type": "General",
+    "system": "HealthONE",
+    "patient_service_net_income": 24722016,
+    "patient_service_profit_margin": 11.6,
+    "net_income": 21557000,
+    "total_margin": 10.1
+  },
+  {
+    "hospital": "East Morgan County Hospital",
+    "type": "Critical access",
+    "system": "Banner Health",
+    "patient_service_net_income": 3659876,
+    "patient_service_profit_margin": 9.3,
+    "net_income": 4104965,
+    "total_margin": 10.2
+  },
+  {
+    "hospital": "Montrose Memorial Hospital",
+    "type": "General",
+    "system": "None",
+    "patient_service_net_income": 4999788,
+    "patient_service_profit_margin": 3.7,
+    "net_income": 15768640,
+    "total_margin": 10.4
+  },
+  {
+    "hospital": "Centura Penrose-St. Francis Hospital",
+    "type": "General",
+    "system": "Centura Health CommonSpirit",
+    "patient_service_net_income": 72480035,
+    "patient_service_profit_margin": 8.5,
+    "net_income": 91741087,
+    "total_margin": 10.5
+  },
+  {
+    "hospital": "Memorial Hospital Central",
+    "type": "General",
+    "system": "UCHealth",
+    "patient_service_net_income": 71097327,
+    "patient_service_profit_margin": 7.2,
+    "net_income": 123800841,
+    "total_margin": 11.8
+  },
+  {
+    "hospital": "St. Joseph Hospital",
+    "type": "General",
+    "system": "SCL Health",
+    "patient_service_net_income": 46383951,
+    "patient_service_profit_margin": 7.6,
+    "net_income": 78829046,
+    "total_margin": 12.1
+  },
+  {
+    "hospital": "St. Mary's Hospital & Medical Center",
+    "type": "General",
+    "system": "SCL Health",
+    "patient_service_net_income": 35537998,
+    "patient_service_profit_margin": 7.3,
+    "net_income": 67614987,
+    "total_margin": 12.9
+  },
+  {
+    "hospital": "Sterling Regional MedCenter",
+    "type": "General",
+    "system": "Banner Health",
+    "patient_service_net_income": 7245186,
+    "patient_service_profit_margin": 11.8,
+    "net_income": 8392743,
+    "total_margin": 13.2
+  },
+  {
+    "hospital": "Sedgwick County Health Center",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": 158413,
+    "patient_service_profit_margin": 1.3,
+    "net_income": 2169054,
+    "total_margin": 13.3
+  },
+  {
+    "hospital": "National Jewish Health",
+    "type": "General",
+    "system": "None",
+    "patient_service_net_income": -79841501,
+    "patient_service_profit_margin": -84.4,
+    "net_income": 53695000,
+    "total_margin": 13.6
+  },
+  {
+    "hospital": "Heart of the Rockies Regional Medical Center",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": 6268224,
+    "patient_service_profit_margin": 6.2,
+    "net_income": 15254669,
+    "total_margin": 13.7
+  },
+  {
+    "hospital": "Centura St. Anthony Hospital",
+    "type": "General",
+    "system": "Centura Health CommonSpirit",
+    "patient_service_net_income": 54149707,
+    "patient_service_profit_margin": 11.1,
+    "net_income": 69860815,
+    "total_margin": 13.8
+  },
+  {
+    "hospital": "Southeast Colorado Hospital District",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": 466344,
+    "patient_service_profit_margin": 2.5,
+    "net_income": 3464016,
+    "total_margin": 14.1
+  },
+  {
+    "hospital": "Good Samaritan Medical Center",
+    "type": "General",
+    "system": "SCL Health",
+    "patient_service_net_income": 45123497,
+    "patient_service_profit_margin": 13.3,
+    "net_income": 50531036,
+    "total_margin": 14.6
+  },
+  {
+    "hospital": "Vail Health Hospital",
+    "type": "General",
+    "system": "None",
+    "patient_service_net_income": -1429434,
+    "patient_service_profit_margin": -0.7,
+    "net_income": 42862646,
+    "total_margin": 15.2
+  },
+  {
+    "hospital": "Estes Park Health",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": -5523129,
+    "patient_service_profit_margin": -10.8,
+    "net_income": 9716612,
+    "total_margin": 15.3
+  },
+  {
+    "hospital": "Centura St. Anthony North Hospital",
+    "type": "General",
+    "system": "Centura Health CommonSpirit",
+    "patient_service_net_income": 25979787,
+    "patient_service_profit_margin": 10.6,
+    "net_income": 42905430,
+    "total_margin": 16.1
+  },
+  {
+    "hospital": "Rangely District Hospital",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": -4432859,
+    "patient_service_profit_margin": -36.2,
+    "net_income": 3897660,
+    "total_margin": 16.5
+  },
+  {
+    "hospital": "Rose Medical Center",
+    "type": "General",
+    "system": "HealthONE",
+    "patient_service_net_income": 70667916,
+    "patient_service_profit_margin": 18.9,
+    "net_income": 62610000,
+    "total_margin": 16.6
+  },
+  {
+    "hospital": "Spanish Peaks Regional Health Center",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": 1663613,
+    "patient_service_profit_margin": 9.8,
+    "net_income": 3888387,
+    "total_margin": 17.4
+  },
+  {
+    "hospital": "Melissa Memorial Hospital",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": -1666493,
+    "patient_service_profit_margin": -9,
+    "net_income": 4514640,
+    "total_margin": 17.9
+  },
+  {
+    "hospital": "Pagosa Springs Medical Center",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": 2368141,
+    "patient_service_profit_margin": 6.6,
+    "net_income": 8757564,
+    "total_margin": 18.3
+  },
+  {
+    "hospital": "Yampa Valley Medical Center",
+    "type": "General",
+    "system": "UCHealth",
+    "patient_service_net_income": 12452881,
+    "patient_service_profit_margin": 10.8,
+    "net_income": 23368426,
+    "total_margin": 18.4
+  },
+  {
+    "hospital": "Gunnison Valley Health",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": 5105373,
+    "patient_service_profit_margin": 8.2,
+    "net_income": 13011837,
+    "total_margin": 18.5
+  },
+  {
+    "hospital": "Wray Community District Hospital",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": 493299,
+    "patient_service_profit_margin": 1.7,
+    "net_income": 6691838,
+    "total_margin": 18.7
+  },
+  {
+    "hospital": "Colorado Canyons Hospital and Medical Center",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": 10759899,
+    "patient_service_profit_margin": 16.8,
+    "net_income": 12256797,
+    "total_margin": 18.7
+  },
+  {
+    "hospital": "Centura Parker Adventist Hospital",
+    "type": "General",
+    "system": "Centura Health Adventist",
+    "patient_service_net_income": 62638436,
+    "patient_service_profit_margin": 17.3,
+    "net_income": 70606095,
+    "total_margin": 19
+  },
+  {
+    "hospital": "Weisbrod Memorial County Hospital",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": -65511,
+    "patient_service_profit_margin": -0.9,
+    "net_income": 2269421,
+    "total_margin": 19.6
+  },
+  {
+    "hospital": "San Luis Valley Health Conejos County Hospital",
+    "type": "Critical access",
+    "system": "San Luis Valley",
+    "patient_service_net_income": 2492661,
+    "patient_service_profit_margin": 19.8,
+    "net_income": 2513158,
+    "total_margin": 19.9
+  },
+  {
+    "hospital": "Swedish Medical Center",
+    "type": "General",
+    "system": "HealthONE",
+    "patient_service_net_income": 167412096,
+    "patient_service_profit_margin": 23.2,
+    "net_income": 146952000,
+    "total_margin": 20.3
+  },
+  {
+    "hospital": "Centura Avista Adventist Hospital",
+    "type": "General",
+    "system": "Centura Health Adventist",
+    "patient_service_net_income": 22051779,
+    "patient_service_profit_margin": 13,
+    "net_income": 39274973,
+    "total_margin": 20.5
+  },
+  {
+    "hospital": "Rio Grande Hospital",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": -108403,
+    "patient_service_profit_margin": -0.4,
+    "net_income": 6402740,
+    "total_margin": 20.6
+  },
+  {
+    "hospital": "Centura Mercy Hospital",
+    "type": "General",
+    "system": "Centura Health CommonSpirit",
+    "patient_service_net_income": 41213412,
+    "patient_service_profit_margin": 15.9,
+    "net_income": 59353382,
+    "total_margin": 20.9
+  },
+  {
+    "hospital": "Animas Surgical Hospital",
+    "type": "General",
+    "system": "None",
+    "patient_service_net_income": 6821753,
+    "patient_service_profit_margin": 16.2,
+    "net_income": 9706145,
+    "total_margin": 21.5
+  },
+  {
+    "hospital": "Presbyterian/St. Luke's Medical Center",
+    "type": "General",
+    "system": "HealthONE",
+    "patient_service_net_income": 156109502,
+    "patient_service_profit_margin": 24,
+    "net_income": 142625000,
+    "total_margin": 21.8
+  },
+  {
+    "hospital": "Centura St. Thomas More Hospital",
+    "type": "Critical access",
+    "system": "Centura Health CommonSpirit",
+    "patient_service_net_income": 20740095,
+    "patient_service_profit_margin": 22,
+    "net_income": 22878944,
+    "total_margin": 23.5
+  },
+  {
+    "hospital": "Haxtun Hospital District",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": 2147863,
+    "patient_service_profit_margin": 16.4,
+    "net_income": 3927345,
+    "total_margin": 24
+  },
+  {
+    "hospital": "Sky Ridge Medical Center",
+    "type": "General",
+    "system": "HealthONE",
+    "patient_service_net_income": 158186112,
+    "patient_service_profit_margin": 27.7,
+    "net_income": 139975000,
+    "total_margin": 24.4
+  },
+  {
+    "hospital": "Keefe Memorial Health Service District",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": -1563976,
+    "patient_service_profit_margin": -25.6,
+    "net_income": 3001363,
+    "total_margin": 24.7
+  },
+  {
+    "hospital": "Kit Carson County Health Service District",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": 1964434,
+    "patient_service_profit_margin": 8.9,
+    "net_income": 6908624,
+    "total_margin": 26.1
+  },
+  {
+    "hospital": "Middle Park Medical Center - Kremmling",
+    "type": "Critical access",
+    "system": "None",
+    "patient_service_net_income": 1964434,
+    "patient_service_profit_margin": 8.9,
+    "net_income": 6908624,
+    "total_margin": 26.1
+  },
+  {
+    "hospital": "Medical Center of the Rockies",
+    "type": "General",
+    "system": "UCHealth",
+    "patient_service_net_income": 71308497,
+    "patient_service_profit_margin": 13.7,
+    "net_income": 167509008,
+    "total_margin": 27
+  },
+  {
+    "hospital": "University of Colorado Hospital",
+    "type": "General",
+    "system": "UCHealth",
+    "patient_service_net_income": 266327205,
+    "patient_service_profit_margin": 11.4,
+    "net_income": 946637632,
+    "total_margin": 31.3
+  },
+  {
+    "hospital": "Centura St. Anthony Summit Hospital",
+    "type": "General",
+    "system": "Centura Health CommonSpirit",
+    "patient_service_net_income": 39447001,
+    "patient_service_profit_margin": 31.7,
+    "net_income": 46176070,
+    "total_margin": 34.5
+  },
+  {
+    "hospital": "OrthoColorado Hospital",
+    "type": "General",
+    "system": "Centura Health CommonSpirit",
+    "patient_service_net_income": 44318603,
+    "patient_service_profit_margin": 37.9,
+    "net_income": 42756234,
+    "total_margin": 37.2
+  },
+  {
+    "hospital": "Poudre Valley Hospital",
+    "type": "General",
+    "system": "UCHealth",
+    "patient_service_net_income": 90989823,
+    "patient_service_profit_margin": 13.5,
+    "net_income": 482237439,
+    "total_margin": 45.1
+  }
+]

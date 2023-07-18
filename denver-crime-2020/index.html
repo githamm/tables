@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Denver Crime Rankings 2020 | The Denver Post</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.foundation.min.css" />
+    <!-- <link rel="stylesheet" href="jquery.dataTables.yadcf.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.foundation.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.16/dataRender/datetime.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.1/js/responsive.foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.2/jquery.dataTables.yadcf.js"></script>
+    <script src="https://extras.denverpost.com/app/homicide-report/js/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.14/c3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.19/sorting/natural.js"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        /*background-color: #fafafa;*/
+        font-family: 'Roboto', sans-serif;
+        margin-top: 1%;
+    }
+
+    .table-title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 120%;
+        padding-top: 5px;
+    }
+
+    #filters {
+        font-size: .85rem;
+    }
+
+    .table-instructions {
+        color: #990012;
+        font-style: italic;
+        text-align: center;
+        font-size: .9rem;
+    }
+
+    #contributions-table-container {
+        margin-top: 10px;
+        padding: 3px;
+    }
+
+    #contributions-table {
+        font-size: .85rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    button.yadcf-filter-reset-button {
+        color: red;
+        margin-left: 10px;
+    }
+
+    select {
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-size: .95rem;
+    }
+
+    .yadcf-filter-range {
+        height: 2.9em;
+        border: 1px solid silver;
+    }
+
+    .filter-text {
+        font-weight: bold;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+
+    /*.row-color {
+        background-color: #e4e4e4 !important;
+    }
+
+    tr {
+        background-color: #fafafa !important;
+        border-bottom: 1px solid silver;
+    }*/
+
+    table,
+    thead,
+    tbody {
+        /*border: 0px solid silver !important;*/
+        font-family: 'Roboto', Helvetica, sans-serif;
+        font-size: .95rem;
+    }
+
+    /*thead {
+        border-bottom: 2px solid #0a0a0a !important;
+    }*/
+
+    table tr:nth-of-type(even) {
+        background-color: transparent !important;
+    }
+
+    table tr {
+        border-bottom: 1px solid #0a0a0a;
+    }
+
+    button.yadcf-filter-reset-button {
+        color: #990012;
+        font-weight: normal;
+    }
+
+    .incidents {
+        font-size: .8rem;
+        font-style: italic;
+        line-height: 14px;
+        display: inline-block;
+    }
+
+    .source {
+        text-align: right;
+        font-size: .8rem;
+        font-style: italic;
+        margin-top: 10px;
+    }
+
+    .lower {
+        background: rgba(145,191,219,.5);
+        display: inline-block;
+    }
+
+    .mid {
+        background: rgba(255,255,191,.5);
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .higher {
+        background: rgba(252,141,89,.5);
+        display: inline-block;
+        margin-left: 10px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="large-12 columns">
+            <h1 class="table-title">A rise in Denver property crime</h1>
+            <p>Property crimes rose across the city in 2020, but the extent of the rise varied neighborhood to neighborhod. <em>Property crimes include burglary, larceny, auto theft, theft from vehicles and arson. Auraria and DIA were left off the list because they are not primarily residential neighborhoods.</em></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <p class="table-instructions">Click column headers to sort &bull; Use dropdown menu to filter by neighborhood &bull; Scroll right to see full table</p>
+        </div>
+    </div>
+    <div id="filters">
+        <div class="row">
+            <div class="large-3 medium-3 small-12 columns">
+                <p id="filter-1"></p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <div><span class="lower">&nbsp;&nbsp;&nbsp;&nbsp;</span> Lower third<span class="mid">&nbsp;&nbsp;&nbsp;&nbsp;</span> Middle third <span class="higher">&nbsp;&nbsp;&nbsp;&nbsp;</span> Higher third</div> 
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <table id="denver-property-crime" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Neighborhood</th>
+                        <th>Population</th>
+                        <th>Property crime rate<br>per 1,000 residents</th>
+                        <th>Property crime change<br>from 2016-19 average</th>
+                        <th>Property crime count</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <p class="source">Source: Denver Police Department &bull; By Kevin Hamm, The Denver Post</p>
+        </div>
+    </div>
+    <script>
+    var dataFile = 'denver_crime_2020_all.json';
+
+    $(document).ready(function() {
+        function disableDependentFilter(level, inuse) {
+            if (level < 4) {
+                filter = $('#yadcf-filter--example-' + level);
+                yadcf.exResetFilters(metroDistrictsTable, [level]);
+                filter.prop('disabled', !inuse);
+
+                disableDependentFilter(level + 1, false);
+            }
+        }
+
+        var metroDistrictsTable = $('#denver-property-crime').DataTable({
+            ajax: {
+                'url': dataFile,
+                'dataSrc': ''
+            },
+            // pageLength: 15,
+            scrollY: '1000px',
+            //scrollCollapse: true,
+            scrollX: true,
+            paging: false,
+            pageLength: null,
+            fixedHeader: true,
+            // responsive: {
+            //     details: {
+            //         type: 'column'
+            //     }
+            // },
+            //dom: '<if<t>lp>',
+            order: [
+                [0, 'asc']
+            ],
+            rowCallback: function(row, data, index) {
+                if (data.property_crime_rank <= 26) {
+                    $(row).find('td:eq(2)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.property_crime_rank <= 52) {
+                    $(row).find('td:eq(2)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.property_crime_rank <= 78) {
+                    $(row).find('td:eq(2)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+                if (data.change_avg_rank <= 26) {
+                    $(row).find('td:eq(3)').css('background-color', 'rgba(252,141,89,.5)');
+                } else if (data.change_avg_rank <= 52) {
+                    $(row).find('td:eq(3)').css('background-color', 'rgba(255,255,191,.5)');
+                } else if (data.change_avg_rank <= 78) {
+                    $(row).find('td:eq(3)').css('background-color', 'rgba(145,191,219,.5)');
+                };
+            },
+            columns: [{
+                    data: 'neighborhood'
+                },
+                {
+                    data: 'population',
+                    render: $.fn.dataTable.render.number(',')
+                },
+                {
+                    data: 'property_crime_rate_2020'
+                },
+                {
+                    data: 'change_avg_2020',
+                    render: function(data, type, row) {
+                        return data + '%'
+                    }
+                },
+                {
+                    data: 'property_crime_2020',
+                    render: $.fn.dataTable.render.number(',')
+                },
+                {
+                    data: 'property_crime_rank',
+                    visible: false,
+                    searchable: false
+                },
+                {
+                    data: 'change_avg_rank',
+                    visible: false,
+                    searchable: false
+                }
+            ],
+
+            initComplete: function() {
+                yadcf.init(metroDistrictsTable, [{
+                    column_number: 0,
+                    filter_container_id: 'filter-1',
+                    filter_default_label: 'Filter by neighborhood',
+                    //data: donorTypes
+                }, ], {
+                    //cumulative_filtering: true,
+                    filter_reset_button_text: 'Reset filter'
+                });
+
+                disableDependentFilter(1, true);
+
+                $('.yadcf-filter-reset-button').on('click', function() {
+                    level = parseInt(this.id.split('-')[1]);
+                    disableDependentFilter(level, true);
+                });
+
+                $('.yadcf-filter').on('change', function() {
+                    level = parseInt(this.id.slice(-1));
+                    inuse = $(this).hasClass('inuse');
+
+                    disableDependentFilter(level + 1, inuse);
+                });
+            }
+        });
+    });
+    </script>
+</body>
+
+</html>

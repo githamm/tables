@@ -32,10 +32,10 @@
     "demVotes1980": 31357,
     "repVotes1980": 42916,
     "totalVotes1980": 84975,
-    "population2017ACS": 487850,
+    "population2018DOLA": 511469,
     "populationRank": 5,
-    "income2017ACS": 64087,
-    "incomeRank": 18,
+    "income2019BLS": 70199,
+    "incomeRank": 17,
     "usdaPopDes": 1
   },
   {
@@ -71,10 +71,10 @@
     "demVotes1980": 1821,
     "repVotes1980": 2601,
     "totalVotes1980": 4828,
-    "population2017ACS": 16345,
-    "populationRank": 30,
-    "income2017ACS": 36315,
-    "incomeRank": 56,
+    "population2018DOLA": 16181,
+    "populationRank": 31,
+    "income2019BLS": 42897,
+    "incomeRank": 53,
     "usdaPopDes": 7
   },
   {
@@ -110,10 +110,10 @@
     "demVotes1980": 30148,
     "repVotes1980": 79594,
     "totalVotes1980": 127980,
-    "population2017ACS": 626612,
+    "population2018DOLA": 651345,
     "populationRank": 3,
-    "income2017ACS": 69553,
-    "incomeRank": 9,
+    "income2019BLS": 76665,
+    "incomeRank": 10,
     "usdaPopDes": 1
   },
   {
@@ -149,10 +149,10 @@
     "demVotes1980": 532,
     "repVotes1980": 1252,
     "totalVotes1980": 1900,
-    "population2017ACS": 12592,
-    "populationRank": 35,
-    "income2017ACS": 48016,
-    "incomeRank": 37,
+    "population2018DOLA": 13746,
+    "populationRank": 34,
+    "income2019BLS": 53337,
+    "incomeRank": 34,
     "usdaPopDes": 7
   },
   {
@@ -188,10 +188,10 @@
     "demVotes1980": 551,
     "repVotes1980": 1999,
     "totalVotes1980": 2692,
-    "population2017ACS": 3581,
+    "population2018DOLA": 3547,
     "populationRank": 56,
-    "income2017ACS": 35898,
-    "incomeRank": 57,
+    "income2019BLS": 38294,
+    "incomeRank": 59,
     "usdaPopDes": 9
   },
   {
@@ -227,10 +227,10 @@
     "demVotes1980": 894,
     "repVotes1980": 1206,
     "totalVotes1980": 2330,
-    "population2017ACS": 5806,
-    "populationRank": 47,
-    "income2017ACS": 32500,
-    "incomeRank": 63,
+    "population2018DOLA": 5821,
+    "populationRank": 49,
+    "income2019BLS": 37659,
+    "incomeRank": 61,
     "usdaPopDes": 7
   },
   {
@@ -266,10 +266,10 @@
     "demVotes1980": 28422,
     "repVotes1980": 40698,
     "totalVotes1980": 87069,
-    "population2017ACS": 316782,
+    "population2018DOLA": 325480,
     "populationRank": 8,
-    "income2017ACS": 75669,
-    "incomeRank": 5,
+    "income2019BLS": 83591,
+    "incomeRank": 7,
     "usdaPopDes": 2
   },
   {
@@ -305,9 +305,9 @@
     "demVotes1980": "",
     "repVotes1980": "",
     "totalVotes1980": "",
-    "population2017ACS": 64283,
+    "population2018DOLA": 69453,
     "populationRank": 12,
-    "income2017ACS": 85639,
+    "income2019BLS": 96924,
     "incomeRank": 3,
     "usdaPopDes": 1
   },
@@ -344,10 +344,10 @@
     "demVotes1980": 1583,
     "repVotes1980": 3327,
     "totalVotes1980": 5478,
-    "population2017ACS": 18818,
+    "population2018DOLA": 20024,
     "populationRank": 26,
-    "income2017ACS": 53762,
-    "incomeRank": 27,
+    "income2019BLS": 56168,
+    "incomeRank": 30,
     "usdaPopDes": 7
   },
   {
@@ -383,10 +383,10 @@
     "demVotes1980": 322,
     "repVotes1980": 816,
     "totalVotes1980": 1239,
-    "population2017ACS": 2127,
-    "populationRank": 58,
-    "income2017ACS": 54907,
-    "incomeRank": 26,
+    "population2018DOLA": 1861,
+    "populationRank": 59,
+    "income2019BLS": 54504,
+    "incomeRank": 33,
     "usdaPopDes": 9
   },
   {
@@ -422,10 +422,10 @@
     "demVotes1980": 837,
     "repVotes1980": 1784,
     "totalVotes1980": 3173,
-    "population2017ACS": 9257,
+    "population2018DOLA": 9663,
     "populationRank": 39,
-    "income2017ACS": 68534,
-    "incomeRank": 10,
+    "income2019BLS": 74019,
+    "incomeRank": 13,
     "usdaPopDes": 1
   },
   {
@@ -461,10 +461,10 @@
     "demVotes1980": 1503,
     "repVotes1980": 1597,
     "totalVotes1980": 3232,
-    "population2017ACS": 8147,
-    "populationRank": 40,
-    "income2017ACS": 35657,
-    "incomeRank": 59,
+    "population2018DOLA": 8138,
+    "populationRank": 41,
+    "income2019BLS": 38777,
+    "incomeRank": 58,
     "usdaPopDes": 9
   },
   {
@@ -500,9 +500,9 @@
     "demVotes1980": 1036,
     "repVotes1980": 489,
     "totalVotes1980": 1583,
-    "population2017ACS": 3628,
+    "population2018DOLA": 3810,
     "populationRank": 55,
-    "income2017ACS": 29000,
+    "income2019BLS": 31557,
     "incomeRank": 64,
     "usdaPopDes": 9
   },
@@ -539,10 +539,10 @@
     "demVotes1980": 472,
     "repVotes1980": 926,
     "totalVotes1980": 1473,
-    "population2017ACS": 5514,
-    "populationRank": 50,
-    "income2017ACS": 35292,
-    "incomeRank": 60,
+    "population2018DOLA": 5855,
+    "populationRank": 48,
+    "income2019BLS": 35880,
+    "incomeRank": 63,
     "usdaPopDes": 8
   },
   {
@@ -578,10 +578,10 @@
     "demVotes1980": 231,
     "repVotes1980": 674,
     "totalVotes1980": 1010,
-    "population2017ACS": 4505,
-    "populationRank": 53,
-    "income2017ACS": 41330,
-    "incomeRank": 51,
+    "population2018DOLA": 4929,
+    "populationRank": 51,
+    "income2019BLS": 55242,
+    "incomeRank": 32,
     "usdaPopDes": 8
   },
   {
@@ -617,10 +617,10 @@
     "demVotes1980": 2348,
     "repVotes1980": 6179,
     "totalVotes1980": 9227,
-    "population2017ACS": 30217,
-    "populationRank": 18,
-    "income2017ACS": 42487,
-    "incomeRank": 48,
+    "population2018DOLA": 30935,
+    "populationRank": 19,
+    "income2019BLS": 46786,
+    "incomeRank": 49,
     "usdaPopDes": 6
   },
   {
@@ -656,10 +656,10 @@
     "demVotes1980": 85903,
     "repVotes1980": 88398,
     "totalVotes1980": 209508,
-    "population2017ACS": 678467,
+    "population2018DOLA": 717796,
     "populationRank": 1,
-    "income2017ACS": 60098,
-    "incomeRank": 24,
+    "income2019BLS": 68069,
+    "incomeRank": 21,
     "usdaPopDes": 1
   },
   {
@@ -695,10 +695,10 @@
     "demVotes1980": 157,
     "repVotes1980": 615,
     "totalVotes1980": 817,
-    "population2017ACS": 1736,
-    "populationRank": 59,
-    "income2017ACS": 40352,
-    "incomeRank": 53,
+    "population2018DOLA": 2054,
+    "populationRank": 58,
+    "income2019BLS": 47482,
+    "incomeRank": 47,
     "usdaPopDes": 9
   },
   {
@@ -734,9 +734,9 @@
     "demVotes1980": 2108,
     "repVotes1980": 8126,
     "totalVotes1980": 11596,
-    "population2017ACS": 320940,
+    "population2018DOLA": 342847,
     "populationRank": 7,
-    "income2017ACS": 111154,
+    "income2019BLS": 120670,
     "incomeRank": 1,
     "usdaPopDes": 1
   },
@@ -773,10 +773,10 @@
     "demVotes1980": 1608,
     "repVotes1980": 3061,
     "totalVotes1980": 5816,
-    "population2017ACS": 53726,
+    "population2018DOLA": 54863,
     "populationRank": 15,
-    "income2017ACS": 83803,
-    "incomeRank": 4,
+    "income2019BLS": 86896,
+    "incomeRank": 5,
     "usdaPopDes": 5
   },
   {
@@ -812,10 +812,10 @@
     "demVotes1980": 27463,
     "repVotes1980": 66199,
     "totalVotes1980": 103990,
-    "population2017ACS": 674826,
+    "population2018DOLA": 714398,
     "populationRank": 2,
-    "income2017ACS": 62535,
-    "incomeRank": 19,
+    "income2019BLS": 67923,
+    "incomeRank": 22,
     "usdaPopDes": 2
   },
   {
@@ -851,9 +851,9 @@
     "demVotes1980": 698,
     "repVotes1980": 2107,
     "totalVotes1980": 3122,
-    "population2017ACS": 24553,
-    "populationRank": 22,
-    "income2017ACS": 92849,
+    "population2018DOLA": 26218,
+    "populationRank": 21,
+    "income2019BLS": 98247,
     "incomeRank": 2,
     "usdaPopDes": 1
   },
@@ -890,10 +890,10 @@
     "demVotes1980": 3952,
     "repVotes1980": 7162,
     "totalVotes1980": 12113,
-    "population2017ACS": 46601,
+    "population2018DOLA": 47917,
     "populationRank": 16,
-    "income2017ACS": 44712,
-    "incomeRank": 46,
+    "income2019BLS": 47885,
+    "incomeRank": 45,
     "usdaPopDes": 4
   },
   {
@@ -929,10 +929,10 @@
     "demVotes1980": 2639,
     "repVotes1980": 5416,
     "totalVotes1980": 9325,
-    "population2017ACS": 57945,
+    "population2018DOLA": 59812,
     "populationRank": 13,
-    "income2017ACS": 66503,
-    "incomeRank": 14,
+    "income2019BLS": 74421,
+    "incomeRank": 12,
     "usdaPopDes": 5
   },
   {
@@ -968,10 +968,10 @@
     "demVotes1980": 441,
     "repVotes1980": 694,
     "totalVotes1980": 1387,
-    "population2017ACS": 5793,
-    "populationRank": 48,
-    "income2017ACS": 72544,
-    "incomeRank": 8,
+    "population2018DOLA": 6098,
+    "populationRank": 47,
+    "income2019BLS": 72949,
+    "incomeRank": 14,
     "usdaPopDes": 1
   },
   {
@@ -1007,10 +1007,10 @@
     "demVotes1980": 820,
     "repVotes1980": 2133,
     "totalVotes1980": 3481,
-    "population2017ACS": 14793,
+    "population2018DOLA": 15481,
     "populationRank": 32,
-    "income2017ACS": 66489,
-    "incomeRank": 16,
+    "income2019BLS": 69214,
+    "incomeRank": 19,
     "usdaPopDes": 7
   },
   {
@@ -1046,10 +1046,10 @@
     "demVotes1980": 1297,
     "repVotes1980": 2756,
     "totalVotes1980": 4970,
-    "population2017ACS": 16215,
-    "populationRank": 31,
-    "income2017ACS": 52651,
-    "incomeRank": 30,
+    "population2018DOLA": 17173,
+    "populationRank": 30,
+    "income2019BLS": 61268,
+    "incomeRank": 27,
     "usdaPopDes": 7
   },
   {
@@ -1085,10 +1085,10 @@
     "demVotes1980": 76,
     "repVotes1980": 232,
     "totalVotes1980": 336,
-    "population2017ACS": 820,
-    "populationRank": 63,
-    "income2017ACS": 53056,
-    "incomeRank": 28,
+    "population2018DOLA": 807,
+    "populationRank": 62,
+    "income2019BLS": 62149,
+    "incomeRank": 26,
     "usdaPopDes": 9
   },
   {
@@ -1124,10 +1124,10 @@
     "demVotes1980": 1574,
     "repVotes1980": 1258,
     "totalVotes1980": 3032,
-    "population2017ACS": 6498,
-    "populationRank": 45,
-    "income2017ACS": 35801,
-    "incomeRank": 58,
+    "population2018DOLA": 6851,
+    "populationRank": 44,
+    "income2019BLS": 38242,
+    "incomeRank": 60,
     "usdaPopDes": 6
   },
   {
@@ -1163,9 +1163,9 @@
     "demVotes1980": 283,
     "repVotes1980": 673,
     "totalVotes1980": 1059,
-    "population2017ACS": 1372,
+    "population2018DOLA": 1392,
     "populationRank": 60,
-    "income2017ACS": 45994,
+    "income2019BLS": 51457,
     "incomeRank": 40,
     "usdaPopDes": 9
   },
@@ -1202,9 +1202,9 @@
     "demVotes1980": 41525,
     "repVotes1980": 97008,
     "totalVotes1980": 162611,
-    "population2017ACS": 564029,
+    "population2018DOLA": 579489,
     "populationRank": 4,
-    "income2017ACS": 75170,
+    "income2019BLS": 85550,
     "incomeRank": 6,
     "usdaPopDes": 1
   },
@@ -1241,10 +1241,10 @@
     "demVotes1980": 331,
     "repVotes1980": 754,
     "totalVotes1980": 1159,
-    "population2017ACS": 1368,
+    "population2018DOLA": 1373,
     "populationRank": 61,
-    "income2017ACS": 39250,
-    "incomeRank": 54,
+    "income2019BLS": 44704,
+    "incomeRank": 51,
     "usdaPopDes": 9
   },
   {
@@ -1280,10 +1280,10 @@
     "demVotes1980": 790,
     "repVotes1980": 2622,
     "totalVotes1980": 3653,
-    "population2017ACS": 7846,
-    "populationRank": 41,
-    "income2017ACS": 45881,
-    "incomeRank": 41,
+    "population2018DOLA": 7161,
+    "populationRank": 43,
+    "income2019BLS": 48342,
+    "incomeRank": 43,
     "usdaPopDes": 7
   },
   {
@@ -1319,10 +1319,10 @@
     "demVotes1980": 3034,
     "repVotes1980": 7291,
     "totalVotes1980": 12201,
-    "population2017ACS": 54469,
+    "population2018DOLA": 56402,
     "populationRank": 14,
-    "income2017ACS": 62533,
-    "incomeRank": 20,
+    "income2019BLS": 66219,
+    "incomeRank": 23,
     "usdaPopDes": 4
   },
   {
@@ -1358,9 +1358,9 @@
     "demVotes1980": 1213,
     "repVotes1980": 1375,
     "totalVotes1980": 3025,
-    "population2017ACS": 7481,
-    "populationRank": 43,
-    "income2017ACS": 46176,
+    "population2018DOLA": 7764,
+    "populationRank": 42,
+    "income2019BLS": 51802,
     "incomeRank": 39,
     "usdaPopDes": 6
   },
@@ -1397,10 +1397,10 @@
     "demVotes1980": 17072,
     "repVotes1980": 36240,
     "totalVotes1980": 64129,
-    "population2017ACS": 330976,
+    "population2018DOLA": 350362,
     "populationRank": 6,
-    "income2017ACS": 64980,
-    "incomeRank": 17,
+    "income2019BLS": 71306,
+    "incomeRank": 16,
     "usdaPopDes": 2
   },
   {
@@ -1436,10 +1436,10 @@
     "demVotes1980": 4117,
     "repVotes1980": 2917,
     "totalVotes1980": 7409,
-    "population2017ACS": 14151,
+    "population2018DOLA": 14486,
     "populationRank": 33,
-    "income2017ACS": 40586,
-    "incomeRank": 52,
+    "income2019BLS": 41485,
+    "incomeRank": 55,
     "usdaPopDes": 7
   },
   {
@@ -1475,10 +1475,10 @@
     "demVotes1980": 602,
     "repVotes1980": 1535,
     "totalVotes1980": 2371,
-    "population2017ACS": 5520,
-    "populationRank": 49,
-    "income2017ACS": 44725,
-    "incomeRank": 45,
+    "population2018DOLA": 5580,
+    "populationRank": 50,
+    "income2019BLS": 46690,
+    "incomeRank": 50,
     "usdaPopDes": 8
   },
   {
@@ -1514,10 +1514,10 @@
     "demVotes1980": 2332,
     "repVotes1980": 5238,
     "totalVotes1980": 8293,
-    "population2017ACS": 21885,
+    "population2018DOLA": 21856,
     "populationRank": 25,
-    "income2017ACS": 44876,
-    "incomeRank": 43,
+    "income2019BLS": 53168,
+    "incomeRank": 36,
     "usdaPopDes": 7
   },
   {
@@ -1553,10 +1553,10 @@
     "demVotes1980": 7549,
     "repVotes1980": 22686,
     "totalVotes1980": 32916,
-    "population2017ACS": 148798,
+    "population2018DOLA": 153629,
     "populationRank": 11,
-    "income2017ACS": 51971,
-    "incomeRank": 31,
+    "income2019BLS": 51132,
+    "incomeRank": 41,
     "usdaPopDes": 3
   },
   {
@@ -1592,10 +1592,10 @@
     "demVotes1980": 125,
     "repVotes1980": 271,
     "totalVotes1980": 450,
-    "population2017ACS": 834,
-    "populationRank": 62,
-    "income2017ACS": 50385,
-    "incomeRank": 34,
+    "population2018DOLA": 775,
+    "populationRank": 63,
+    "income2019BLS": 60210,
+    "incomeRank": 28,
     "usdaPopDes": 9
   },
   {
@@ -1631,9 +1631,9 @@
     "demVotes1980": 1079,
     "repVotes1980": 3344,
     "totalVotes1980": 4925,
-    "population2017ACS": 13056,
-    "populationRank": 34,
-    "income2017ACS": 53010,
+    "population2018DOLA": 13178,
+    "populationRank": 35,
+    "income2019BLS": 59500,
     "incomeRank": 29,
     "usdaPopDes": 7
   },
@@ -1670,9 +1670,9 @@
     "demVotes1980": 1467,
     "repVotes1980": 4120,
     "totalVotes1980": 6006,
-    "population2017ACS": 25770,
-    "populationRank": 21,
-    "income2017ACS": 45645,
+    "population2018DOLA": 26155,
+    "populationRank": 22,
+    "income2019BLS": 50180,
     "incomeRank": 42,
     "usdaPopDes": 6
   },
@@ -1709,10 +1709,10 @@
     "demVotes1980": 2232,
     "repVotes1980": 6685,
     "totalVotes1980": 9800,
-    "population2017ACS": 40908,
+    "population2018DOLA": 42263,
     "populationRank": 17,
-    "income2017ACS": 44865,
-    "incomeRank": 44,
+    "income2019BLS": 52576,
+    "incomeRank": 37,
     "usdaPopDes": 4
   },
   {
@@ -1748,10 +1748,10 @@
     "demVotes1980": 2246,
     "repVotes1980": 5209,
     "totalVotes1980": 8334,
-    "population2017ACS": 28123,
+    "population2018DOLA": 28504,
     "populationRank": 20,
-    "income2017ACS": 51456,
-    "incomeRank": 33,
+    "income2019BLS": 55387,
+    "incomeRank": 31,
     "usdaPopDes": 6
   },
   {
@@ -1787,10 +1787,10 @@
     "demVotes1980": 3294,
     "repVotes1980": 4801,
     "totalVotes1980": 8801,
-    "population2017ACS": 18325,
-    "populationRank": 27,
-    "income2017ACS": 35051,
-    "incomeRank": 61,
+    "population2018DOLA": 18365,
+    "populationRank": 28,
+    "income2019BLS": 40064,
+    "incomeRank": 56,
     "usdaPopDes": 6
   },
   {
@@ -1826,10 +1826,10 @@
     "demVotes1980": 237,
     "repVotes1980": 813,
     "totalVotes1980": 1201,
-    "population2017ACS": 4653,
+    "population2018DOLA": 4804,
     "populationRank": 52,
-    "income2017ACS": 61333,
-    "incomeRank": 23,
+    "income2019BLS": 68900,
+    "incomeRank": 20,
     "usdaPopDes": 9
   },
   {
@@ -1865,10 +1865,10 @@
     "demVotes1980": 674,
     "repVotes1980": 1623,
     "totalVotes1980": 2735,
-    "population2017ACS": 16900,
-    "populationRank": 29,
-    "income2017ACS": 61644,
-    "incomeRank": 22,
+    "population2018DOLA": 18556,
+    "populationRank": 27,
+    "income2019BLS": 72121,
+    "incomeRank": 15,
     "usdaPopDes": 1
   },
   {
@@ -1904,10 +1904,10 @@
     "demVotes1980": 640,
     "repVotes1980": 1488,
     "totalVotes1980": 2354,
-    "population2017ACS": 4327,
+    "population2018DOLA": 4268,
     "populationRank": 54,
-    "income2017ACS": 50076,
-    "incomeRank": 35,
+    "income2019BLS": 52367,
+    "incomeRank": 38,
     "usdaPopDes": 9
   },
   {
@@ -1943,10 +1943,10 @@
     "demVotes1980": 1760,
     "repVotes1980": 2153,
     "totalVotes1980": 5417,
-    "population2017ACS": 17747,
-    "populationRank": 28,
-    "income2017ACS": 67755,
-    "incomeRank": 11,
+    "population2018DOLA": 17882,
+    "populationRank": 29,
+    "income2019BLS": 89034,
+    "incomeRank": 4,
     "usdaPopDes": 7
   },
   {
@@ -1982,10 +1982,10 @@
     "demVotes1980": 1669,
     "repVotes1980": 3115,
     "totalVotes1980": 5212,
-    "population2017ACS": 12084,
+    "population2018DOLA": 12081,
     "populationRank": 36,
-    "income2017ACS": 41740,
-    "incomeRank": 50,
+    "income2019BLS": 42455,
+    "incomeRank": 54,
     "usdaPopDes": 7
   },
   {
@@ -2021,10 +2021,10 @@
     "demVotes1980": 21874,
     "repVotes1980": 20770,
     "totalVotes1980": 46441,
-    "population2017ACS": 163368,
+    "population2018DOLA": 167117,
     "populationRank": 10,
-    "income2017ACS": 42386,
-    "incomeRank": 49,
+    "income2019BLS": 48308,
+    "incomeRank": 44,
     "usdaPopDes": 3
   },
   {
@@ -2060,9 +2060,9 @@
     "demVotes1980": 462,
     "repVotes1980": 1971,
     "totalVotes1980": 2647,
-    "population2017ACS": 6557,
-    "populationRank": 44,
-    "income2017ACS": 57991,
+    "population2018DOLA": 6308,
+    "populationRank": 46,
+    "income2019BLS": 63411,
     "incomeRank": 25,
     "usdaPopDes": 9
   },
@@ -2099,10 +2099,10 @@
     "demVotes1980": 1370,
     "repVotes1980": 2844,
     "totalVotes1980": 4488,
-    "population2017ACS": 11430,
+    "population2018DOLA": 11220,
     "populationRank": 37,
-    "income2017ACS": 38534,
-    "incomeRank": 55,
+    "income2019BLS": 44171,
+    "incomeRank": 52,
     "usdaPopDes": 7
   },
   {
@@ -2138,10 +2138,10 @@
     "demVotes1980": 1944,
     "repVotes1980": 3574,
     "totalVotes1980": 6702,
-    "population2017ACS": 24359,
+    "population2018DOLA": 25680,
     "populationRank": 23,
-    "income2017ACS": 67472,
-    "incomeRank": 12,
+    "income2019BLS": 81033,
+    "incomeRank": 8,
     "usdaPopDes": 7
   },
   {
@@ -2177,9 +2177,9 @@
     "demVotes1980": 893,
     "repVotes1980": 1124,
     "totalVotes1980": 2135,
-    "population2017ACS": 6338,
-    "populationRank": 46,
-    "income2017ACS": 34765,
+    "population2018DOLA": 6840,
+    "populationRank": 45,
+    "income2019BLS": 36869,
     "incomeRank": 62,
     "usdaPopDes": 9
   },
@@ -2216,10 +2216,10 @@
     "demVotes1980": 146,
     "repVotes1980": 268,
     "totalVotes1980": 549,
-    "population2017ACS": 569,
+    "population2018DOLA": 760,
     "populationRank": 64,
-    "income2017ACS": 46397,
-    "incomeRank": 38,
+    "income2019BLS": 46878,
+    "incomeRank": 48,
     "usdaPopDes": 9
   },
   {
@@ -2255,10 +2255,10 @@
     "demVotes1980": 651,
     "repVotes1980": 774,
     "totalVotes1980": 1809,
-    "population2017ACS": 7804,
-    "populationRank": 42,
-    "income2017ACS": 62243,
-    "incomeRank": 21,
+    "population2018DOLA": 8177,
+    "populationRank": 40,
+    "income2019BLS": 69458,
+    "incomeRank": 18,
     "usdaPopDes": 9
   },
   {
@@ -2294,10 +2294,10 @@
     "demVotes1980": 438,
     "repVotes1980": 1151,
     "totalVotes1980": 1708,
-    "population2017ACS": 2357,
+    "population2018DOLA": 2276,
     "populationRank": 57,
-    "income2017ACS": 49583,
-    "incomeRank": 36,
+    "income2019BLS": 40009,
+    "incomeRank": 57,
     "usdaPopDes": 9
   },
   {
@@ -2333,10 +2333,10 @@
     "demVotes1980": 1285,
     "repVotes1980": 2027,
     "totalVotes1980": 4355,
-    "population2017ACS": 29722,
-    "populationRank": 19,
-    "income2017ACS": 73538,
-    "incomeRank": 7,
+    "population2018DOLA": 30974,
+    "populationRank": 18,
+    "income2019BLS": 80078,
+    "incomeRank": 9,
     "usdaPopDes": 5
   },
   {
@@ -2372,10 +2372,10 @@
     "demVotes1980": 802,
     "repVotes1980": 2457,
     "totalVotes1980": 3707,
-    "population2017ACS": 23769,
+    "population2018DOLA": 25057,
     "populationRank": 24,
-    "income2017ACS": 66809,
-    "incomeRank": 13,
+    "income2019BLS": 64850,
+    "incomeRank": 24,
     "usdaPopDes": 2
   },
   {
@@ -2411,10 +2411,10 @@
     "demVotes1980": 568,
     "repVotes1980": 2007,
     "totalVotes1980": 2811,
-    "population2017ACS": 4809,
-    "populationRank": 51,
-    "income2017ACS": 51458,
-    "incomeRank": 32,
+    "population2018DOLA": 4729,
+    "populationRank": 53,
+    "income2019BLS": 47869,
+    "incomeRank": 46,
     "usdaPopDes": 9
   },
   {
@@ -2450,10 +2450,10 @@
     "demVotes1980": 11433,
     "repVotes1980": 23901,
     "totalVotes1980": 40646,
-    "population2017ACS": 285729,
+    "population2018DOLA": 314250,
     "populationRank": 9,
-    "income2017ACS": 66489,
-    "incomeRank": 15,
+    "income2019BLS": 75629,
+    "incomeRank": 11,
     "usdaPopDes": 2
   },
   {
@@ -2489,10 +2489,10 @@
     "demVotes1980": 1043,
     "repVotes1980": 3220,
     "totalVotes1980": 4674,
-    "population2017ACS": 10109,
+    "population2018DOLA": 10026,
     "populationRank": 38,
-    "income2017ACS": 44668,
-    "incomeRank": 47,
+    "income2019BLS": 53253,
+    "incomeRank": 35,
     "usdaPopDes": 7
   }
 ]
